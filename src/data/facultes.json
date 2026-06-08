@@ -1,0 +1,299 @@
+[
+  {
+    "id": "fmt",
+    "nom_court": "FMT",
+    "nom_complet": "Faculté de Médecine de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/images/logos/fmt.png",
+    "description_breve": "Le plus ancien et grand pôle d'enseignement médical en Tunisie, formant les futurs médecins généralistes et spécialistes à travers un cursus d'excellence.",
+    "adresse": "15 Rue Djebel Lakhdar, La Rabta, Tunis 1007",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Tunis",
+    "categories": ["Santé", "Médecine"],
+    "score_derniere_annee": {
+      "bac_math": 182.3,
+      "bac_sc": 184.5,
+      "bac_info": 0
+    },
+    "filieres_phares": ["Médecine Générale", "Spécialités Médicales", "Doctorat en Médecine"],
+    "emplacement_salon": "Stand M01",
+    "temoignage": {
+      "auteur": "Sarra, Interne en Médecine",
+      "texte_detaille": "Le rythme à la FMT est un marathon de plusieurs années qui demande une énorme résilience dès la première année. L'accès aux stages dans les grands CHU de Tunis offre une formation pratique d'une richesse incomparable."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.fmt.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "fms",
+    "nom_court": "FMS",
+    "nom_complet": "Faculté de Médecine de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/images/logos/fms.png",
+    "description_breve": "Établissement médical d'élite reconnu pour ses innovations pédagogiques (apprentissage par problèmes) et sa recherche scientifique active.",
+    "adresse": "Avenue Mohamed Karoui, BP 98, Sousse 4002",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sousse",
+    "categories": ["Santé", "Médecine"],
+    "score_derniere_annee": {
+      "bac_math": 178.1,
+      "bac_sc": 181.2,
+      "bac_info": 0
+    },
+    "filieres_phares": ["Médecine Générale", "Pédagogie Médicale", "Recherche Biomédicale"],
+    "emplacement_salon": "Stand M02",
+    "temoignage": {
+      "auteur": "Yassine, Résident",
+      "texte_detaille": "La faculté de Sousse se distingue par une ambiance d'entraide très forte entre les étudiants et une ouverture rapide sur la pratique clinique hospitalière."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.fms.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "fmm",
+    "nom_court": "FMM",
+    "nom_complet": "Faculté de Médecine de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/images/logos/fmm.png",
+    "description_breve": "Un pilier historique de l'enseignement des sciences de la santé en Tunisie, profitant d'un campus universitaire dynamique et ultra-complet.",
+    "adresse": "Avenue Avicenne, Monastir 5000",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
+    "categories": ["Santé", "Médecine"],
+    "score_derniere_annee": {
+      "bac_math": 176.5,
+      "bac_sc": 179.8,
+      "bac_info": 0
+    },
+    "filieres_phares": ["Médecine Générale", "Urgences Médicales", "Sciences Cliniques"],
+    "emplacement_salon": "Stand M03",
+    "temoignage": {
+      "auteur": "Amine, Étudiant en 4ème année",
+      "texte_detaille": "Étudier à Monastir permet de se concentrer à fond sur ses examens grâce à un cadre de vie étudiant très paisible et des infrastructures hospitalières de premier ordre à proximité."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.fmm.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "fmsf",
+    "nom_court": "FMSF",
+    "nom_complet": "Faculté de Médecine de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/images/logos/fmsf.png",
+    "description_breve": "Faculté de premier plan formant des professionnels de santé hautement qualifiés, adossée aux grands centres hospitaliers de la capitale du Sud.",
+    "adresse": "Rue Magida Boulila, Sfax 3000",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
+    "categories": ["Santé", "Médecine"],
+    "score_derniere_annee": {
+      "bac_math": 175.2,
+      "bac_sc": 178.4,
+      "bac_info": 0
+    },
+    "filieres_phares": ["Médecine Générale", "Chirurgie", "Santé Communautaire"],
+    "emplacement_salon": "Stand M04",
+    "temoignage": {
+      "auteur": "Rania, Étudiante",
+      "texte_detaille": "La rigueur sfaxienne se ressent dans l'excellence de notre encadrement. Les professeurs sont très accessibles et poussent constamment vers l'excellence."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.fmsf.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "insat",
+    "nom_court": "INSAT",
+    "nom_complet": "Institut National des Sciences Appliquées et de Technologie",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/images/logos/insat.png",
+    "description_breve": "Grande école d'ingénieurs à prépa intégrée. Formation d'élite spécialisée dans le numérique, l'informatique industrielle et la biotechnologie.",
+    "adresse": "Centre Urbain Nord, BP 676 - 1080 Tunis",
+    "lien_google_maps": "https://maps.google.com/?q=INSAT",
+    "categories": ["Ingénierie", "Technologie", "Préparatoire"],
+    "score_derniere_annee": {
+      "bac_math": 168.5,
+      "bac_sc": 162.0,
+      "bac_info": 171.2
+    },
+    "filieres_phares": ["GL (Génie Logiciel)", "RT (Réseaux)", "II (Info Ind.)"],
+    "emplacement_salon": "Stand A12",
+    "temoignage": {
+      "auteur": "Mounir, Étudiant en GL",
+      "texte_detaille": "Le cycle MPI intégré permet d'éviter la pression destructrice du concours national tout en gardant un niveau technique extrêmement poussé et une vie associative géante."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.insat.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "fst",
+    "nom_court": "FST",
+    "nom_complet": "Faculté des Sciences de Tunis (Cycles Intégrés)",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/images/logos/fst.png",
+    "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, notamment en informatique, sciences des données et réseaux.",
+    "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
+    "categories": ["Sciences", "Ingénierie", "Technologie"],
+    "score_derniere_annee": {
+      "bac_math": 145.8,
+      "bac_sc": 141.2,
+      "bac_info": 152.0
+    },
+    "filieres_phares": ["Génie Informatique", "Sciences des Données", "Télécommunications"],
+    "emplacement_salon": "Stand A15",
+    "temoignage": {
+      "auteur": "Inès, Élève Ingénieur",
+      "texte_detaille": "Le passage par les licences ou les cycles préparatoires spécifiques de la FST offre un bagage théorique solide en mathématiques avant de basculer sur l'informatique."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.fst.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "mse",
+    "nom_court": "MSE",
+    "nom_complet": "Mediterranean School of Engineering (MSB/MSE)",
+    "universite": "South Mediterranean University",
+    "ville": "Tunis",
+    "logo": "/images/logos/smu.png",
+    "description_breve": "Pôle technologique privé d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle anglo-saxon.",
+    "adresse": "Les Berges du Lac 2, Tunis 1053",
+    "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
+    "categories": ["Ingénierie", "Technologie"],
+    "score_derniere_annee": {
+      "bac_math": 120.0,
+      "bac_sc": 120.0,
+      "bac_info": 120.0
+    },
+    "filieres_phares": ["Software Engineering", "Data Science", "Business Analytics"],
+    "emplacement_salon": "Stand P02",
+    "temoignage": {
+      "auteur": "Youssef, Software Student",
+      "texte_detaille": "L'apprentissage complet en anglais et la proximité directe avec les entreprises internationales nous donnent un vrai coup d'avance sur le marché de l'emploi."
+    },
+    "liens_officiels": {
+      "site_web": "https://www.smu.tn/mse",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "ipeit",
+    "nom_court": "IPEIT",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/images/logos/ipeit.png",
+    "description_breve": "La prépa classique historique de Montfleury, réputée pour envoyer chaque année ses meilleurs éléments majorer les concours nationaux.",
+    "adresse": "2 Rue Jawaher Lel Nehru, Montfleury, Tunis 1008",
+    "lien_google_maps": "https://maps.google.com/?q=IPEIT",
+    "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "score_derniere_annee": {
+      "bac_math": 164.2,
+      "bac_sc": 158.0,
+      "bac_info": 167.5
+    },
+    "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)"],
+    "emplacement_salon": "Stand B01",
+    "temoignage": {
+      "auteur": "Khalil, Ancien IPEIT (Polytechnique)",
+      "texte_detaille": "Montfleury c'est une institution. La charge de travail est colossale, mais l'émulation entre étudiants pousse chacun à donner le meilleur de lui-même pour le concours."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.ipeit.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "ipein",
+    "nom_court": "IPEIN",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Nabeul",
+    "universite": "Université de Carthage",
+    "ville": "Nabeul",
+    "logo": "/images/logos/ipein.png",
+    "description_breve": "Établissement préparatoire de premier plan implanté au pôle universitaire de Mrezga, affichant d'excellents taux de réussite aux concours nationaux.",
+    "adresse": "Campus Universitaire Mrezga, Nabeul 8000",
+    "lien_google_maps": "https://maps.google.com/?q=IPEIN",
+    "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "score_derniere_annee": {
+      "bac_math": 155.4,
+      "bac_sc": 148.0,
+      "bac_info": 158.5
+    },
+    "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "PT (Physique-Tech)"],
+    "emplacement_salon": "Stand B02",
+    "temoignage": {
+      "auteur": "Ahmed, Ancien élève",
+      "texte_detaille": "Une ambiance de campus saine à Nabeul qui aide à supporter les colles et les DS du samedi. Une super formation théorique pour décrocher de grandes écoles."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.ipein.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "ipeim",
+    "nom_court": "IPEIM",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/images/logos/ipeim.png",
+    "description_breve": "Établissement de référence dans la région du Sahel pour la préparation rigoureuse aux concours d'accès aux grandes écoles d'ingénieurs tunisiennes et françaises.",
+    "adresse": "Avenue Ibn El Jazzar, Monastir 5019",
+    "lien_google_maps": "https://maps.google.com/?q=IPEIM",
+    "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "score_derniere_annee": {
+      "bac_math": 152.1,
+      "bac_sc": 146.5,
+      "bac_info": 154.0
+    },
+    "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)"],
+    "emplacement_salon": "Stand B03",
+    "temoignage": {
+      "auteur": "Wassim, Étudiant",
+      "texte_detaille": "L'encadrement professoral à l'IPEIM est fantastique. Les enseignants s'investissent beaucoup dans la correction des anciens concours pour nous roder."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.ipeim.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  },
+  {
+    "id": "ipeis",
+    "nom_court": "IPEIS",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/images/logos/ipeis.png",
+    "description_breve": "L'un des plus grands instituts préparatoires du pays, réputé pour sa discipline, son organisation stricte et ses performances académiques élevées.",
+    "adresse": "Route de Menzel Chaker Km 0.5, Sfax 3000",
+    "lien_google_maps": "https://maps.google.com/?q=IPEIS",
+    "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "score_derniere_annee": {
+      "bac_math": 154.8,
+      "bac_sc": 149.2,
+      "bac_info": 156.0
+    },
+    "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "BG (Biologie-Géologie)"],
+    "emplacement_salon": "Stand B04",
+    "temoignage": {
+      "auteur": "Malek, Élève Sup'Com",
+      "texte_detaille": "Faire sa prépa à Sfax donne un mental d'acier. Le niveau requis en mathématiques et sciences physiques est exigeant, ce qui prépare idéalement à la suite."
+    },
+    "liens_officiels": {
+      "site_web": "http://www.ipeis.rnu.tn",
+      "guide_orientation": "https://www.orientation.tn"
+    }
+  }
+]
