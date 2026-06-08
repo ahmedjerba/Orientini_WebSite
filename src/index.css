@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* On configure ta palette de couleurs directement ici en v4 ! */
+@theme {
+  --color-pourpre: #de3f6b;
+  --color-cyan: #78bec3;
+  --color-jaune: #f5d203;
+  --color-bleu: #1b1464;
+  --color-blanc: #FFFFFF;
+}
