@@ -8,15 +8,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
         {/* CÔTÉ GAUCHE : LOGO ORIENT'INI */}
-        <div className="flex items-center gap-2.5">
-          {/* Logo simulé avec les couleurs de la palette */}
-          <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#de3f6b] to-[#78bec3] flex items-center justify-center text-white font-extrabold text-sm shadow-sm">
-            O
-          </div>
-          <span className="font-extrabold text-2xl text-[#1b1464] tracking-tight">
-            Orient'<span className="text-[#de3f6b]">ini</span>
-          </span>
-        </div>
+        <div className="flex items-center gap-2.5 max-w-[200px]"> {/* Conteneur large mais limité */}
+  {/* L'image contrôle maintenant sa propre taille. 'w-auto' et 'h-full' la font s'ajuster à la hauteur du conteneur en conservant son ratio (longueur). */}
+  <img 
+    src="/logo_orientini.png" 
+    alt="Orient'ini Logo" 
+    className="h-10 w-auto object-contain" 
+  />
+</div>
 
         {/* CENTRE : NAVIGATION PC (Cachée sur Mobile) */}
         <div className="hidden md:flex items-center gap-8 font-bold text-sm tracking-wide text-gray-600">
@@ -37,17 +36,8 @@ export default function Navbar() {
         {/* CÔTÉ DROIT : LOGO JID & CTA (PC) */}
         <div className="hidden md:flex items-center gap-5">
           <div className="text-right">
-            <span className="block text-[9px] font-bold text-gray-400 uppercase tracking-widest">Propulsé par</span>
-            <span className="font-black text-[#1b1464] text-base tracking-tighter">JID</span>
+            <img src="/logo_jid.png" alt="JID Logo" className="w-10 h-10 object-contain" />
           </div>
-          <a 
-            href="https://forms.google.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-[#de3f6b] text-white px-6 py-2.5 rounded-full font-bold text-xs uppercase tracking-wider shadow-md hover:bg-[#c8325c] hover:shadow-lg active:scale-95 transition-all"
-          >
-            S'inscrire
-          </a>
         </div>
 
         {/* BOUTON BURGER (Visible uniquement sur Mobile) */}

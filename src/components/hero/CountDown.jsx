@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export default function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2026-07-06T09:00:00") - +new Date();
+    const difference = +new Date("2026-07-19T09:00:00") - +new Date();
     if (difference <= 0) return { jours: 0, heures: 0, minutes: 0, secondes: 0 };
 
     return {
@@ -32,7 +32,7 @@ export default function Countdown() {
   return (
     <div className="w-full max-w-md bg-bleu text-white p-5 rounded-2xl shadow-xl border border-bleu/50 mt-6 mx-auto lg:mx-0">
       <p className="text-center text-xs font-bold uppercase tracking-widest text-cyan mb-3">
-        ⏳ Lancement de la session PREPA dans :
+        ⏳ Lancement de l'événement dans :
       </p>
       <div className="grid grid-cols-4 gap-2 text-center">
         {timeBlocks.map((item, idx) => (

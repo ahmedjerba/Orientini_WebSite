@@ -20,9 +20,8 @@ export default function App() {
         {/* =========================================================
             2. TEST DE LA HERO SECTION (Accueil)
            ========================================================= */}
-        <section id="home" className="py-12 border-b border-gray-100 bg-slate-50">
+    
           <HeroSection /> {/* Une fois créé, remplace la balise de fermeture par : <HeroSection /> */}
-        </section>
 
         {/* =========================================================
             3. TEST DE LA SECTION PROGRAMME (PREPA / BAC)
