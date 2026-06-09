@@ -5,7 +5,7 @@ export default function LittleCard({ fac, onClick }) {
     bac_info: { label: "Bac Info", emoji: "💻" },
     bac_tech: { label: "Bac Technique", emoji: "⚙️" },
     bac_eco: { label: "Bac Éco", emoji: "📈" },
-    bac_lettres: { label: "Bac Lettres", emoji: "📚" },
+    bac_let: { label: "Bac Lettres", emoji: "📚" },
     bac_sport: { label: "Bac Sport", emoji: "🏃" }
   };
   return (

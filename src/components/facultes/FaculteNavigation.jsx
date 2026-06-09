@@ -6,12 +6,17 @@ export default function FaculteNavigation({ data, onCardClick }) {
 
   // 2. Filtrage automatique pour les Prépas Intégrées
   const prepaIntegrees = data.filter(fac => 
-    (fac.id === 'insat' || fac.id === 'fst' || fac.id === 'mse')
+    (fac.id === 'insat' || fac.id === 'fst' || fac.id === 'mse' || fac.id === 'hide_tunis' || fac.id === 'issat_sousse') 
   );
 
   // 3. Filtrage automatique pour les Prépas Classiques
   const prepaClassiques = data.filter(fac => 
     fac.categories.includes('Préparatoire') && fac.id !== 'insat'
+  );
+
+  // 4. Filtrage automatique pour les Écoles de Commerce & Gestion
+  const commerceFacs = data.filter(fac => 
+    fac.categories.includes('Commerce') || fac.categories.includes('Gestion')
   );
 
   return (
@@ -34,6 +39,13 @@ export default function FaculteNavigation({ data, onCardClick }) {
       <CategoryRow 
         title="📚 Instituts Préparatoires Classiques (IPEI)" 
         facultes={prepaClassiques} 
+        onCardClick={onCardClick}
+      />
+
+      {/* LIGNE 4 : LES ÉCOLES DE COMMERCE & GESTION */}
+      <CategoryRow 
+        title="💼 Business, Commerce & Gestion" 
+        facultes={commerceFacs} 
         onCardClick={onCardClick}
       />
     </div>

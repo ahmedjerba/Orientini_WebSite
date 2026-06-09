@@ -123,6 +123,66 @@
     "site_web": "http://www.fmsf.rnu.tn"
   },
   {
+    "id": "fmd_monastir",
+    "nom_court": "FMDM",
+    "nom_complet": "Faculté de Médecine Dentaire de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FMDM.png",
+    "fac_hero_banner": "/banners/FMDM_hero.jpg",
+    "description_breve": "L'unique établissement public en Tunisie formant les futurs médecins dentistes, alliant enseignements théoriques poussés, travaux pratiques de haute précision et stages cliniques.",
+    "adresse": "Avenue Avicenne, Monastir 5000",
+    "lien_google_maps": "http://googleusercontent.com/maps.google.com/6",
+    "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "6 ans pour le diplôme national de Docteur en Médecine Dentaire (+ internat), cursus de spécialisatons disponible",
+    "score_derniere_annee": {
+      "bac_math": 178.5,
+      "bac_sc": 181.2
+    },
+    "filieres_phares": ["Médecine Dentaire (Tronc Commun)", "Doctorat en Médecine Dentaire", "Spécialités Odontologiques (Orthodontie, Chirurgie Buccale, etc.)"],
+    "debouches": [
+      "Médecin Dentiste (Cabinet privé / Pratique libérale)",
+      "Médecin Dentiste Hospitalo-Universitaire",
+      "Praticien hospitalier dans le secteur public",
+      "Consultant ou expert pour les industries de santé bucco-dentaire"
+    ],
+    "temoignage": {
+      "auteur": "Yasmine, Interne en Médecine Dentaire",
+      "texte_detaille": "La FMDM demande une double compétence : une mémoire solide pour l'anatomie et les pathologies, mais aussi une grande dextérité manuelle dès la 3ème année pour les TP de prothèses et de soins. C'est intensif mais passionnant."
+    },
+    "site_web": "http://www.fmdm.rnu.tn"
+  },
+  {
+    "id": "fph_monastir",
+    "nom_court": "FPHM",
+    "nom_complet": "Faculté de Pharmacie de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FPHM.png",
+    "fac_hero_banner": "/banners/FPHM_hero.jpg",
+    "description_breve": "L'unique faculté de pharmacie de Tunisie, pôle d'excellence formant les pharmaciens d'officine, de l'industrie pharmaceutique, de la biologie médicale et de la recherche.",
+    "adresse": "Avenue Avicenne, Monastir 5000",
+    "lien_google_maps": "http://googleusercontent.com/maps.google.com/7",
+    "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "6 ans pour le diplôme national de Docteur en Pharmacie, cursus de résistanat (Biologie, Pharmacie Hospitalière/Industrielle)",
+    "score_derniere_annee": {
+      "bac_math": 175.8,
+      "bac_sc": 179.0
+    },
+    "filieres_phares": ["Sciences Pharmaceutiques (Tronc Commun)", "Doctorat en Pharmacie", "Résidanat en Biologie Médicale", "Résidanat en Pharmacie Industrielle"],
+    "debouches": [
+      "Pharmacien d'Officine (Titulaire ou Assistant)",
+      "Pharmacien Biologiste (Laboratoires d'analyses médicaux)",
+      "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
+      "Pharmacien Hospitalier"
+    ],
+    "temoignage": {
+      "auteur": "Amine, Résident en Biologie Médicale",
+      "texte_detaille": "Être l'unique faculté de pharmacie du pays crée un fort esprit de corps. Le cursus est très varié : on passe de la chimie organique pure à la pharmacologie clinique, avec de superbes opportunités dans l'industrie pharmaceutique locale."
+    },
+    "site_web": "http://www.fphm.rnu.tn"
+  },
+  {
     "id": "insat",
     "nom_court": "INSAT",
     "nom_complet": "Institut National des Sciences Appliquées et de Technologie",
@@ -216,6 +276,80 @@
       "texte_detaille": "L'apprentissage complet en anglais et la proximité directe avec les entreprises internationales nous donnent un vrai coup d'avance sur le marché de l'emploi."
     },
     "site_web": "https://www.smu.tn/mse"
+  },
+  {
+    "id": "issat_sousse",
+    "nom_court": "ISSAT Sousse",
+    "nom_complet": "Institut Supérieur des Sciences Appliquées et de Technologie de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISSAT_Sousse.jpg",
+    "fac_hero_banner": "/banners/ISSAT_Sousse_hero.jpg",
+    "description_breve": "Un pôle technologique majeur de la région du Sahel, réputé pour son cycle préparatoire intégré performant et ses formations d'ingénieurs très ancrées dans le tissu industriel.",
+    "adresse": "Cité Taffala (Ibn Khaldoun), Sousse 4003",
+    "lien_google_maps": "http://googleusercontent.com/maps.google.com/8",
+    "categories": ["Informatique", "Ingénierie", "Sciences"],
+    "regimes_etudes": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
+    "score_derniere_annee": {
+      "bac_math": 158.4,
+      "bac_info": 162.1,
+      "bac_sc": 149.8
+    },
+    "filieres_phares": [
+      "Cycle Préparatoire Intégré : MPI (Maths-Physique-Info)",
+      "Cycle Préparatoire Intégré : CBA (Chimie-Biologie-Appliquée)",
+      "Cycle d'Ingénieur en Génie Logiciel",
+      "Cycle d'Ingénieur en Informatique Industrielle & Automatique"
+    ],
+    "debouches": [
+      "Ingénieur DevOps / Cloud",
+      "Ingénieur en Systèmes Embarqués",
+      "Développeur Full-Stack / Lead Tech",
+      "Ingénieur Automatisation et Contrôle Process",
+      "Chef de projet technique"
+    ],
+    "temoignage": {
+      "auteur": "Rania, Étudiante en 2ème année Ingénieur GL",
+      "texte_detaille": "L'avantage de l'ISSAT Sousse, c'est qu'on entre directement dans le bain technique dès la prépa intégrée. Pas besoin de passer le concours national stressant, le passage en cycle d'ingénieur se fait au mérite sur contrôle continu, et l'ambiance associative y est excellente."
+    },
+    "site_web": "http://www.issatso.rnu.tn"
+  },
+  {
+    "id": "hide_tunis",
+    "nom_court": "HIDE",
+    "nom_complet": "Higher Institute of Digital Engineering of Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis (Bab Saadoun)",
+    "logo": "/logos/HIDE.png",
+    "fac_hero_banner": "/banners/HIDE_Tunis_hero.jpg",
+    "description_breve": "Institution publique d'élite et d'excellence, pionnière en Tunisie pour sa formation d'ingénieurs en Intelligence Artificielle et technologies numériques, dispensée exclusivement en langue anglaise.",
+    "adresse": "27 Rue Florian, Borj Zouara, Bab Saadoun, Tunis 1029",
+    "lien_google_maps": "http://googleusercontent.com/maps.google.com/9",
+    "categories": ["Informatique", "Ingénierie", "Intelligence Artificielle"],
+    "regimes_etudes": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
+    "score_derniere_annee": {
+      "bac_math": 189.2,
+      "bac_info": 191.5,
+      "bac_sc": 187.0
+    },
+    "filieres_phares": [
+      "Cycle Préparatoire Intégré (Exact Sciences & Technologies)",
+      "AI and Data Science (Software & Modélisation d'IA)",
+      "AI, Industry and Robotics (Hardware & Systèmes embarqués d'IA)",
+      "AI and Arts (Arts numériques, Réalité virtuelle & Jeux vidéo)"
+    ],
+    "debouches": [
+      "Machine Learning Engineer / AI Specialist",
+      "Data Scientist / Data Engineer",
+      "Ingénieur en Robotique et Systèmes Autonomes",
+      "Architecte Big Data / Cloud Engineer",
+      "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
+    ],
+    "temoignage": {
+      "auteur": "Malek, Étudiant de la première promotion",
+      "texte_detaille": "Intégrer le HIDE est un vrai défi vu les scores demandés au Bac, mais l'expérience en vaut la peine. Les cours 100% en anglais nous projettent directement vers l'international, et le focus immédiat sur l'IA et la data dès la prépa intégrée change complètement des cursus classiques théoriques."
+    },
+    "site_web": "https://hide.rnu.tn"
   },
   {
     "id": "ipeit",
@@ -426,5 +560,172 @@
       "texte_detaille": "L'ambiance d'étude à Bizerte est excellente, loin du tumulte de la capitale. Les résultats au concours national s'améliorent d'année en année."
     },
     "site_web": "http://www.ipeib.rnu.tn"
+  },
+  {
+    "id": "ihec_carthage",
+    "nom_court": "IHEC",
+    "nom_complet": "Institut des Hautes Études Commerciales de Carthage",
+    "universite": "Université de Carthage",
+    "ville": "Carthage",
+    "logo": "/logos/IHEC_Tunis.jpg",
+    "fac_hero_banner": "/banners/IHEC_Carthage_hero.jpg",
+    "description_breve": "Le pionnier de l'enseignement du commerce et de la gestion en Tunisie, réputé pour son excellence académique et son réseau d'alumni influent dans le monde des affaires.",
+    "adresse": "Rue Antoine de Saint-Exupéry, Carthage Présidence 2016",
+    "lien_google_maps": "https://maps.google.com/?q=IHEC+Carthage",
+    "categories": ["Commerce", "Gestion", "Finance"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, cursus Doctorat et Expertise Comptable",
+    "score_derniere_annee": {
+      "bac_math": 162.5,
+      "bac_eco": 158.2,
+      "bac_sc": 150.1,
+      "bac_info": 155.0
+    },
+    "filieres_phares": ["Licence en Sciences de Gestion (Finance, Comptabilité, Marketing)", "Licence en Économie", "Mastère Professionnel en Ingénierie Financière", "Cycle d'Expertise Comptable"],
+    "debouches": [
+      "Expert-Comptable / Auditeur financier",
+      "Analyste Financier / Directeur Financier (CFO)",
+      "Manager / Chef de produit Marketing",
+      "Consultant en stratégie et organisation",
+      "Entrepreneur / Gestionnaire de structure privée"
+    ],
+    "temoignage": {
+      "auteur": "Yassine, Diplômé en Finance",
+      "texte_detaille": "L'IHEC Carthage offre bien plus qu'un diplôme, c'est un état d'esprit. La rigueur des enseignants combinée à une vie associative ultra-dynamique prépare parfaitement aux exigences des multinationales et des grands cabinets d'audit."
+    },
+    "site_web": "http://www.ihec.rnu.tn"
+  },
+  {
+    "id": "tbs_tunis",
+    "nom_court": "TBS",
+    "nom_complet": "Tunis Business School",
+    "universite": "Université de Tunis",
+    "ville": "Bir El Bey",
+    "logo": "/logos/TBS.jpg",
+    "fac_hero_banner": "/banners/TBS_hero.jpg",
+    "description_breve": "Première institution publique tunisienne de commerce adoptant le modèle d'éducation américain, avec un cursus d'affaires intégralement dispensé en anglais.",
+    "adresse": "Route de Borj Cedria, Bir El Bey, Ben Arous 2055",
+    "lien_google_maps": "https://maps.google.com/?q=Tunis+Business+School",
+    "categories": ["Business", "Management", "Analytics","Commerce"],
+    "regimes_etudes": "4 ans pour le Bachelor (Modèle Américain), 2 ans pour l'Executive MBA",
+    "score_derniere_annee": {
+      "bac_math": 168.0,
+      "bac_info": 164.5,
+      "bac_sc": 161.2,
+      "bac_eco": 159.8,
+      "bac_let": 150.0,
+      "bac_tech": 155.0
+    },
+    "filieres_phares": ["Bachelor of Science in Business Administration", "Major in Finance / Accounting", "Major in Business Analytics", "Major in Information Technology"],
+    "debouches": [
+      "Business Analyst / Data Analyst",
+      "Consultant International / Manager de projets transversaux",
+      "Financial Analyst à l'échelle internationale",
+      "Spécialiste Supply Chain / International Business",
+      "Manager en Marketing Digital et Stratégique"
+    ],
+    "temoignage": {
+      "auteur": "Aya, Senior Student en Business Analytics",
+      "texte_detaille": "Étudier à TBS en anglais ouvre des portes directes à l'international. Le système de majors/minors nous permet de personnaliser notre parcours, et l'accent mis sur les soft skills et les présentations orales nous donne une vraie longueur d'avance en entreprise."
+    },
+    "site_web": "http://www.tbs.rnu.tn"
+  },
+  {
+    "id": "iscae_manouba",
+    "nom_court": "ISCAE",
+    "nom_complet": "Institut Supérieur de Comptabilité et d'Administration des Entreprises",
+    "universite": "Université de la Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/ISCAE.jpg",
+    "fac_hero_banner": "/banners/ISCAE_hero.jpg",
+    "description_breve": "Le pôle de référence incontournable en Tunisie pour les études de comptabilité et de révision comptable, adossé à une forte composante de gestion d'entreprise.",
+    "adresse": "Campus Universitaire de la Manouba, Manouba 2010",
+    "lien_google_maps": "https://maps.google.com/?q=ISCAE+Manouba",
+    "categories": ["Comptabilité", "Audit", "Gestion"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus officiel d'Expertise Comptable",
+    "score_derniere_annee": {
+      "bac_math": 154.2,
+      "bac_eco": 151.0,
+      "bac_info": 146.8,
+      "bac_sc": 143.5
+    },
+    "filieres_phares": ["Licence en Sciences de Gestion (Spécialité Comptabilité)", "Mastère Professionnel en Révision Comptable", "Mastère en Contrôle de Gestion et Audit", "Licence en Gestion des Ressources Humaines"],
+    "debouches": [
+      "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+      "Contrôleur de Gestion",
+      "Auditeur Interne / Externe",
+      "Directeur des Ressources Humaines (DRH)",
+      "Responsable Administratif et Financier (RAF)"
+    ],
+    "temoignage": {
+      "auteur": "Mohamed, Étudiant en Révision Comptable",
+      "texte_detaille": "Si votre but est de devenir Expert-Comptable, l'ISCAE reste une voie royale. Les examens y sont exigeants et la formation technique en fiscalité, droit des affaires et comptabilité est d'un niveau d'excellence reconnu par tous les professionnels du chiffre."
+    },
+    "site_web": "http://www.iscae.rnu.tn"
+  },
+  {
+    "id": "isg_tunis",
+    "nom_court": "ISG",
+    "nom_complet": "Institut Supérieur de Gestion de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/ISG_Tunis.jpg",
+    "fac_hero_banner": "/banners/ISG_Tunis_hero.jpg",
+    "description_breve": "Une institution majeure alliant sciences de la gestion et technologies de l'information, célèbre pour sa double culture managériale et technologique.",
+    "adresse": "41 Rue de la Liberté, Bouchoucha, Le Bardo, Tunis 2000",
+    "lien_google_maps": "https://maps.google.com/?q=ISG+Tunis",
+    "categories": ["Gestion", "Business Computing", "Finance"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, École Doctorale intégrée",
+    "score_derniere_annee": {
+      "bac_info": 155.4,
+      "bac_math": 149.8,
+      "bac_eco": 148.5,
+      "bac_sc": 140.2
+    },
+    "filieres_phares": ["Licence en Business Computing (Informatique de Gestion)", "Licence en Sciences de Gestion (Finance, Marketing)", "Mastère en Business Intelligence / Data Science", "Mastère en Gestion des Risques Financiers"],
+    "debouches": [
+      "Consultant en Business Intelligence (BI) / ERP",
+      "Data Scientist / Business Analyst en milieu financier",
+      "Gestionnaire de Portefeuille / Risk Manager",
+      "Responsable Logistique / Digital Marketing Manager",
+      "Auditeur de systèmes d'information"
+    ],
+    "temoignage": {
+      "auteur": "Fedi, Diplômé en Business Computing",
+      "texte_detaille": "Ce que j'adore à l'ISG Tunis, c'est l'hybridation informatique-gestion. On en ressort polyvalent, capable de parler aussi bien le langage des développeurs que celui des directeurs financiers, ce qui nous rend ultra-recherchés sur le marché."
+    },
+    "site_web": "http://www.isg.rnu.tn"
+  },
+  {
+    "id": "ihec_sfax",
+    "nom_court": "IHEC Sfax",
+    "nom_complet": "Institut des Hautes Études Commerciales de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/IHEC_Sfax.jpg",
+    "fac_hero_banner": "/banners/IHEC_Sfax_hero.jpg",
+    "description_breve": "Le pôle d'excellence managériale du Centre et Sud tunisien, formant des gestionnaires et décideurs hautement qualifiés au cœur de la capitale économique de la Tunisie.",
+    "adresse": "Route de Sidi Mansour Km 10, Sfax 3062",
+    "lien_google_maps": "https://maps.google.com/?q=IHEC+Sfax",
+    "categories": ["Commerce", "Gestion", "Entrepreneuriat"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Expertise Comptable",
+    "score_derniere_annee": {
+      "bac_math": 145.8,
+      "bac_eco": 144.2,
+      "bac_info": 139.5,
+      "bac_sc": 135.0
+    },
+    "filieres_phares": ["Licence en Sciences de Gestion", "Mastère Professionnel en Ingénierie Financière et Fiscalité", "Licence en Économie et Finance Internationales", "Mastère en Commerce et Affaires Internationales"],
+    "debouches": [
+      "Manager commercial / Ingénieur d'affaires",
+      "Auditeur financier / Conseiller fiscal",
+      "Responsable Logistique et Import/Export",
+      "Gestionnaire d'entreprise / Consultant junior",
+      "Analyste de crédit bancaire / Chargé d'affaires entreprises"
+    ],
+    "temoignage": {
+      "auteur": "Emna, Étudiante en Master Fiscalité",
+      "texte_detaille": "Bénéficiant du tissu industriel et entrepreneurial dense de la région de Sfax, l'IHEC Sfax offre une proximité immédiate avec le marché du travail. Le corps professoral est dévoué et les partenariats avec les entreprises locales sont un vrai plus pour nos stages."
+    },
+    "site_web": "http://www.ihecsf.rnu.tn"
   }
 ]

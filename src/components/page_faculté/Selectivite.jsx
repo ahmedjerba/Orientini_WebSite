@@ -9,14 +9,14 @@ export default function Selectivite({ faculte }) {
     bac_info: { label: "Bac Info", emoji: "💻" },
     bac_tech: { label: "Bac Technique", emoji: "⚙️" },
     bac_eco: { label: "Bac Éco", emoji: "📈" },
-    bac_lettres: { label: "Bac Lettres", emoji: "📚" },
+    bac_let: { label: "Bac Lettres", emoji: "📚" },
     bac_sport: { label: "Bac Sport", emoji: "🏃" }
   };
 
   // On ne garde que les clés présentes dans score_derniere_annee et définies
-  const scoresEntries = Object.entries(score_derniere_annee).filter(
-    ([_, value]) => value !== null && value !== undefined && value !== ""
-  );
+  const scoresEntries = Object.keys(bacConfig)
+  .filter(key => score_derniere_annee[key] !== undefined && score_derniere_annee[key] !== null && score_derniere_annee[key] !== 0 && score_derniere_annee[key] !== "")
+  .map(key => [key, score_derniere_annee[key]]);
 
   return (
     <div className="bg-[#de3f6b]/5 border-2 border-[#de3f6b]/10 rounded-3xl p-6 flex flex-col justify-between shadow-sm h-full">
