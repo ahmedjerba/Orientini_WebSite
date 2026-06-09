@@ -66,7 +66,7 @@ export default function FacultePage({ faculte, onBack }) {
       {/* Footer optionnel ou espace vide pour respirer en bas de page */}
       <footer className="py-10 text-center">
         <p className="text-[10px] font-black text-gray-300 uppercase tracking-[0.2em]">
-          Orient'ini — Salon Virtuel de l'Orientation
+          Orient'ini — 8ème édition — By Jeunes Ingénieurs de Djerba
         </p>
       </footer>
     </div>

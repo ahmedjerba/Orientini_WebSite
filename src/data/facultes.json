@@ -11,10 +11,10 @@
     "adresse": "15 Rue Djebel Lakhdar, La Rabta, Tunis 1007",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Tunis",
     "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 182.3,
-      "bac_sc": 184.5,
-      "bac_info": 0
+      "bac_sc": 184.5
     },
     "filieres_phares": ["Médecine Générale", "Spécialités Médicales", "Doctorat en Médecine"],
     "debouches": [
@@ -24,15 +24,11 @@
       "Recherche Médicale et Biomédicale",
       "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
-    "emplacement_salon": "Stand M01",
     "temoignage": {
       "auteur": "Sarra, Interne en Médecine",
       "texte_detaille": "Le rythme à la FMT est un marathon de plusieurs années qui demande une énorme résilience dès la première année. L'accès aux stages dans les grands CHU de Tunis offre une formation pratique d'une richesse incomparable."
     },
-    "liens_officiels": {
-      "site_web": "http://www.fmt.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.fmt.rnu.tn"
   },
   {
     "id": "fms",
@@ -46,6 +42,7 @@
     "adresse": "Avenue Mohamed Karoui, BP 98, Sousse 4002",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sousse",
     "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 178.1,
       "bac_sc": 181.2,
@@ -58,15 +55,11 @@
       "Ingénierie Pédagogique Médicale",
       "Recherche en Sciences de la Santé et Innovation Clinique"
     ],
-    "emplacement_salon": "Stand M02",
     "temoignage": {
       "auteur": "Yassine, Résident",
       "texte_detaille": "La faculté de Sousse se distingue par une ambiance d'entraide très forte entre les étudiants et une ouverture rapide sur la pratique clinique hospitalière."
     },
-    "liens_officiels": {
-      "site_web": "http://www.fms.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.fms.rnu.tn"
   },
   {
     "id": "fmm",
@@ -80,6 +73,7 @@
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
     "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 176.5,
       "bac_sc": 179.8
@@ -89,17 +83,13 @@
       "Médecin Généraliste (Secteur public ou privé)",
       "Médecin Spécialiste (Cardiologie, Chirurgie, Pédiatrie, etc.)",
       "Carrière Hospitalo-Universitaire",
-      "Médecin de Famille,du Travail ou de Santé Publique"
+      "Médecin de Famille, du Travail ou de Santé Publique"
     ],
-    "emplacement_salon": "Stand M03",
     "temoignage": {
       "auteur": "Amine, Étudiant en 4ème année",
       "texte_detaille": "Étudier à Monastir permet de se concentrer à fond sur ses examens grâce à un cadre de vie étudiant très paisible et des infrastructures hospitalières de premier ordre à proximité."
     },
-    "liens_officiels": {
-      "site_web": "http://www.fmm.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.fmm.rnu.tn"
   },
   {
     "id": "fmsf",
@@ -113,6 +103,7 @@
     "adresse": "Rue Magida Boulila, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
     "categories": ["Santé", "Médecine"],
+    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 175.2,
       "bac_sc": 178.4,
@@ -125,15 +116,11 @@
       "Responsable de Programmes de Santé Communautaire",
       "Recherche Épidémiologique"
     ],
-    "emplacement_salon": "Stand M04",
     "temoignage": {
       "auteur": "Rania, Étudiante",
       "texte_detaille": "La rigueur sfaxienne se ressent dans l'excellence de notre encadrement. Les professeurs sont très accessibles et poussent constamment vers l'excellence."
     },
-    "liens_officiels": {
-      "site_web": "http://www.fmsf.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.fmsf.rnu.tn"
   },
   {
     "id": "insat",
@@ -147,6 +134,7 @@
     "adresse": "Centre Urbain Nord, BP 676 - 1080 Tunis",
     "lien_google_maps": "https://maps.google.com/?q=INSAT",
     "categories": ["Ingénierie", "Technologie", "Préparatoire"],
+    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
     "score_derniere_annee": {
       "bac_math": 168.5,
       "bac_sc": 162.0,
@@ -160,15 +148,11 @@
       "Data Scientist / Ingénieur IA",
       "Consultant Tech / Fondateur de Startup"
     ],
-    "emplacement_salon": "Stand A12",
     "temoignage": {
       "auteur": "Mounir, Étudiant en GL",
       "texte_detaille": "Le cycle MPI intégré permet d'éviter la pression destructrice du concours national tout en gardant un niveau technique extrêmement poussé et une vie associative géante."
     },
-    "liens_officiels": {
-      "site_web": "http://www.insat.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.insat.rnu.tn"
   },
   {
     "id": "fst",
@@ -182,6 +166,7 @@
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
     "categories": ["Sciences", "Ingénierie", "Technologie"],
+    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
     "score_derniere_annee": {
       "bac_math": 145.8,
       "bac_sc": 141.2,
@@ -195,15 +180,11 @@
       "Chercheur en Sciences Appliquées",
       "Administrateur Systèmes et Réseaux"
     ],
-    "emplacement_salon": "Stand A15",
     "temoignage": {
       "auteur": "Inès, Élève Ingénieur",
       "texte_detaille": "Le passage par les licences ou les cycles préparatoires spécifiques de la FST offre un bagage théorique solide en mathématiques avant de basculer sur l'informatique."
     },
-    "liens_officiels": {
-      "site_web": "http://www.fst.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.fst.rnu.tn"
   },
   {
     "id": "mse",
@@ -217,6 +198,7 @@
     "adresse": "Les Berges du Lac 2, Tunis 1053",
     "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
     "categories": ["Ingénierie", "Technologie"],
+    "regimes_etudes": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
     "score_derniere_annee": {
       "bac_math": 120.0,
       "bac_sc": 120.0,
@@ -229,15 +211,11 @@
       "Business Intelligence Analyst",
       "Manager de Projets Technologiques Internationaux"
     ],
-    "emplacement_salon": "Stand P02",
     "temoignage": {
       "auteur": "Youssef, Software Student",
       "texte_detaille": "L'apprentissage complet en anglais et la proximité directe avec les entreprises internationales nous donnent un vrai coup d'avance sur le marché de l'emploi."
     },
-    "liens_officiels": {
-      "site_web": "https://www.smu.tn/mse",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "https://www.smu.tn/mse"
   },
   {
     "id": "ipeit",
@@ -251,6 +229,7 @@
     "adresse": "2 Rue Jawaher Lel Nehru, Montfleury, Tunis 1008",
     "lien_google_maps": "https://maps.google.com/?q=IPEIT",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 164.2,
       "bac_sc": 158.0,
@@ -262,15 +241,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "emplacement_salon": "Stand B01",
     "temoignage": {
       "auteur": "Khalil, Ancien IPEIT (Polytechnique)",
       "texte_detaille": "Montfleury c'est une institution. La charge de travail est colossale, mais l'émulation entre étudiants pousse chacun à donner le meilleur de lui-même pour le concours."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeit.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeit.rnu.tn"
   },
   {
     "id": "ipein",
@@ -284,6 +259,7 @@
     "adresse": "Campus Universitaire Mrezga, Nabeul 8000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIN",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 155.4,
       "bac_sc": 148.0,
@@ -291,19 +267,15 @@
     },
     "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "PT (Physique-Tech)"],
     "debouches": [
-      "Intégration des Cycles Ingénieurs Nationaux (Toutes spécialités)",
+      "Intégration des Cycles Ingenieurs Nationaux (Toutes spécialités)",
       "Poursuite d'études en Écoles d'Ingénieurs en France",
       "Passage en Cycles de Licence Scientifique d'Excellence"
     ],
-    "emplacement_salon": "Stand B02",
     "temoignage": {
       "auteur": "Ahmed, Ancien élève",
       "texte_detaille": "Une ambiance de campus saine à Nabeul qui aide à supporter les colles et les DS du samedi. Une super formation théorique pour décrocher de grandes écoles."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipein.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipein.rnu.tn"
   },
   {
     "id": "ipeim",
@@ -317,6 +289,7 @@
     "adresse": "Avenue Ibn El Jazzar, Monastir 5019",
     "lien_google_maps": "https://maps.google.com/?q=IPEIM",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 152.1,
       "bac_sc": 146.5,
@@ -328,15 +301,11 @@
       "Intégration d'écoles partenaires internationales",
       "Accès aux Masters de Recherche Scientifique"
     ],
-    "emplacement_salon": "Stand B03",
     "temoignage": {
       "auteur": "Wassim, Étudiant",
       "texte_detaille": "L'encadrement professoral à l'IPEIM est fantastique. Les enseignants s'investissent beaucoup dans la correction des anciens concours pour nous roder."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeim.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeim.rnu.tn"
   },
   {
     "id": "ipeis",
@@ -350,6 +319,7 @@
     "adresse": "Route de Menzel Chaker Km 0.5, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIS",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 154.8,
       "bac_sc": 149.2,
@@ -361,15 +331,11 @@
       "Candidature aux Écoles du Concours Commun Français",
       "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
     ],
-    "emplacement_salon": "Stand B04",
     "temoignage": {
       "auteur": "Malek, Élève Sup'Com",
       "texte_detaille": "Faire sa prépa à Sfax donne un mental d'acier. Le niveau requis en mathématiques et sciences physiques est exigeant, ce qui prépare idéalement à la suite."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeis.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeis.rnu.tn"
   },
   {
     "id": "ipeiem",
@@ -383,6 +349,7 @@
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=IPEIEM+El+Manar",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 155.4,
       "bac_sc": 151.2,
@@ -394,15 +361,11 @@
       "Passage des concours d'Écoles d'Ingénieurs à l'étranger",
       "Filières d'Enseignement et Agrégation en Sciences Physiques/Maths"
     ],
-    "emplacement_salon": "Stand B02",
     "temoignage": {
       "auteur": "Yassine, Ancien IPEIEM (SUP'COM)",
       "texte_detaille": "Le cadre à El Manar est idéal pour étudier. Les professeurs sont très engagés et l'ambiance de groupe aide beaucoup à surmonter le stress de la prépa."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeiem.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeiem.rnu.tn"
   },
   {
     "id": "ipeigb",
@@ -416,6 +379,7 @@
     "adresse": "Rue Omar Ibn El Khattab, Zrig, Gabès 6072",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 125.5,
       "bac_sc": 130.2,
@@ -425,17 +389,13 @@
     "debouches": [
       "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
       "Spécialisation en Génie Chimique et Procédés industriels",
-      "Parcours Universitaires Scientifiques Supérieurs"
+      "Parcours Universitaires Scientifiques Suppérieurs"
     ],
-    "emplacement_salon": "Stand B03",
     "temoignage": {
       "auteur": "Rania, Ancienne IPEIGB (ENIT)",
       "texte_detaille": "Une prépa à taille humaine où l'entraide entre étudiants et la disponibilité des professeurs m'ont permis d'intégrer une grande école à Tunis."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeigb.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeigb.rnu.tn"
   },
   {
     "id": "ipeib",
@@ -449,6 +409,7 @@
     "adresse": "Avenue du 14 Janvier, Route de Menzel Abderrahmane, Bizerte 7021",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 138.0,
       "bac_sc": 142.5,
@@ -460,14 +421,10 @@
       "Orientation vers les Écoles Nationales de Technologies et Sciences Appliquées",
       "Recherche Académique et Enseignement"
     ],
-    "emplacement_salon": "Stand B04",
     "temoignage": {
       "auteur": "Ahmed, Ancien IPEIB (ENSI)",
       "texte_detaille": "L'ambiance d'étude à Bizerte est excellente, loin du tumulte de la capitale. Les résultats au concours national s'améliorent d'année en année."
     },
-    "liens_officiels": {
-      "site_web": "http://www.ipeib.rnu.tn",
-      "guide_orientation": "https://www.orientation.tn"
-    }
+    "site_web": "http://www.ipeib.rnu.tn"
   }
 ]

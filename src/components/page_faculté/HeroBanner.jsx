@@ -4,7 +4,6 @@ export default function HeroBanner({ faculte, onBack }) {
     logo = "Établissement",
     nom_complet = "Nom complet de la faculté",
     ville = "Tunisie",
-    emplacement_salon = "STAND --",
     image_banner = "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80"
   } = faculte || {};
 
@@ -28,9 +27,6 @@ export default function HeroBanner({ faculte, onBack }) {
           
           {/* Bloc d'informations textuelles */}
           <div className="space-y-1 text-white">
-            <span className="inline-block bg-[#de3f6b] text-white font-black text-[10px] px-2.5 py-0.5 rounded-md uppercase tracking-wider mb-1">
-              {emplacement_salon}
-            </span>
             <h1 className="text-xl md:text-3xl font-black tracking-tight leading-tight">
               {nom_complet}
             </h1>

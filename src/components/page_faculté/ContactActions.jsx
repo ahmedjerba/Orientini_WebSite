@@ -2,9 +2,8 @@ export default function ContactActions({ faculte }) {
   // Extraction sécurisée des coordonnées et des liens depuis data.json
   const {
     adresse = "Adresse non communiquée",
-    telephone = "—",
     site_web = "#",
-    stand_id = "M03" // Utilisé pour personnaliser le message du chat
+    lien_google_maps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(adresse)}` // Utilisé pour personnaliser le message du chat
   } = faculte || {};
 
   return (
@@ -36,7 +35,7 @@ export default function ContactActions({ faculte }) {
         
         {/* Lien invisible étendu sur tout le bloc pour rediriger proprement vers Maps */}
         <a 
-          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(adresse)}`}
+          href={lien_google_maps}
           target="_blank"
           rel="noreferrer"
           className="absolute inset-0 z-20 cursor-pointer"

@@ -1,4 +1,13 @@
 export default function LittleCard({ fac, onClick }) {
+  const bacConfig = {
+    bac_math: { label: "Bac Math", emoji: "📊" },
+    bac_sc: { label: "Bac Sciences", emoji: "🧪" },
+    bac_info: { label: "Bac Info", emoji: "💻" },
+    bac_tech: { label: "Bac Technique", emoji: "⚙️" },
+    bac_eco: { label: "Bac Éco", emoji: "📈" },
+    bac_lettres: { label: "Bac Lettres", emoji: "📚" },
+    bac_sport: { label: "Bac Sport", emoji: "🏃" }
+  };
   return (
     <div 
       onClick={onClick}
@@ -6,10 +15,6 @@ export default function LittleCard({ fac, onClick }) {
       className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer group relative overflow-hidden flex flex-col justify-between"
     >
       {/* Tout le reste de ton code à l'intérieur reste STRICTEMENT le même */}
-      {/* Badge de l'emplacement au salon (en haut à droite) */}
-      <div className="absolute top-4 right-4 bg-slate-50 border border-gray-100 text-[10px] font-black text-gray-400 px-2 py-0.5 rounded-md uppercase tracking-wider group-hover:bg-pourpre/10 group-hover:text-pourpre group-hover:border-pourpre/10 transition-colors">
-        {fac.emplacement_salon}
-      </div>
 
       {/* BLOC SUPÉRIEUR : LOGO + IDENTITÉ */}
       <div>
@@ -64,15 +69,33 @@ export default function LittleCard({ fac, onClick }) {
         </div>
       </div>
 
-      {/* PIED DE LA CARTE : SCORE */}
-      <div className="flex items-center justify-between pt-4 mt-5 border-t border-gray-50">
-        <span className="text-[11px] font-bold text-gray-400">
-          Score Min (Math)
-        </span>
-        <span className="text-xs font-black text-bleu bg-slate-50 px-2.5 py-1 rounded-lg group-hover:bg-[#f5d203]/20 group-hover:text-bleu transition-colors duration-300 tabular-nums">
-          {fac.score_derniere_annee.bac_math}
-        </span>
-      </div>
+      {/* PIED DE LA CARTE : SECTIONS ADMISSIBLES */}
+<div className="flex items-center justify-between pt-4 mt-5 border-t border-gray-50">
+  <span className="text-[11px] font-bold text-gray-400">
+    Bacs acceptés
+  </span>
+  
+  {/* PIED DE LA CARTE : SECTIONS ADMISSIBLES */}
+<div className="pt-3 mt-4 border-t border-gray-50 flex items-center justify-end">
+  <div className="flex flex-wrap items-center gap-1">
+    {Object.keys(fac.score_derniere_annee || {})
+      .filter((cle) => fac.score_derniere_annee[cle] > 0)
+      .map((cle) => {
+        const config = bacConfig[cle] || { label: cle, emoji: "🎓" };
+
+        return (
+          <span 
+            key={cle}
+            className="text-[9px] font-black text-[#1b1464] bg-slate-50 border border-gray-100/70 px-1.5 py-0 rounded-md flex items-center gap-0.5 transition-all duration-300 group-hover:bg-[#1b1464]/5 group-hover:border-[#1b1464]/10"
+          >
+            <span className="text-[10px]">{config.emoji}</span>
+            <span>{config.label}</span>
+          </span>
+        );
+      })}
+  </div>
+</div>
+</div>
 
     </div>
   );
