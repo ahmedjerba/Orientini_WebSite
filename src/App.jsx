@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import Programme from './components/Programme';
 
 // 1. Importation des nouveaux composants modulaires
 import FaculteNavigation from './components/facultes/FaculteNavigation';
@@ -35,13 +36,7 @@ export default function App() {
             3. SECTION PROGRAMME (PREPA / BAC)
            ========================================================= */}
         <section id="programme" className="py-12 border-b border-gray-100">
-          <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-xs font-bold text-[#de3f6b] uppercase tracking-wider mb-2">Zone de Test :</h2>
-            
-            <div className="p-8 bg-white rounded-2xl border-2 border-dashed border-gray-200 text-center text-gray-400 font-medium">
-              [ 📅 Le composant <span className="text-[#1b1464] font-bold">Programme.jsx</span> s'affichera ici ]
-            </div>
-          </div>
+        <Programme />
         </section>
 
         {/* =========================================================

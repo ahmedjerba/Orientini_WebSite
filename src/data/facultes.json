@@ -5,7 +5,7 @@
     "nom_complet": "Faculté de Médecine de Tunis",
     "universite": "Université de Tunis El Manar",
     "ville": "Tunis",
-    "logo": "/images/logos/fmt.png",
+    "logo": "/logos/FMT.jpg",
     "description_breve": "Le plus ancien et grand pôle d'enseignement médical en Tunisie, formant les futurs médecins généralistes et spécialistes à travers un cursus d'excellence.",
     "adresse": "15 Rue Djebel Lakhdar, La Rabta, Tunis 1007",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Tunis",
@@ -32,7 +32,7 @@
     "nom_complet": "Faculté de Médecine de Sousse",
     "universite": "Université de Sousse",
     "ville": "Sousse",
-    "logo": "/images/logos/fms.png",
+    "logo": "/logos/FMSO.jpg",
     "description_breve": "Établissement médical d'élite reconnu pour ses innovations pédagogiques (apprentissage par problèmes) et sa recherche scientifique active.",
     "adresse": "Avenue Mohamed Karoui, BP 98, Sousse 4002",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sousse",
@@ -59,7 +59,7 @@
     "nom_complet": "Faculté de Médecine de Monastir",
     "universite": "Université de Monastir",
     "ville": "Monastir",
-    "logo": "/images/logos/fmm.png",
+    "logo": "/logos/FMM.jpg",
     "description_breve": "Un pilier historique de l'enseignement des sciences de la santé en Tunisie, profitant d'un campus universitaire dynamique et ultra-complet.",
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
@@ -86,7 +86,7 @@
     "nom_complet": "Faculté de Médecine de Sfax",
     "universite": "Université de Sfax",
     "ville": "Sfax",
-    "logo": "/images/logos/fmsf.png",
+    "logo": "/logos/FMS.png",
     "description_breve": "Faculté de premier plan formant des professionnels de santé hautement qualifiés, adossée aux grands centres hospitaliers de la capitale du Sud.",
     "adresse": "Rue Magida Boulila, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
@@ -113,7 +113,7 @@
     "nom_complet": "Institut National des Sciences Appliquées et de Technologie",
     "universite": "Université de Carthage",
     "ville": "Tunis",
-    "logo": "/images/logos/insat.png",
+    "logo": "/logos/INSAT.jpg",
     "description_breve": "Grande école d'ingénieurs à prépa intégrée. Formation d'élite spécialisée dans le numérique, l'informatique industrielle et la biotechnologie.",
     "adresse": "Centre Urbain Nord, BP 676 - 1080 Tunis",
     "lien_google_maps": "https://maps.google.com/?q=INSAT",
@@ -140,7 +140,7 @@
     "nom_complet": "Faculté des Sciences de Tunis (Cycles Intégrés)",
     "universite": "Université de Tunis El Manar",
     "ville": "Tunis",
-    "logo": "/images/logos/fst.png",
+    "logo": "/logos/FST.png",
     "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, notamment en informatique, sciences des données et réseaux.",
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
@@ -167,7 +167,7 @@
     "nom_complet": "Mediterranean School of Engineering (MSB/MSE)",
     "universite": "South Mediterranean University",
     "ville": "Tunis",
-    "logo": "/images/logos/smu.png",
+    "logo": "/logos/MSE.jpg",
     "description_breve": "Pôle technologique privé d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle anglo-saxon.",
     "adresse": "Les Berges du Lac 2, Tunis 1053",
     "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
@@ -194,7 +194,7 @@
     "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Tunis",
     "universite": "Université de Tunis",
     "ville": "Tunis",
-    "logo": "/images/logos/ipeit.png",
+    "logo": "/logos/IPEIT.jpg",
     "description_breve": "La prépa classique historique de Montfleury, réputée pour envoyer chaque année ses meilleurs éléments majorer les concours nationaux.",
     "adresse": "2 Rue Jawaher Lel Nehru, Montfleury, Tunis 1008",
     "lien_google_maps": "https://maps.google.com/?q=IPEIT",
@@ -221,7 +221,7 @@
     "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Nabeul",
     "universite": "Université de Carthage",
     "ville": "Nabeul",
-    "logo": "/images/logos/ipein.png",
+    "logo": "/logos/IPEIN.png",
     "description_breve": "Établissement préparatoire de premier plan implanté au pôle universitaire de Mrezga, affichant d'excellents taux de réussite aux concours nationaux.",
     "adresse": "Campus Universitaire Mrezga, Nabeul 8000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIN",
@@ -248,7 +248,7 @@
     "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
     "universite": "Université de Monastir",
     "ville": "Monastir",
-    "logo": "/images/logos/ipeim.png",
+    "logo": "/logos/IPEIM.jpg",
     "description_breve": "Établissement de référence dans la région du Sahel pour la préparation rigoureuse aux concours d'accès aux grandes écoles d'ingénieurs tunisiennes et françaises.",
     "adresse": "Avenue Ibn El Jazzar, Monastir 5019",
     "lien_google_maps": "https://maps.google.com/?q=IPEIM",
@@ -275,7 +275,7 @@
     "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Sfax",
     "universite": "Université de Sfax",
     "ville": "Sfax",
-    "logo": "/images/logos/ipeis.png",
+    "logo": "/logos/IPEIS.jpg",
     "description_breve": "L'un des plus grands instituts préparatoires du pays, réputé pour sa discipline, son organisation stricte et ses performances académiques élevées.",
     "adresse": "Route de Menzel Chaker Km 0.5, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIS",
@@ -295,5 +295,86 @@
       "site_web": "http://www.ipeis.rnu.tn",
       "guide_orientation": "https://www.orientation.tn"
     }
+  },
+  {
+  "id": "ipeiem",
+  "nom_court": "IPEIEM",
+  "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs d'El Manar",
+  "universite": "Université de Tunis El Manar",
+  "ville": "Tunis (El Manar)",
+  "logo": "/logos/IPEIEM.jpg",
+  "description_breve": "L'école préparatoire scientifique d'El Manar, réputée pour son cadre académique rigoureux et ses excellents résultats aux concours nationaux d'ingénieurs.",
+  "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
+  "lien_google_maps": "https://maps.google.com/?q=IPEIEM+El+Manar",
+  "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+  "score_derniere_annee": {
+    "bac_math": 155.4,
+    "bac_sc": 151.2,
+    "bac_info": 158.0
+  },
+  "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "PT (Physique-Technologie)"],
+  "emplacement_salon": "Stand B02",
+  "temoignage": {
+    "auteur": "Yassine, Ancien IPEIEM (SUP'COM)",
+    "texte_detaille": "Le cadre à El Manar est idéal pour étudier. Les professeurs sont très engagés et l'ambiance de groupe aide beaucoup à surmonter le stress de la prépa."
+  },
+  "liens_officiels": {
+    "site_web": "http://www.ipeiem.rnu.tn",
+    "guide_orientation": "https://www.orientation.tn"
   }
+},
+{
+  "id": "ipeigb",
+  "nom_court": "IPEIGB",
+  "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Gabès",
+  "universite": "Université de Gabès",
+  "ville": "Gabès",
+  "logo": "/logos/IPEIGB.jpg",
+  "description_breve": "Le pôle préparatoire scientifique du Sud-Est tunisien, formant avec rigueur les futurs ingénieurs de la région aux concours nationaux.",
+  "adresse": "Rue Omar Ibn El Khattab, Zrig, Gabès 6072",
+  "lien_google_maps": "http://googleusercontent.com/maps.google.com/2",
+  "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+  "score_derniere_annee": {
+    "bac_math": 125.5,
+    "bac_sc": 130.2,
+    "bac_info": 128.0
+  },
+  "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "BG (Biologie-Géologie)"],
+  "emplacement_salon": "Stand B03",
+  "temoignage": {
+    "auteur": "Rania, Ancienne IPEIGB (ENIT)",
+    "texte_detaille": "Une prépa à taille humaine où l'entraide entre étudiants et la disponibilité des professeurs m'ont permis d'intégrer une grande école à Tunis."
+  },
+  "liens_officiels": {
+    "site_web": "http://www.ipeigb.rnu.tn",
+    "guide_orientation": "https://www.orientation.tn"
+  }
+},
+{
+  "id": "ipeib",
+  "nom_court": "IPEIB",
+  "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Bizerte",
+  "universite": "Université de Carthage",
+  "ville": "Bizerte",
+  "logo": "/logos/IPEIB.jpg",
+  "description_breve": "L'institut préparatoire de Bizerte, offrant un encadrement de qualité pour préparer sereinement les concours MP, PC et technologiques.",
+  "adresse": "Avenue du 14 Janvier, Route de Menzel Abderrahmane, Bizerte 7021",
+  "lien_google_maps": "http://googleusercontent.com/maps.google.com/3",
+  "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+  "score_derniere_annee": {
+    "bac_math": 138.0,
+    "bac_sc": 142.5,
+    "bac_info": 140.2
+  },
+  "filieres_phares": ["MP (Math-Physique)", "PC (Physique-Chimie)", "PT (Physique-Technologie)"],
+  "emplacement_salon": "Stand B04",
+  "temoignage": {
+    "auteur": "Ahmed, Ancien IPEIB (ENSI)",
+    "texte_detaille": "L'ambiance d'étude à Bizerte est excellente, loin du tumulte de la capitale. Les résultats au concours national s'améliorent d'année en année."
+  },
+  "liens_officiels": {
+    "site_web": "http://www.ipeib.rnu.tn",
+    "guide_orientation": "https://www.orientation.tn"
+  }
+}
 ]
