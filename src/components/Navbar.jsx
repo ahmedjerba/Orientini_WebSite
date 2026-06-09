@@ -63,7 +63,7 @@ export default function Navbar() {
 
       {/* MENU DÉROULANT MOBILE (S'affiche uniquement si isOpen est true) */}
       {isOpen && (
-        <div className="md:hidden mt-4 bg-slate-50 rounded-2xl p-4 border border-gray-100 flex flex-col gap-4 animate-fadeIn">
+        <div className="md:hidden mt-4 bg-slate-50 rounded-2xl p-4 border border-gray-100 flex flex-col gap-4 animate-fadeIn shadow-sm">
           <a 
             onClick={() => setIsOpen(false)} 
             href="#home" 

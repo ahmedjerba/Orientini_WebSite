@@ -2,8 +2,10 @@ export default function LittleCard({ fac, onClick }) {
   return (
     <div 
       onClick={onClick}
-      className="w-full md:w-[calc(33.333%-16px)] shrink-0 bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+      // ICI : w-full uniquement ! C'est le parent (le carrousel) qui décide de la taille réelle.
+      className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer group relative overflow-hidden flex flex-col justify-between"
     >
+      {/* Tout le reste de ton code à l'intérieur reste STRICTEMENT le même */}
       {/* Badge de l'emplacement au salon (en haut à droite) */}
       <div className="absolute top-4 right-4 bg-slate-50 border border-gray-100 text-[10px] font-black text-gray-400 px-2 py-0.5 rounded-md uppercase tracking-wider group-hover:bg-pourpre/10 group-hover:text-pourpre group-hover:border-pourpre/10 transition-colors">
         {fac.emplacement_salon}
