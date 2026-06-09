@@ -1,7 +1,7 @@
 export default function HeroBanner({ faculte, onBack }) {
   // Extraction sécurisée des données du JSON avec valeurs par défaut
   const {
-    nom_court = "Établissement",
+    logo = "Établissement",
     nom_complet = "Nom complet de la faculté",
     ville = "Tunisie",
     emplacement_salon = "STAND --",
@@ -22,7 +22,7 @@ export default function HeroBanner({ faculte, onBack }) {
           {/* Logo Circulaire basé sur le nom court */}
           <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center border-4 border-white/20 shadow-md shrink-0">
             <span className="text-[#1b1464] font-black text-xl md:text-2xl tracking-tight">
-              {nom_court}
+              <img src={logo} alt={nom_complet} className="w-full h-full object-cover rounded-full" />
             </span>
           </div>
           

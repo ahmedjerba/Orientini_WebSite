@@ -1,13 +1,13 @@
-
-
 export default function DebouchesIntervenant({ faculte }) {
-  // Extraction des données depuis ton fichier data.json
+  // Extraction sécurisée des données depuis ton fichier data.json
   const {
     debouches = [],
-    mot_intervenant = "Bienvenue sur notre espace virtuel ! Profitez de ce salon pour poser toutes vos questions à nos étudiants et enseignants présents sur le chat.",
-    nom_intervenant = "Représentant",
-    role_intervenant = "Enseignant / Animateur"
+    temoignage = {}
   } = faculte || {};
+
+  // Extraction des champs de témoignage avec des valeurs de repli (fallbacks)
+  const texteDetaille = temoignage?.texte_detaille || "Aucun témoignage disponible pour le moment.";
+  const auteurTemoignage = temoignage?.auteur || "Intervenant";
 
   return (
     <div className="bg-white rounded-3xl border border-gray-100 p-6 md:p-8 shadow-sm space-y-6 h-full">
@@ -39,7 +39,7 @@ export default function DebouchesIntervenant({ faculte }) {
         )}
       </div>
 
-      {/* 2. LE MOT DE L'INTERVENANT (Style bulle de citation épurée) */}
+      {/* 2. LE MOT DE L'INTERVENANT */}
       <div className="space-y-3 border-t border-gray-50 pt-6">
         <h3 className="text-sm font-black text-[#1b1464] uppercase tracking-wider flex items-center gap-2">
           💬 Le Mot de l'Intervenant
@@ -52,20 +52,25 @@ export default function DebouchesIntervenant({ faculte }) {
           </span>
           
           <p className="text-gray-600 text-xs md:text-sm font-medium italic leading-relaxed relative z-10">
-            "{mot_intervenant}"
+            "{texteDetaille}"
           </p>
           
-          {/* Signature de l'intervenant */}
-          <div className="mt-4 flex items-center gap-2 border-t border-gray-200/50 pt-3">
-            <div className="w-7 h-7 bg-[#1b1464] rounded-full flex items-center justify-center text-white text-[10px] font-black uppercase">
-              {nom_intervenant.charAt(0)}
+          {/* Signature unique de l'intervenant avec logo JID */}
+          <div className="mt-4 flex items-center gap-3 border-t border-gray-200/50 pt-3 relative z-10">
+            {/* Rond bleu contenant le logo JID */}
+            <div className="w-8 h-8 bg-[#1b1464] rounded-full flex items-center justify-center p-1.5 shrink-0 shadow-sm">
+              <img 
+                src="/logo_jid.png" 
+                alt="Logo JID" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
-              <h4 className="text-xs font-black text-[#1b1464] leading-none">
-                {nom_intervenant}
+              <h4 className="text-xs font-black text-[#1b1464] leading-tight">
+                {auteurTemoignage}
               </h4>
-              <p className="text-[10px] font-bold text-[#de3f6b] mt-0.5 leading-none">
-                {role_intervenant}
+              <p className="text-[10px] font-bold text-[#de3f6b] uppercase tracking-wider mt-0.5">
+                Représentant
               </p>
             </div>
           </div>

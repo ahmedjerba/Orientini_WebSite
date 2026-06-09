@@ -1,6 +1,22 @@
 export default function Selectivite({ faculte }) {
-  // Extraction sécurisée de l'objet score depuis la faculté passée en prop
-  const { score = {} } = faculte || {};
+  // Extraction sécurisée de l'objet score_derniere_annee
+  const { score_derniere_annee = {} } = faculte || {};
+
+  // Dictionnaire pour formater proprement les clés du JSON
+  const bacConfig = {
+    bac_math: { label: "Bac Math", emoji: "📊" },
+    bac_sc: { label: "Bac Sciences", emoji: "🧪" },
+    bac_info: { label: "Bac Info", emoji: "💻" },
+    bac_tech: { label: "Bac Technique", emoji: "⚙️" },
+    bac_eco: { label: "Bac Éco", emoji: "📈" },
+    bac_lettres: { label: "Bac Lettres", emoji: "📚" },
+    bac_sport: { label: "Bac Sport", emoji: "🏃" }
+  };
+
+  // On ne garde que les clés présentes dans score_derniere_annee et définies
+  const scoresEntries = Object.entries(score_derniere_annee).filter(
+    ([_, value]) => value !== null && value !== undefined && value !== ""
+  );
 
   return (
     <div className="bg-[#de3f6b]/5 border-2 border-[#de3f6b]/10 rounded-3xl p-6 flex flex-col justify-between shadow-sm h-full">
@@ -18,37 +34,33 @@ export default function Selectivite({ faculte }) {
         </p>
       </div>
 
-      {/* Liste des scores dynamique depuis le JSON */}
+      {/* Liste des scores dynamique */}
       <div className="space-y-2.5 my-4">
-        {/* Ligne Bac Math */}
-        <div className="bg-white p-3 rounded-xl flex items-center justify-between border border-gray-100 shadow-sm">
-          <span className="text-[11px] font-extrabold text-gray-500 uppercase">
-            📊 Bac Math
-          </span>
-          <span className="text-xs font-black text-[#1b1464] tabular-nums bg-slate-50 px-2 py-1 rounded-md">
-            {score.bac_math || "—"}
-          </span>
-        </div>
+        {scoresEntries.length > 0 ? (
+          scoresEntries.map(([key, value]) => {
+            // Récupère la config propre, sinon utilise la clé brute par défaut
+            const config = bacConfig[key] || { label: key.replace('_', ' '), emoji: "🎓" };
 
-        {/* Ligne Bac Sciences */}
-        <div className="bg-white p-3 rounded-xl flex items-center justify-between border border-gray-100 shadow-sm">
-          <span className="text-[11px] font-extrabold text-gray-500 uppercase">
-            🧪 Bac Sciences
-          </span>
-          <span className="text-xs font-black text-[#1b1464] tabular-nums bg-slate-50 px-2 py-1 rounded-md">
-            {score.bac_sc || "—"}
-          </span>
-        </div>
-
-        {/* Ligne Bac Info */}
-        <div className="bg-white p-3 rounded-xl flex items-center justify-between border border-gray-100 shadow-sm">
-          <span className="text-[11px] font-extrabold text-gray-500 uppercase">
-            💻 Bac Info
-          </span>
-          <span className="text-xs font-black text-[#1b1464] tabular-nums bg-slate-50 px-2 py-1 rounded-md">
-            {score.bac_info || "—"}
-          </span>
-        </div>
+            return (
+              <div 
+                key={key} 
+                className="bg-white p-3 rounded-xl flex items-center justify-between border border-gray-100 shadow-sm"
+              >
+                <span className="text-[11px] font-extrabold text-gray-500 uppercase flex items-center gap-1.5">
+                  <span>{config.emoji}</span> {config.label}
+                </span>
+                <span className="text-xs font-black text-[#1b1464] tabular-nums bg-slate-50 px-2 py-1 rounded-md">
+                  {value}
+                </span>
+              </div>
+            );
+          })
+        ) : (
+          /* Fallback si aucune clé ou aucun score n'est dispo */
+          <p className="text-xs font-bold text-gray-400 italic text-center py-4">
+            Aucun score disponible
+          </p>
+        )}
       </div>
 
       {/* Note de bas de page explicative */}

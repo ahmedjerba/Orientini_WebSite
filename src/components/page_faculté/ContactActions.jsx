@@ -7,11 +7,6 @@ export default function ContactActions({ faculte }) {
     stand_id = "M03" // Utilisé pour personnaliser le message du chat
   } = faculte || {};
 
-  const handleLiveChat = () => {
-    // Logique pour ouvrir le chat avec l'intervenant du stand
-    console.log(`Ouverture du chat pour le stand ${stand_id}`);
-  };
-
   return (
     <div className="bg-white rounded-3xl border border-gray-100 p-6 shadow-sm flex flex-col justify-between gap-5 h-full">
       
@@ -24,10 +19,6 @@ export default function ContactActions({ faculte }) {
           <p className="flex items-start gap-1.5">
             <span className="shrink-0">📍</span> 
             <span><span className="font-bold text-gray-700">Adresse :</span> {adresse}</span>
-          </p>
-          <p className="flex items-center gap-1.5">
-            <span>📞</span> 
-            <span><span className="font-bold text-gray-700">Téléphone :</span> {telephone}</span>
           </p>
         </div>
       </div>
@@ -56,21 +47,14 @@ export default function ContactActions({ faculte }) {
       {/* 3. BOUTONS D'ACTION (FLEX/GRID) */}
       <div className="space-y-2 pt-2 border-t border-gray-50">
         {/* Bouton Live Chat (Pourpre / Rose) */}
-        <button 
-          onClick={handleLiveChat}
-          className="w-full bg-[#de3f6b] hover:bg-[#de3f6b]/95 text-white text-center text-xs font-black py-3 rounded-xl shadow-sm hover:shadow active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center gap-2"
-        >
-          <span>💬</span> Discuter en Live
-        </button>
-
         {/* Bouton Site Web Officiel (Bleu Profond) */}
         <a 
           href={site_web} 
           target="_blank" 
           rel="noreferrer"
-          className="w-full bg-[#1b1464] hover:bg-[#1b1464]/95 text-center text-xs font-black text-white py-3 rounded-xl shadow-sm hover:shadow active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center gap-2"
+          className="w-full bg-pourpre hover:bg-pourpre/90 text-center text-xs font-black text-white py-3 rounded-xl shadow-sm hover:shadow active:scale-[0.98] transition-all cursor-pointer flex items-center justify-center gap-2"
         >
-          <span>🌐</span> Visiter le Site Web
+          Visiter le site
         </a>
       </div>
 
