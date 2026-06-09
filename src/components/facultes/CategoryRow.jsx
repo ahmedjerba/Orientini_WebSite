@@ -3,35 +3,37 @@ import LittleCard from "./LittleCard";
 
 export default function CategoryRow({ title, facultes, onCardClick }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [cardsVisible, setCardsVisible] = useState(3); // 3 par défaut (PC)
+  const [cardsVisible, setCardsVisible] = useState(3);
 
-  // 1. Écoute de la taille de l'écran pour adapter le nombre de cartes
+  // 1. On gère TOUT dans un seul useEffect au redimensionnement
   useEffect(() => {
-    const updateCardsVisible = () => {
+    const updateCarousel = () => {
+      let visible = 3;
       if (window.innerWidth < 640) {
-        setCardsVisible(1); // Mobile
+        visible = 1; // Mobile
       } else if (window.innerWidth < 1024) {
-        setCardsVisible(2); // Tablette
+        visible = 2; // Tablette
       } else {
-        setCardsVisible(3); // PC grand écran
+        visible = 3; // PC
       }
+
+      setCardsVisible(visible);
+
+      // On ajuste l'index immédiatement ici pour éviter le conflit d'état décalé
+      setCurrentIndex((prevIndex) => {
+        const maxIndex = Math.max(0, facultes.length - visible);
+        return prevIndex > maxIndex ? maxIndex : prevIndex;
+      });
     };
 
-    updateCardsVisible();
-    window.addEventListener('resize', updateCardsVisible);
-    
-    return () => window.removeEventListener('resize', updateCardsVisible);
-  }, []);
+    // Initialisation au montage
+    updateCarousel();
 
-  // 2. Sécurité pour éviter que l'index dépasse la fin si on agrandit l'écran
-  useEffect(() => {
-    const maxIndex = Math.max(0, facultes.length - cardsVisible);
-    if (currentIndex > maxIndex) {
-      setCurrentIndex(maxIndex);
-    }
-  }, [cardsVisible, facultes.length, currentIndex]);
+    window.addEventListener('resize', updateCarousel);
+    return () => window.removeEventListener('resize', updateCarousel);
+  }, [facultes.length]); // S'exécute si la liste de données change
 
-  // 3. Fonctions de navigation
+  // 2. Fonctions de navigation
   const nextSlide = () => {
     if (currentIndex < facultes.length - cardsVisible) {
       setCurrentIndex(currentIndex + 1);
@@ -66,14 +68,14 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
           <div className="flex gap-2">
             <button 
               onClick={prevSlide} 
-              className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-9 h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95"
+              className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-9 h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95 cursor-pointer"
               aria-label="Précédent"
             >
               ◀
             </button>
             <button 
               onClick={nextSlide} 
-              className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-9 h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95"
+              className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-9 h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95 cursor-pointer"
               aria-label="Suivant"
             >
               ▶
@@ -85,18 +87,18 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
       {/* CONTENEUR DU CAROUSEL */}
       <div className="overflow-hidden w-full rounded-2xl p-1">
         <div 
-          className="flex transition-transform duration-500 ease-out"
+          className="flex gap-4 transition-transform duration-500 ease-out"
           style={{ 
-            // Translate exactement selon la fraction de cartes visibles
-            transform: `translateX(-${currentIndex * (100 / cardsVisible)}%)` 
+            transform: `translateX(calc(-${currentIndex} * (100% / ${cardsVisible}) - (${currentIndex} * 1rem / ${cardsVisible})))`
           }}
         >
           {facultes.map((fac) => (
             <div 
               key={fac.id} 
-              // Assure une synchronisation parfaite entre la taille de la carte et le décalage
-              style={{ width: `${100 / cardsVisible}%` }}
-              className="flex-shrink-0 px-2"
+              style={{ 
+                width: `calc((100% - (${cardsVisible} - 1) * 1rem) / ${cardsVisible})` 
+              }}
+              className="flex-shrink-0"
             >
               <LittleCard
                 fac={fac} 

@@ -81,8 +81,8 @@
     }
   },
   {
-    "id": "fms",
-    "nom_court": "FMS",
+    "id": "fmsf",
+    "nom_court": "FMSF",
     "nom_complet": "Faculté de Médecine de Sfax",
     "universite": "Université de Sfax",
     "ville": "Sfax",
