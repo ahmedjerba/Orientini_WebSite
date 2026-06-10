@@ -21,37 +21,42 @@ export default function App() {
       
       {/* =========================================================
           1. NAVBAR (Reste visible ou masquée selon tes préférences)
-         ========================================================= */}
+          ========================================================= */}
       <Navbar />
 
-      {/* ZONE DE CONTENU DYNAMIQUE */}
-      <main className="flex-grow">
+      {/* ZONE DE CONTENU DYNAMIQUE ACCUEILLANT LE NOUVEAU FOND DÉGRADÉ */}
+      {/* J'ai combiné un dégradé Tailwind directionnel (bg-gradient-to-tr) avec des opacités subtiles */}
+      <main className="flex-grow bg-gradient-to-tr from-[#1b1464]/5 via-[#78bec3]/10 to-[#ef4444]/5">
         
         {selectedFaculte ? (
           /* =========================================================
-              VUE DETRAILLÉE : S'affiche si une faculté est sélectionnée
+              VUE DÉTAILLÉE : S'affiche si une faculté est sélectionnée
              ========================================================= */
-          <FacultyDetailPage 
-            faculte={selectedFaculte} 
-            onBack={() => setSelectedFaculte(null)} 
-          />
+          <div className="backdrop-blur-sm min-h-full">
+            <FacultyDetailPage 
+              faculte={selectedFaculte} 
+              onBack={() => setSelectedFaculte(null)} 
+            />
+          </div>
         ) : (
           /* =========================================================
               VUE ACCUEIL : S'affiche par défaut si selectedFaculte est nul
              ========================================================= */
           <>
             {/* 2. HERO SECTION */}
-            <section id="home" className="py-12 border-b border-gray-100 bg-slate-50">
+            {/* Note : J'ai retiré 'bg-slate-50' pour laisser transparaître le nouveau fond */}
+            <section id="home" className="py-12 border-b border-gray-100/50">
               <HeroSection />
             </section>
 
             {/* 3. SECTION PROGRAMME */}
-            <section id="programme" className="py-12 border-b border-gray-100">
+            <section id="programme" className="py-12 border-b border-gray-100/50">
               <Programme />
             </section>
 
             {/* 4. SECTION RECHERCHE & EXPLORATION DES FACULTÉS */}
-            <section id="facultes" className="py-16 bg-slate-50 overflow-hidden">
+            {/* Note : Remplacement de 'bg-slate-50' par un effet de flou/transparence pour styliser le fond */}
+            <section id="facultes" className="py-16 bg-white/40 backdrop-blur-md overflow-hidden">
               <div className="max-w-7xl mx-auto px-6 space-y-8">
                 
                 {/* En-tête de la section d'orientation */}
@@ -79,8 +84,8 @@ export default function App() {
 
       {/* =========================================================
           FOOTER FIXE (Reste présent sur tout le site)
-         ========================================================= */}
-      <footer className="bg-[#1b1464] text-white text-center py-4 text-xs font-bold tracking-wide">
+          ========================================================= */}
+      <footer className="bg-[#1b1464] text-white text-center py-4 text-xs font-bold tracking-wide z-10">
         © 2026 JID — Jeunes Ingénieurs de Djerba | 8ème édition d'Orient'ini
       </footer>
 

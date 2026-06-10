@@ -1,33 +1,23 @@
 import CategoryRow from './CategoryRow';
 
 export default function FaculteNavigation({ data, onCardClick }) {
-  // 1. Filtrage automatique pour la section Médecine / Santé
-  const medecineFacs = data.filter(fac => fac.categories.includes('Médecine'));
+  const rows = {
+    medecine: "🩺 Sciences de la Santé & Médecine",
+    prepaIntegrees: "🚀 Cycles Préparatoires Intégrés & Architecture",
+    prepaClassiques: "📚 Instituts Préparatoires Classiques (IPEI)",
+    commerce: "💼 Business, Commerce & Gestion",
+    informatique: "💻 Licence d'Informatique",
+    iset: "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    droit: "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)"
+  };
 
-  // 2. Filtrage automatique pour les Prépas Intégrées (On garde ton filtrage par ID)
-  const prepaIntegrees = data.filter(fac => 
-    (fac.id === 'insat' || fac.id === 'fst' || fac.id === 'mse' || fac.id === 'hide_tunis' || fac.id === 'issat_sousse' || fac.id === 'enau') 
-  );
-
-  // 3. Filtrage automatique pour les Prépas Classiques
-  const prepaClassiques = data.filter(fac => 
-    fac.categories.includes('Préparatoire') && fac.id !== 'insat'
-  );
-
-  // 4. Filtrage automatique pour les Écoles de Commerce & Gestion (En excluant les ISET)
-  const commerceFacs = data.filter(fac => 
-    (fac.categories.includes('Commerce') || fac.categories.includes('Gestion')) && !fac.id.startsWith('iset_')
-  );
-
-  // 5. Filtrage automatique pour les Facultés d'Informatique (En excluant les ISET)
-  const InfoLicenceFacs = data.filter(fac => 
-    fac.categories.includes('Informatique') && !fac.id.startsWith('iset_')
-  );
-
-  // 6. NOUVEAU : Filtrage automatique pour les ISET (Radès, Nabeul, Sfax, etc.)
-  const isetFacs = data.filter(fac => fac.id.startsWith('iset_'));
-
-  const droitFacs = data.filter(fac => fac.categories.includes('Droit Privé') || fac.categories.includes('Droit Public'));
+  const medecineFacs = data.filter(fac => fac.filtre === rows.medecine);
+  const prepaIntegrees = data.filter(fac => fac.filtre === rows.prepaIntegrees);
+  const prepaClassiques = data.filter(fac => fac.filtre === rows.prepaClassiques);
+  const commerceFacs = data.filter(fac => fac.filtre === rows.commerce);
+  const InfoLicenceFacs = data.filter(fac => fac.filtre === rows.informatique);
+  const isetFacs = data.filter(fac => fac.filtre === rows.iset);
+  const droitFacs = data.filter(fac => fac.filtre === rows.droit);
 
   return (
     <div className="space-y-12">

@@ -11,6 +11,7 @@
     "adresse": "15 Rue Djebel Lakhdar, La Rabta, Tunis 1007",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Tunis",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 182.3,
@@ -42,6 +43,7 @@
     "adresse": "Avenue Mohamed Karoui, BP 98, Sousse 4002",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sousse",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 178.1,
@@ -73,6 +75,7 @@
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 176.5,
@@ -103,6 +106,7 @@
     "adresse": "Rue Magida Boulila, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
     "score_derniere_annee": {
       "bac_math": 175.2,
@@ -134,6 +138,7 @@
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/6",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "6 ans pour le diplôme national de Docteur en Médecine Dentaire (+ internat), cursus de spécialisatons disponible",
     "score_derniere_annee": {
       "bac_math": 178.5,
@@ -164,6 +169,7 @@
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/7",
     "categories": ["Santé", "Médecine"],
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "6 ans pour le diplôme national de Docteur en Pharmacie, cursus de résistanat (Biologie, Pharmacie Hospitalière/Industrielle)",
     "score_derniere_annee": {
       "bac_math": 175.8,
@@ -194,6 +200,7 @@
     "adresse": "Centre Urbain Nord, BP 676 - 1080 Tunis",
     "lien_google_maps": "https://maps.google.com/?q=INSAT",
     "categories": ["Ingénierie", "Technologie", "Préparatoire"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
     "score_derniere_annee": {
       "bac_math": 168.5,
@@ -226,6 +233,7 @@
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
     "categories": ["Sciences", "Ingénierie", "Technologie"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
     "score_derniere_annee": {
       "bac_math": 145.8,
@@ -258,6 +266,7 @@
     "adresse": "Les Berges du Lac 2, Tunis 1053",
     "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
     "categories": ["Ingénierie", "Technologie"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
     "score_derniere_annee": {
       "bac_math": 120.0,
@@ -289,6 +298,7 @@
     "adresse": "Cité Taffala (Ibn Khaldoun), Sousse 4003",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/8",
     "categories": ["Technologie", "Ingénierie", "Sciences"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
     "score_derniere_annee": {
       "bac_math": 158.4,
@@ -326,6 +336,7 @@
     "adresse": "27 Rue Florian, Borj Zouara, Bab Saadoun, Tunis 1029",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/9",
     "categories": ["Technologie", "Ingénierie", "Intelligence Artificielle"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
     "score_derniere_annee": {
       "bac_math": 189.2,
@@ -363,6 +374,7 @@
     "adresse": "2 Rue Jawaher Lel Nehru, Montfleury, Tunis 1008",
     "lien_google_maps": "https://maps.google.com/?q=IPEIT",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 164.2,
@@ -393,6 +405,7 @@
     "adresse": "Campus Universitaire Mrezga, Nabeul 8000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIN",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 155.4,
@@ -423,6 +436,7 @@
     "adresse": "Avenue Ibn El Jazzar, Monastir 5019",
     "lien_google_maps": "https://maps.google.com/?q=IPEIM",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 152.1,
@@ -453,6 +467,7 @@
     "adresse": "Route de Menzel Chaker Km 0.5, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIS",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 154.8,
@@ -483,6 +498,7 @@
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=IPEIEM+El+Manar",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 155.4,
@@ -513,6 +529,7 @@
     "adresse": "Rue Omar Ibn El Khattab, Zrig, Gabès 6072",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Monastir",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 125.5,
@@ -543,6 +560,7 @@
     "adresse": "Avenue du 14 Janvier, Route de Menzel Abderrahmane, Bizerte 7021",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Medecine+de+Sfax",
     "categories": ["Sciences", "Ingénierie", "Préparatoire"],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "score_derniere_annee": {
       "bac_math": 138.0,
@@ -573,6 +591,7 @@
     "adresse": "Rue Antoine de Saint-Exupéry, Carthage Présidence 2016",
     "lien_google_maps": "https://maps.google.com/?q=IHEC+Carthage",
     "categories": ["Commerce", "Gestion", "Finance"],
+    "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, cursus Doctorat et Expertise Comptable",
     "score_derniere_annee": {
       "bac_math": 162.5,
@@ -606,6 +625,7 @@
     "adresse": "Route de Borj Cedria, Bir El Bey, Ben Arous 2055",
     "lien_google_maps": "https://maps.google.com/?q=Tunis+Business+School",
     "categories": ["Business", "Management", "Analytics","Commerce"],
+    "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "4 ans pour le Bachelor (Modèle Américain), 2 ans pour l'Executive MBA",
     "score_derniere_annee": {
       "bac_math": 168.0,
@@ -641,6 +661,7 @@
     "adresse": "Campus Universitaire de la Manouba, Manouba 2010",
     "lien_google_maps": "https://maps.google.com/?q=ISCAE+Manouba",
     "categories": ["Comptabilité", "Audit", "Gestion"],
+    "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus officiel d'Expertise Comptable",
     "score_derniere_annee": {
       "bac_math": 154.2,
@@ -674,6 +695,7 @@
     "adresse": "41 Rue de la Liberté, Bouchoucha, Le Bardo, Tunis 2000",
     "lien_google_maps": "https://maps.google.com/?q=ISG+Tunis",
     "categories": ["Gestion", "Business Computing", "Finance"],
+    "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, École Doctorale intégrée",
     "score_derniere_annee": {
       "bac_info": 155.4,
@@ -707,6 +729,7 @@
     "adresse": "Route de Sidi Mansour Km 10, Sfax 3062",
     "lien_google_maps": "https://maps.google.com/?q=IHEC+Sfax",
     "categories": ["Commerce", "Gestion", "Entrepreneuriat"],
+    "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Expertise Comptable",
     "score_derniere_annee": {
       "bac_math": 145.8,
@@ -740,6 +763,7 @@
     "adresse": "2 Rue de la Technologie, Ariana 2080",
     "lien_google_maps": "https://maps.google.com/?q=ISI+Ariana",
     "categories": ["Informatique", "Génie Logiciel", "Cybersécurité"],
+    "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (Filière intégrée ou sur concours)",
     "score_derniere_annee": {
       "bac_info": 165.2,
@@ -772,6 +796,7 @@
   "adresse": "Avenue de l'Environnement, Monastir 5000",
   "lien_google_maps": "https://maps.google.com/?q=ISIMM+Monastir",
   "categories": ["Informatique", "Mathématiques Appliquées", "Systèmes Embarqués"],
+  "filtre": "💻 Licence d'Informatique",
   "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (sur concours national ou dossier)",
   "score_derniere_annee": {
     "bac_info": 152.4,
@@ -809,6 +834,7 @@
     "adresse": "Rue El Mahrsi, Hammam Sousse 4011",
     "lien_google_maps": "https://maps.google.com/?q=ISITCOM+Hammam+Sousse",
     "categories": ["Informatique", "Télécommunications", "Réseaux"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur",
     "score_derniere_annee": {
       "bac_info": 152.4,
@@ -841,6 +867,7 @@
     "adresse": "Zone Universitaire, Hiboun, Mahdia 5111",
     "lien_google_maps": "https://maps.google.com/?q=ISIMA+Mahdia",
     "categories": ["Informatique", "Mathématiques Appliquées", "Multimédia"],
+    "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère",
     "score_derniere_annee": {
       "bac_info": 128.5,
@@ -873,6 +900,7 @@
     "adresse": "Technopôle des Communications El Ghazala, Route de Raoued Km 3.5, Ariana 2083",
     "lien_google_maps": "https://maps.google.com/?q=ISET+COM+El+Ghazala",
     "categories": ["Télécommunications", "Informatique", "Réseaux"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Formations certifiantes (Cisco, Huawei, etc.)",
     "score_derniere_annee": {
       "bac_info": 149.6,
@@ -910,6 +938,7 @@
     "adresse": "Rue de l'Université, Sidi Bou Saïd, Carthage 2026",
     "lien_google_maps": "https://maps.google.com/?q=ENAU+Sidi+Bou+Said",
     "categories": ["Architecture", "Urbanisme", "Design"],
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "6 ans pour le Diplôme National d'Architecte (incluant les stages professionnels)",
     "score_derniere_annee": {
       "bac_math": 168.5,
@@ -945,6 +974,7 @@
     "adresse": "Rue de la Technologie, Radès Medina 2040",
     "lien_google_maps": "https://maps.google.com/?q=ISET+Rades",
     "categories": ["Informatique", "Génie Mécanique", "Génie Électrique", "Gestion"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "score_derniere_annee": {
       "bac_info": 138.2,
@@ -983,6 +1013,7 @@
     "adresse": "Campus Universitaire, Route de Mrezga, Nabeul 8000",
     "lien_google_maps": "https://maps.google.com/?q=ISET+Nabeul",
     "categories": ["Informatique", "Génie Civil", "Génie Électrique", "Gestion"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "score_derniere_annee": {
       "bac_info": 132.0,
@@ -1021,6 +1052,7 @@
     "adresse": "Route de Midoun, Houmt Souk, Djerba 4180",
     "lien_google_maps": "https://maps.google.com/?q=ISET+Djerba",
     "categories": ["Informatique", "Gestion", "Génie Électrique", "Génie Mécanique"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence",
     "score_derniere_annee": {
       "bac_info": 115.5,
@@ -1058,6 +1090,7 @@
     "adresse": "Rue Omar Ibn El Khattab, Zrig, Gabès 6072",
     "lien_google_maps": "https://maps.google.com/?q=ISET+Gabes",
     "categories": ["Génie des Procédés", "Génie Mécanique", "Informatique", "Génie Électrique"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "score_derniere_annee": {
       "bac_tech": 120.4,
@@ -1096,6 +1129,7 @@
     "adresse": "Route de Mahrza Km 2.5, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=ISET+Sfax",
     "categories": ["Informatique", "Génie Électrique", "Génie Mécanique", "Gestion"],
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "score_derniere_annee": {
       "bac_info": 136.4,
@@ -1134,6 +1168,7 @@
     "adresse": "Campus Universitaire Farhat Hached, El Manar II, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+Tunis+El+Manar",
     "categories": ["Droit Privé", "Droit Public", "Sciences Politiques"],
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
     "score_derniere_annee": {
       "bac_lettres": 138.5,
@@ -1171,6 +1206,7 @@
     "adresse": "14 Rue Hédi Karray, Centre Urbain Nord, Tunis 1080",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+Juridiques+Politiques+et+Sociales+de+Tunis",
     "categories": ["Sciences Juridiques", "Sciences Politiques", "Droit International","Droit Public"],
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
     "score_derniere_annee": {
       "bac_lettres": 140.2,
@@ -1208,6 +1244,7 @@
     "adresse": "Route de l'Aéroport Km 0.5, Sfax 3000",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+de+Sfax",
     "categories": ["Droit Privé", "Droit Public", "Droit de l'Entreprise"],
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
     "score_derniere_annee": {
       "bac_lettres": 115.2,
@@ -1244,6 +1281,7 @@
     "adresse": "Cité Riadh, Sousse 4023",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+et+des+Sciences+Politiques+Sousse",
     "categories": ["Droit Privé", "Droit Public", "Sciences Politiques"],
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère (9 parcours), Doctorat",
     "score_derniere_annee": {
       "bac_lettres": 122.0,
