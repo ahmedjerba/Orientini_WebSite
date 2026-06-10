@@ -189,7 +189,7 @@
     "universite": "Université de Carthage",
     "ville": "Tunis",
     "logo": "/logos/INSAT.jpg",
-    "fac_hero_banner": "/banners/INSAT_hero.jpg",
+    "fac_hero_banner": "/banners/INSAT.jpg",
     "description_breve": "Grande école d'ingénieurs à prépa intégrée. Formation d'élite spécialisée dans le numérique, l'informatique industrielle et la biotechnologie.",
     "adresse": "Centre Urbain Nord, BP 676 - 1080 Tunis",
     "lien_google_maps": "https://maps.google.com/?q=INSAT",
@@ -221,7 +221,7 @@
     "universite": "Université de Tunis El Manar",
     "ville": "Tunis",
     "logo": "/logos/FST.png",
-    "fac_hero_banner": "/banners/FST_hero.jpg",
+    "fac_hero_banner": "/banners/FST.jpg",
     "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, notamment en informatique, sciences des données et réseaux.",
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
@@ -284,11 +284,11 @@
     "universite": "Université de Sousse",
     "ville": "Sousse",
     "logo": "/logos/ISSAT_Sousse.jpg",
-    "fac_hero_banner": "/banners/ISSAT_Sousse_hero.jpg",
+    "fac_hero_banner": "/banners/ISSAT_Sousse.webp",
     "description_breve": "Un pôle technologique majeur de la région du Sahel, réputé pour son cycle préparatoire intégré performant et ses formations d'ingénieurs très ancrées dans le tissu industriel.",
     "adresse": "Cité Taffala (Ibn Khaldoun), Sousse 4003",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/8",
-    "categories": ["Informatique", "Ingénierie", "Sciences"],
+    "categories": ["Technologie", "Ingénierie", "Sciences"],
     "regimes_etudes": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
     "score_derniere_annee": {
       "bac_math": 158.4,
@@ -325,7 +325,7 @@
     "description_breve": "Institution publique d'élite et d'excellence, pionnière en Tunisie pour sa formation d'ingénieurs en Intelligence Artificielle et technologies numériques, dispensée exclusivement en langue anglaise.",
     "adresse": "27 Rue Florian, Borj Zouara, Bab Saadoun, Tunis 1029",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/9",
-    "categories": ["Informatique", "Ingénierie", "Intelligence Artificielle"],
+    "categories": ["Technologie", "Ingénierie", "Intelligence Artificielle"],
     "regimes_etudes": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
     "score_derniere_annee": {
       "bac_math": 189.2,
@@ -727,5 +727,546 @@
       "texte_detaille": "Bénéficiant du tissu industriel et entrepreneurial dense de la région de Sfax, l'IHEC Sfax offre une proximité immédiate avec le marché du travail. Le corps professoral est dévoué et les partenariats avec les entreprises locales sont un vrai plus pour nos stages."
     },
     "site_web": "http://www.ihecsf.rnu.tn"
+  },
+  {
+    "id": "isi_ariana",
+    "nom_court": "ISI Ariana",
+    "nom_complet": "Institut Supérieur de Informatique d'Ariana",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Ariana",
+    "logo": "/logos/ISI_Ariana.png",
+    "fac_hero_banner": "/banners/ISI_Ariana_hero.jpg",
+    "description_breve": "L'une des plus prestigieuses institutions technologiques de Tunisie, reconnue pour l'excellence de ses formations en génie logiciel, systèmes embarqués et sécurité informatique.",
+    "adresse": "2 Rue de la Technologie, Ariana 2080",
+    "lien_google_maps": "https://maps.google.com/?q=ISI+Ariana",
+    "categories": ["Informatique", "Génie Logiciel", "Cybersécurité"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (Filière intégrée ou sur concours)",
+    "score_derniere_annee": {
+      "bac_info": 165.2,
+      "bac_math": 158.5,
+      "bac_sc": 152.0
+    },
+    "filieres_phares": ["Licence en Sciences de l'Informatique (Génie Logiciel / Réseaux)", "Cycle Ingénieur en Informatique", "Mastère Professionnel en Sécurité des Systèmes et Réseaux", "Licence en Technologies des Systèmes Embarqués"],
+    "debouches": [
+      "Ingénieur DevOps / Administrateur Cloud",
+      "Développeur Full-Stack / Mobile Senior",
+      "Consultant en Cybersécurité / Pentester",
+      "Architecte Logiciel / Tech Lead",
+      "Ingénieur Systèmes Embarqués et IoT"
+    ],
+    "temoignage": {
+      "auteur": "Yassine, Étudiant en Cycle Ingénieur (ex-Licence)",
+      "texte_detaille": "L'ISI offre une ambiance de partage unique. Les clubs comme ACM ou IEEE y sont ultra-actifs, ce qui permet de compléter les cours théoriques par d'immenses projets pratiques. L'insertion sur le marché ou la poursuite d'études en ingénierie y est garantie si on est bosseur."
+    },
+    "site_web": "http://www.isi.rnu.tn"
+  },
+  {
+  "id": "isimm_monastir",
+  "nom_court": "ISIMM",
+  "nom_complet": "Institut Supérieur de Informatique et de Mathématiques de Monastir",
+  "universite": "Université de Monastir",
+  "ville": "Monastir",
+  "logo": "/logos/ISIMM_Monastir.png",
+  "fac_hero_banner": "/banners/ISIMM_Monastir_hero.jpg",
+  "description_breve": "Une institution universitaire de premier plan reconnue pour son alliance unique entre les mathématiques appliquées et l'informatique, formant des profils hautement qualifiés en génie logiciel et systèmes embarqués.",
+  "adresse": "Avenue de l'Environnement, Monastir 5000",
+  "lien_google_maps": "https://maps.google.com/?q=ISIMM+Monastir",
+  "categories": ["Informatique", "Mathématiques Appliquées", "Systèmes Embarqués"],
+  "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (sur concours national ou dossier)",
+  "score_derniere_annee": {
+    "bac_info": 152.4,
+    "bac_math": 145.0,
+    "bac_sc": 138.2
+  },
+  "filieres_phares": [
+    "Licence en Sciences de l'Informatique",
+    "Licence en Électronique, Énergie Électrique et Automatique (EEA)",
+    "Cycle Ingénieur en Informatique (Génie Logiciel ou Systèmes Embarqués)",
+    "Mastère de Recherche en Intelligence Artificielle et Data Science"
+  ],
+  "debouches": [
+    "Développeur Logiciel Web / Mobile",
+    "Ingénieur de Données / Analyste BI",
+    "Technicien ou Ingénieur en Systèmes Embarqués et IoT",
+    "Administrateur Systèmes et Réseaux",
+    "Spécialiste en Automatisme et Informatique Industrielle"
+  ],
+  "temoignage": {
+    "auteur": "Rania, Étudiante en L3 Informatique",
+    "texte_detaille": "L'ISIMM possède un très fort ancrage théorique grâce aux mathématiques, ce qui nous donne un gros avantage pour comprendre les algorithmes complexes et l'IA. La vie associative y est vibrante avec des clubs de programmation et de robotique très compétitifs qui nous poussent à coder des projets concrets."
+  },
+  "site_web": "http://www.isimm.rnu.tn"
+},
+  {
+    "id": "isitcom_sousse",
+    "nom_court": "ISITCOM",
+    "nom_complet": "Institut Supérieur de l'Informatique et des Technologies de la Communication de Hammam Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISITCOM.jpg",
+    "fac_hero_banner": "/banners/ISITCOM_Sousse.jpg",
+    "description_breve": "Le pôle technologique phare du Sahel, combinant à la perfection le développement logiciel, le cloud computing et l'ingénierie des télécommunications.",
+    "adresse": "Rue El Mahrsi, Hammam Sousse 4011",
+    "lien_google_maps": "https://maps.google.com/?q=ISITCOM+Hammam+Sousse",
+    "categories": ["Informatique", "Télécommunications", "Réseaux"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur",
+    "score_derniere_annee": {
+      "bac_info": 152.4,
+      "bac_math": 146.8,
+      "bac_sc": 141.2
+    },
+    "filieres_phares": ["Licence en Sciences de l'Informatique", "Cycle Ingénieur en Informatique et Télécommunications", "Mastère en Cloud Computing et Virtualisation", "Licence en Systèmes Embarqués et IoT"],
+    "debouches": [
+      "Ingénieur Réseaux et Télécoms",
+      "Administrateur Systèmes, Réseaux et Cloud",
+      "Développeur Applications Web et Mobile",
+      "Consultant en Solutions Télécoms & VoIP",
+      "Ingénieur Support et Cybersécurité"
+    ],
+    "temoignage": {
+      "auteur": "Sarra, Diplômée en Licence Informatique",
+      "texte_detaille": "L'ISITCOM à Sousse offre un cadre de travail idéal. Les profs viennent souvent du monde de l'entreprise et la formation est calée sur les besoins du marché international. Le pôle technologique de Sousse juste à côté facilite grandement la recherche de stages PFE."
+    },
+    "site_web": "http://www.isitcom.rnu.tn"
+  },
+  {
+    "id": "isima_mahdia",
+    "nom_court": "ISIMA Mahdia",
+    "nom_complet": "Institut Supérieur d'Informatique et de Mathématiques de Mahdia",
+    "universite": "Université de Monastir",
+    "ville": "Mahdia",
+    "logo": "/logos/ISIMA.jpg",
+    "fac_hero_banner": "/banners/ISIMA_Mahdia_hero.jpg",
+    "description_breve": "Un institut dynamique spécialisé dans les sciences du numérique, alliant les fondements mathématiques rigoureux aux applications informatiques modernes.",
+    "adresse": "Zone Universitaire, Hiboun, Mahdia 5111",
+    "lien_google_maps": "https://maps.google.com/?q=ISIMA+Mahdia",
+    "categories": ["Informatique", "Mathématiques Appliquées", "Multimédia"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère",
+    "score_derniere_annee": {
+      "bac_info": 128.5,
+      "bac_math": 121.0,
+      "bac_sc": 118.4
+    },
+    "filieres_phares": ["Licence en Sciences de l'Informatique", "Licence en Mathématiques Appliquées et Science des Données", "Mastère Professionnel en Ingénierie des Systèmes d'Information"],
+    "debouches": [
+      "Développeur Logiciel / Intégrateur Web",
+      "Analyste de Données / Data Analyst Junior",
+      "Gestionnaire de Bases de Données",
+      "Technicien Supérieur en Maintenance Réseaux",
+      "Développeur Front-End / Spécialiste CMS"
+    ],
+    "temoignage": {
+      "auteur": "Ahmed, Étudiant en L3 Informatique",
+      "texte_detaille": "C'est un institut à taille humaine où tout le monde se connaît. Les professeurs sont très accessibles pour nous aider sur nos projets de fin d'études. C'est l'endroit parfait pour acquérir des bases solides en algorithmique sans la pression des mégas-campus."
+    },
+    "site_web": "http://www.isima.rnu.tn"
+  },
+  {
+    "id": "isetcom_tunis",
+    "nom_court": "ISET'COM",
+    "nom_complet": "Institut Supérieur des Études Technologiques en Communications de Tunis",
+    "universite": "Université de Carthage / Co-tutelle Ministère des Technologies de la Communication",
+    "ville": "Ariana (Technopôle El Ghazala)",
+    "logo": "/logos/ISETCOM.jpg",
+    "fac_hero_banner": "/banners/ISETCOM_Tunis.jpg",
+    "description_breve": "L'institut de référence historique en télécommunications, stratégiquement situé au cœur du technopôle El Ghazala, offrant une immersion directe avec les géants du secteur numérique tunisien.",
+    "adresse": "Technopôle des Communications El Ghazala, Route de Raoued Km 3.5, Ariana 2083",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+COM+El+Ghazala",
+    "categories": ["Télécommunications", "Informatique", "Réseaux"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Formations certifiantes (Cisco, Huawei, etc.)",
+    "score_derniere_annee": {
+      "bac_info": 149.6,
+      "bac_math": 143.2,
+      "bac_sc": 138.5
+    },
+    "filieres_phares": [
+      "Licence en Sciences de l'Informatique (Parcours Systèmes & Réseaux)",
+      "Licence en Technologies des Communications (Systèmes Numériques)",
+      "Mastère Professionnel en Sécurité des Réseaux et Services",
+      "Mastère Professionnel en Internet des Objets et Management Numérique"
+    ],
+    "debouches": [
+      "Administrateur Réseaux et Systèmes / Cloud",
+      "Ingénieur Support Télécom & VoIP",
+      "Technicien Supérieur en Cybersécurité et Commutation",
+      "Développeur d'applications connectées (IoT)",
+      "Responsable d'infrastructure IT et Exploitation"
+    ],
+    "temoignage": {
+      "auteur": "Malek, Étudiante en L3 Réseaux",
+      "texte_detaille": "Étudier au technopôle El Ghazala change complètement l'expérience universitaire. Les entreprises du secteur sont nos voisines de palier, ce qui est un avantage incroyable pour décrocher des stages. Les labos réseau de l'ISET'COM sont super bien équipés, on manipule de vrais équipements télécoms professionnels."
+    },
+    "site_web": "http://www.isetcom.tn"
+  },
+  {
+    "id": "enau",
+    "nom_court": "ENAU",
+    "nom_complet": "École Nationale d'Architecture et d'Urbanisme de Tunis",
+    "universite": "Université de Carthage",
+    "ville": "Carthage (Sidi Bou Saïd)",
+    "logo": "/logos/ENAU.jpg",
+    "fac_hero_banner": "/banners/ENAU.jpg",
+    "description_breve": "L'unique institution publique de formation d'architectes en Tunisie, nichée sur la colline de Sidi Bou Saïd, alliant rigueur technique, urbanisme moderne et sensibilité artistique.",
+    "adresse": "Rue de l'Université, Sidi Bou Saïd, Carthage 2026",
+    "lien_google_maps": "https://maps.google.com/?q=ENAU+Sidi+Bou+Said",
+    "categories": ["Architecture", "Urbanisme", "Design"],
+    "regimes_etudes": "6 ans pour le Diplôme National d'Architecte (incluant les stages professionnels)",
+    "score_derniere_annee": {
+      "bac_math": 168.5,
+      "bac_sc": 162.0,
+      "bac_info": 155.2
+    },
+    "filieres_phares": [
+      "Diplôme National d'Architecte",
+      "Mastère de Recherche en Architecture et Urbanisme",
+      "Doctorat en Architecture"
+    ],
+    "debouches": [
+      "Architecte (Secteur Public/Cabinet privé / Profession libérale)",
+      "Urbaniste / Planificateur territorial pour l'État ou les municipalités",
+      "Chef de projet / Consultant en patrimoine architectural",
+      "Expert en bâtiments et conduite de travaux"
+    ],
+    "temoignage": {
+      "auteur": "Lina, Étudiante en 4ème année ENAU",
+      "texte_detaille": "L'ENAU est une école intense mais magique. Travailler dans les ateliers de 'charrette' face à la mer à Sidi Bou Saïd donne une inspiration unique. Le rythme est soutenu, on passe des nuits blanches sur les maquettes, mais la communauté et l'esprit d'école y sont incroyables."
+    },
+    "site_web": "http://www.enau.rnu.tn"
+  },
+  {
+    "id": "iset_rades",
+    "nom_court": "ISET Radès",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Radès",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Ben Arous (Radès)",
+    "logo": "/logos/ISET_Rades.png",
+    "fac_hero_banner": "/banners/ISET_Rades_hero.jpg",
+    "description_breve": "Le plus grand et le plus ancien fleuron du réseau des ISET, idéalement situé dans la zone industrielle de Radès, reconnu pour ses laboratoires de pointe et sa forte insertion professionnelle.",
+    "adresse": "Rue de la Technologie, Radès Medina 2040",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Rades",
+    "categories": ["Informatique", "Génie Mécanique", "Génie Électrique", "Gestion"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "score_derniere_annee": {
+      "bac_info": 138.2,
+      "bac_math": 128.5,
+      "bac_tech": 131.0,
+      "bac_eco": 122.4
+    },
+    "filieres_phares": [
+      "Licence en Technologies de l'Informatique (DSI / RSI / SEM)",
+      "Licence en Génie Mécanique (Construction et Fabrication)",
+      "Licence en Génie Électrique (Automatismes et Informatique Industrielle)",
+      "Mastère Professionnel en Lean Management"
+    ],
+    "debouches": [
+      "Développeur d'applications / Administrateur Réseaux",
+      "Technicien Supérieur en Maintenance Industrielle",
+      "Superviseur de Production / Chef d'équipe logistique",
+      "Dessinateur Projeteur / Concepteur Mécanique CAD",
+      "Technicien en Automatismes et Robotique"
+    ],
+    "temoignage": {
+      "auteur": "Mohamed, Diplômé en Génie Électrique",
+      "texte_detaille": "L'ISET Radès est hyper réputée auprès des industriels. On passe énormément de temps en ateliers pratiques, ce qui fait qu'en arrivant en stage de fin d'études (PFE), on est directement opérationnels par rapport aux profils des facs classiques. Les clubs techniques y sont aussi super dynamiques."
+    },
+    "site_web": "http://www.isetr.rnu.tn"
+  },
+  {
+    "id": "iset_nabeul",
+    "nom_court": "ISET Nabeul",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Nabeul",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Nabeul",
+    "logo": "/logos/ISET_Nabeul.png",
+    "fac_hero_banner": "/banners/ISET_Nabeul_hero.jpg",
+    "description_breve": "Un pôle universitaire technologique majeur au cœur du Cap Bon, formant des techniciens hautement qualifiés qui soutiennent le tissu économique, touristique et industriel de la région.",
+    "adresse": "Campus Universitaire, Route de Mrezga, Nabeul 8000",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Nabeul",
+    "categories": ["Informatique", "Génie Civil", "Génie Électrique", "Gestion"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "score_derniere_annee": {
+      "bac_info": 132.0,
+      "bac_math": 122.4,
+      "bac_tech": 126.8,
+      "bac_eco": 118.0
+    },
+    "filieres_phares": [
+      "Licence en Génie Civil (Bâtiments et Travaux Publics)",
+      "Licence en Technologies de l'Informatique (Développement Systèmes)",
+      "Licence en Gestion des Entreprises et des Administrations",
+      "Mastère Co-construit en E-Business"
+    ],
+    "debouches": [
+      "Conducteur de Travaux / Métreur en Génie Civil",
+      "Développeur Web et Mobile Junior",
+      "Comptable d'entreprise / Assistant RH",
+      "Technicien d'essais et de contrôle en électricité",
+      "Gestionnaire de stock et approvisionnement"
+    ],
+    "temoignage": {
+      "auteur": "Farah, Étudiante en L3 Génie Civil",
+      "texte_detaille": "Le campus de Mrezga est super agréable. À l'ISET Nabeul, le département Génie Civil est très fort, on a des équipements de labo modernes pour tester le béton et les structures. L'ambiance entre étudiants est conviviale et solidaire."
+    },
+    "site_web": "http://www.isetn.rnu.tn"
+  },
+  {
+    "id": "iset_djerba",
+    "nom_court": "ISET Djerba",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Djerba",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Djerba",
+    "logo": "/logos/ISET_Djerba.jpg",
+    "fac_hero_banner": "/banners/ISET_Djerba_hero.jpg",
+    "description_breve": "Une institution moderne qui se distingue par ses formations adaptées à l'économie numérique et insulaire, combinant les technologies de pointe et la gestion appliquée.",
+    "adresse": "Route de Midoun, Houmt Souk, Djerba 4180",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Djerba",
+    "categories": ["Informatique", "Gestion", "Génie Électrique", "Génie Mécanique"],
+    "regimes_etudes": "3 ans pour Licence",
+    "score_derniere_annee": {
+      "bac_info": 115.5,
+      "bac_math": 105.0,
+      "bac_eco": 108.2,
+      "bac_sc": 102.0
+    },
+    "filieres_phares": [
+      "Licence en Technologies de l'Informatique",
+      "Licence en Gestion Administrative et Commerciale",
+      "Licence en Génie Électrique (Énergies Renouvelables)"
+    ],
+    "debouches": [
+      "Webmaster / Développeur d'applications Web",
+      "Chargé de clientèle / Assistant de Gestion",
+      "Technicien en maintenance d'installations photovoltaïques",
+      "Support technique informatique hôtelier / d'entreprise",
+      "Technicien de maintenance industrielle"
+    ],
+    "temoignage": {
+      "auteur": "Yassine, Étudiant en Informatique",
+      "texte_detaille": "Étudier à Djerba offre un cadre de vie paisible idéal pour se concentrer. L'ISET dispose d'un bon réseau de contacts pour les stages. C'est parfait si on cherche une formation technologique de proximité sans devoir obligatoirement monter sur Tunis."
+    },
+    "site_web": "http://www.isetdj.rnu.tn"
+  },
+  {
+    "id": "iset_gabes",
+    "nom_court": "ISET Gabès",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Gabès",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Gabès",
+    "logo": "/logos/ISET_Gabes.jpg",
+    "fac_hero_banner": "/banners/ISET_Gabes_hero.jpg",
+    "description_breve": "Ancré au cœur du pôle industriel et chimique du Sud tunisien, cet institut forme des techniciens spécialisés hautement demandés par les usines et grands groupes de la région.",
+    "adresse": "Rue Omar Ibn El Khattab, Zrig, Gabès 6072",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Gabes",
+    "categories": ["Génie des Procédés", "Génie Mécanique", "Informatique", "Génie Électrique"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "score_derniere_annee": {
+      "bac_tech": 120.4,
+      "bac_math": 112.8,
+      "bac_info": 122.0,
+      "bac_sc": 110.5
+    },
+    "filieres_phares": [
+      "Licence en Génie des Procédés (Chimie Industrielle)",
+      "Licence en Génie Mécanique (Maintenance)",
+      "Licence en Technologies de l'Informatique",
+      "Mastère Professionnel en Sécurité Environnementale et Industrielle"
+    ],
+    "debouches": [
+      "Technicien de Laboratoire Chimique / Contrôle Qualité",
+      "Opérateur / Chef de poste en industrie lourde",
+      "Technicien de Maintenance Systèmes Électromécaniques",
+      "Développeur d'applications industrielles / IT",
+      "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
+    ],
+    "temoignage": {
+      "auteur": "Sami, Diplômé en Génie des Procédés",
+      "texte_detaille": "La force de l'ISET Gabès réside dans sa filière Génie des Procédés. La proximité avec le Groupe Chimique Tunisien et les usines de la zone industrielle de Zrig offre de vraies opportunités de stages techniques poussés sur de vraies installations."
+    },
+    "site_web": "http://www.isetgb.rnu.tn"
+  },
+  {
+    "id": "iset_sfax",
+    "nom_court": "ISET Sfax",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Sfax",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Sfax",
+    "logo": "/logos/ISET_Sfax.jpg",
+    "fac_hero_banner": "/banners/ISET_Sfax_hero.jpg",
+    "description_breve": "Un pôle technologique incontournable de la capitale économique tunisienne, reconnu pour l'efficacité de ses passerelles avec le dense écosystème d'entreprises privées sfaxiennes.",
+    "adresse": "Route de Mahrza Km 2.5, Sfax 3000",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Sfax",
+    "categories": ["Informatique", "Génie Électrique", "Génie Mécanique", "Gestion"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "score_derniere_annee": {
+      "bac_info": 136.4,
+      "bac_math": 125.0,
+      "bac_tech": 128.2,
+      "bac_eco": 120.6
+    },
+    "filieres_phares": [
+      "Licence en Technologies de l'Informatique (Réseaux / Web)",
+      "Licence en Gestion de la Production et Logistique",
+      "Licence en Génie Électrique (Informatique Industrielle)",
+      "Mastère Co-construit en Optimisation Industrielle et Logistique"
+    ],
+    "debouches": [
+      "Développeur Logiciel / Intégrateur d'applications",
+      "Gestionnaire de flux logistiques / Supply Chain Assistant",
+      "Technicien Supérieur en Automatisation Industrielle",
+      "Technicien de bureau d'études en mécanique",
+      "Comptable ou Analyste de gestion d'atelier"
+    ],
+    "temoignage": {
+      "auteur": "Amira, Étudiante en L3 Logistique",
+      "texte_detaille": "À Sfax, les PME cherchent tout le temps des profils ISET parce qu'ils savent qu'on fait beaucoup de pratique. Les enseignants de l'ISET Sfax poussent énormément vers l'entrepreneuriat et le développement de projets personnels à travers les mini-projets de semestre."
+    },
+    "site_web": "http://www.isetsf.rnu.tn"
+  },
+  {
+    "id": "fsjpst_tunis",
+    "nom_court": "FSJPST Tunis",
+    "nom_complet": "Faculté des Sciences Juridiques, Politiques et Sociales de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/FSJPST.jpg",
+    "fac_hero_banner": "/banners/FSJPST_Carthage_hero.jpg",
+    "description_breve": "Doyenne des facultés de droit en Tunisie, reconnue pour sa rigueur et sa forte contribution historique à la formation des élites juridiques et politiques du pays.",
+    "adresse": "Campus Universitaire Farhat Hached, El Manar II, Tunis 2092",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+Tunis+El+Manar",
+    "categories": ["Droit Privé", "Droit Public", "Sciences Politiques"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "score_derniere_annee": {
+      "bac_lettres": 138.5,
+      "bac_eco": 142.0,
+      "bac_math": 128.5,
+      "bac_sciences": 132.0
+    },
+    "filieres_phares": [
+      "Licence en Droit Privé",
+      "Licence en Droit Public",
+      "Mastère en Droit des Contrats et des Investissements",
+      "Mastère en Droit de l'Environnement et de l'Urbanisme"
+    ],
+    "debouches": [
+      "Avocat (Concours CAPA)",
+      "Magistrat (Concours ISM)",
+      "Conseiller juridique et fiscal d'entreprise",
+      "Haut fonctionnaire de l'administration publique (ENA)"
+    ],
+    "temoignage": {
+      "auteur": "Yassine, Étudiant en Mastère",
+      "texte_detaille": "Une faculté exigeante avec une culture de la gagne très ancrée. Idéal si on vise l'excellence académique et la réussite des grands concours nationaux comme l'ISM ou l'Avocature."
+    },
+    "site_web": "http://www.fsjpst.rnu.tn"
+  },
+  {
+    "id": "fdspt_tunis",
+    "nom_court": "FDSPT Tunis",
+    "nom_complet": "Faculté de Droit et des Sciences Politiques de Tunis",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/FDSPT.jpg",
+    "fac_hero_banner": "/banners/FDSPT_Tunis_hero.jpg",
+    "description_breve": "Une institution de premier plan basée au Centre Urbain Nord, réputée pour ses programmes innovants, son ouverture internationale et ses spécialisations pointues en droit des affaires et common law.",
+    "adresse": "14 Rue Hédi Karray, Centre Urbain Nord, Tunis 1080",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+Juridiques+Politiques+et+Sociales+de+Tunis",
+    "categories": ["Sciences Juridiques", "Sciences Politiques", "Droit International","Droit Public"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "score_derniere_annee": {
+      "bac_lettres": 140.2,
+      "bac_eco": 145.5,
+      "bac_math": 131.0,
+      "bac_sciences": 134.5
+    },
+    "filieres_phares": [
+      "Licence en Droit (Parcours Droit Public / Droit Privé)",
+      "Mastère de recherche en Droit des Affaires",
+      "Mastère de recherche en Common-Law",
+      "Mastère en Droit Communautaire et Relations Maghreb-Europe"
+    ],
+    "debouches": [
+      "Avocat d'affaires internationales",
+      "Juriste de banque et d'institutions financières",
+      "Spécialiste en contentieux administratif et fiscal",
+      "Analyste géopolitique ou conseiller en relations internationales"
+    ],
+    "temoignage": {
+      "auteur": "Farah, Étudiante en L3",
+      "texte_detaille": "Le cadre au Centre Urbain Nord est hyper dynamique et moderne. Les masters proposés ici, notamment en commerce international ou en Common-law, ouvrent de vraies portes vers des carrières internationales."
+    },
+    "site_web": "http://www.fdspt.rnu.tn"
+  },
+  {
+    "id": "fds_sfax",
+    "nom_court": "FDS Sfax",
+    "nom_complet": "Faculté de Droit de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/FDS.jpg",
+    "fac_hero_banner": "/banners/FDS_Sfax_hero.jpg",
+    "description_breve": "Le pôle juridique de référence du centre et du sud tunisien, axé sur l'employabilité immédiate et fortement connecté au tissu économique et aux PME de la région de Sfax.",
+    "adresse": "Route de l'Aéroport Km 0.5, Sfax 3000",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+de+Sfax",
+    "categories": ["Droit Privé", "Droit Public", "Droit de l'Entreprise"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "score_derniere_annee": {
+      "bac_lettres": 115.2,
+      "bac_eco": 124.8,
+      "bac_math": 108.0,
+      "bac_sciences": 112.5
+    },
+    "filieres_phares": [
+      "Licence Fondamentale en Droit",
+      "Mastère Professionnel en Droit de l'Entreprise et des Affaires",
+      "Mastère de Recherche en Droit Privé"
+    ],
+    "debouches": [
+      "Avocat / Magistrat",
+      "Juriste d'entreprise ou de PME",
+      "Notaire ou Huissier de justice",
+      "Inspecteur des douanes ou des finances"
+    ],
+    "temoignage": {
+      "auteur": "Anis, Diplômé de la Faculté",
+      "texte_detaille": "L'ambiance est excellente et l'équipe associative y est très active. Le grand avantage ici est la proximité avec le tissu industriel local pour trouver des stages en droit des affaires."
+    },
+    "site_web": "https://fdsf.rnu.tn"
+  },
+  {
+    "id": "fdsps_sousse",
+    "nom_court": "FDSPS Sousse",
+    "nom_complet": "Faculté de Droit et des Sciences Politiques de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/FDSPSO.png",
+    "fac_hero_banner": "/banners/FDSPS_Sousse_hero.jpg",
+    "description_breve": "Une institution dynamique fêtant ses 40 ans d'excellence, reconnue pour ses laboratoires de recherche et ses formations spécialisées croisant le droit et les nouvelles technologies.",
+    "adresse": "Cité Riadh, Sousse 4023",
+    "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+et+des+Sciences+Politiques+Sousse",
+    "categories": ["Droit Privé", "Droit Public", "Sciences Politiques"],
+    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère (9 parcours), Doctorat",
+    "score_derniere_annee": {
+      "bac_lettres": 122.0,
+      "bac_eco": 130.4,
+      "bac_math": 114.2,
+      "bac_sciences": 118.0
+    },
+    "filieres_phares": [
+      "Licence en Droit Public",
+      "Licence en Droit Privé",
+      "Mastère Professionnel en Droit et Nouvelles Technologies",
+      "Mastère Professionnel en Droit des Collectivités Locales"
+    ],
+    "debouches": [
+      "Avocat au barreau",
+      "Expert en droit du numérique et de la propriété intellectuelle",
+      "Conseiller auprès des municipalités et collectivités",
+      "Cadre juridique de la santé ou du tourisme"
+    ],
+    "temoignage": {
+      "auteur": "Sami, Étudiant en M2 Droit du Numérique",
+      "texte_detaille": "Sousse propose des spécialisations vraiment uniques en Tunisie, comme le droit des nouvelles technologies. Les enseignants nous préparent activement aux mutations modernes du métier de juriste."
+    },
+    "site_web": "https://fdsps.rnu.tn"
   }
 ]

@@ -4,9 +4,9 @@ export default function FaculteNavigation({ data, onCardClick }) {
   // 1. Filtrage automatique pour la section Médecine / Santé
   const medecineFacs = data.filter(fac => fac.categories.includes('Médecine'));
 
-  // 2. Filtrage automatique pour les Prépas Intégrées
+  // 2. Filtrage automatique pour les Prépas Intégrées (On garde ton filtrage par ID)
   const prepaIntegrees = data.filter(fac => 
-    (fac.id === 'insat' || fac.id === 'fst' || fac.id === 'mse' || fac.id === 'hide_tunis' || fac.id === 'issat_sousse') 
+    (fac.id === 'insat' || fac.id === 'fst' || fac.id === 'mse' || fac.id === 'hide_tunis' || fac.id === 'issat_sousse' || fac.id === 'enau') 
   );
 
   // 3. Filtrage automatique pour les Prépas Classiques
@@ -14,10 +14,20 @@ export default function FaculteNavigation({ data, onCardClick }) {
     fac.categories.includes('Préparatoire') && fac.id !== 'insat'
   );
 
-  // 4. Filtrage automatique pour les Écoles de Commerce & Gestion
+  // 4. Filtrage automatique pour les Écoles de Commerce & Gestion (En excluant les ISET)
   const commerceFacs = data.filter(fac => 
-    fac.categories.includes('Commerce') || fac.categories.includes('Gestion')
+    (fac.categories.includes('Commerce') || fac.categories.includes('Gestion')) && !fac.id.startsWith('iset_')
   );
+
+  // 5. Filtrage automatique pour les Facultés d'Informatique (En excluant les ISET)
+  const InfoLicenceFacs = data.filter(fac => 
+    fac.categories.includes('Informatique') && !fac.id.startsWith('iset_')
+  );
+
+  // 6. NOUVEAU : Filtrage automatique pour les ISET (Radès, Nabeul, Sfax, etc.)
+  const isetFacs = data.filter(fac => fac.id.startsWith('iset_'));
+
+  const droitFacs = data.filter(fac => fac.categories.includes('Droit Privé') || fac.categories.includes('Droit Public'));
 
   return (
     <div className="space-y-12">
@@ -30,7 +40,7 @@ export default function FaculteNavigation({ data, onCardClick }) {
 
       {/* LIGNE 2 : LES PRÉPAS INTÉGRÉES */}
       <CategoryRow 
-        title="🚀 Cycles Préparatoires Intégrés" 
+        title="🚀 Cycles Préparatoires Intégrés & Architecture" 
         facultes={prepaIntegrees} 
         onCardClick={onCardClick}
       />
@@ -48,6 +58,25 @@ export default function FaculteNavigation({ data, onCardClick }) {
         facultes={commerceFacs} 
         onCardClick={onCardClick}
       />
+
+      {/* LIGNE 5 : LES FACULTÉS D'INFORMATIQUE */}
+      <CategoryRow 
+        title="💻 Licence d'Informatique" 
+        facultes={InfoLicenceFacs} 
+        onCardClick={onCardClick}
+      />
+
+      {/* LIGNE 6 : LES ISET */}
+      <CategoryRow 
+        title="🛠️ Instituts Supérieurs des Études Technologiques (ISET)" 
+        facultes={isetFacs} 
+        onCardClick={onCardClick}
+      />
+      <CategoryRow 
+  title="⚖️ Facultés des Sciences Juridiques et Politiques (Droit)" 
+  facultes={droitFacs} 
+  onCardClick={onCardClick}
+/>
     </div>
   );
 }

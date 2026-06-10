@@ -1,17 +1,41 @@
+import { useState, useEffect } from "react";
+
 export default function HeroBanner({ faculte, onBack }) {
-  // Extraction sécurisée des données du JSON avec valeurs par défaut
+  const DEFAULT_BANNER = "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80";
+
+  // Extraction sécurisée
   const {
     logo = "Établissement",
     nom_complet = "Nom complet de la faculté",
     ville = "Tunisie",
-    image_banner = "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80"
+    fac_hero_banner = DEFAULT_BANNER
   } = faculte || {};
+
+  // État local pour gérer l'URL de la bannière dynamique
+  const [bannerUrl, setBannerUrl] = useState(fac_hero_banner);
+
+  // Mettre à jour l'URL si la faculté change
+  useEffect(() => {
+    setBannerUrl(fac_hero_banner);
+  }, [fac_hero_banner]);
 
   return (
     <div 
       className="relative h-64 md:h-72 w-full rounded-3xl overflow-hidden bg-cover bg-center shadow-sm"
-      style={{ backgroundImage: `url('${image_banner}')` }}
+      style={{ backgroundImage: `url('${bannerUrl}')` }}
     >
+      {/* 
+        Cette image invisible sert uniquement de détecteur d'erreur. 
+        Si le fichier local n'existe pas, l'événement onError se déclenche 
+        et remplace l'URL par la photo de base.
+      */}
+      <img 
+        src={fac_hero_banner} 
+        alt="" 
+        className="hidden" 
+        onError={() => setBannerUrl(DEFAULT_BANNER)} 
+      />
+
       {/* Dégradé linéaire : du bleu profond (#1b1464) vers la transparence */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#1b1464] via-[#1b1464]/85 to-transparent flex items-end p-6 md:p-8">
         
