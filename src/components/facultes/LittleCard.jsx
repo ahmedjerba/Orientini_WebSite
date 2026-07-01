@@ -53,14 +53,18 @@ export default function LittleCard({ fac, onClick }) {
 
         {/* Tags des filières phares */}
         <div className="flex flex-wrap gap-1 mt-4">
-          {fac.filieres_phares.slice(0, 2).map((filiere, idx) => (
-            <span 
-              key={idx} 
-              className="bg-cyan/5 text-cyan text-[10px] font-extrabold px-2.5 py-0.5 rounded-md border border-cyan/10"
-            >
-              {filiere.split(' ')[0]}
-            </span>
-          ))}
+          {fac.filieres_phares.slice(0, 2).map((filiere, idx) => {
+            const filiereName = typeof filiere === 'object' && filiere !== null ? filiere.nom : filiere;
+            const shortName = filiereName ? filiereName.split(' ')[0] : "Spécialité";
+            return (
+              <span 
+                key={idx} 
+                className="bg-cyan/5 text-cyan text-[10px] font-extrabold px-2.5 py-0.5 rounded-md border border-cyan/10"
+              >
+                {shortName}
+              </span>
+            );
+          })}
           {fac.filieres_phares.length > 2 && (
             <span className="text-[10px] font-bold text-gray-300 px-1.5 py-0.5">
               +{fac.filieres_phares.length - 2}

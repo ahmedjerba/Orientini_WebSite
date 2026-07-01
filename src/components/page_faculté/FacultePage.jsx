@@ -1,7 +1,6 @@
 // Importation de tes briques isolées
 import HeroBanner from './HeroBanner';
 import PresentationFiliere from './PresentationFiliere';
-import Selectivite from './Selectivite';
 import DebouchesIntervenant from './DebouchesIntervenant';
 import ContactActions from './ContactActions';
 
@@ -45,11 +44,6 @@ export default function FacultePage({ faculte, onBack }) {
 
           {/* COLONNE DROITE (Largeur 1/3 sur PC - 35%) */}
           <div className="lg:col-span-1 space-y-6 lg:sticky lg:top-8">
-            
-            {/* Bloc Sélectivité */}
-            <section>
-              <Selectivite faculte={faculte} />
-            </section>
 
             {/* Bloc Coordonnées & Actions */}
             <section>

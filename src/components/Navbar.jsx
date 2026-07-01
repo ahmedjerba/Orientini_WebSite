@@ -1,32 +1,57 @@
-import { useState } from 'react'; //  Garde uniquement ça !
-export default function Navbar() {
+import { useState } from 'react';
+
+export default function Navbar({ onHomeClick, onSearchClick }) {
   // State pour ouvrir/fermer le menu burger sur mobile
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleHomeClick = (e) => {
+    if (onHomeClick) {
+      onHomeClick();
+    }
+  };
+
+  const handleSearchClick = (e) => {
+    e.preventDefault();
+    if (onSearchClick) {
+      onSearchClick();
+    }
+  };
 
   return (
     <nav className="bg-white border-b border-gray-100 px-6 py-4 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
         {/* CÔTÉ GAUCHE : LOGO ORIENT'INI */}
-        <div className="flex items-center gap-2.5 max-w-[200px]"> {/* Conteneur large mais limité */}
-  {/* L'image contrôle maintenant sa propre taille. 'w-auto' et 'h-full' la font s'ajuster à la hauteur du conteneur en conservant son ratio (longueur). */}
-  <img 
-    src="/logo_orientini.png" 
-    alt="Orient'ini Logo" 
-    className="h-10 w-auto object-contain" 
-  />
-</div>
+        <div 
+          onClick={handleHomeClick}
+          className="flex items-center gap-2.5 max-w-[200px] cursor-pointer"
+        >
+          <img 
+            src="/logo_orientini.png" 
+            alt="Orient'ini Logo" 
+            className="h-10 w-auto object-contain" 
+          />
+        </div>
 
         {/* CENTRE : NAVIGATION PC (Cachée sur Mobile) */}
         <div className="hidden md:flex items-center gap-8 font-bold text-sm tracking-wide text-gray-600">
-          <a href="#home" className="text-[#de3f6b] border-b-2 border-[#de3f6b] pb-1 transition-all">
+          <a 
+            href="#home" 
+            onClick={handleHomeClick}
+            className="text-[#de3f6b] border-b-2 border-[#de3f6b] pb-1 transition-all"
+          >
             Accueil
           </a>
-          <a href="#programme" className="hover:text-[#de3f6b] hover:border-b-2 hover:border-[#de3f6b] pb-1 transition-all">
+          <a 
+            href="#programme" 
+            onClick={handleHomeClick}
+            className="hover:text-[#de3f6b] hover:border-b-2 hover:border-[#de3f6b] pb-1 transition-all"
+          >
             Programme
           </a>
           <a 
             href="#facultes" 
+            onClick={handleSearchClick}
             className="hover:scale-105 transition-transform bg-[#f5d203]/20 text-[#1b1464] px-4 py-2 rounded-xl flex items-center gap-1.5 font-extrabold"
           >
             🔍 Trouver une Fac
@@ -65,21 +90,21 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden mt-4 bg-slate-50 rounded-2xl p-4 border border-gray-100 flex flex-col gap-4 animate-fadeIn shadow-sm">
           <a 
-            onClick={() => setIsOpen(false)} 
+            onClick={(e) => { setIsOpen(false); handleHomeClick(e); }} 
             href="#home" 
             className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
           >
             🏠 Accueil
           </a>
           <a 
-            onClick={() => setIsOpen(false)} 
+            onClick={(e) => { setIsOpen(false); handleHomeClick(e); }} 
             href="#programme" 
             className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
           >
             📅 Programme
           </a>
           <a 
-            onClick={() => setIsOpen(false)} 
+            onClick={(e) => { setIsOpen(false); handleSearchClick(e); }} 
             href="#facultes" 
             className="font-extrabold text-[#1b1464] bg-[#f5d203]/30 p-3 rounded-xl transition-colors flex items-center gap-2"
           >

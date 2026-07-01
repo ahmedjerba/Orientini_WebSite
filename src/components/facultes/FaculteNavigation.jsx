@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import CategoryRow from './CategoryRow';
 
-export default function FaculteNavigation({ data, onCardClick }) {
+export default function FaculteNavigation({ data, onCardClick, forceShowAll = false }) {
+  const [showAll, setShowAll] = useState(false);
+
   const rows = {
     medecine: "🩺 Sciences de la Santé & Médecine",
     prepaIntegrees: "🚀 Cycles Préparatoires Intégrés & Architecture",
@@ -19,54 +22,71 @@ export default function FaculteNavigation({ data, onCardClick }) {
   const isetFacs = data.filter(fac => fac.filtre === rows.iset);
   const droitFacs = data.filter(fac => fac.filtre === rows.droit);
 
+  const displayAll = showAll || forceShowAll;
+
   return (
     <div className="space-y-12">
       {/* LIGNE 1 : LES FACULTÉS DE MÉDECINE */}
       <CategoryRow 
-        title="🩺 Sciences de la Santé & Médecine" 
+        title={rows.medecine} 
         facultes={medecineFacs} 
         onCardClick={onCardClick}
       />
 
       {/* LIGNE 2 : LES PRÉPAS INTÉGRÉES */}
       <CategoryRow 
-        title="🚀 Cycles Préparatoires Intégrés & Architecture" 
+        title={rows.prepaIntegrees} 
         facultes={prepaIntegrees} 
         onCardClick={onCardClick}
       />
 
-      {/* LIGNE 3 : LES PRÉPAS CLASSIQUES */}
-      <CategoryRow 
-        title="📚 Instituts Préparatoires Classiques (IPEI)" 
-        facultes={prepaClassiques} 
-        onCardClick={onCardClick}
-      />
+      {displayAll ? (
+        <>
+          {/* LIGNE 3 : LES PRÉPAS CLASSIQUES */}
+          <CategoryRow 
+            title={rows.prepaClassiques} 
+            facultes={prepaClassiques} 
+            onCardClick={onCardClick}
+          />
 
-      {/* LIGNE 4 : LES ÉCOLES DE COMMERCE & GESTION */}
-      <CategoryRow 
-        title="💼 Business, Commerce & Gestion" 
-        facultes={commerceFacs} 
-        onCardClick={onCardClick}
-      />
+          {/* LIGNE 4 : LES ÉCOLES DE COMMERCE & GESTION */}
+          <CategoryRow 
+            title={rows.commerce} 
+            facultes={commerceFacs} 
+            onCardClick={onCardClick}
+          />
 
-      {/* LIGNE 5 : LES FACULTÉS D'INFORMATIQUE */}
-      <CategoryRow 
-        title="💻 Licence d'Informatique" 
-        facultes={InfoLicenceFacs} 
-        onCardClick={onCardClick}
-      />
+          {/* LIGNE 5 : LES FACULTÉS D'INFORMATIQUE */}
+          <CategoryRow 
+            title={rows.informatique} 
+            facultes={InfoLicenceFacs} 
+            onCardClick={onCardClick}
+          />
 
-      {/* LIGNE 6 : LES ISET */}
-      <CategoryRow 
-        title="🛠️ Instituts Supérieurs des Études Technologiques (ISET)" 
-        facultes={isetFacs} 
-        onCardClick={onCardClick}
-      />
-      <CategoryRow 
-  title="⚖️ Facultés des Sciences Juridiques et Politiques (Droit)" 
-  facultes={droitFacs} 
-  onCardClick={onCardClick}
-/>
+          {/* LIGNE 6 : LES ISET */}
+          <CategoryRow 
+            title={rows.iset} 
+            facultes={isetFacs} 
+            onCardClick={onCardClick}
+          />
+
+          {/* LIGNE 7 : LE DROIT */}
+          <CategoryRow 
+            title={rows.droit} 
+            facultes={droitFacs} 
+            onCardClick={onCardClick}
+          />
+        </>
+      ) : (
+        <div className="text-center pt-4">
+          <button
+            onClick={() => setShowAll(true)}
+            className="inline-flex items-center gap-2 bg-white hover:bg-slate-50 border-2 border-gray-200 text-[#1b1464] font-black text-xs px-6 py-3.5 rounded-2xl shadow-sm hover:shadow-md transition-all active:scale-95"
+          >
+            <span>✨ Voir plus d'établissements ({Object.keys(rows).length - 2} catégories supplémentaires)</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 }
