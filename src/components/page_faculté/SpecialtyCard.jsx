@@ -1,6 +1,6 @@
 export default function SpecialtyCard({ spec, onClick }) {
   return (
-    <div 
+    <div
       onClick={onClick}
       className="bg-slate-50/50 hover:bg-slate-50 border border-gray-100 rounded-2xl p-4 flex flex-col justify-between shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 cursor-pointer h-full overflow-hidden"
     >
@@ -24,14 +24,7 @@ export default function SpecialtyCard({ spec, onClick }) {
       {/* Pied de la mini-carte : Score & Débouchés */}
       <div className="space-y-3 pt-3 border-t border-gray-100/60 mt-auto">
         {/* Scores minimums ou Concours */}
-        {spec.concours ? (
-          <div className="bg-amber-50 border border-amber-200/50 rounded-xl px-2.5 py-1.5 flex items-center gap-1.5">
-            <span className="text-[11px]">🏆</span>
-            <span className="text-amber-800 text-[9px] font-black uppercase tracking-wider">
-              Accès sur Concours
-            </span>
-          </div>
-        ) : (spec.bac_math || spec.bac_sc || spec.bac_info || spec.bac_tech || spec.bac_eco || spec.bac_lettres || spec.bac_let || spec.bac_sport) ? (
+        {(spec.bac_math || spec.bac_sc || spec.bac_info || spec.bac_tech || spec.bac_eco || spec.bac_lettres || spec.bac_let || spec.bac_sport) ? (
           <div className="flex flex-col gap-1">
             <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Seuils requis :</span>
             <div className="flex flex-wrap gap-1">
@@ -78,8 +71,8 @@ export default function SpecialtyCard({ spec, onClick }) {
         {spec.debouches && spec.debouches.length > 0 && (
           <div className="flex flex-wrap gap-1 pt-1">
             {spec.debouches.slice(0, 2).map((deb, dIdx) => (
-              <span 
-                key={dIdx} 
+              <span
+                key={dIdx}
                 className="bg-gray-100/75 text-gray-600 text-[9px] font-bold px-2 py-0.5 rounded"
               >
                 {deb}

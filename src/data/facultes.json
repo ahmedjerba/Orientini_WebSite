@@ -180,7 +180,7 @@
     "ville": "Monastir",
     "logo": "/logos/FMDM.png",
     "fac_hero_banner": "/banners/FMDM_hero.jpg",
-    "description_breve": "L'unique établissement public en Tunisie formant les futurs médecins dentistes, alliant enseignements théoriques poussés, travaux pratiques de haute précision et stages cliniques.",
+    "description_breve": "L'unique établissement public en Tunisie formant les futurs médecins dentistes, alliant enseignements théoriques poussés, travaux pratiques de haute précision et stages cliniques. Note : Sciences de la Vie et de la Terre obligatoire(+). Note:Certains étudiants vont etres enseignés en anglais.",
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/6",
     "categories": [
@@ -196,10 +196,10 @@
         "duree": "6 ans",
         "description": "Filière unique de Médecine Dentaire.",
         "scores": {
-          "bac_let": 154.34,
-          "bac_math": 178.5,
-          "bac_sc": 181.2,
-          "bac_sport": 184.62
+          "bac_let": 162.35,
+          "bac_math": 184.73,
+          "bac_sc": 180.94,
+          "bac_sport": 192.28
         }
       }
     ],
@@ -223,12 +223,13 @@
     "ville": "Monastir",
     "logo": "/logos/FPHM.png",
     "fac_hero_banner": "/banners/FPHM_hero.jpg",
-    "description_breve": "L'unique faculté de pharmacie de Tunisie, pôle d'excellence formant les pharmaciens d'officine, de l'industrie pharmaceutique, de la biologie médicale et de la recherche.",
+    "description_breve": "L'unique faculté de pharmacie de Tunisie, pôle d'excellence formant les pharmaciens d'officine, de l'industrie pharmaceutique, de la biologie médicale et de la recherche.   Note : Sciences de la vie et de la Terre obligatoires (+).",
     "adresse": "Avenue Avicenne, Monastir 5000",
     "lien_google_maps": "http://googleusercontent.com/maps.google.com/7",
     "categories": [
       "Santé",
-      "Médecine"
+      "Médecine",
+      "Pharmacie"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "6 ans pour le diplôme national de Docteur en Pharmacie, cursus de résistanat (Biologie, Pharmacie Hospitalière/Industrielle)",
@@ -239,60 +240,14 @@
     "filieres_phares": [
       {
         "id": "fph_monastir_sciences_pharmaceutiques__tronc_commu",
-        "nom": "Sciences Pharmaceutiques (Tronc Commun)",
+        "nom": "Pharmacie",
         "duree": "6 à 11 ans",
-        "description": "Filière phare en Sciences Pharmaceutiques (Tronc Commun) dispensée par FPHM.",
+        "description": "Filière phare en Sciences Pharmaceutiques  dispensée par FPHM.",
         "scores": {
-          "bac_math": 175.8,
-          "bac_sc": 179
-        },
-        "debouches": [
-          "Pharmacien d'Officine (Titulaire ou Assistant)",
-          "Pharmacien Biologiste (Laboratoires d'analyses médicaux)",
-          "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
-          "Pharmacien Hospitalier"
-        ]
-      },
-      {
-        "id": "fph_monastir_doctorat_en_pharmacie",
-        "nom": "Doctorat en Pharmacie",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Doctorat en Pharmacie dispensée par FPHM.",
-        "scores": {
-          "bac_math": 175.8,
-          "bac_sc": 179
-        },
-        "debouches": [
-          "Pharmacien d'Officine (Titulaire ou Assistant)",
-          "Pharmacien Biologiste (Laboratoires d'analyses médicaux)",
-          "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
-          "Pharmacien Hospitalier"
-        ]
-      },
-      {
-        "id": "fph_monastir_r_sidanat_en_biologie_m_dicale",
-        "nom": "Résidanat en Biologie Médicale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Résidanat en Biologie Médicale dispensée par FPHM.",
-        "scores": {
-          "bac_math": 175.8,
-          "bac_sc": 179
-        },
-        "debouches": [
-          "Pharmacien d'Officine (Titulaire ou Assistant)",
-          "Pharmacien Biologiste (Laboratoires d'analyses médicaux)",
-          "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
-          "Pharmacien Hospitalier"
-        ]
-      },
-      {
-        "id": "fph_monastir_r_sidanat_en_pharmacie_industrielle",
-        "nom": "Résidanat en Pharmacie Industrielle",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Résidanat en Pharmacie Industrielle dispensée par FPHM.",
-        "scores": {
-          "bac_math": 175.8,
-          "bac_sc": 179
+          "bac_math": 176.38,
+          "bac_sc": 179,
+          "bac_lettres": 138.96,
+          "bac_sport": 182.99
         },
         "debouches": [
           "Pharmacien d'Officine (Titulaire ou Assistant)",
@@ -330,20 +285,12 @@
       "Technologie",
       "Préparatoire",
       "Informatique",
-      "Génie Logiciel",
-      "GL",
-      "RT",
-      "IIA",
-      "IMI",
-      "CBA",
-      "CH",
-      "BIO",
-      "Réseaux",
-      "Télécoms",
-      "Biotech"
+      "Chimie",
+      "Biologie",
+      "Électrique"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
-    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré MPI / CBA + 3 ans de cycle d'ingénieur de spécialité)",
+    "regimes_etudes": "5 ans : 2 ans de cycle préparatoire intégré ( 1 année MPI / CBA+ 1 année spécialité) + 3 ans de cycle d'ingénieur de spécialité",
     "score_derniere_annee": {
       "bac_math": 168.5,
       "bac_sc": 162,
@@ -356,16 +303,17 @@
         "duree": "2 ans",
         "description": "Le cycle préparatoire MPI offre une formation intensive en mathématiques, physique, et fondamentaux de l'informatique. Il mène aux filières d'ingénieurs en informatique et technologie (GL, RT, IIA, IMI).",
         "scores": {
-          "bac_math": 168.5,
-          "bac_info": 171.2
+          "bac_math": 188.38,
+          "bac_info": 183.65,
+          "bac_sc": 171.93,
+          "bac_tech": 177.33
         },
         "debouches": [
-          "Spécialisation en Génie Logiciel (GL)",
-          "Spécialisation en Réseaux et Télécommunications (RT)",
-          "Spécialisation en Informatique Industrielle et Automatique (IIA)",
-          "Spécialisation en Instrumentation et Maintenance Industrielle (IMI)"
-        ],
-        "concours": false
+          "Diplôme d'Ingénieur en Génie Logiciel (GL)",
+          "Diplôme d'Ingénieur en Réseaux et Télécommunications (RT)",
+          "Diplôme d'Ingénieur en Informatique Industrielle et Automatique (IIA)",
+          "Diplôme d'Ingénieur en Instrumentation et Maintenance Industrielle (IMI)"
+        ]
       },
       {
         "id": "insat_prep_cba",
@@ -373,134 +321,38 @@
         "duree": "2 ans",
         "description": "Le cycle préparatoire CBA propose un enseignement renforcé en chimie et en biologie pour préparer les étudiants aux spécialisations en biotechnologie et génie chimique.",
         "scores": {
-          "bac_math": 160.0,
-          "bac_sc": 162.0
+          "bac_math": 166.61,
+          "bac_sc": 159.16
         },
         "debouches": [
-          "Spécialisation en Chimie Industrielle (CH)",
-          "Spécialisation en Biologie Industrielle (BIO)"
-        ],
-        "concours": false
-      },
-      {
-        "id": "insat_gl",
-        "nom": "Génie Logiciel (GL)",
-        "duree": "3 ans (post-MPI)",
-        "description": "Spécialisation d'ingénieur en conception logicielle, DevOps, Cloud Computing, Intelligence Artificielle et architecture logicielle d'entreprise.",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_info": 171.2
-        },
-        "debouches": [
-          "Ingénieur d'études et développement logiciel",
-          "Architecte Cloud / Lead DevOps",
-          "Data Scientist / Ingénieur IA",
-          "Consultant en Systèmes d'Information"
-        ]
-      },
-      {
-        "id": "insat_rt",
-        "nom": "Réseaux & Télécommunications (RT)",
-        "duree": "3 ans (post-MPI)",
-        "description": "Filière axée sur l'administration réseau, la cybersécurité, le cloud networking, la téléphonie IP et les objets connectés (IoT).",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_info": 171.2
-        },
-        "debouches": [
-          "Ingénieur Réseaux et Télécoms",
-          "Consultant en Cybersécurité",
-          "Ingénieur IoT et Systèmes Connectés",
-          "Cloud Network Engineer"
-        ]
-      },
-      {
-        "id": "insat_iia",
-        "nom": "Informatique Industrielle & Automatique (IIA)",
-        "duree": "3 ans (post-MPI)",
-        "description": "Formation d'ingénieurs spécialisés dans les systèmes embarqués, la robotique, la supervision industrielle, les automates et l'Internet des objets industriels (IIoT).",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_info": 171.2
-        },
-        "debouches": [
-          "Ingénieur Systèmes Embarqués",
-          "Ingénieur Automatismes et Robotique",
-          "Chef de projet Automatisation Industrielle",
-          "Ingénieur IoT Industriel"
-        ]
-      },
-      {
-        "id": "insat_imi",
-        "nom": "Instrumentation & Maintenance Industrielle (IMI)",
-        "duree": "3 ans (post-MPI)",
-        "description": "Spécialisation dans les systèmes de mesure, le contrôle non destructif, la régulation des processus industriels et la maintenance prédictive.",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_info": 171.2
-        },
-        "debouches": [
-          "Ingénieur Instrumentation",
-          "Responsable Maintenance Industrielle",
-          "Ingénieur Fiabilité / Contrôle Qualité",
-          "Ingénieur d'Affaires en Équipements Industriels"
-        ]
-      },
-      {
-        "id": "insat_ch",
-        "nom": "Chimie Industrielle (CH)",
-        "duree": "3 ans (post-CBA)",
-        "description": "Filière formant des ingénieurs spécialisés dans le génie des procédés chimiques, l'environnement, le traitement des eaux et la valorisation des ressources.",
-        "scores": {
-          "bac_math": 160.0,
-          "bac_sc": 162.0
-        },
-        "debouches": [
-          "Ingénieur Procédés Chimiques",
-          "Responsable Qualité, Sécurité, Environnement (QSE)",
-          "Ingénieur traitement des eaux / énergies",
-          "Consultant en Éco-procédés"
-        ]
-      },
-      {
-        "id": "insat_bio",
-        "nom": "Biologie Industrielle (BIO / Biotech)",
-        "duree": "3 ans (post-CBA)",
-        "description": "Filière d'ingénierie dans les biotechnologies : agroalimentaire, pharmacie, bio-procédés, microbiologie industrielle et contrôle qualité biologique.",
-        "scores": {
-          "bac_math": 160.0,
-          "bac_sc": 162.0
-        },
-        "debouches": [
-          "Ingénieur Biotechnologue",
-          "Ingénieur R&D en Agroalimentaire ou Pharma",
-          "Responsable de Laboratoire de Contrôle Qualité",
-          "Ingénieur Production en Bio-procédés"
+          "Diplôme d'Ingénieur en Chimie Industrielle(CH)",
+          "Diplôme d'Ingénieur en Biologie Industrielle (BIO)"
         ]
       }
     ],
     "debouches": [
-      "Ingénieur d'études et développement logiciel / DevOps / Data Science",
-      "Ingénieur Réseaux, Télécommunications et Cybersécurité",
-      "Ingénieur Systèmes Embarqués, Automatismes et Robotique",
+      "Ingénieur d'études et développement logiciel / DevOps / Data Science/ Intelligne Artificielle.",
+      "Ingénieur Réseaux / Télécommunications / Cybersécurité",
+      "Ingénieur Systèmes Embarqués, Automatismes et Robotique/ IOT",
       "Ingénieur Procédés Chimiques, QSE et Traitement des Eaux",
-      "Ingénieur Biotechnologue (Agroalimentaire / Pharmacie)"
+      "Ingénieur Biotechnologue (Agroalimentaire / Pharmacie)",
+      "Ingénieur en Chimie /Pétrochimie"
     ],
     "temoignage": {
-      "auteur": "Mounir, Ingénieur INSAT diplômé",
-      "texte_detaille": "La prépa intégrée MPI / CBA de l'INSAT permet de développer un excellent niveau théorique sans le stress d'un concours national classique. L'immersion directe en cycle de spécialité d'ingénieur assure une employabilité internationale exceptionnelle."
+      "auteur": "Ahmed,étudiant en GL2 à l'Insat",
+      "texte_detaille": "La prépa intégrée MPI / CBA de l'INSAT permet de développer un excellent niveau théorique sans le stress d'un concours national classique. L'immersion directe en cycle de spécialité d'ingénieur assure une employabilité internationale exceptionnelle. La vie estudiantine est l'une des meilleures et la réputation de la faculté fait d'elle un cadre exceptionnel."
     },
     "site_web": "http://www.insat.rnu.tn"
   },
   {
     "id": "fst",
     "nom_court": "FST",
-    "nom_complet": "Faculté des Sciences de Tunis (Cycles Intégrés)",
+    "nom_complet": "Faculté des Sciences de Tunis",
     "universite": "Université de Tunis El Manar",
     "ville": "Tunis",
     "logo": "/logos/FST.png",
     "fac_hero_banner": "/banners/FST.jpg",
-    "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, notamment en informatique, sciences des données et réseaux.",
+    "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, des licences scientifiques. Première faculté de sciences fondée en Tunisie",
     "adresse": "Campus Universitaire d'El Manar, Tunis 2092",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+des+Sciences+de+Tunis",
     "categories": [
@@ -508,10 +360,11 @@
       "Ingénierie",
       "Technologie",
       "Informatique",
-      "Télécommunications"
+      "Télécommunications",
+      "Mathématique"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
-    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur), Pour les licences 3 ans (+ 2ans mastère optionnel)",
     "score_derniere_annee": {
       "bac_math": 145.8,
       "bac_sc": 141.2,
@@ -519,66 +372,185 @@
     },
     "filieres_phares": [
       {
-        "id": "fst_g_nie_informatique",
-        "nom": "Génie Informatique",
+        "id": "fst_g_prepa integree",
+        "nom": "Prépa Intégrée",
         "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Filière phare en Génie Informatique dispensée par FST.",
+        "description": "Cycle préparatoire intégree MPI (1 année tronc commun + 1 année spécialité MI ou PI+ 3 années cycle ingénieur)",
         "scores": {
-          "bac_math": 145.8,
-          "bac_sc": 141.2,
-          "bac_info": 152
+          "bac_math": 177.81,
+          "bac_sc": 173.93,
+          "bac_info": 183.78,
+          "bac_tech": 178.62
         },
         "debouches": [
-          "Ingénieur en Développement Logiciel",
+          "Diplome d'Ingénieur en Génie Logiciel et Système d'Information",
+          "Diplôme d'Ingénieur en Systèmes informatiques(Computer Engineering)",
+          "Diplôme d'Ingénieur en Science des Données(Data Science)",
+          "Diplome d'Ingénieur en électronique Embarquée",
+          "Diplome d'Ingénieur en Génie physique et Modélisation Numérique"
+        ]
+      },
+      {
+        "id": "fst_licence_info",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par FST",
+        "scores": {
+          "bac_math": 140.44,
+          "bac_sc": 163.83,
+          "bac_info": 183.52,
+          "bac_tech": 178.64
+        },
+        "debouches": [
+          "Développeur Full-Stack / Lead Tech",
           "Data Analyst / Scientist",
           "Ingénieur Télécoms et IoT",
-          "Chercheur en Sciences Appliquées",
+          "Consultant en Système d'Information",
           "Administrateur Systèmes et Réseaux"
         ]
       },
       {
-        "id": "fst_sciences_des_donn_es",
-        "nom": "Sciences des Données",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Filière phare en Sciences des Données dispensée par FST.",
+        "id": "fst_math",
+        "nom": "Licence en Mathématiques",
+        "duree": "3 ans Licence",
+        "description": "Filière phare en Mathématiques dispensée par FST.",
         "scores": {
-          "bac_math": 145.8,
-          "bac_sc": 141.2,
-          "bac_info": 152
+          "bac_math": 85.10,
+          "bac_sc": 111.16,
+          "bac_info": 165.78,
+          "bac_tech": 150.46
         },
         "debouches": [
-          "Ingénieur en Développement Logiciel",
+          "Statisticien",
           "Data Analyst / Scientist",
-          "Ingénieur Télécoms et IoT",
-          "Chercheur en Sciences Appliquées",
+          "Doctorat / Enseignant Universitaire en Mathématique",
+          "Professeur de Mathématiques (Enseignement secondaire, collèges privés ou via les concours du CAPES)",
           "Administrateur Systèmes et Réseaux"
         ]
       },
       {
-        "id": "fst_t_l_communications",
-        "nom": "Télécommunications",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Filière phare en Télécommunications dispensée par FST.",
+        "id": "fst_systeme_infos",
+        "nom": "Licence en Ingénieurie des systèmes informatiques",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Ingénieurie des systèmes informatiques dispensés par FST",
         "scores": {
-          "bac_math": 145.8,
-          "bac_sc": 141.2,
-          "bac_info": 152
+          "bac_math": 99.20,
+          "bac_sc": 155.14,
+          "bac_info": 165.25,
+          "bac_tech": 168.51
         },
         "debouches": [
-          "Ingénieur en Développement Logiciel",
-          "Data Analyst / Scientist",
-          "Ingénieur Télécoms et IoT",
-          "Chercheur en Sciences Appliquées",
-          "Administrateur Systèmes et Réseaux"
+          "Ingénieur DevOps / Cloud",
+          "Ingénieur en Systèmes Embarqués",
+          "Développeur Full-Stack / Lead Tech",
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Chef de projet technique"
         ]
+      },
+      {
+        "id": "fst_math_appliques",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Filière phare en Mathématiques Appliquées dispensée par FST.",
+        "scores": {
+          "bac_math": 99.11,
+          "bac_sc": 114.18,
+          "bac_info": 151.12,
+          "bac_tech": 118.71
+        },
+        "debouches": [
+          "Data Analyst / Scientist",
+          "Business Analyst",
+          "Développeur Full-Stack / Lead Tech",
+          "Analyste en Recherche Opérationnelle",
+          "Ingénieur en Modélisation Financière",
+          "Enseignant-Chercheur en Mathématiques Appliquées",
+          "Actuaire"
+        ]
+      },
+      {
+        "id": "fst_electro_tech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée par FST",
+        "scores": {
+          "bac_math": 118.05,
+          "bac_sc": 117.06,
+          "bac_info": 148.99,
+          "bac_tech": 130.08
+        },
+        "debouches": [
+          "Programmateur d'Automates Industriels",
+          "Technicien Supérieur en Électronique",
+          "Responsable Maintenance Électrique",
+          "Technicien de Maintenance",
+          "Contrôleur Qualité Électrique / QA Électronique"
+        ]
+      },
+      {
+        "id": "fst_info_telecom",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence Technologies de l'Information et Communications dispensée par FST",
+        "scores": {
+          "bac_math": 101.35,
+          "bac_sc": 116.94,
+          "bac_info": 142.67,
+          "bac_tech": 139.01
+        },
+        "debouches": [
+          "Administrateur Systèmes et Réseaux",
+          "Développeur de Solutions IoT",
+          "Développeur Web / Applications (Junior)",
+          "Technicien Support Réseaux et Télécoms",
+          "Superviseur de Réseau Informatique (NOC - Network Operations Center)"
+        ]
+      },
+      {
+        "id": "fst_geomatique",
+        "nom": "Licence en Sciences Géomatiques et Applications",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Sciences Géomatiques et Applications dispensée par FST",
+        "scores": {
+          "bac_math": 119.82,
+          "bac_sc": 110.61,
+          "bac_info": 111.91,
+          "bac_tech": 95.76
+        },
+        "debouches": [
+          "Cartographe / Géomaticien",
+          "Opérateur en Télédétection",
+          "Technicien de Collecte de Données Mobiles / GPS",
+          "Chargé d'Études Environnementales (Cartographie des risques, forêts, eau)",
+          "Analyste SIG (Junior)"
+        ]
+      },
+      {
+        "id": "fst_prepa_pc",
+        "nom": "Cycle Préparatoire en PC(Physique-Chimie) ",
+        "duree": "2 ans de cycle préparatoire",
+        "description": "Cycle préparatoire en PC dispensée par FST",
+        "scores": {
+          "bac_math": 112.82,
+          "bac_sc": 114.60,
+          "bac_info": 140.32
+        },
+        "debouches": [
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ],
+        "concours": true
       }
     ],
     "debouches": [
       "Ingénieur en Développement Logiciel",
       "Data Analyst / Scientist",
       "Ingénieur Télécoms et IoT",
-      "Chercheur en Sciences Appliquées",
-      "Administrateur Systèmes et Réseaux"
+      "Développeur IA / Machine Learning",
+      "Administrateur Systèmes et Réseaux",
+      "Enseignant-Chercheur en Mathématiques Appliquées",
+      "Cartographe / Géomaticien"
     ],
     "temoignage": {
       "auteur": "Inès, Élève Ingénieur",
@@ -594,7 +566,7 @@
     "ville": "Tunis",
     "logo": "/logos/MSE.jpg",
     "fac_hero_banner": "/banners/MSE_hero.jpg",
-    "description_breve": "Pôle technologique privé d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle anglo-saxon.",
+    "description_breve": "Pôle technologique d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle moderne et innovant.",
     "adresse": "Les Berges du Lac 2, Tunis 1053",
     "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
     "categories": [
@@ -604,74 +576,57 @@
       "Business"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
-    "regimes_etudes": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
+    "regimes_etudes": "Cycle Préparatoire Intégré (2 ans) + Cycle d'Ingénieur (3 ans) - Enseigné en Anglais",
     "score_derniere_annee": {
-      "bac_math": 120,
-      "bac_sc": 120,
-      "bac_info": 120
+      "bac_math": 155.03,
+      "bac_sc": 139.13,
+      "bac_info": 175.56
     },
     "filieres_phares": [
       {
-        "id": "mse_software_engineering",
-        "nom": "Software Engineering",
-        "duree": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
-        "description": "Filière phare en Software Engineering dispensée par MSE.",
+        "id": "mse_11525_engineering",
+        "nom": "Cycle Préparatoire Intégré : Mathématiques, Physique et Chimie (-هندسة إيكولوجية)",
+        "duree": "5 ans",
+        "description": "Filière d'ingénierie dispensée entièrement en anglais axée sur les sciences fondamentales et l'ingénierie écologique.",
         "scores": {
-          "bac_math": 120,
-          "bac_sc": 120,
-          "bac_info": 120
+          "bac_math": 155.03,
+          "bac_sc": 139.13,
+          "bac_tech": 169.53,
+          "bac_info": 175.56
         },
         "debouches": [
-          "Software Engineer en multinationale",
-          "Data Engineer / Big Data Consultant",
-          "Business Intelligence Analyst",
-          "Manager de Projets Technologiques Internationaux"
+          "Ingénieur en Environnement et Éco-procédés",
+          "Consultant en transition écologique et durabilité",
+          "Manager de projets technologiques internationaux"
         ]
       },
       {
-        "id": "mse_data_science",
-        "nom": "Data Science",
-        "duree": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
-        "description": "Filière phare en Data Science dispensée par MSE.",
+        "id": "mse_11526_geomatics",
+        "nom": "Cycle Préparatoire Intégré : Mathématiques, Physique et Informatique (-الجيوماتيك)",
+        "duree": "5 ans",
+        "description": "Filière d'ingénierie dispensée entièrement en anglais axée sur les sciences géomatiques et l'analyse spatiale.",
         "scores": {
-          "bac_math": 120,
-          "bac_sc": 120,
-          "bac_info": 120
+          "bac_math": 167.38,
+          "bac_sc": 156.62,
+          "bac_tech": 167.55,
+          "bac_info": 178.82
         },
         "debouches": [
-          "Software Engineer en multinationale",
-          "Data Engineer / Big Data Consultant",
-          "Business Intelligence Analyst",
-          "Manager de Projets Technologiques Internationaux"
-        ]
-      },
-      {
-        "id": "mse_business_analytics",
-        "nom": "Business Analytics",
-        "duree": "5 ans (Modèle 3 ans de Bachelor of Science + 2 ans de Master of Science in Engineering)",
-        "description": "Filière phare en Business Analytics dispensée par MSE.",
-        "scores": {
-          "bac_math": 120,
-          "bac_sc": 120,
-          "bac_info": 120
-        },
-        "debouches": [
-          "Software Engineer en multinationale",
-          "Data Engineer / Big Data Consultant",
-          "Business Intelligence Analyst",
-          "Manager de Projets Technologiques Internationaux"
+          "Ingénieur Géomaticien / Expert SIG",
+          "Data Analyst Spatial / Cloud Developer",
+          "Responsable de projets technologiques et spatiaux"
         ]
       }
     ],
     "debouches": [
-      "Software Engineer en multinationale",
-      "Data Engineer / Big Data Consultant",
-      "Business Intelligence Analyst",
+      "Ingénieur en Environnement et Éco-procédés",
+      "Ingénieur Géomaticien / Expert SIG",
+      "Data Analyst Spatial",
       "Manager de Projets Technologiques Internationaux"
     ],
     "temoignage": {
-      "auteur": "Youssef, Software Student",
-      "texte_detaille": "L'apprentissage complet en anglais et la proximité directe avec les entreprises internationales nous donnent un vrai coup d'avance sur le marché de l'emploi."
+      "auteur": "Youssef, Engineering Student",
+      "texte_detaille": "L'apprentissage complet en anglais et les spécialisations modernes nous donnent un vrai coup d'avance sur le marché de l'emploi national et international."
     },
     "site_web": "https://www.smu.tn/mse"
   },
@@ -704,82 +659,134 @@
       {
         "id": "issat_sousse_cycle_pr_paratoire_int_gr____mpi__mat",
         "nom": "Cycle Préparatoire Intégré : MPI (Maths-Physique-Info)",
-        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
+        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur ",
         "description": "Filière phare en Cycle Préparatoire Intégré : MPI (Maths-Physique-Info) dispensée par ISSAT Sousse.",
         "scores": {
-          "bac_math": 158.4,
-          "bac_info": 162.1,
-          "bac_sc": 149.8
+          "bac_math": 173.96,
+          "bac_info": 183.65,
+          "bac_sc": 171.93,
+          "bac_tech": 177.33
         },
         "debouches": [
-          "Ingénieur DevOps / Cloud",
-          "Ingénieur en Systèmes Embarqués",
-          "Développeur Full-Stack / Lead Tech",
-          "Ingénieur Automatisation et Contrôle Process",
-          "Chef de projet technique"
-        ],
-        "concours": true
+          "Diplôme d'Ingénieur en Génie Logiciel (GL)",
+          "Diplôme d'Ingénieur en Informatique Industrielle"
+        ]
       },
       {
         "id": "issat_sousse_cycle_pr_paratoire_int_gr____cba__chi",
-        "nom": "Cycle Préparatoire Intégré : CBA (Chimie-Biologie-Appliquée)",
-        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
-        "description": "Filière phare en Cycle Préparatoire Intégré : CBA (Chimie-Biologie-Appliquée) dispensée par ISSAT Sousse.",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Informatique dispensée par ISSAT Sousse",
         "scores": {
-          "bac_math": 158.4,
-          "bac_info": 162.1,
-          "bac_sc": 149.8
+          "bac_math": 161.30,
+          "bac_info": 170.25,
+          "bac_sc": 164.44,
+          "bac_tech": 180.11
         },
         "debouches": [
-          "Ingénieur DevOps / Cloud",
-          "Ingénieur en Systèmes Embarqués",
-          "Développeur Full-Stack / Lead Tech",
-          "Ingénieur Automatisation et Contrôle Process",
-          "Chef de projet technique"
+          "Développeur Full-Stack / Mobile Senior",
+          "Architecte IoT / Objets Connectés",
+          "Administrateur Systèmes et Réseaux",
+          "Data Engineer/ Analyst /Scientist"
         ]
       },
       {
         "id": "issat_sousse_cycle_d_ing_nieur_en_g_nie_logiciel",
-        "nom": "Cycle d'Ingénieur en Génie Logiciel",
-        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
-        "description": "Filière phare en Cycle d'Ingénieur en Génie Logiciel dispensée par ISSAT Sousse.",
+        "nom": "Licence en Ingénieurie des systèmes informatiques",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Ingénieurie des systèmes informatiques dispensés par ISSAT Sousse",
         "scores": {
-          "bac_math": 158.4,
-          "bac_info": 162.1,
-          "bac_sc": 149.8
+          "bac_math": 106.85,
+          "bac_info": 146.77,
+          "bac_sc": 133.27,
+          "bac_tech": 169.35
         },
         "debouches": [
           "Ingénieur DevOps / Cloud",
           "Ingénieur en Systèmes Embarqués",
           "Développeur Full-Stack / Lead Tech",
-          "Ingénieur Automatisation et Contrôle Process",
+          "Administrateur Réseaux et Systèmes / Cloud",
           "Chef de projet technique"
         ]
       },
       {
-        "id": "issat_sousse_cycle_d_ing_nieur_en_informatique_ind",
-        "nom": "Cycle d'Ingénieur en Informatique Industrielle & Automatique",
-        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
-        "description": "Filière phare en Cycle d'Ingénieur en Informatique Industrielle & Automatique dispensée par ISSAT Sousse.",
+        "id": "issat_sousse_licence_mécanique",
+        "nom": "Licence en Ingénieurie Mécanique",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Ingénieurie mécanique dispensée par ISSAT Sousse",
         "scores": {
-          "bac_math": 158.4,
-          "bac_info": 162.1,
-          "bac_sc": 149.8
+          "bac_math": 123.14,
+          "bac_info": 130.08,
+          "bac_sc": 116.95,
+          "bac_tech": 121.38
         },
         "debouches": [
-          "Ingénieur DevOps / Cloud",
-          "Ingénieur en Systèmes Embarqués",
-          "Développeur Full-Stack / Lead Tech",
-          "Ingénieur Automatisation et Contrôle Process",
-          "Chef de projet technique"
+          "Technicien Supérieur en CAO/DAO",
+          "Responsable ligne de production",
+          "Responbale Maintenance",
+          "Concepteur Mécanique"
+        ]
+      },
+      {
+        "id": "issat_sousse_licence_civil",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Génie Civil dispensée par ISSAT Sousse",
+        "scores": {
+          "bac_math": 125.42,
+          "bac_info": 124.07,
+          "bac_sc": 133.54,
+          "bac_tech": 101.93
+        },
+        "debouches": [
+          "Chef de Chantier",
+          "Technicien Supérieur en Génie Civil",
+          "Coordinateur Sécurité Chantier"
+        ]
+      },
+      {
+        "id": "issat_sousse_licence_Electromécanique",
+        "nom": "Licence en Électromécanique ",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Électromécanique dispensée par ISSAT Sousse",
+        "scores": {
+          "bac_math": 110.44,
+          "bac_info": 122.83,
+          "bac_sc": 109.83,
+          "bac_tech": 144.29
+        },
+        "debouches": [
+          "Technicien Supérieur en Électromécanique",
+          "Responsable Maintenance",
+          "ResponsableSAV"
+        ]
+      },
+      {
+        "id": "issat_sousse_licence_Electrotechnique",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée par ISSAT Sousse",
+        "scores": {
+          "bac_math": 108.56,
+          "bac_info": 122.33,
+          "bac_sc": 107.23,
+          "bac_tech": 137.39
+        },
+        "debouches": [
+          "Programmateur d'Automates Industriels",
+          "Technicien Supérieur en Électronique",
+          "Responsable Maintenance Électrique",
+          "Technicien de Maintenance",
+          "Contrôleur Qualité Électrique / QA Électronique"
         ]
       }
     ],
     "debouches": [
-      "Ingénieur DevOps / Cloud",
+      "Ingénieur DevOps / Cloud ",
+      "Ingénieur en Data /IA",
       "Ingénieur en Systèmes Embarqués",
       "Développeur Full-Stack / Lead Tech",
-      "Ingénieur Automatisation et Contrôle Process",
+      "Technicien en automatisation et contrôle Process",
       "Chef de projet technique"
     ],
     "temoignage": {
@@ -803,86 +810,33 @@
       "Technologie",
       "Ingénierie",
       "Intelligence Artificielle",
-      "Préparatoire"
+      "Préparatoire",
+      "Génie Logiciel"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
-    "regimes_etudes": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
+    "regimes_etudes": "5 ans d'études intégrées  :  2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur avec spécialisation dans les deux dernières années.",
     "score_derniere_annee": {
-      "bac_math": 189.2,
-      "bac_info": 191.5,
-      "bac_sc": 187
+      "bac_math": 184.24,
+      "bac_info": 190.94,
+      "bac_sc": 175.94,
+      "bac_tech": 181.25
     },
     "filieres_phares": [
       {
         "id": "hide_tunis_cycle_pr_paratoire_int_gr___exact_scien",
-        "nom": "Cycle Préparatoire Intégré (Exact Sciences & Technologies)",
+        "nom": "Cycle Préparatoire Intégré ",
         "duree": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
-        "description": "Filière phare en Cycle Préparatoire Intégré (Exact Sciences & Technologies) dispensée par HIDE.",
+        "description": " Cycle Préparatoire Intégré  dispensée par HIDE.",
         "scores": {
-          "bac_math": 189.2,
-          "bac_info": 191.5,
-          "bac_sc": 187
+          "bac_math": 184.24,
+          "bac_info": 190.94,
+          "bac_sc": 175.94,
+          "bac_tech": 181.25
         },
         "debouches": [
-          "Machine Learning Engineer / AI Specialist",
-          "Data Scientist / Data Engineer",
-          "Ingénieur en Robotique et Systèmes Autonomes",
-          "Architecte Big Data / Cloud Engineer",
-          "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
-        ]
-      },
-      {
-        "id": "hide_tunis_ai_and_data_science__software___mod_lis",
-        "nom": "AI and Data Science (Software & Modélisation d'IA)",
-        "duree": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
-        "description": "Filière phare en AI and Data Science (Software & Modélisation d'IA) dispensée par HIDE.",
-        "scores": {
-          "bac_math": 189.2,
-          "bac_info": 191.5,
-          "bac_sc": 187
-        },
-        "debouches": [
-          "Machine Learning Engineer / AI Specialist",
-          "Data Scientist / Data Engineer",
-          "Ingénieur en Robotique et Systèmes Autonomes",
-          "Architecte Big Data / Cloud Engineer",
-          "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
-        ]
-      },
-      {
-        "id": "hide_tunis_ai__industry_and_robotics__hardware___s",
-        "nom": "AI, Industry and Robotics (Hardware & Systèmes embarqués d'IA)",
-        "duree": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
-        "description": "Filière phare en AI, Industry and Robotics (Hardware & Systèmes embarqués d'IA) dispensée par HIDE.",
-        "scores": {
-          "bac_math": 189.2,
-          "bac_info": 191.5,
-          "bac_sc": 187
-        },
-        "debouches": [
-          "Machine Learning Engineer / AI Specialist",
-          "Data Scientist / Data Engineer",
-          "Ingénieur en Robotique et Systèmes Autonomes",
-          "Architecte Big Data / Cloud Engineer",
-          "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
-        ]
-      },
-      {
-        "id": "hide_tunis_ai_and_arts__arts_num_riques__r_alit__v",
-        "nom": "AI and Arts (Arts numériques, Réalité virtuelle & Jeux vidéo)",
-        "duree": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
-        "description": "Filière phare en AI and Arts (Arts numériques, Réalité virtuelle & Jeux vidéo) dispensée par HIDE.",
-        "scores": {
-          "bac_math": 189.2,
-          "bac_info": 191.5,
-          "bac_sc": 187
-        },
-        "debouches": [
-          "Machine Learning Engineer / AI Specialist",
-          "Data Scientist / Data Engineer",
-          "Ingénieur en Robotique et Systèmes Autonomes",
-          "Architecte Big Data / Cloud Engineer",
-          "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
+          "Diplome d'Ingénieur spécialité en  Intelligence Artificielle /Data Science",
+          "Diplome d'Ingénieur spécialité en  Intelligence Artificielle/ Industrie",
+          "Diplome d'Ingénieur spécialité en  Intelligence Artificielle/ Arts"
         ]
       }
     ],
@@ -891,7 +845,8 @@
       "Data Scientist / Data Engineer",
       "Ingénieur en Robotique et Systèmes Autonomes",
       "Architecte Big Data / Cloud Engineer",
-      "Ingénieur R&D en Technologies Numériques & Arts Virtuels"
+      "Ingénieur R&D en Technologies Numériques & Arts Virtuels",
+      "Ingénieur en Développement de jeux vidéos"
     ],
     "temoignage": {
       "auteur": "Malek, Étudiant de la première promotion",
@@ -925,13 +880,13 @@
     "filieres_phares": [
       {
         "id": "ipeit_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
+        "nom": " MP (Math-Physique)",
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIT.",
         "scores": {
-          "bac_math": 164.2,
-          "bac_sc": 158,
-          "bac_info": 167.5
+          "bac_math": 120.61,
+          "bac_sc": 121.88,
+          "bac_info": 154.12
         },
         "debouches": [
           "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
@@ -1243,9 +1198,9 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIEM.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 151.2,
-          "bac_info": 158
+          "bac_math": 163.15,
+          "bac_sc": 154.94,
+          "bac_info": 170.91
         },
         "debouches": [
           "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
@@ -1260,9 +1215,9 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIEM.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 151.2,
-          "bac_info": 158
+          "bac_math": 163.15,
+          "bac_sc": 154.94,
+          "bac_info": 170.91
         },
         "debouches": [
           "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
@@ -1277,9 +1232,7 @@
         "duree": "2 ans",
         "description": "Filière phare en PT (Physique-Technologie) dispensée par IPEIEM.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 151.2,
-          "bac_info": 158
+          "bac_tech": 148.14
         },
         "debouches": [
           "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
@@ -1330,9 +1283,7 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIGB.",
         "scores": {
-          "bac_math": 125.5,
-          "bac_sc": 130.2,
-          "bac_info": 128
+          "bac_tech": 119
         },
         "debouches": [
           "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
@@ -1347,9 +1298,9 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIGB.",
         "scores": {
-          "bac_math": 125.5,
-          "bac_sc": 130.2,
-          "bac_info": 128
+          "bac_math": 89.94,
+          "bac_sc": 99.75,
+          "bac_info": 96.82
         },
         "debouches": [
           "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
@@ -1364,9 +1315,8 @@
         "duree": "2 ans",
         "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIGB.",
         "scores": {
-          "bac_math": 125.5,
-          "bac_sc": 130.2,
-          "bac_info": 128
+          "bac_math": 105.81,
+          "bac_sc": 90.74
         },
         "debouches": [
           "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
@@ -1417,9 +1367,9 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIB.",
         "scores": {
-          "bac_math": 138,
-          "bac_sc": 142.5,
-          "bac_info": 140.2
+          "bac_math": 88.3,
+          "bac_sc": 111.46,
+          "bac_info": 150.12
         },
         "debouches": [
           "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
@@ -1434,26 +1384,9 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIB.",
         "scores": {
-          "bac_math": 138,
-          "bac_sc": 142.5,
-          "bac_info": 140.2
-        },
-        "debouches": [
-          "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
-          "Orientation vers les Écoles Nationales de Technologies et Sciences Appliquées",
-          "Recherche Académique et Enseignement"
-        ],
-        "concours": true
-      },
-      {
-        "id": "ipeib_pt__physique_technologie_",
-        "nom": "PT (Physique-Technologie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Technologie) dispensée par IPEIB.",
-        "scores": {
-          "bac_math": 138,
-          "bac_sc": 142.5,
-          "bac_info": 140.2
+          "bac_math": 88.3,
+          "bac_sc": 111.46,
+          "bac_info": 150.12
         },
         "debouches": [
           "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
@@ -3301,64 +3234,10 @@
     },
     "filieres_phares": [
       {
-        "id": "fsjpst_tunis_licence_en_droit_priv_",
-        "nom": "Licence en Droit Privé",
+        "id": "fsjpst_tunis_licence_en_droit",
+        "nom": "Licence en Droit",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Droit Privé dispensée par FSJPST Tunis.",
-        "scores": {
-          "bac_let": 138.5,
-          "bac_eco": 142,
-          "bac_math": 128.5,
-          "bac_sc": 132
-        },
-        "debouches": [
-          "Avocat (Concours CAPA)",
-          "Magistrat (Concours ISM)",
-          "Conseiller juridique et fiscal d'entreprise",
-          "Haut fonctionnaire de l'administration publique (ENA)"
-        ]
-      },
-      {
-        "id": "fsjpst_tunis_licence_en_droit_public",
-        "nom": "Licence en Droit Public",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Droit Public dispensée par FSJPST Tunis.",
-        "scores": {
-          "bac_let": 138.5,
-          "bac_eco": 142,
-          "bac_math": 128.5,
-          "bac_sc": 132
-        },
-        "debouches": [
-          "Avocat (Concours CAPA)",
-          "Magistrat (Concours ISM)",
-          "Conseiller juridique et fiscal d'entreprise",
-          "Haut fonctionnaire de l'administration publique (ENA)"
-        ]
-      },
-      {
-        "id": "fsjpst_tunis_mast_re_en_droit_des_contrats_et_des_",
-        "nom": "Mastère en Droit des Contrats et des Investissements",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Droit des Contrats et des Investissements dispensée par FSJPST Tunis.",
-        "scores": {
-          "bac_let": 138.5,
-          "bac_eco": 142,
-          "bac_math": 128.5,
-          "bac_sc": 132
-        },
-        "debouches": [
-          "Avocat (Concours CAPA)",
-          "Magistrat (Concours ISM)",
-          "Conseiller juridique et fiscal d'entreprise",
-          "Haut fonctionnaire de l'administration publique (ENA)"
-        ]
-      },
-      {
-        "id": "fsjpst_tunis_mast_re_en_droit_de_l_environnement_e",
-        "nom": "Mastère en Droit de l'Environnement et de l'Urbanisme",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Droit de l'Environnement et de l'Urbanisme dispensée par FSJPST Tunis.",
+        "description": "Filière phare en Licence en Droit dispensée par FSJPST Tunis.",
         "scores": {
           "bac_let": 138.5,
           "bac_eco": 142,
@@ -3413,87 +3292,36 @@
     },
     "filieres_phares": [
       {
-        "id": "fdspt_tunis_licence_en_droit__parcours_droit_publi",
-        "nom": "Licence en Droit (Parcours Droit Public / Droit Privé)",
+        "id": "fdspt_tunis_licence_en_droit",
+        "nom": "Licence en Droit",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Droit (Parcours Droit Public / Droit Privé) dispensée par FDSPT Tunis.",
+        "description": "Filière phare en Licence en Droit dispensée par FDSPT Tunis.",
         "scores": {
-          "bac_let": 140.2,
-          "bac_eco": 145.5,
-          "bac_math": 131,
-          "bac_sc": 134.5
+          "bac_let": 122.55,
+          "bac_eco": 106.46,
+          "bac_math": 105.47,
+          "bac_sc": 126.58,
+          "bac_tech": 97.7,
+          "bac_info": 148.51,
+          "bac_sport": 175.19
         },
         "debouches": [
-          "Avocat d'affaires internationales",
-          "Juriste de banque et d'institutions financières",
-          "Spécialiste en contentieux administratif et fiscal",
-          "Analyste géopolitique ou conseiller en relations internationales"
-        ]
-      },
-      {
-        "id": "fdspt_tunis_mast_re_de_recherche_en_droit_des_affa",
-        "nom": "Mastère de recherche en Droit des Affaires",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère de recherche en Droit des Affaires dispensée par FDSPT Tunis.",
-        "scores": {
-          "bac_let": 140.2,
-          "bac_eco": 145.5,
-          "bac_math": 131,
-          "bac_sc": 134.5
-        },
-        "debouches": [
-          "Avocat d'affaires internationales",
-          "Juriste de banque et d'institutions financières",
-          "Spécialiste en contentieux administratif et fiscal",
-          "Analyste géopolitique ou conseiller en relations internationales"
-        ]
-      },
-      {
-        "id": "fdspt_tunis_mast_re_de_recherche_en_common_law",
-        "nom": "Mastère de recherche en Common-Law",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère de recherche en Common-Law dispensée par FDSPT Tunis.",
-        "scores": {
-          "bac_let": 140.2,
-          "bac_eco": 145.5,
-          "bac_math": 131,
-          "bac_sc": 134.5
-        },
-        "debouches": [
-          "Avocat d'affaires internationales",
-          "Juriste de banque et d'institutions financières",
-          "Spécialiste en contentieux administratif et fiscal",
-          "Analyste géopolitique ou conseiller en relations internationales"
-        ]
-      },
-      {
-        "id": "fdspt_tunis_mast_re_en_droit_communautaire_et_rela",
-        "nom": "Mastère en Droit Communautaire et Relations Maghreb-Europe",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Droit Communautaire et Relations Maghreb-Europe dispensée par FDSPT Tunis.",
-        "scores": {
-          "bac_let": 140.2,
-          "bac_eco": 145.5,
-          "bac_math": 131,
-          "bac_sc": 134.5
-        },
-        "debouches": [
-          "Avocat d'affaires internationales",
-          "Juriste de banque et d'institutions financières",
-          "Spécialiste en contentieux administratif et fiscal",
-          "Analyste géopolitique ou conseiller en relations internationales"
+          "Avocat (Concours CAPA)",
+          "Magistrat (Concours ISM)",
+          "Conseiller juridique et fiscal d'entreprise",
+          "Haut fonctionnaire de l'administration publique (ENA)"
         ]
       }
     ],
     "debouches": [
-      "Avocat d'affaires internationales",
-      "Juriste de banque et d'institutions financières",
-      "Spécialiste en contentieux administratif et fiscal",
-      "Analyste géopolitique ou conseiller en relations internationales"
+      "Avocat (Concours CAPA)",
+      "Magistrat (Concours ISM)",
+      "Conseiller juridique et fiscal d'entreprise",
+      "Haut fonctionnaire de l'administration publique (ENA)"
     ],
     "temoignage": {
       "auteur": "Farah, Étudiante en L3",
-      "texte_detaille": "Le cadre au Centre Urbain Nord est hyper dynamique et moderne. Les masters proposés ici, notamment en commerce international ou en Common-law, ouvrent de vraies portes vers des carrières internationales."
+      "texte_detaille": "Le cadre au Centre Urbain Nord is hyper dynamique et moderne. Les masters proposés ici, notamment en commerce international ou en Common-law, ouvrent de vraies portes vers des carrières internationales."
     },
     "site_web": "http://www.fdspt.rnu.tn"
   },
@@ -3524,65 +3352,32 @@
     },
     "filieres_phares": [
       {
-        "id": "fds_sfax_licence_fondamentale_en_droit",
-        "nom": "Licence Fondamentale en Droit",
+        "id": "fds_sfax_licence_en_droit",
+        "nom": "Licence en Droit",
         "duree": "3 ans",
-        "description": "Filière phare en Licence Fondamentale en Droit dispensée par FDS Sfax.",
+        "description": "Filière phare en Licence en Droit dispensée par FDS Sfax.",
         "scores": {
-          "bac_let": 115.2,
-          "bac_eco": 124.8,
-          "bac_math": 108,
-          "bac_sc": 112.5
+          "bac_let": 106.43,
+          "bac_eco": 87.57,
+          "bac_math": 102.86,
+          "bac_sc": 121.01,
+          "bac_tech": 108.9,
+          "bac_info": 117.8,
+          "bac_sport": 176.14
         },
         "debouches": [
-          "Avocat / Magistrat",
-          "Juriste d'entreprise ou de PME",
-          "Notaire ou Huissier de justice",
-          "Inspecteur des douanes ou des finances"
-        ]
-      },
-      {
-        "id": "fds_sfax_mast_re_professionnel_en_droit_de_l_entre",
-        "nom": "Mastère Professionnel en Droit de l'Entreprise et des Affaires",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Droit de l'Entreprise et des Affaires dispensée par FDS Sfax.",
-        "scores": {
-          "bac_let": 115.2,
-          "bac_eco": 124.8,
-          "bac_math": 108,
-          "bac_sc": 112.5
-        },
-        "debouches": [
-          "Avocat / Magistrat",
-          "Juriste d'entreprise ou de PME",
-          "Notaire ou Huissier de justice",
-          "Inspecteur des douanes ou des finances"
-        ]
-      },
-      {
-        "id": "fds_sfax_mast_re_de_recherche_en_droit_priv_",
-        "nom": "Mastère de Recherche en Droit Privé",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère de Recherche en Droit Privé dispensée par FDS Sfax.",
-        "scores": {
-          "bac_let": 115.2,
-          "bac_eco": 124.8,
-          "bac_math": 108,
-          "bac_sc": 112.5
-        },
-        "debouches": [
-          "Avocat / Magistrat",
-          "Juriste d'entreprise ou de PME",
-          "Notaire ou Huissier de justice",
-          "Inspecteur des douanes ou des finances"
+          "Avocat (Concours CAPA)",
+          "Magistrat (Concours ISM)",
+          "Conseiller juridique et fiscal d'entreprise",
+          "Haut fonctionnaire de l'administration publique (ENA)"
         ]
       }
     ],
     "debouches": [
-      "Avocat / Magistrat",
-      "Juriste d'entreprise ou de PME",
-      "Notaire ou Huissier de justice",
-      "Inspecteur des douanes ou des finances"
+      "Avocat (Concours CAPA)",
+      "Magistrat (Concours ISM)",
+      "Conseiller juridique et fiscal d'entreprise",
+      "Haut fonctionnaire de l'administration publique (ENA)"
     ],
     "temoignage": {
       "auteur": "Anis, Diplômé de la Faculté",
@@ -3598,7 +3393,7 @@
     "ville": "Sousse",
     "logo": "/logos/FDSPSO.png",
     "fac_hero_banner": "/banners/FDSPS_Sousse_hero.jpg",
-    "description_breve": "Une institution dynamique fêtant ses 40 ans d'excellence, reconnue pour ses laboratoires de recherche et ses formations spécialisées croisant le droit et les nouvelles technologies.",
+    "description_breve": "Une institution dynamique fêtant ses 40 ans d'excellence, reconnue pour ses laboratoires de recherche et ses formations spécialisées croistant le droit et les nouvelles technologies.",
     "adresse": "Cité Riadh, Sousse 4023",
     "lien_google_maps": "https://maps.google.com/?q=Faculte+de+Droit+et+des+Sciences+Politiques+Sousse",
     "categories": [
@@ -3617,83 +3412,32 @@
     },
     "filieres_phares": [
       {
-        "id": "fdsps_sousse_licence_en_droit_public",
-        "nom": "Licence en Droit Public",
+        "id": "fdsps_sousse_licence_en_droit",
+        "nom": "Licence en Droit",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Droit Public dispensée par FDSPS Sousse.",
+        "description": "Filière phare en Licence en Droit dispensée par FDSPS Sousse.",
         "scores": {
-          "bac_let": 122,
-          "bac_eco": 130.4,
-          "bac_math": 114.2,
-          "bac_sc": 118
+          "bac_let": 114.02,
+          "bac_eco": 97.53,
+          "bac_math": 101.34,
+          "bac_sc": 130.81,
+          "bac_tech": 128.56,
+          "bac_info": 119.22,
+          "bac_sport": 170.04
         },
         "debouches": [
-          "Avocat au barreau",
-          "Expert en droit du numérique et de la propriété intellectuelle",
-          "Conseiller auprès des municipalités et collectivités",
-          "Cadre juridique de la santé ou du tourisme"
-        ]
-      },
-      {
-        "id": "fdsps_sousse_licence_en_droit_priv_",
-        "nom": "Licence en Droit Privé",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Droit Privé dispensée par FDSPS Sousse.",
-        "scores": {
-          "bac_let": 122,
-          "bac_eco": 130.4,
-          "bac_math": 114.2,
-          "bac_sc": 118
-        },
-        "debouches": [
-          "Avocat au barreau",
-          "Expert en droit du numérique et de la propriété intellectuelle",
-          "Conseiller auprès des municipalités et collectivités",
-          "Cadre juridique de la santé ou du tourisme"
-        ]
-      },
-      {
-        "id": "fdsps_sousse_mast_re_professionnel_en_droit_et_nou",
-        "nom": "Mastère Professionnel en Droit et Nouvelles Technologies",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Droit et Nouvelles Technologies dispensée par FDSPS Sousse.",
-        "scores": {
-          "bac_let": 122,
-          "bac_eco": 130.4,
-          "bac_math": 114.2,
-          "bac_sc": 118
-        },
-        "debouches": [
-          "Avocat au barreau",
-          "Expert en droit du numérique et de la propriété intellectuelle",
-          "Conseiller auprès des municipalités et collectivités",
-          "Cadre juridique de la santé ou du tourisme"
-        ]
-      },
-      {
-        "id": "fdsps_sousse_mast_re_professionnel_en_droit_des_co",
-        "nom": "Mastère Professionnel en Droit des Collectivités Locales",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Droit des Collectivités Locales dispensée par FDSPS Sousse.",
-        "scores": {
-          "bac_let": 122,
-          "bac_eco": 130.4,
-          "bac_math": 114.2,
-          "bac_sc": 118
-        },
-        "debouches": [
-          "Avocat au barreau",
-          "Expert en droit du numérique et de la propriété intellectuelle",
-          "Conseiller auprès des municipalités et collectivités",
-          "Cadre juridique de la santé ou du tourisme"
+          "Avocat (Concours CAPA)",
+          "Magistrat (Concours ISM)",
+          "Conseiller juridique et fiscal d'entreprise",
+          "Haut fonctionnaire de l'administration publique (ENA)"
         ]
       }
     ],
     "debouches": [
-      "Avocat au barreau",
-      "Expert en droit du numérique et de la propriété intellectuelle",
-      "Conseiller auprès des municipalités et collectivités",
-      "Cadre juridique de la santé ou du tourisme"
+      "Avocat (Concours CAPA)",
+      "Magistrat (Concours ISM)",
+      "Conseiller juridique et fiscal d'entreprise",
+      "Haut fonctionnaire de l'administration publique (ENA)"
     ],
     "temoignage": {
       "auteur": "Sami, Étudiant en M2 Droit du Numérique",
