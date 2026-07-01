@@ -14,57 +14,20 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
-    "score_derniere_annee": {
-      "bac_math": 182.3,
-      "bac_sc": 184.5
-    },
+    "filtre": "Campagne Orientation",
+    "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fmt_medecine_generale",
-        "nom": "Médecine Générale",
-        "duree": "7 ans",
-        "description": "Formation fondamentale théorique et pratique de premier plan formant les futurs médecins de libre pratique ou hospitaliers.",
+        "id": "fmt_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "description": "Filière unique de Médecine. Note : Sciences de la vie et de la Terre obligatoires (+).",
         "scores": {
-          "bac_math": 182.3,
-          "bac_sc": 184.5
-        },
-        "debouches": [
-          "Médecin Généraliste",
-          "Médecin de santé publique",
-          "Exercice libéral"
-        ]
-      },
-      {
-        "id": "fmt_specialites_medicales",
-        "nom": "Spécialités Médicales",
-        "duree": "11 ans",
-        "description": "Parcours de spécialisation post-concours national de résidanat (cardiologie, pédiatrie, chirurgie, etc.).",
-        "scores": {
-          "bac_math": 182.3,
-          "bac_sc": 184.5
-        },
-        "debouches": [
-          "Médecin Spécialiste en CHU",
-          "Clinique privée spécialisée",
-          "Recherche clinique"
-        ]
-      },
-      {
-        "id": "fmt_doctorat_medecine",
-        "nom": "Doctorat en Médecine",
-        "duree": "7-11 ans",
-        "description": "Cycle final de préparation et soutenance de thèse nationale d'exercice en médecine.",
-        "scores": {
-          "bac_math": 182.3,
-          "bac_sc": 184.5
-        },
-        "debouches": [
-          "Pratique hospitalière",
-          "Recherche biomédicale",
-          "Enseignement universitaire"
-        ]
+          "bac_lettres": 166.35,
+          "bac_math": 190.33,
+          "bac_sc": 184.8,
+          "bac_sport": 187.54
+        }
       }
     ],
     "debouches": [
@@ -76,7 +39,7 @@
     ],
     "temoignage": {
       "auteur": "Sarra, Interne en Médecine",
-      "texte_detaille": "Le rythme à la FMT est un marathon de plusieurs années qui demande une énorme résilience dès la première année. L'accès aux stages dans les grands CHU de Tunis offre une formation pratique d'une richesse incomparable."
+      "texte_detaille": "Le rythme à la FMT est un marathon de several années qui demande une énorme résilience dès la première année. L'accès aux stages dans les grands CHU de Tunis offre une formation pratique d'une richesse incomparable."
     },
     "site_web": "http://www.fmt.rnu.tn"
   },
@@ -95,64 +58,20 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
-    "score_derniere_annee": {
-      "bac_math": 178.1,
-      "bac_sc": 181.2,
-      "bac_info": 0
-    },
+    "filtre": "Campagne Orientation",
+    "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fms_m_decine_g_n_rale",
-        "nom": "Médecine Générale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Médecine Générale dispensée par FMS.",
+        "id": "fms_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "description": "Filière unique de Médecine. Note : L'enseignement sera assuré en anglais pour un groupe d'étudiants.",
         "scores": {
-          "bac_math": 178.1,
-          "bac_sc": 181.2,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecine Générale en Cabinet ou Structure Hospitalière",
-          "Résidanat et Spécialisation Médicale",
-          "Ingénierie Pédagogique Médicale",
-          "Recherche en Sciences de la Santé et Innovation Clinique"
-        ]
-      },
-      {
-        "id": "fms_p_dagogie_m_dicale",
-        "nom": "Pédagogie Médicale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Pédagogie Médicale dispensée par FMS.",
-        "scores": {
-          "bac_math": 178.1,
-          "bac_sc": 181.2,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecine Générale en Cabinet ou Structure Hospitalière",
-          "Résidanat et Spécialisation Médicale",
-          "Ingénierie Pédagogique Médicale",
-          "Recherche en Sciences de la Santé et Innovation Clinique"
-        ]
-      },
-      {
-        "id": "fms_recherche_biom_dicale",
-        "nom": "Recherche Biomédicale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Recherche Biomédicale dispensée par FMS.",
-        "scores": {
-          "bac_math": 178.1,
-          "bac_sc": 181.2,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecine Générale en Cabinet ou Structure Hospitalière",
-          "Résidanat et Spécialisation Médicale",
-          "Ingénierie Pédagogique Médicale",
-          "Recherche en Sciences de la Santé et Innovation Clinique"
-        ]
+          "bac_lettres": 165.8,
+          "bac_math": 195.85,
+          "bac_sc": 190.98,
+          "bac_sport": 197.32
+        }
       }
     ],
     "debouches": [
@@ -182,44 +101,20 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
-    "score_derniere_annee": {
-      "bac_math": 176.5,
-      "bac_sc": 179.8
-    },
+    "filtre": "Campagne Orientation",
+    "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fmm_m_decine_g_n_rale",
-        "nom": "Médecine Générale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Médecine Générale dispensée par FMM.",
+        "id": "fmm_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "description": "Filière unique de Médecine.",
         "scores": {
-          "bac_math": 176.5,
-          "bac_sc": 179.8
-        },
-        "debouches": [
-          "Médecin Généraliste (Secteur public ou privé)",
-          "Médecin Spécialiste (Cardiologie, Chirurgie, Pédiatrie, etc.)",
-          "Carrière Hospitalo-Universitaire",
-          "Médecin de Famille, du Travail ou de Santé Publique"
-        ]
-      },
-      {
-        "id": "fmm_specialit_",
-        "nom": "Specialité",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Specialité dispensée par FMM.",
-        "scores": {
-          "bac_math": 176.5,
-          "bac_sc": 179.8
-        },
-        "debouches": [
-          "Médecin Généraliste (Secteur public ou privé)",
-          "Médecin Spécialiste (Cardiologie, Chirurgie, Pédiatrie, etc.)",
-          "Carrière Hospitalo-Universitaire",
-          "Médecin de Famille, du Travail ou de Santé Publique"
-        ]
+          "bac_lettres": 164.46,
+          "bac_math": 190.98,
+          "bac_sc": 188.27,
+          "bac_sport": 194.12
+        }
       }
     ],
     "debouches": [
@@ -249,64 +144,20 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "7 ans pour généraliste, 11 ans pour spécialiste",
-    "score_derniere_annee": {
-      "bac_math": 175.2,
-      "bac_sc": 178.4,
-      "bac_info": 0
-    },
+    "filtre": "Campagne Orientation",
+    "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fmsf_m_decine_g_n_rale",
-        "nom": "Médecine Générale",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Médecine Générale dispensée par FMSF.",
+        "id": "fmsf_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "description": "Filière unique de Médecine.",
         "scores": {
-          "bac_math": 175.2,
-          "bac_sc": 178.4,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecin Généraliste ou de Libre Pratique",
-          "Spécialisation Chirurgicale ou Médicale en CHU",
-          "Responsable de Programmes de Santé Communautaire",
-          "Recherche Épidémiologique"
-        ]
-      },
-      {
-        "id": "fmsf_chirurgie",
-        "nom": "Chirurgie",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Chirurgie dispensée par FMSF.",
-        "scores": {
-          "bac_math": 175.2,
-          "bac_sc": 178.4,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecin Généraliste ou de Libre Pratique",
-          "Spécialisation Chirurgicale ou Médicale en CHU",
-          "Responsable de Programmes de Santé Communautaire",
-          "Recherche Épidémiologique"
-        ]
-      },
-      {
-        "id": "fmsf_sant__communautaire",
-        "nom": "Santé Communautaire",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Santé Communautaire dispensée par FMSF.",
-        "scores": {
-          "bac_math": 175.2,
-          "bac_sc": 178.4,
-          "bac_info": 0
-        },
-        "debouches": [
-          "Médecin Généraliste ou de Libre Pratique",
-          "Spécialisation Chirurgicale ou Médicale en CHU",
-          "Responsable de Programmes de Santé Communautaire",
-          "Recherche Épidémiologique"
-        ]
+          "bac_lettres": 159.86,
+          "bac_math": 187.84,
+          "bac_sc": 182.43,
+          "bac_sport": 189.12
+        }
       }
     ],
     "debouches": [
@@ -336,60 +187,20 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "6 ans pour le diplôme national de Docteur en Médecine Dentaire (+ internat), cursus de spécialisatons disponible",
-    "score_derniere_annee": {
-      "bac_math": 178.5,
-      "bac_sc": 181.2
-    },
+    "filtre": "Campagne Orientation",
+    "regimes_etudes": "6 ans pour le diplôme national de Docteur en Médecine Dentaire (+ internat)",
     "filieres_phares": [
       {
-        "id": "fmd_monastir_m_decine_dentaire__tronc_commun_",
-        "nom": "Médecine Dentaire (Tronc Commun)",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Médecine Dentaire (Tronc Commun) dispensée par FMDM.",
+        "id": "fmd_monastir_medecine_dentaire",
+        "nom": "Médecine Dentaire",
+        "duree": "6 ans",
+        "description": "Filière unique de Médecine Dentaire.",
         "scores": {
+          "bac_let": 154.34,
           "bac_math": 178.5,
-          "bac_sc": 181.2
-        },
-        "debouches": [
-          "Médecin Dentiste (Cabinet privé / Pratique libérale)",
-          "Médecin Dentiste Hospitalo-Universitaire",
-          "Praticien hospitalier dans le secteur public",
-          "Consultant ou expert pour les industries de santé bucco-dentaire"
-        ]
-      },
-      {
-        "id": "fmd_monastir_doctorat_en_m_decine_dentaire",
-        "nom": "Doctorat en Médecine Dentaire",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Doctorat en Médecine Dentaire dispensée par FMDM.",
-        "scores": {
-          "bac_math": 178.5,
-          "bac_sc": 181.2
-        },
-        "debouches": [
-          "Médecin Dentiste (Cabinet privé / Pratique libérale)",
-          "Médecin Dentiste Hospitalo-Universitaire",
-          "Praticien hospitalier dans le secteur public",
-          "Consultant ou expert pour les industries de santé bucco-dentaire"
-        ]
-      },
-      {
-        "id": "fmd_monastir_sp_cialit_s_odontologiques__orthodont",
-        "nom": "Spécialités Odontologiques (Orthodontie, Chirurgie Buccale, etc.)",
-        "duree": "6 à 11 ans",
-        "description": "Filière phare en Spécialités Odontologiques (Orthodontie, Chirurgie Buccale, etc.) dispensée par FMDM.",
-        "scores": {
-          "bac_math": 178.5,
-          "bac_sc": 181.2
-        },
-        "debouches": [
-          "Médecin Dentiste (Cabinet privé / Pratique libérale)",
-          "Médecin Dentiste Hospitalo-Universitaire",
-          "Praticien hospitalier dans le secteur public",
-          "Consultant ou expert pour les industries de santé bucco-dentaire"
-        ]
+          "bac_sc": 181.2,
+          "bac_sport": 184.62
+        }
       }
     ],
     "debouches": [
@@ -399,8 +210,8 @@
       "Consultant ou expert pour les industries de santé bucco-dentaire"
     ],
     "temoignage": {
-      "auteur": "Yasmine, Interne en Médecine Dentaire",
-      "texte_detaille": "La FMDM demande une double compétence : une mémoire solide pour l'anatomie et les pathologies, mais aussi une grande dextérité manuelle dès la 3ème année pour les TP de prothèses et de soins. C'est intensif mais passionnant."
+      "auteur": "Skander, Étudiant en clinique",
+      "texte_detaille": "La FMDM demande beaucoup de minutie et de rigueur technique dès les premières séances de TP, mais la formation clinique finale est d'une valeur inestimable."
     },
     "site_web": "http://www.fmdm.rnu.tn"
   },

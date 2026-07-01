@@ -18,10 +18,10 @@ export default function PresentationFiliere({ faculte }) {
   const matchedSpecialties = filieres_phares.map((filiere, idx) => {
     // Si la filière est déjà un objet (terrain préparé dans data.json)
     if (typeof filiere === 'object' && filiere !== null) {
-      const isPrepa = filiere.concours || 
-                      faculte?.categories?.includes("Préparatoire") || 
-                      faculte?.nom_court?.toLowerCase().includes("ipei") ||
-                      filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
+      const isPrepa = filiere.concours ||
+        faculte?.categories?.includes("Préparatoire") ||
+        faculte?.nom_court?.toLowerCase().includes("ipei") ||
+        filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
 
       return {
         id: filiere.id || `filiere_${idx}`,
@@ -33,6 +33,9 @@ export default function PresentationFiliere({ faculte }) {
         bac_info: filiere.scores?.bac_info || score_derniere_annee?.bac_info,
         bac_tech: filiere.scores?.bac_tech || score_derniere_annee?.bac_tech,
         bac_eco: filiere.scores?.bac_eco || score_derniere_annee?.bac_eco,
+        bac_lettres: filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres,
+        bac_let: filiere.scores?.bac_let || score_derniere_annee?.bac_let || filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres,
+        bac_sport: filiere.scores?.bac_sport || score_derniere_annee?.bac_sport,
         concours: isPrepa,
         debouches: filiere.debouches || debouches || []
       };
@@ -40,9 +43,9 @@ export default function PresentationFiliere({ faculte }) {
 
     // Si la filière est une simple chaîne
     const filiereName = filiere || "";
-    const isPrepa = faculte?.categories?.includes("Préparatoire") || 
-                    faculte?.nom_court?.toLowerCase().includes("ipei") ||
-                    filiereName.includes("MP") || filiereName.includes("PC") || filiereName.includes("PT") || filiereName.includes("BG");
+    const isPrepa = faculte?.categories?.includes("Préparatoire") ||
+      faculte?.nom_court?.toLowerCase().includes("ipei") ||
+      filiereName.includes("MP") || filiereName.includes("PC") || filiereName.includes("PT") || filiereName.includes("BG");
 
     return {
       id: filiereName.toLowerCase().replace(/[^a-z0-9]/g, '_') || `filiere_${idx}`,
@@ -61,7 +64,7 @@ export default function PresentationFiliere({ faculte }) {
 
   return (
     <div className="bg-white rounded-3xl border border-gray-100 p-6 md:p-8 shadow-sm space-y-8 h-full flex flex-col justify-between">
-      
+
       {/* Section 1 : Le texte de présentation de la faculté */}
       <div className="space-y-3">
         <h3 className="text-sm font-black text-[#1b1464] uppercase tracking-wider flex items-center gap-2">
@@ -80,9 +83,9 @@ export default function PresentationFiliere({ faculte }) {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {matchedSpecialties.map((spec) => (
-              <SpecialtyCard 
-                key={spec.id} 
-                spec={spec} 
+              <SpecialtyCard
+                key={spec.id}
+                spec={spec}
                 onClick={() => setActiveSpecialty(spec)}
               />
             ))}
@@ -111,9 +114,9 @@ export default function PresentationFiliere({ faculte }) {
       {activeSpecialty && (
         <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
           <div className="bg-white rounded-3xl border border-gray-100 max-w-xl w-full shadow-2xl p-6 md:p-8 space-y-6 relative overflow-hidden animate-scaleIn">
-            
+
             {/* Bouton fermeture */}
-            <button 
+            <button
               onClick={() => setActiveSpecialty(null)}
               className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-lg font-black bg-slate-50 w-8 h-8 rounded-full flex items-center justify-center"
             >
@@ -172,6 +175,26 @@ export default function PresentationFiliere({ faculte }) {
                         <span>💻</span> Bac Info : {activeSpecialty.bac_info}
                       </span>
                     )}
+                    {activeSpecialty.bac_tech && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-amber-800 flex items-center gap-1">
+                        <span>⚙️</span> Bac Tech : {activeSpecialty.bac_tech}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_eco && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-emerald-800 flex items-center gap-1">
+                        <span>📈</span> Bac Éco : {activeSpecialty.bac_eco}
+                      </span>
+                    )}
+                    {(activeSpecialty.bac_lettres || activeSpecialty.bac_let) && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-purple-800 flex items-center gap-1">
+                        <span>📖</span> Bac Lettres : {activeSpecialty.bac_lettres || activeSpecialty.bac_let}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_sport && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-orange-800 flex items-center gap-1">
+                        <span>🏃</span> Bac Sport : {activeSpecialty.bac_sport}
+                      </span>
+                    )}
                   </div>
                 )}
               </div>
@@ -181,7 +204,7 @@ export default function PresentationFiliere({ faculte }) {
                 <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">🚀 Débouchés Associés</h4>
                 <div className="flex flex-wrap gap-2">
                   {activeSpecialty.debouches?.map((deb, index) => (
-                    <span 
+                    <span
                       key={index}
                       className="bg-[#1b1464]/5 border border-[#1b1464]/10 text-[#1b1464] text-xs font-bold px-3 py-1 rounded-xl"
                     >
@@ -194,14 +217,14 @@ export default function PresentationFiliere({ faculte }) {
 
             {/* Actions */}
             <div className="flex gap-3 pt-3 border-t border-gray-100 justify-end">
-              <button 
+              <button
                 onClick={() => setActiveSpecialty(null)}
                 className="bg-slate-100 hover:bg-slate-200 text-gray-700 text-xs font-black px-4 py-2.5 rounded-xl transition-all"
               >
                 Fermer
               </button>
               {faculte?.site_web && (
-                <a 
+                <a
                   href={faculte.site_web}
                   target="_blank"
                   rel="noopener noreferrer"

@@ -31,7 +31,7 @@ export default function SpecialtyCard({ spec, onClick }) {
               Accès sur Concours
             </span>
           </div>
-        ) : (spec.bac_math || spec.bac_sc || spec.bac_info) ? (
+        ) : (spec.bac_math || spec.bac_sc || spec.bac_info || spec.bac_tech || spec.bac_eco || spec.bac_lettres || spec.bac_let || spec.bac_sport) ? (
           <div className="flex flex-col gap-1">
             <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Seuils requis :</span>
             <div className="flex flex-wrap gap-1">
@@ -48,6 +48,26 @@ export default function SpecialtyCard({ spec, onClick }) {
               {spec.bac_info && (
                 <span className="bg-cyan-50 border border-cyan-150 text-cyan-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded">
                   💻 Info: {spec.bac_info}
+                </span>
+              )}
+              {spec.bac_tech && (
+                <span className="bg-amber-50 border border-amber-150 text-amber-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded">
+                  ⚙️ Tech: {spec.bac_tech}
+                </span>
+              )}
+              {spec.bac_eco && (
+                <span className="bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded">
+                  📈 Éco: {spec.bac_eco}
+                </span>
+              )}
+              {(spec.bac_lettres || spec.bac_let) && (
+                <span className="bg-purple-50 border border-purple-150 text-purple-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded">
+                  📖 Lettres: {spec.bac_lettres || spec.bac_let}
+                </span>
+              )}
+              {spec.bac_sport && (
+                <span className="bg-orange-50 border border-orange-150 text-orange-800 text-[9px] font-extrabold px-1.5 py-0.5 rounded">
+                  🏃 Sport: {spec.bac_sport}
                 </span>
               )}
             </div>

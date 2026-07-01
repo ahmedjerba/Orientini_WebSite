@@ -42,12 +42,20 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
         return false;
       }
 
-      // 3. Filtre par Score d'accès
+      // 3. Filtre par Score d'accès (recherche sur les scores de n'importe quelle filière de la fac)
       if (minScore) {
         const threshold = parseFloat(minScore);
         if (!isNaN(threshold)) {
-          const score = fac.score_derniere_annee?.[selectedScoreType];
-          if (!score || score < threshold) {
+          const hasMatchingScore = fac.filieres_phares?.some(filiere => {
+            if (typeof filiere === 'object' && filiere !== null) {
+              const scores = filiere.scores || {};
+              const score = scores[selectedScoreType] || 
+                            (selectedScoreType === 'bac_lettres' ? scores.bac_lettres || scores.bac_let : undefined);
+              return score !== undefined && score >= threshold;
+            }
+            return false;
+          });
+          if (!hasMatchingScore) {
             return false;
           }
         }
@@ -216,6 +224,8 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
               <option value="bac_info">💻 Bac Info</option>
               <option value="bac_tech">⚙️ Bac Technique</option>
               <option value="bac_eco">📈 Bac Éco</option>
+              <option value="bac_lettres">📖 Bac Lettres</option>
+              <option value="bac_sport">🏃 Bac Sport</option>
             </select>
             <input
               type="number"
@@ -398,6 +408,31 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
                     {activeSpecialty.bac_sc && (
                       <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-[#de3f6b] flex items-center gap-1">
                         <span>🧪</span> Bac Sciences : {activeSpecialty.bac_sc}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_info && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-cyan-800 flex items-center gap-1">
+                        <span>💻</span> Bac Info : {activeSpecialty.bac_info}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_tech && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-amber-800 flex items-center gap-1">
+                        <span>⚙️</span> Bac Tech : {activeSpecialty.bac_tech}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_eco && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-emerald-800 flex items-center gap-1">
+                        <span>📈</span> Bac Éco : {activeSpecialty.bac_eco}
+                      </span>
+                    )}
+                    {(activeSpecialty.bac_lettres || activeSpecialty.bac_let) && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-purple-800 flex items-center gap-1">
+                        <span>📖</span> Bac Lettres : {activeSpecialty.bac_lettres || activeSpecialty.bac_let}
+                      </span>
+                    )}
+                    {activeSpecialty.bac_sport && (
+                      <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-orange-800 flex items-center gap-1">
+                        <span>🏃</span> Bac Sport : {activeSpecialty.bac_sport}
                       </span>
                     )}
                   </div>
