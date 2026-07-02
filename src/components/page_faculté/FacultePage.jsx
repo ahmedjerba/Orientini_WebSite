@@ -17,7 +17,7 @@ export default function FacultePage({ faculte, onBack }) {
 
   return (
     <div className="w-full bg-slate-50 min-h-screen">
-      
+
       {/* 1. ZONE HAUTE : Immersion totale avec la Banner & le bouton Retour */}
       <div className="p-4 md:p-8">
         <HeroBanner faculte={faculte} onBack={onBack} />
@@ -26,20 +26,20 @@ export default function FacultePage({ faculte, onBack }) {
       {/* 2. ZONE DE CONTENU : Grille structurée */}
       <main className="max-w-7xl mx-auto px-4 md:px-8 pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
-          
+
           {/* COLONNE GAUCHE (Largeur 2/3 sur PC - 65%) */}
           <div className="lg:col-span-2 space-y-6">
-            
+
             {/* Bloc Présentation & Spécialités */}
             <section>
-               <PresentationFiliere faculte={faculte} />
+              <PresentationFiliere faculte={faculte} />
             </section>
 
             {/* Bloc Débouchés & Mot de l'intervenant */}
             <section>
-               <DebouchesIntervenant faculte={faculte} />
+              <DebouchesIntervenant faculte={faculte} />
             </section>
-            
+
           </div>
 
           {/* COLONNE DROITE (Largeur 1/3 sur PC - 35%) */}

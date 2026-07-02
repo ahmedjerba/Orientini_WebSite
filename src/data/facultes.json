@@ -28,24 +28,6 @@
           "bac_sc": 184.8,
           "bac_sport": 187.54
         }
-      },
-      {
-        "id": "fmt_doctorat_en_medecine",
-        "nom": "Doctorat en Médecine",
-        "duree": "9 ans",
-        "description": "Formation médicale complète de neuf ans menant au diplôme de docteur en médecine, dispensée à la Faculté de Médecine de Tunis, rattachée à l'Université de Tunis El Manar.",
-        "scores": {
-          "bac_lettres": 166.35,
-          "bac_math": 190.33,
-          "bac_sc": 184.8,
-          "bac_sport": 187.54
-        },
-        "debouches": [
-          "Médecin généraliste",
-          "Médecin spécialiste (après internat)",
-          "Chercheur en sciences médicales",
-          "Médecin de santé publique"
-        ]
       }
     ],
     "debouches": [
@@ -90,24 +72,6 @@
           "bac_sc": 190.98,
           "bac_sport": 197.32
         }
-      },
-      {
-        "id": "fms_doctorat_en_medecine",
-        "nom": "Doctorat en Médecine",
-        "duree": "9 ans",
-        "description": "Formation médicale complète de neuf ans menant au diplôme de docteur en médecine, dispensée à la Faculté de Médecine de Sousse ; une partie des étudiants bénéficie d'un enseignement en anglais.",
-        "scores": {
-          "bac_lettres": 165.8,
-          "bac_math": 195.85,
-          "bac_sc": 190.98,
-          "bac_sport": 197.32
-        },
-        "debouches": [
-          "Médecin généraliste",
-          "Médecin spécialiste (après internat)",
-          "Chercheur en sciences médicales",
-          "Médecin de santé publique"
-        ]
       }
     ],
     "debouches": [
@@ -151,24 +115,6 @@
           "bac_sc": 188.27,
           "bac_sport": 194.12
         }
-      },
-      {
-        "id": "fmm_doctorat_en_medecine",
-        "nom": "Doctorat en Médecine",
-        "duree": "9 ans",
-        "description": "Formation médicale complète de neuf ans menant au diplôme de docteur en médecine, dispensée à la Faculté de Médecine de Monastir.",
-        "scores": {
-          "bac_lettres": 164.46,
-          "bac_math": 190.98,
-          "bac_sc": 188.27,
-          "bac_sport": 194.12
-        },
-        "debouches": [
-          "Médecin généraliste",
-          "Médecin spécialiste (après internat)",
-          "Chercheur en sciences médicales",
-          "Médecin de santé publique"
-        ]
       }
     ],
     "debouches": [
@@ -212,24 +158,6 @@
           "bac_sc": 182.43,
           "bac_sport": 189.12
         }
-      },
-      {
-        "id": "fmsf_doctorat_en_medecine",
-        "nom": "Doctorat en Médecine",
-        "duree": "9 ans",
-        "description": "Formation médicale complète de neuf ans menant au diplôme de docteur en médecine, dispensée à la Faculté de Médecine de Sfax.",
-        "scores": {
-          "bac_lettres": 159.86,
-          "bac_math": 187.84,
-          "bac_sc": 182.43,
-          "bac_sport": 189.12
-        },
-        "debouches": [
-          "Médecin généraliste",
-          "Médecin spécialiste (après internat)",
-          "Chercheur en sciences médicales",
-          "Médecin de santé publique"
-        ]
       }
     ],
     "debouches": [
@@ -426,40 +354,6 @@
         "debouches": [
           "Diplôme d'Ingénieur en Chimie Industrielle(CH)",
           "Diplôme d'Ingénieur en Biologie Industrielle (BIO)"
-        ]
-      },
-      {
-        "id": "insat_cycle_preparatoire_integre_mathematiques_physique_informatique",
-        "nom": "Cycle préparatoire intégré – Mathématiques, Physique, Informatique",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Formation d'ingénieur intégrée de référence en sciences appliquées et technologie, avec un tronc commun scientifique de deux ans. L'institut est rattaché à l'Université de Carthage.",
-        "scores": {
-          "bac_math": 188.38,
-          "bac_info": 192.18,
-          "bac_sc": 178.37,
-          "bac_tech": 185.48
-        },
-        "debouches": [
-          "Ingénieur informatique",
-          "Ingénieur en télécommunications",
-          "Ingénieur en automatique",
-          "Ingénieur biomédical"
-        ]
-      },
-      {
-        "id": "insat_cycle_preparatoire_integre_chimie_biologie_appliquee",
-        "nom": "Cycle préparatoire intégré – Chimie, Biologie Appliquée",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Formation d'ingénieur intégrée orientée chimie et biologie appliquée, avec un tronc commun scientifique de deux ans. L'institut est rattaché à l'Université de Carthage.",
-        "scores": {
-          "bac_sc": 159.16,
-          "bac_math": 166.61
-        },
-        "debouches": [
-          "Ingénieur en biotechnologie",
-          "Ingénieur en génie chimique",
-          "Ingénieur en industries agroalimentaires",
-          "Ingénieur qualité"
         ]
       }
     ],
@@ -669,23 +563,6 @@
           "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
         ],
         "concours": true
-      },
-      {
-        "id": "fst_licence_en_geomatique_appliquee",
-        "nom": "Licence en Géomatique Appliquée",
-        "duree": "3 ans",
-        "description": "Formation en cartographie numérique et aménagement du territoire par la géomatique. Débouche sur les métiers de la topographie et de l'urbanisme.",
-        "scores": {
-          "bac_math": 119.82,
-          "bac_info": 111.91,
-          "bac_sc": 110.61,
-          "bac_tech": 95.76
-        },
-        "debouches": [
-          "Géomaticien",
-          "Topographe",
-          "Urbaniste"
-        ]
       },
       {
         "id": "fst_licence_en_chimie",
@@ -901,24 +778,6 @@
         },
         "debouches": [
           "Accès aux écoles d'ingénieurs"
-        ]
-      },
-      {
-        "id": "fst_cycle_preparatoire_integre_mathematiques_physique_informatique",
-        "nom": "Cycle préparatoire intégré – Mathématiques, Physique, Informatique",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Formation intégrée de 2 ans de tronc commun scientifique suivie de 3 ans de spécialisation, préparant à un diplôme national d'ingénieur. Le cursus est dispensé à la Faculté des Sciences de Tunis, rattachée à l'Université de Tunis El Manar.",
-        "scores": {
-          "bac_math": 177.81,
-          "bac_info": 183.78,
-          "bac_sc": 173.93,
-          "bac_tech": 178.62
-        },
-        "debouches": [
-          "Ingénieur en informatique",
-          "Ingénieur en télécommunications",
-          "Ingénieur en génie physique",
-          "Poursuite en master ou doctorat"
         ]
       },
       {
@@ -1166,22 +1025,6 @@
         ]
       },
       {
-        "id": "issat_sousse_licence_en_sciences_appliquees_et_technologie",
-        "nom": "Licence en Sciences Appliquées et Technologie",
-        "duree": "3 ans",
-        "description": "Formation technologique pluridisciplinaire dispensée à Sousse. Débouche sur les métiers de l'ingénierie appliquée.",
-        "scores": {
-          "bac_math": 106.85,
-          "bac_sc": 133.27,
-          "bac_tech": 169.35,
-          "bac_info": 146.77
-        },
-        "debouches": [
-          "Ingénieur d'application",
-          "Technicien supérieur"
-        ]
-      },
-      {
         "id": "issat_sousse_licence_en_telecommunications",
         "nom": "Licence en Télécommunications",
         "duree": "3 ans",
@@ -1226,24 +1069,6 @@
         "debouches": [
           "Technicien automatisme",
           "Ingénieur contrôle qualité"
-        ]
-      },
-      {
-        "id": "issat_sousse_cycle_preparatoire_integre_en_sciences_appliquees_et_technologie",
-        "nom": "Cycle préparatoire intégré en Sciences Appliquées et Technologie",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Formation d'ingénieur intégrée en sciences appliquées et technologie, avec deux ans de tronc commun scientifique. L'institut est rattaché à l'Université de Sousse.",
-        "scores": {
-          "bac_math": 173.96,
-          "bac_info": 183.65,
-          "bac_sc": 171.93,
-          "bac_tech": 177.33
-        },
-        "debouches": [
-          "Ingénieur en génie industriel",
-          "Ingénieur en électromécanique",
-          "Ingénieur en génie informatique",
-          "Chef de production"
         ]
       }
     ],
@@ -1297,24 +1122,6 @@
           "Diplome d'Ingénieur spécialité en  Intelligence Artificielle /Data Science",
           "Diplome d'Ingénieur spécialité en  Intelligence Artificielle/ Industrie",
           "Diplome d'Ingénieur spécialité en  Intelligence Artificielle/ Arts"
-        ]
-      },
-      {
-        "id": "hide_tunis_cycle_preparatoire_integre_en_ingenierie_numerique",
-        "nom": "Cycle préparatoire intégré en Ingénierie Numérique",
-        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
-        "description": "Formation d'ingénieur intégrée dispensée entièrement en anglais, axée sur les technologies numériques et informatiques avancées. L'institut est rattaché à l'Université de Tunis.",
-        "scores": {
-          "bac_math": 184.24,
-          "bac_info": 190.94,
-          "bac_sc": 175.94,
-          "bac_tech": 181.25
-        },
-        "debouches": [
-          "Ingénieur logiciel",
-          "Ingénieur en intelligence artificielle",
-          "Ingénieur en cybersécurité",
-          "Chef de projet numérique"
         ]
       }
     ],
@@ -2273,9 +2080,9 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences Économiques dispensée par ISCAE. Nouvelle filière",
         "scores": {
-          "bac_math": 0.0,
-          "bac_eco": 0.0,
-          "bac_sc": 0.0
+          "bac_math": 0,
+          "bac_eco": 0,
+          "bac_sc": 0
         },
         "debouches": [
           "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
@@ -2365,63 +2172,6 @@
         "concours": true
       },
       {
-        "id": "isg_tunis_licence_en_sciences_de_gestion__finance_",
-        "nom": "Licence en Sciences de Gestion (Finance, Marketing)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Sciences de Gestion (Finance, Marketing) dispensée par ISG.",
-        "scores": {
-          "bac_info": 155.4,
-          "bac_math": 149.8,
-          "bac_eco": 148.5,
-          "bac_sc": 140.2
-        },
-        "debouches": [
-          "Consultant en Business Intelligence (BI) / ERP",
-          "Data Scientist / Business Analyst en milieu financier",
-          "Gestionnaire de Portefeuille / Risk Manager",
-          "Responsable Logistique / Digital Marketing Manager",
-          "Auditeur de systèmes d'information"
-        ]
-      },
-      {
-        "id": "isg_tunis_mast_re_en_business_intelligence___data_",
-        "nom": "Mastère en Business Intelligence / Data Science",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Business Intelligence / Data Science dispensée par ISG.",
-        "scores": {
-          "bac_info": 155.4,
-          "bac_math": 149.8,
-          "bac_eco": 148.5,
-          "bac_sc": 140.2
-        },
-        "debouches": [
-          "Consultant en Business Intelligence (BI) / ERP",
-          "Data Scientist / Business Analyst en milieu financier",
-          "Gestionnaire de Portefeuille / Risk Manager",
-          "Responsable Logistique / Digital Marketing Manager",
-          "Auditeur de systèmes d'information"
-        ]
-      },
-      {
-        "id": "isg_tunis_mast_re_en_gestion_des_risques_financier",
-        "nom": "Mastère en Gestion des Risques Financiers",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Gestion des Risques Financiers dispensée par ISG.",
-        "scores": {
-          "bac_info": 155.4,
-          "bac_math": 149.8,
-          "bac_eco": 148.5,
-          "bac_sc": 140.2
-        },
-        "debouches": [
-          "Consultant en Business Intelligence (BI) / ERP",
-          "Data Scientist / Business Analyst en milieu financier",
-          "Gestionnaire de Portefeuille / Risk Manager",
-          "Responsable Logistique / Digital Marketing Manager",
-          "Auditeur de systèmes d'information"
-        ]
-      },
-      {
         "id": "isg_tunis_licence_en_sciences_de_gestion",
         "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
@@ -2493,63 +2243,6 @@
           "Gestionnaire d'entreprise / Consultant junior",
           "Analyste de crédit bancaire / Chargé d'affaires entreprises"
         ]
-      },
-      {
-        "id": "ihec_sfax_mast_re_professionnel_en_ing_nierie_fina",
-        "nom": "Mastère Professionnel en Ingénierie Financière et Fiscalité",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Ingénierie Financière et Fiscalité dispensée par IHEC Sfax.",
-        "scores": {
-          "bac_math": 145.8,
-          "bac_eco": 144.2,
-          "bac_info": 139.5,
-          "bac_sc": 135
-        },
-        "debouches": [
-          "Manager commercial / Ingénieur d'affaires",
-          "Auditeur financier / Conseiller fiscal",
-          "Responsable Logistique et Import/Export",
-          "Gestionnaire d'entreprise / Consultant junior",
-          "Analyste de crédit bancaire / Chargé d'affaires entreprises"
-        ]
-      },
-      {
-        "id": "ihec_sfax_licence_en__conomie_et_finance_internati",
-        "nom": "Licence en Économie et Finance Internationales",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Économie et Finance Internationales dispensée par IHEC Sfax.",
-        "scores": {
-          "bac_math": 145.8,
-          "bac_eco": 144.2,
-          "bac_info": 139.5,
-          "bac_sc": 135
-        },
-        "debouches": [
-          "Manager commercial / Ingénieur d'affaires",
-          "Auditeur financier / Conseiller fiscal",
-          "Responsable Logistique et Import/Export",
-          "Gestionnaire d'entreprise / Consultant junior",
-          "Analyste de crédit bancaire / Chargé d'affaires entreprises"
-        ]
-      },
-      {
-        "id": "ihec_sfax_mast_re_en_commerce_et_affaires_internat",
-        "nom": "Mastère en Commerce et Affaires Internationales",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Commerce et Affaires Internationales dispensée par IHEC Sfax.",
-        "scores": {
-          "bac_math": 145.8,
-          "bac_eco": 144.2,
-          "bac_info": 139.5,
-          "bac_sc": 135
-        },
-        "debouches": [
-          "Manager commercial / Ingénieur d'affaires",
-          "Auditeur financier / Conseiller fiscal",
-          "Responsable Logistique et Import/Export",
-          "Gestionnaire d'entreprise / Consultant junior",
-          "Analyste de crédit bancaire / Chargé d'affaires entreprises"
-        ]
       }
     ],
     "debouches": [
@@ -2591,60 +2284,6 @@
         "nom": "Licence en Sciences de l'Informatique (Génie Logiciel / Réseaux)",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique (Génie Logiciel / Réseaux) dispensée par ISI Ariana.",
-        "scores": {
-          "bac_info": 165.2,
-          "bac_math": 158.5,
-          "bac_sc": 152
-        },
-        "debouches": [
-          "Ingénieur DevOps / Administrateur Cloud",
-          "Développeur Full-Stack / Mobile Senior",
-          "Consultant en Cybersécurité / Pentester",
-          "Architecte Logiciel / Tech Lead",
-          "Ingénieur Systèmes Embarqués et IoT"
-        ]
-      },
-      {
-        "id": "isi_ariana_cycle_ing_nieur_en_informatique",
-        "nom": "Cycle Ingénieur en Informatique",
-        "duree": "3 ans",
-        "description": "Filière phare en Cycle Ingénieur en Informatique dispensée par ISI Ariana.",
-        "scores": {
-          "bac_info": 165.2,
-          "bac_math": 158.5,
-          "bac_sc": 152
-        },
-        "debouches": [
-          "Ingénieur DevOps / Administrateur Cloud",
-          "Développeur Full-Stack / Mobile Senior",
-          "Consultant en Cybersécurité / Pentester",
-          "Architecte Logiciel / Tech Lead",
-          "Ingénieur Systèmes Embarqués et IoT"
-        ]
-      },
-      {
-        "id": "isi_ariana_mast_re_professionnel_en_s_curit__des_s",
-        "nom": "Mastère Professionnel en Sécurité des Systèmes et Réseaux",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Sécurité des Systèmes et Réseaux dispensée par ISI Ariana.",
-        "scores": {
-          "bac_info": 165.2,
-          "bac_math": 158.5,
-          "bac_sc": 152
-        },
-        "debouches": [
-          "Ingénieur DevOps / Administrateur Cloud",
-          "Développeur Full-Stack / Mobile Senior",
-          "Consultant en Cybersécurité / Pentester",
-          "Architecte Logiciel / Tech Lead",
-          "Ingénieur Systèmes Embarqués et IoT"
-        ]
-      },
-      {
-        "id": "isi_ariana_licence_en_technologies_des_syst_mes_em",
-        "nom": "Licence en Technologies des Systèmes Embarqués",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies des Systèmes Embarqués dispensée par ISI Ariana.",
         "scores": {
           "bac_info": 165.2,
           "bac_math": 158.5,
@@ -2713,60 +2352,6 @@
         "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par ISIMM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 145,
-          "bac_sc": 138.2
-        },
-        "debouches": [
-          "Développeur Logiciel Web / Mobile",
-          "Ingénieur de Données / Analyste BI",
-          "Technicien ou Ingénieur en Systèmes Embarqués et IoT",
-          "Administrateur Systèmes et Réseaux",
-          "Spécialiste en Automatisme et Informatique Industrielle"
-        ]
-      },
-      {
-        "id": "isimm_monastir_licence_en__lectronique___nergie__l",
-        "nom": "Licence en Électronique, Énergie Électrique et Automatique (EEA)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Électronique, Énergie Électrique et Automatique (EEA) dispensée par ISIMM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 145,
-          "bac_sc": 138.2
-        },
-        "debouches": [
-          "Développeur Logiciel Web / Mobile",
-          "Ingénieur de Données / Analyste BI",
-          "Technicien ou Ingénieur en Systèmes Embarqués et IoT",
-          "Administrateur Systèmes et Réseaux",
-          "Spécialiste en Automatisme et Informatique Industrielle"
-        ]
-      },
-      {
-        "id": "isimm_monastir_cycle_ing_nieur_en_informatique__g_",
-        "nom": "Cycle Ingénieur en Informatique (Génie Logiciel ou Systèmes Embarqués)",
-        "duree": "3 ans",
-        "description": "Filière phare en Cycle Ingénieur en Informatique (Génie Logiciel ou Systèmes Embarqués) dispensée par ISIMM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 145,
-          "bac_sc": 138.2
-        },
-        "debouches": [
-          "Développeur Logiciel Web / Mobile",
-          "Ingénieur de Données / Analyste BI",
-          "Technicien ou Ingénieur en Systèmes Embarqués et IoT",
-          "Administrateur Systèmes et Réseaux",
-          "Spécialiste en Automatisme et Informatique Industrielle"
-        ]
-      },
-      {
-        "id": "isimm_monastir_mast_re_de_recherche_en_intelligenc",
-        "nom": "Mastère de Recherche en Intelligence Artificielle et Data Science",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère de Recherche en Intelligence Artificielle et Data Science dispensée par ISIMM.",
         "scores": {
           "bac_info": 152.4,
           "bac_math": 145,
@@ -2871,61 +2456,6 @@
         "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par ISITCOM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 146.8,
-          "bac_sc": 141.2
-        },
-        "debouches": [
-          "Ingénieur Réseaux et Télécoms",
-          "Administrateur Systèmes, Réseaux et Cloud",
-          "Développeur Applications Web et Mobile",
-          "Consultant en Solutions Télécoms & VoIP",
-          "Ingénieur Support et Cybersécurité"
-        ]
-      },
-      {
-        "id": "isitcom_sousse_cycle_ing_nieur_en_informatique_et_",
-        "nom": "Cycle Ingénieur en Informatique et Télécommunications",
-        "duree": "3 ans",
-        "description": "Filière phare en Cycle Ingénieur en Informatique et Télécommunications dispensée par ISITCOM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 146.8,
-          "bac_sc": 141.2
-        },
-        "debouches": [
-          "Ingénieur Réseaux et Télécoms",
-          "Administrateur Systèmes, Réseaux et Cloud",
-          "Développeur Applications Web et Mobile",
-          "Consultant en Solutions Télécoms & VoIP",
-          "Ingénieur Support et Cybersécurité"
-        ]
-      },
-      {
-        "id": "isitcom_sousse_mast_re_en_cloud_computing_et_virtu",
-        "nom": "Mastère en Cloud Computing et Virtualisation",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Cloud Computing et Virtualisation dispensée par ISITCOM.",
-        "scores": {
-          "bac_info": 152.4,
-          "bac_math": 146.8,
-          "bac_sc": 141.2
-        },
-        "debouches": [
-          "Ingénieur Réseaux et Télécoms",
-          "Administrateur Systèmes, Réseaux et Cloud",
-          "Développeur Applications Web et Mobile",
-          "Consultant en Solutions Télécoms & VoIP",
-          "Ingénieur Support et Cybersécurité"
-        ],
-        "concours": true
-      },
-      {
-        "id": "isitcom_sousse_licence_en_syst_mes_embarqu_s_et_io",
-        "nom": "Licence en Systèmes Embarqués et IoT",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Systèmes Embarqués et IoT dispensée par ISITCOM.",
         "scores": {
           "bac_info": 152.4,
           "bac_math": 146.8,
@@ -3054,42 +2584,6 @@
         ]
       },
       {
-        "id": "isima_mahdia_licence_en_math_matiques_appliqu_es_e",
-        "nom": "Licence en Mathématiques Appliquées et Science des Données",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Mathématiques Appliquées et Science des Données dispensée par ISIMA Mahdia.",
-        "scores": {
-          "bac_info": 128.5,
-          "bac_math": 121,
-          "bac_sc": 118.4
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur Web",
-          "Analyste de Données / Data Analyst Junior",
-          "Gestionnaire de Bases de Données",
-          "Technicien Supérieur en Maintenance Réseaux",
-          "Développeur Front-End / Spécialiste CMS"
-        ]
-      },
-      {
-        "id": "isima_mahdia_mast_re_professionnel_en_ing_nierie_d",
-        "nom": "Mastère Professionnel en Ingénierie des Systèmes d'Information",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Ingénierie des Systèmes d'Information dispensée par ISIMA Mahdia.",
-        "scores": {
-          "bac_info": 128.5,
-          "bac_math": 121,
-          "bac_sc": 118.4
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur Web",
-          "Analyste de Données / Data Analyst Junior",
-          "Gestionnaire de Bases de Données",
-          "Technicien Supérieur en Maintenance Réseaux",
-          "Développeur Front-End / Spécialiste CMS"
-        ]
-      },
-      {
         "id": "isima_mahdia_licence_en_big_data",
         "nom": "Licence en Big Data",
         "duree": "3 ans",
@@ -3171,60 +2665,6 @@
           "Développeur d'applications connectées (IoT)",
           "Responsable d'infrastructure IT et Exploitation"
         ]
-      },
-      {
-        "id": "isetcom_tunis_licence_en_technologies_des_communic",
-        "nom": "Licence en Technologies des Communications (Systèmes Numériques)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies des Communications (Systèmes Numériques) dispensée par ISET'COM.",
-        "scores": {
-          "bac_info": 149.6,
-          "bac_math": 143.2,
-          "bac_sc": 138.5
-        },
-        "debouches": [
-          "Administrateur Réseaux et Systèmes / Cloud",
-          "Ingénieur Support Télécom & VoIP",
-          "Technicien Supérieur en Cybersécurité et Commutation",
-          "Développeur d'applications connectées (IoT)",
-          "Responsable d'infrastructure IT et Exploitation"
-        ]
-      },
-      {
-        "id": "isetcom_tunis_mast_re_professionnel_en_s_curit__de",
-        "nom": "Mastère Professionnel en Sécurité des Réseaux et Services",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Sécurité des Réseaux et Services dispensée par ISET'COM.",
-        "scores": {
-          "bac_info": 149.6,
-          "bac_math": 143.2,
-          "bac_sc": 138.5
-        },
-        "debouches": [
-          "Administrateur Réseaux et Systèmes / Cloud",
-          "Ingénieur Support Télécom & VoIP",
-          "Technicien Supérieur en Cybersécurité et Commutation",
-          "Développeur d'applications connectées (IoT)",
-          "Responsable d'infrastructure IT et Exploitation"
-        ]
-      },
-      {
-        "id": "isetcom_tunis_mast_re_professionnel_en_internet_de",
-        "nom": "Mastère Professionnel en Internet des Objets et Management Numérique",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Internet des Objets et Management Numérique dispensée par ISET'COM.",
-        "scores": {
-          "bac_info": 149.6,
-          "bac_math": 143.2,
-          "bac_sc": 138.5
-        },
-        "debouches": [
-          "Administrateur Réseaux et Systèmes / Cloud",
-          "Ingénieur Support Télécom & VoIP",
-          "Technicien Supérieur en Cybersécurité et Commutation",
-          "Développeur d'applications connectées (IoT)",
-          "Responsable d'infrastructure IT et Exploitation"
-        ]
       }
     ],
     "debouches": [
@@ -3264,40 +2704,6 @@
         "nom": "Diplôme National d'Architecte",
         "duree": "6 ans",
         "description": "Filière phare en Diplôme National d'Architecte dispensée par ENAU.",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_sc": 162,
-          "bac_info": 155.2
-        },
-        "debouches": [
-          "Architecte (Secteur Public/Cabinet privé / Profession libérale)",
-          "Urbaniste / Planificateur territorial pour l'État ou les municipalités",
-          "Chef de projet / Consultant en patrimoine architectural",
-          "Expert en bâtiments et conduite de travaux"
-        ]
-      },
-      {
-        "id": "enau_mast_re_de_recherche_en_architecture_et_urban",
-        "nom": "Mastère de Recherche en Architecture et Urbanisme",
-        "duree": "6 ans",
-        "description": "Filière phare en Mastère de Recherche en Architecture et Urbanisme dispensée par ENAU.",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_sc": 162,
-          "bac_info": 155.2
-        },
-        "debouches": [
-          "Architecte (Secteur Public/Cabinet privé / Profession libérale)",
-          "Urbaniste / Planificateur territorial pour l'État ou les municipalités",
-          "Chef de projet / Consultant en patrimoine architectural",
-          "Expert en bâtiments et conduite de travaux"
-        ]
-      },
-      {
-        "id": "enau_doctorat_en_architecture",
-        "nom": "Doctorat en Architecture",
-        "duree": "6 ans",
-        "description": "Filière phare en Doctorat en Architecture dispensée par ENAU.",
         "scores": {
           "bac_math": 168.5,
           "bac_sc": 162,
@@ -3367,63 +2773,6 @@
         "nom": "Licence en Technologies de l'Informatique (DSI / RSI / SEM)",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Technologies de l'Informatique (DSI / RSI / SEM) dispensée par ISET Radès.",
-        "scores": {
-          "bac_info": 138.2,
-          "bac_math": 128.5,
-          "bac_tech": 131,
-          "bac_eco": 122.4
-        },
-        "debouches": [
-          "Développeur d'applications / Administrateur Réseaux",
-          "Technicien Supérieur en Maintenance Industrielle",
-          "Superviseur de Production / Chef d'équipe logistique",
-          "Dessinateur Projeteur / Concepteur Mécanique CAD",
-          "Technicien en Automatismes et Robotique"
-        ]
-      },
-      {
-        "id": "iset_rades_licence_en_g_nie_m_canique__constructio",
-        "nom": "Licence en Génie Mécanique (Construction et Fabrication)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Mécanique (Construction et Fabrication) dispensée par ISET Radès.",
-        "scores": {
-          "bac_info": 138.2,
-          "bac_math": 128.5,
-          "bac_tech": 131,
-          "bac_eco": 122.4
-        },
-        "debouches": [
-          "Développeur d'applications / Administrateur Réseaux",
-          "Technicien Supérieur en Maintenance Industrielle",
-          "Superviseur de Production / Chef d'équipe logistique",
-          "Dessinateur Projeteur / Concepteur Mécanique CAD",
-          "Technicien en Automatismes et Robotique"
-        ]
-      },
-      {
-        "id": "iset_rades_licence_en_g_nie__lectrique__automatism",
-        "nom": "Licence en Génie Électrique (Automatismes et Informatique Industrielle)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Électrique (Automatismes et Informatique Industrielle) dispensée par ISET Radès.",
-        "scores": {
-          "bac_info": 138.2,
-          "bac_math": 128.5,
-          "bac_tech": 131,
-          "bac_eco": 122.4
-        },
-        "debouches": [
-          "Développeur d'applications / Administrateur Réseaux",
-          "Technicien Supérieur en Maintenance Industrielle",
-          "Superviseur de Production / Chef d'équipe logistique",
-          "Dessinateur Projeteur / Concepteur Mécanique CAD",
-          "Technicien en Automatismes et Robotique"
-        ]
-      },
-      {
-        "id": "iset_rades_mast_re_professionnel_en_lean_managemen",
-        "nom": "Mastère Professionnel en Lean Management",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Lean Management dispensée par ISET Radès.",
         "scores": {
           "bac_info": 138.2,
           "bac_math": 128.5,
@@ -3559,63 +2908,6 @@
         ]
       },
       {
-        "id": "iset_nabeul_licence_en_technologies_de_l_informati",
-        "nom": "Licence en Technologies de l'Informatique (Développement Systèmes)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies de l'Informatique (Développement Systèmes) dispensée par ISET Nabeul.",
-        "scores": {
-          "bac_info": 132,
-          "bac_math": 122.4,
-          "bac_tech": 126.8,
-          "bac_eco": 118
-        },
-        "debouches": [
-          "Conducteur de Travaux / Métreur en Génie Civil",
-          "Développeur Web et Mobile Junior",
-          "Comptable d'entreprise / Assistant RH",
-          "Technicien d'essais et de contrôle en électricité",
-          "Gestionnaire de stock et approvisionnement"
-        ]
-      },
-      {
-        "id": "iset_nabeul_licence_en_gestion_des_entreprises_et_",
-        "nom": "Licence en Gestion des Entreprises et des Administrations",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Gestion des Entreprises et des Administrations dispensée par ISET Nabeul.",
-        "scores": {
-          "bac_info": 132,
-          "bac_math": 122.4,
-          "bac_tech": 126.8,
-          "bac_eco": 118
-        },
-        "debouches": [
-          "Conducteur de Travaux / Métreur en Génie Civil",
-          "Développeur Web et Mobile Junior",
-          "Comptable d'entreprise / Assistant RH",
-          "Technicien d'essais et de contrôle en électricité",
-          "Gestionnaire de stock et approvisionnement"
-        ]
-      },
-      {
-        "id": "iset_nabeul_mast_re_co_construit_en_e_business",
-        "nom": "Mastère Co-construit en E-Business",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Co-construit en E-Business dispensée par ISET Nabeul.",
-        "scores": {
-          "bac_info": 132,
-          "bac_math": 122.4,
-          "bac_tech": 126.8,
-          "bac_eco": 118
-        },
-        "debouches": [
-          "Conducteur de Travaux / Métreur en Génie Civil",
-          "Développeur Web et Mobile Junior",
-          "Comptable d'entreprise / Assistant RH",
-          "Technicien d'essais et de contrôle en électricité",
-          "Gestionnaire de stock et approvisionnement"
-        ]
-      },
-      {
         "id": "iset_nabeul_licence_en_technologies_de_l_informatique",
         "nom": "Licence en Technologies de l'Informatique",
         "duree": "3 ans",
@@ -3656,7 +2948,7 @@
         "scores": {
           "bac_math": 129.95,
           "bac_sc": 119.64,
-          "bac_tech": 119.0,
+          "bac_tech": 119,
           "bac_info": 160.77
         },
         "debouches": [
@@ -3721,44 +3013,6 @@
         "nom": "Licence en Technologies de l'Informatique",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Technologies de l'Informatique dispensée par ISET Djerba.",
-        "scores": {
-          "bac_info": 115.5,
-          "bac_math": 105,
-          "bac_eco": 108.2,
-          "bac_sc": 102
-        },
-        "debouches": [
-          "Webmaster / Développeur d'applications Web",
-          "Chargé de clientèle / Assistant de Gestion",
-          "Technicien en maintenance d'installations photovoltaïques",
-          "Support technique informatique hôtelier / d'entreprise",
-          "Technicien de maintenance industrielle"
-        ]
-      },
-      {
-        "id": "iset_djerba_licence_en_gestion_administrative_et_c",
-        "nom": "Licence en Gestion Administrative et Commerciale",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Gestion Administrative et Commerciale dispensée par ISET Djerba.",
-        "scores": {
-          "bac_info": 115.5,
-          "bac_math": 105,
-          "bac_eco": 108.2,
-          "bac_sc": 102
-        },
-        "debouches": [
-          "Webmaster / Développeur d'applications Web",
-          "Chargé de clientèle / Assistant de Gestion",
-          "Technicien en maintenance d'installations photovoltaïques",
-          "Support technique informatique hôtelier / d'entreprise",
-          "Technicien de maintenance industrielle"
-        ]
-      },
-      {
-        "id": "iset_djerba_licence_en_g_nie__lectrique___nergies_",
-        "nom": "Licence en Génie Électrique (Énergies Renouvelables)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Électrique (Énergies Renouvelables) dispensée par ISET Djerba.",
         "scores": {
           "bac_info": 115.5,
           "bac_math": 105,
@@ -3844,63 +3098,6 @@
         "nom": "Licence en Génie des Procédés (Chimie Industrielle)",
         "duree": "3 ans",
         "description": "Filière phare en Licence en Génie des Procédés (Chimie Industrielle) dispensée par ISET Gabès.",
-        "scores": {
-          "bac_tech": 120.4,
-          "bac_math": 112.8,
-          "bac_info": 122,
-          "bac_sc": 110.5
-        },
-        "debouches": [
-          "Technicien de Laboratoire Chimique / Contrôle Qualité",
-          "Opérateur / Chef de poste en industrie lourde",
-          "Technicien de Maintenance Systèmes Électromécaniques",
-          "Développeur d'applications industrielles / IT",
-          "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
-        ]
-      },
-      {
-        "id": "iset_gabes_licence_en_g_nie_m_canique__maintenance",
-        "nom": "Licence en Génie Mécanique (Maintenance)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Mécanique (Maintenance) dispensée par ISET Gabès.",
-        "scores": {
-          "bac_tech": 120.4,
-          "bac_math": 112.8,
-          "bac_info": 122,
-          "bac_sc": 110.5
-        },
-        "debouches": [
-          "Technicien de Laboratoire Chimique / Contrôle Qualité",
-          "Opérateur / Chef de poste en industrie lourde",
-          "Technicien de Maintenance Systèmes Électromécaniques",
-          "Développeur d'applications industrielles / IT",
-          "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
-        ]
-      },
-      {
-        "id": "iset_gabes_licence_en_technologies_de_l_informatiq",
-        "nom": "Licence en Technologies de l'Informatique",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies de l'Informatique dispensée par ISET Gabès.",
-        "scores": {
-          "bac_tech": 120.4,
-          "bac_math": 112.8,
-          "bac_info": 122,
-          "bac_sc": 110.5
-        },
-        "debouches": [
-          "Technicien de Laboratoire Chimique / Contrôle Qualité",
-          "Opérateur / Chef de poste en industrie lourde",
-          "Technicien de Maintenance Systèmes Électromécaniques",
-          "Développeur d'applications industrielles / IT",
-          "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
-        ]
-      },
-      {
-        "id": "iset_gabes_mast_re_professionnel_en_s_curit__envir",
-        "nom": "Mastère Professionnel en Sécurité Environnementale et Industrielle",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Sécurité Environnementale et Industrielle dispensée par ISET Gabès.",
         "scores": {
           "bac_tech": 120.4,
           "bac_math": 112.8,
@@ -4017,64 +3214,6 @@
           "Technicien de bureau d'études en mécanique",
           "Comptable ou Analyste de gestion d'atelier"
         ]
-      },
-      {
-        "id": "iset_sfax_licence_en_gestion_de_la_production_et_l",
-        "nom": "Licence en Gestion de la Production et Logistique",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Gestion de la Production et Logistique dispensée par ISET Sfax.",
-        "scores": {
-          "bac_info": 136.4,
-          "bac_math": 125,
-          "bac_tech": 128.2,
-          "bac_eco": 120.6
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur d'applications",
-          "Gestionnaire de flux logistiques / Supply Chain Assistant",
-          "Technicien Supérieur en Automatisation Industrielle",
-          "Technicien de bureau d'études en mécanique",
-          "Comptable ou Analyste de gestion d'atelier"
-        ]
-      },
-      {
-        "id": "iset_sfax_licence_en_g_nie__lectrique__informatiqu",
-        "nom": "Licence en Génie Électrique (Informatique Industrielle)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Électrique (Informatique Industrielle) dispensée par ISET Sfax.",
-        "scores": {
-          "bac_info": 136.4,
-          "bac_math": 125,
-          "bac_tech": 128.2,
-          "bac_eco": 120.6
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur d'applications",
-          "Gestionnaire de flux logistiques / Supply Chain Assistant",
-          "Technicien Supérieur en Automatisation Industrielle",
-          "Technicien de bureau d'études en mécanique",
-          "Comptable ou Analyste de gestion d'atelier"
-        ]
-      },
-      {
-        "id": "iset_sfax_mast_re_co_construit_en_optimisation_ind",
-        "nom": "Mastère Co-construit en Optimisation Industrielle et Logistique",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Co-construit en Optimisation Industrielle et Logistique dispensée par ISET Sfax.",
-        "scores": {
-          "bac_info": 136.4,
-          "bac_math": 125,
-          "bac_tech": 128.2,
-          "bac_eco": 120.6
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur d'applications",
-          "Gestionnaire de flux logistiques / Supply Chain Assistant",
-          "Technicien Supérieur en Automatisation Industrielle",
-          "Technicien de bureau d'études en mécanique",
-          "Comptable ou Analyste de gestion d'atelier"
-        ],
-        "concours": true
       },
       {
         "id": "iset_sfax_licence_en_technologies_de_l_informatique",
@@ -4394,18 +3533,6 @@
           "Comptable / Auditeur",
           "Analyste financier",
           "Expertise comptable (poursuite)"
-        ]
-      },
-      {
-        "id": "essect_tunis_f3",
-        "nom": "Mastère Professionnel en Digital Marketing / Management",
-        "duree": "2 ans",
-        "description": "Spécialisation en marketing digital, management ou gestion des ressources humaines.",
-        "scores": {},
-        "debouches": [
-          "Chef de projet marketing digital",
-          "Manager RH",
-          "Consultant en gestion"
         ]
       },
       {
@@ -4807,17 +3934,6 @@
         "debouches": [
           "Comptable / Contrôleur de gestion",
           "Analyste financier"
-        ]
-      },
-      {
-        "id": "fseg_mahdia_f3",
-        "nom": "Mastère Professionnel en Gestion",
-        "duree": "2 ans",
-        "description": "Spécialisation en gestion des entreprises ou finance.",
-        "scores": {},
-        "debouches": [
-          "Manager / Cadre supérieur",
-          "Consultant en gestion"
         ]
       },
       {
@@ -5442,7 +4558,7 @@
         "description": "Formation en réseaux informatiques et cybersécurité dispensée à Sfax. Prépare aux métiers de l'administration de systèmes.",
         "scores": {
           "bac_math": 108.6,
-          "bac_sc": 122.0,
+          "bac_sc": 122,
           "bac_tech": 161.09,
           "bac_info": 123.81
         },
@@ -5703,17 +4819,6 @@
         "debouches": [
           "Technicien/Ingénieur en biotechnologie",
           "Laboratoire de recherche"
-        ]
-      },
-      {
-        "id": "isbm_monastir_f2",
-        "nom": "Mastère en Sciences Biologiques",
-        "duree": "2 ans",
-        "description": "Spécialisation en sciences biologiques et biotechnologie.",
-        "scores": {},
-        "debouches": [
-          "Chercheur",
-          "Industrie pharmaceutique/agroalimentaire"
         ]
       },
       {
@@ -6345,7 +5450,7 @@
         "scores": {
           "bac_info": 102.69,
           "bac_sc": 127.64,
-          "bac_tech": 100.0,
+          "bac_tech": 100,
           "bac_eco": 98.02,
           "bac_lettres": 129.68
         },
@@ -6865,17 +5970,6 @@
         "debouches": [
           "Technicien/Ingénieur transport",
           "Responsable exploitation"
-        ]
-      },
-      {
-        "id": "istls_sousse_f3",
-        "nom": "Mastère Professionnel en Logistique Industrielle",
-        "duree": "2 ans",
-        "description": "Spécialisation en logistique et gestion de la chaîne d'approvisionnement.",
-        "scores": {},
-        "debouches": [
-          "Responsable logistique",
-          "Consultant en supply chain"
         ]
       },
       {

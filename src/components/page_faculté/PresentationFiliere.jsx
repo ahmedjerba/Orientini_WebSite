@@ -149,16 +149,9 @@ export default function PresentationFiliere({ faculte }) {
               </div>
 
               {/* Admission / Scores */}
-              <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-gray-100/50">
-                <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
-                {activeSpecialty.concours ? (
-                  <div className="bg-amber-50 border border-amber-200/50 rounded-xl px-3 py-2 flex items-center gap-1.5 mt-1">
-                    <span className="text-base">🏆</span>
-                    <span className="text-amber-800 text-[11px] font-black uppercase tracking-wider">
-                      Accès sur Concours National uniquement
-                    </span>
-                  </div>
-                ) : (
+              {(activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
+                <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-gray-100/50">
+                  <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
                   <div className="flex flex-wrap gap-2 mt-1">
                     {activeSpecialty.bac_math && (
                       <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-[#1b1464] flex items-center gap-1">
@@ -196,8 +189,8 @@ export default function PresentationFiliere({ faculte }) {
                       </span>
                     )}
                   </div>
-                )}
-              </div>
+                </div>
+              )}
 
               {/* Débouchés */}
               <div className="space-y-2">
