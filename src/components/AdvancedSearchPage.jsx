@@ -298,7 +298,7 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
                       Spécialités (cliquer pour le deep-dive) :
                     </span>
                     <div className="flex flex-wrap gap-1.5">
-                      {fac.filieres_phares?.map((filiere, idx) => {
+                      {fac.filieres_phares?.slice(0, 3).map((filiere, idx) => {
                         const filiereName = typeof filiere === 'object' && filiere !== null ? filiere.nom : filiere;
                         return (
                           <button
@@ -313,6 +313,17 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
                           </button>
                         );
                       })}
+                      {fac.filieres_phares?.length > 3 && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onCardClick(fac);
+                          }}
+                          className="bg-slate-50 border border-dashed border-[#de3f6b] text-[#de3f6b] hover:bg-[#de3f6b] hover:text-white font-extrabold text-[10px] px-2.5 py-1 rounded-xl transition-all"
+                        >
+                          Voir plus...
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
