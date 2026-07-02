@@ -233,10 +233,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "6 ans pour le diplôme national de Docteur en Pharmacie, cursus de résistanat (Biologie, Pharmacie Hospitalière/Industrielle)",
-    "score_derniere_annee": {
-      "bac_math": 175.8,
-      "bac_sc": 179
-    },
     "filieres_phares": [
       {
         "id": "fph_monastir_sciences_pharmaceutiques__tronc_commu",
@@ -291,11 +287,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans : 2 ans de cycle préparatoire intégré ( 1 année MPI / CBA+ 1 année spécialité) + 3 ans de cycle d'ingénieur de spécialité",
-    "score_derniere_annee": {
-      "bac_math": 168.5,
-      "bac_sc": 162,
-      "bac_info": 171.2
-    },
     "filieres_phares": [
       {
         "id": "insat_prep_mpi",
@@ -365,11 +356,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur), Pour les licences 3 ans (+ 2ans mastère optionnel)",
-    "score_derniere_annee": {
-      "bac_math": 145.8,
-      "bac_sc": 141.2,
-      "bac_info": 152
-    },
     "filieres_phares": [
       {
         "id": "fst_g_prepa integree",
@@ -415,7 +401,7 @@
         "duree": "3 ans Licence",
         "description": "Filière phare en Mathématiques dispensée par FST.",
         "scores": {
-          "bac_math": 85.10,
+          "bac_math": 85.1,
           "bac_sc": 111.16,
           "bac_info": 165.78,
           "bac_tech": 150.46
@@ -434,7 +420,7 @@
         "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
         "description": "Licence en Ingénieurie des systèmes informatiques dispensés par FST",
         "scores": {
-          "bac_math": 99.20,
+          "bac_math": 99.2,
           "bac_sc": 155.14,
           "bac_info": 165.25,
           "bac_tech": 168.51
@@ -532,7 +518,7 @@
         "description": "Cycle préparatoire en PC dispensée par FST",
         "scores": {
           "bac_math": 112.82,
-          "bac_sc": 114.60,
+          "bac_sc": 114.6,
           "bac_info": 140.32
         },
         "debouches": [
@@ -577,11 +563,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "Cycle Préparatoire Intégré (2 ans) + Cycle d'Ingénieur (3 ans) - Enseigné en Anglais",
-    "score_derniere_annee": {
-      "bac_math": 155.03,
-      "bac_sc": 139.13,
-      "bac_info": 175.56
-    },
     "filieres_phares": [
       {
         "id": "mse_11525_engineering",
@@ -650,11 +631,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur (sur contrôle continu / concours interne)",
-    "score_derniere_annee": {
-      "bac_math": 158.4,
-      "bac_info": 162.1,
-      "bac_sc": 149.8
-    },
     "filieres_phares": [
       {
         "id": "issat_sousse_cycle_pr_paratoire_int_gr____mpi__mat",
@@ -678,7 +654,7 @@
         "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
         "description": "Licence en Informatique dispensée par ISSAT Sousse",
         "scores": {
-          "bac_math": 161.30,
+          "bac_math": 161.3,
           "bac_info": 170.25,
           "bac_sc": 164.44,
           "bac_tech": 180.11
@@ -815,12 +791,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "5 ans d'études intégrées  :  2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur avec spécialisation dans les deux dernières années.",
-    "score_derniere_annee": {
-      "bac_math": 184.24,
-      "bac_info": 190.94,
-      "bac_sc": 175.94,
-      "bac_tech": 181.25
-    },
     "filieres_phares": [
       {
         "id": "hide_tunis_cycle_pr_paratoire_int_gr___exact_scien",
@@ -872,11 +842,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 164.2,
-      "bac_sc": 158,
-      "bac_info": 167.5
-    },
     "filieres_phares": [
       {
         "id": "ipeit_mp__math_physique_",
@@ -884,16 +849,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIT.",
         "scores": {
-          "bac_math": 120.61,
-          "bac_sc": 121.88,
-          "bac_info": 154.12
+          "bac_math": 120.61
         },
         "debouches": [
           "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
           "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
           "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ],
-        "concours": true
+        ]
       },
       {
         "id": "ipeit_pc__physique_chimie_",
@@ -901,16 +863,14 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIT.",
         "scores": {
-          "bac_math": 164.2,
-          "bac_sc": 158,
-          "bac_info": 167.5
+          "bac_sc": 121.88,
+          "bac_info": 154.12
         },
         "debouches": [
           "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
           "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
           "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ],
-        "concours": true
+        ]
       }
     ],
     "debouches": [
@@ -942,11 +902,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 155.4,
-      "bac_sc": 148,
-      "bac_info": 158.5
-    },
     "filieres_phares": [
       {
         "id": "ipein_mp__math_physique_",
@@ -954,16 +909,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIN.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 148,
-          "bac_info": 158.5
+          "bac_math": 131.97
         },
         "debouches": [
-          "Intégration des Cycles Ingenieurs Nationaux (Toutes spécialités)",
-          "Poursuite d'études en Écoles d'Ingénieurs en France",
-          "Passage en Cycles de Licence Scientifique d'Excellence"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipein_pc__physique_chimie_",
@@ -971,16 +923,14 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIN.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 148,
-          "bac_info": 158.5
+          "bac_sc": 148.34,
+          "bac_info": 161.07
         },
         "debouches": [
-          "Intégration des Cycles Ingenieurs Nationaux (Toutes spécialités)",
-          "Poursuite d'études en Écoles d'Ingénieurs en France",
-          "Passage en Cycles de Licence Scientifique d'Excellence"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipein_pt__physique_tech_",
@@ -988,22 +938,19 @@
         "duree": "2 ans",
         "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
         "scores": {
-          "bac_math": 155.4,
-          "bac_sc": 148,
-          "bac_info": 158.5
+          "bac_tech": 153.12
         },
         "debouches": [
-          "Intégration des Cycles Ingenieurs Nationaux (Toutes spécialités)",
-          "Poursuite d'études en Écoles d'Ingénieurs en France",
-          "Passage en Cycles de Licence Scientifique d'Excellence"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       }
     ],
     "debouches": [
-      "Intégration des Cycles Ingenieurs Nationaux (Toutes spécialités)",
-      "Poursuite d'études en Écoles d'Ingénieurs en France",
-      "Passage en Cycles de Licence Scientifique d'Excellence"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Ahmed, Ancien élève",
@@ -1029,11 +976,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 152.1,
-      "bac_sc": 146.5,
-      "bac_info": 154
-    },
     "filieres_phares": [
       {
         "id": "ipeim_mp__math_physique_",
@@ -1041,16 +983,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIM.",
         "scores": {
-          "bac_math": 152.1,
-          "bac_sc": 146.5,
-          "bac_info": 154
+          "bac_math": 158.33
         },
         "debouches": [
-          "Admissibilité aux Écoles Nationales d'Ingénieurs tunisiennes",
-          "Intégration d'écoles partenaires internationales",
-          "Accès aux Masters de Recherche Scientifique"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeim_pc__physique_chimie_",
@@ -1058,22 +997,34 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIM.",
         "scores": {
-          "bac_math": 152.1,
-          "bac_sc": 146.5,
-          "bac_info": 154
+          "bac_sc": 155.44,
+          "bac_info": 164.16
         },
         "debouches": [
-          "Admissibilité aux Écoles Nationales d'Ingénieurs tunisiennes",
-          "Intégration d'écoles partenaires internationales",
-          "Accès aux Masters de Recherche Scientifique"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
+      },
+      {
+        "id": "ipeim_pt__physique_tech_",
+        "nom": "PT (Physique-Tech)",
+        "duree": "2 ans",
+        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
+        "scores": {
+          "bac_tech": 156.5
+        },
+        "debouches": [
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       }
     ],
     "debouches": [
-      "Admissibilité aux Écoles Nationales d'Ingénieurs tunisiennes",
-      "Intégration d'écoles partenaires internationales",
-      "Accès aux Masters de Recherche Scientifique"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Wassim, Étudiant",
@@ -1099,11 +1050,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 154.8,
-      "bac_sc": 149.2,
-      "bac_info": 156
-    },
     "filieres_phares": [
       {
         "id": "ipeis_mp__math_physique_",
@@ -1111,16 +1057,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIS.",
         "scores": {
-          "bac_math": 154.8,
-          "bac_sc": 149.2,
-          "bac_info": 156
+          "bac_math": 141.49
         },
         "debouches": [
-          "Intégration des Grandes Écoles d'Ingénieurs Nationales",
-          "Candidature aux Écoles du Concours Commun Français",
-          "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeis_pc__physique_chimie_",
@@ -1128,16 +1071,28 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIS.",
         "scores": {
-          "bac_math": 154.8,
-          "bac_sc": 149.2,
-          "bac_info": 156
+          "bac_sc": 142.1,
+          "bac_info": 144.27
         },
         "debouches": [
-          "Intégration des Grandes Écoles d'Ingénieurs Nationales",
-          "Candidature aux Écoles du Concours Commun Français",
-          "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
+      },
+      {
+        "id": "ipeis_pt__physique_tech_",
+        "nom": "PT (Physique-Tech)",
+        "duree": "2 ans",
+        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
+        "scores": {
+          "bac_tech": 139.78
+        },
+        "debouches": [
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeis_bg__biologie_g_ologie_",
@@ -1145,22 +1100,20 @@
         "duree": "2 ans",
         "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIS.",
         "scores": {
-          "bac_math": 154.8,
-          "bac_sc": 149.2,
-          "bac_info": 156
+          "bac_math": 139.27,
+          "bac_sc": 101.69
         },
         "debouches": [
           "Intégration des Grandes Écoles d'Ingénieurs Nationales",
           "Candidature aux Écoles du Concours Commun Français",
           "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
-        ],
-        "concours": true
+        ]
       }
     ],
     "debouches": [
-      "Intégration des Grandes Écoles d'Ingénieurs Nationales",
-      "Candidature aux Écoles du Concours Commun Français",
-      "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Malek, Élève Sup'Com",
@@ -1186,11 +1139,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 155.4,
-      "bac_sc": 151.2,
-      "bac_info": 158
-    },
     "filieres_phares": [
       {
         "id": "ipeiem_mp__math_physique_",
@@ -1198,16 +1146,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIEM.",
         "scores": {
-          "bac_math": 163.15,
-          "bac_sc": 154.94,
-          "bac_info": 170.91
+          "bac_math": 163.15
         },
         "debouches": [
-          "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
-          "Passage des concours d'Écoles d'Ingénieurs à l'étranger",
-          "Filières d'Enseignement et Agrégation en Sciences Physiques/Maths"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeiem_pc__physique_chimie_",
@@ -1215,16 +1160,14 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIEM.",
         "scores": {
-          "bac_math": 163.15,
           "bac_sc": 154.94,
           "bac_info": 170.91
         },
         "debouches": [
-          "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
-          "Passage des concours d'Écoles d'Ingénieurs à l'étranger",
-          "Filières d'Enseignement et Agrégation en Sciences Physiques/Maths"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeiem_pt__physique_technologie_",
@@ -1235,17 +1178,16 @@
           "bac_tech": 148.14
         },
         "debouches": [
-          "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
-          "Passage des concours d'Écoles d'Ingénieurs à l'étranger",
-          "Filières d'Enseignement et Agrégation en Sciences Physiques/Maths"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       }
     ],
     "debouches": [
-      "Admission en Écoles d'Ingénieurs publiques (Informatique, Génie Civil, Électrique, etc.)",
-      "Passage des concours d'Écoles d'Ingénieurs à l'étranger",
-      "Filières d'Enseignement et Agrégation en Sciences Physiques/Maths"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Yassine, Ancien IPEIEM (SUP'COM)",
@@ -1271,11 +1213,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 125.5,
-      "bac_sc": 130.2,
-      "bac_info": 128
-    },
     "filieres_phares": [
       {
         "id": "ipeigb_mp__math_physique_",
@@ -1283,14 +1220,13 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIGB.",
         "scores": {
-          "bac_tech": 119
+          "bac_math": 89.89
         },
         "debouches": [
-          "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
-          "Spécialisation en Génie Chimique et Procédés industriels",
-          "Parcours Universitaires Scientifiques Suppérieurs"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeigb_pc__physique_chimie_",
@@ -1298,16 +1234,28 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIGB.",
         "scores": {
-          "bac_math": 89.94,
           "bac_sc": 99.75,
           "bac_info": 96.82
         },
         "debouches": [
-          "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
-          "Spécialisation en Génie Chimique et Procédés industriels",
-          "Parcours Universitaires Scientifiques Suppérieurs"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
+      },
+      {
+        "id": "ipeigb_pt__physique_tech_",
+        "nom": "PT (Physique-Tech)",
+        "duree": "2 ans",
+        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIGB.",
+        "scores": {
+          "bac_tech": 119
+        },
+        "debouches": [
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
       },
       {
         "id": "ipeigb_bg__biologie_g_ologie_",
@@ -1322,14 +1270,13 @@
           "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
           "Spécialisation en Génie Chimique et Procédés industriels",
           "Parcours Universitaires Scientifiques Suppérieurs"
-        ],
-        "concours": true
+        ]
       }
     ],
     "debouches": [
-      "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
-      "Spécialisation en Génie Chimique et Procédés industriels",
-      "Parcours Universitaires Scientifiques Suppérieurs"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Rania, Ancienne IPEIGB (ENIT)",
@@ -1355,11 +1302,6 @@
     ],
     "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
-    "score_derniere_annee": {
-      "bac_math": 138,
-      "bac_sc": 142.5,
-      "bac_info": 140.2
-    },
     "filieres_phares": [
       {
         "id": "ipeib_mp__math_physique_",
@@ -1367,14 +1309,12 @@
         "duree": "2 ans",
         "description": "Filière phare en MP (Math-Physique) dispensée par IPEIB.",
         "scores": {
-          "bac_math": 88.3,
-          "bac_sc": 111.46,
-          "bac_info": 150.12
+          "bac_math": 88.3
         },
         "debouches": [
-          "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
-          "Orientation vers les Écoles Nationales de Technologies et Sciences Appliquées",
-          "Recherche Académique et Enseignement"
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
         ],
         "concours": true
       },
@@ -1384,22 +1324,35 @@
         "duree": "2 ans",
         "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIB.",
         "scores": {
-          "bac_math": 88.3,
           "bac_sc": 111.46,
           "bac_info": 150.12
         },
         "debouches": [
-          "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
-          "Orientation vers les Écoles Nationales de Technologies et Sciences Appliquées",
-          "Recherche Académique et Enseignement"
-        ],
-        "concours": true
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
+        ]
+      },
+      {
+        "id": "ipeib_bg__biologie_g_ologie_",
+        "nom": "BG (Biologie-Géologie)",
+        "duree": "2 ans",
+        "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIB.",
+        "scores": {
+          "bac_math": 100.27,
+          "bac_sc": 103.72
+        },
+        "debouches": [
+          "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
+          "Spécialisation en Génie Chimique et Procédés industriels",
+          "Parcours Universitaires Scientifiques Suppérieurs"
+        ]
       }
     ],
     "debouches": [
-      "Admission sur concours aux Écoles d'Ingénieurs de Tunisie",
-      "Orientation vers les Écoles Nationales de Technologies et Sciences Appliquées",
-      "Recherche Académique et Enseignement"
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
+      "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
+      "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
     "temoignage": {
       "auteur": "Ahmed, Ancien IPEIB (ENSI)",
@@ -1428,90 +1381,48 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, cursus Doctorat et Expertise Comptable",
-    "score_derniere_annee": {
-      "bac_math": 162.5,
-      "bac_eco": 158.2,
-      "bac_sc": 150.1,
-      "bac_info": 155
-    },
     "filieres_phares": [
       {
         "id": "ihec_carthage_licence_en_sciences_de_gestion__fina",
-        "nom": "Licence en Sciences de Gestion (Finance, Comptabilité, Marketing)",
+        "nom": "Licence en Sciences de Gestion (Comptabilité, Hautes études Commerciales)",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Sciences de Gestion (Finance, Comptabilité, Marketing) dispensée par IHEC.",
+        "description": "Filière phare en Licence en Sciences de Gestion (Comptabilité,Hautes études Commerciales) dispensée par IHEC.",
         "scores": {
-          "bac_math": 162.5,
-          "bac_eco": 158.2,
-          "bac_sc": 150.1,
-          "bac_info": 155
+          "bac_math": 149.8,
+          "bac_eco": 178.65,
+          "bac_sc": 169.95,
+          "bac_info": 162.02,
+          "bac_tech": 221.35
         },
         "debouches": [
-          "Expert-Comptable / Auditeur financier",
-          "Analyste Financier / Directeur Financier (CFO)",
-          "Manager / Chef de produit Marketing",
-          "Consultant en stratégie et organisation",
-          "Entrepreneur / Gestionnaire de structure privée"
-        ],
-        "concours": true
-      },
-      {
-        "id": "ihec_carthage_licence_en__conomie",
-        "nom": "Licence en Économie",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Économie dispensée par IHEC.",
-        "scores": {
-          "bac_math": 162.5,
-          "bac_eco": 158.2,
-          "bac_sc": 150.1,
-          "bac_info": 155
-        },
-        "debouches": [
-          "Expert-Comptable / Auditeur financier",
-          "Analyste Financier / Directeur Financier (CFO)",
-          "Manager / Chef de produit Marketing",
-          "Consultant en stratégie et organisation",
-          "Entrepreneur / Gestionnaire de structure privée"
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)",
+          "Auditeur financier / Conseiller fiscal",
+          "Comptable /Expert Comptable (via Concours)"
         ]
       },
       {
-        "id": "ihec_carthage_mast_re_professionnel_en_ing_nierie_",
-        "nom": "Mastère Professionnel en Ingénierie Financière",
+        "id": "ihec_carthage_licence_Info_de_gestion",
+        "nom": "Licence en Informatique de Gestion",
         "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Ingénierie Financière dispensée par IHEC.",
+        "description": "Licence en Informatique de Gestion dispensée par IHEC.",
         "scores": {
-          "bac_math": 162.5,
-          "bac_eco": 158.2,
-          "bac_sc": 150.1,
-          "bac_info": 155
+          "bac_math": 163.59,
+          "bac_eco": 174.97,
+          "bac_sc": 178.84,
+          "bac_info": 175.96,
+          "bac_tech": 189.27
         },
         "debouches": [
-          "Expert-Comptable / Auditeur financier",
-          "Analyste Financier / Directeur Financier (CFO)",
-          "Manager / Chef de produit Marketing",
+          "Consultant / Analyste BI",
+          "Product Owner / Manager e-Business",
+          "Assistant Chef de Projet IT / Business Analyst",
           "Consultant en stratégie et organisation",
           "Entrepreneur / Gestionnaire de structure privée"
         ]
-      },
-      {
-        "id": "ihec_carthage_cycle_d_expertise_comptable",
-        "nom": "Cycle d'Expertise Comptable",
-        "duree": "3 ans",
-        "description": "Filière phare en Cycle d'Expertise Comptable dispensée par IHEC.",
-        "scores": {
-          "bac_math": 162.5,
-          "bac_eco": 158.2,
-          "bac_sc": 150.1,
-          "bac_info": 155
-        },
-        "debouches": [
-          "Expert-Comptable / Auditeur financier",
-          "Analyste Financier / Directeur Financier (CFO)",
-          "Manager / Chef de produit Marketing",
-          "Consultant en stratégie et organisation",
-          "Entrepreneur / Gestionnaire de structure privée"
-        ],
-        "concours": true
       }
     ],
     "debouches": [
@@ -1543,101 +1454,32 @@
       "Management",
       "Analytics",
       "Commerce",
-      "Gestion"
+      "Gestion",
+      "Informatique"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "4 ans pour le Bachelor (Modèle Américain), 2 ans pour l'Executive MBA",
-    "score_derniere_annee": {
-      "bac_math": 168,
-      "bac_info": 164.5,
-      "bac_sc": 161.2,
-      "bac_eco": 159.8,
-      "bac_let": 150,
-      "bac_tech": 155
-    },
     "filieres_phares": [
       {
         "id": "tbs_tunis_bachelor_of_science_in_business_administ",
         "nom": "Bachelor of Science in Business Administration",
         "duree": "4 ans",
-        "description": "Filière phare en Bachelor of Science in Business Administration dispensée par TBS.",
+        "description": "Filière phare en Bachelor of Science in Business Administration dispensée par TBS en anglais ",
         "scores": {
-          "bac_math": 168,
-          "bac_info": 164.5,
-          "bac_sc": 161.2,
-          "bac_eco": 159.8,
-          "bac_let": 150,
-          "bac_tech": 155
+          "bac_math": 155.03,
+          "bac_info": 162.32,
+          "bac_sc": 163.10,
+          "bac_eco": 162.03,
+          "bac_tech": 162.61
         },
         "debouches": [
           "Business Analyst / Data Analyst",
           "Consultant International / Manager de projets transversaux",
           "Financial Analyst à l'échelle internationale",
           "Spécialiste Supply Chain / International Business",
-          "Manager en Marketing Digital et Stratégique"
-        ]
-      },
-      {
-        "id": "tbs_tunis_major_in_finance___accounting",
-        "nom": "Major in Finance / Accounting",
-        "duree": "4 ans",
-        "description": "Filière phare en Major in Finance / Accounting dispensée par TBS.",
-        "scores": {
-          "bac_math": 168,
-          "bac_info": 164.5,
-          "bac_sc": 161.2,
-          "bac_eco": 159.8,
-          "bac_let": 150,
-          "bac_tech": 155
-        },
-        "debouches": [
-          "Business Analyst / Data Analyst",
-          "Consultant International / Manager de projets transversaux",
-          "Financial Analyst à l'échelle internationale",
-          "Spécialiste Supply Chain / International Business",
-          "Manager en Marketing Digital et Stratégique"
-        ]
-      },
-      {
-        "id": "tbs_tunis_major_in_business_analytics",
-        "nom": "Major in Business Analytics",
-        "duree": "4 ans",
-        "description": "Filière phare en Major in Business Analytics dispensée par TBS.",
-        "scores": {
-          "bac_math": 168,
-          "bac_info": 164.5,
-          "bac_sc": 161.2,
-          "bac_eco": 159.8,
-          "bac_let": 150,
-          "bac_tech": 155
-        },
-        "debouches": [
-          "Business Analyst / Data Analyst",
-          "Consultant International / Manager de projets transversaux",
-          "Financial Analyst à l'échelle internationale",
-          "Spécialiste Supply Chain / International Business",
-          "Manager en Marketing Digital et Stratégique"
-        ]
-      },
-      {
-        "id": "tbs_tunis_major_in_information_technology",
-        "nom": "Major in Information Technology",
-        "duree": "4 ans",
-        "description": "Filière phare en Major in Information Technology dispensée par TBS.",
-        "scores": {
-          "bac_math": 168,
-          "bac_info": 164.5,
-          "bac_sc": 161.2,
-          "bac_eco": 159.8,
-          "bac_let": 150,
-          "bac_tech": 155
-        },
-        "debouches": [
-          "Business Analyst / Data Analyst",
-          "Consultant International / Manager de projets transversaux",
-          "Financial Analyst à l'échelle internationale",
-          "Spécialiste Supply Chain / International Business",
-          "Manager en Marketing Digital et Stratégique"
+          "Manager en Marketing Digital et Stratégique",
+          "IT Consultant ",
+          "Data Scientist / Business Analyst en milieu financier"
         ]
       }
     ],
@@ -1674,82 +1516,37 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus officiel d'Expertise Comptable",
-    "score_derniere_annee": {
-      "bac_math": 154.2,
-      "bac_eco": 151,
-      "bac_info": 146.8,
-      "bac_sc": 143.5
-    },
     "filieres_phares": [
       {
         "id": "iscae_manouba_licence_en_sciences_de_gestion__sp_c",
-        "nom": "Licence en Sciences de Gestion (Spécialité Comptabilité)",
+        "nom": "Licence en Sciences Économiques",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Sciences de Gestion (Spécialité Comptabilité) dispensée par ISCAE.",
+        "description": "Filière phare en Licence en Sciences Économiques dispensée par ISCAE. Nouvelle filière",
         "scores": {
-          "bac_math": 154.2,
-          "bac_eco": 151,
-          "bac_info": 146.8,
-          "bac_sc": 143.5
+          "bac_math": 0.0,
+          "bac_eco": 0.0,
+          "bac_sc": 0.0
         },
         "debouches": [
           "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
           "Contrôleur de Gestion",
           "Auditeur Interne / Externe",
           "Directeur des Ressources Humaines (DRH)",
-          "Responsable Administratif et Financier (RAF)"
-        ],
-        "concours": true
-      },
-      {
-        "id": "iscae_manouba_mast_re_professionnel_en_r_vision_co",
-        "nom": "Mastère Professionnel en Révision Comptable",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère Professionnel en Révision Comptable dispensée par ISCAE.",
-        "scores": {
-          "bac_math": 154.2,
-          "bac_eco": 151,
-          "bac_info": 146.8,
-          "bac_sc": 143.5
-        },
-        "debouches": [
-          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
-          "Contrôleur de Gestion",
-          "Auditeur Interne / Externe",
-          "Directeur des Ressources Humaines (DRH)",
-          "Responsable Administratif et Financier (RAF)"
-        ],
-        "concours": true
-      },
-      {
-        "id": "iscae_manouba_mast_re_en_contr_le_de_gestion_et_au",
-        "nom": "Mastère en Contrôle de Gestion et Audit",
-        "duree": "3 ans",
-        "description": "Filière phare en Mastère en Contrôle de Gestion et Audit dispensée par ISCAE.",
-        "scores": {
-          "bac_math": 154.2,
-          "bac_eco": 151,
-          "bac_info": 146.8,
-          "bac_sc": 143.5
-        },
-        "debouches": [
-          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
-          "Contrôleur de Gestion",
-          "Auditeur Interne / Externe",
-          "Directeur des Ressources Humaines (DRH)",
-          "Responsable Administratif et Financier (RAF)"
+          "Responsable Administratif et Financier (RAF)",
+          "Auditeur financier / Conseiller fiscal"
         ]
       },
       {
-        "id": "iscae_manouba_licence_en_gestion_des_ressources_hu",
-        "nom": "Licence en Gestion des Ressources Humaines",
+        "id": "iscae_manouba_licence_gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Gestion des Ressources Humaines dispensée par ISCAE.",
+        "description": "Filière phare en Sciences de Gestion dispensée par l'ISCAE. Spécialisation dans 4 secteurs: Administration des affaires, Gestion des Ressources Humaines, Finance, Comptabilité.",
         "scores": {
-          "bac_math": 154.2,
-          "bac_eco": 151,
-          "bac_info": 146.8,
-          "bac_sc": 143.5
+          "bac_math": 90.75,
+          "bac_eco": 135.86,
+          "bac_info": 134.66,
+          "bac_sc": 135.41,
+          "bac_tech": 149.07
         },
         "debouches": [
           "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
@@ -1765,7 +1562,9 @@
       "Contrôleur de Gestion",
       "Auditeur Interne / Externe",
       "Directeur des Ressources Humaines (DRH)",
-      "Responsable Administratif et Financier (RAF)"
+      "Responsable Administratif et Financier (RAF)",
+      "Auditeur financier / Conseiller fiscal",
+      "Comptable /Expert Comptable (via Concours)"
     ],
     "temoignage": {
       "auteur": "Mohamed, Étudiant en Révision Comptable",
@@ -1794,12 +1593,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, École Doctorale intégrée",
-    "score_derniere_annee": {
-      "bac_info": 155.4,
-      "bac_math": 149.8,
-      "bac_eco": 148.5,
-      "bac_sc": 140.2
-    },
     "filieres_phares": [
       {
         "id": "isg_tunis_licence_en_business_computing__informati",
@@ -1912,12 +1705,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Expertise Comptable",
-    "score_derniere_annee": {
-      "bac_math": 145.8,
-      "bac_eco": 144.2,
-      "bac_info": 139.5,
-      "bac_sc": 135
-    },
     "filieres_phares": [
       {
         "id": "ihec_sfax_licence_en_sciences_de_gestion",
@@ -2029,11 +1816,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (Filière intégrée ou sur concours)",
-    "score_derniere_annee": {
-      "bac_info": 165.2,
-      "bac_math": 158.5,
-      "bac_sc": 152
-    },
     "filieres_phares": [
       {
         "id": "isi_ariana_licence_en_sciences_de_l_informatique__",
@@ -2140,11 +1922,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (sur concours national ou dossier)",
-    "score_derniere_annee": {
-      "bac_info": 152.4,
-      "bac_math": 145,
-      "bac_sc": 138.2
-    },
     "filieres_phares": [
       {
         "id": "isimm_monastir_licence_en_sciences_de_l_informatiq",
@@ -2252,11 +2029,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur",
-    "score_derniere_annee": {
-      "bac_info": 152.4,
-      "bac_math": 146.8,
-      "bac_sc": 141.2
-    },
     "filieres_phares": [
       {
         "id": "isitcom_sousse_licence_en_sciences_de_l_informatiq",
@@ -2364,11 +2136,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère",
-    "score_derniere_annee": {
-      "bac_info": 128.5,
-      "bac_math": 121,
-      "bac_sc": 118.4
-    },
     "filieres_phares": [
       {
         "id": "isima_mahdia_licence_en_sciences_de_l_informatique",
@@ -2456,11 +2223,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Formations certifiantes (Cisco, Huawei, etc.)",
-    "score_derniere_annee": {
-      "bac_info": 149.6,
-      "bac_math": 143.2,
-      "bac_sc": 138.5
-    },
     "filieres_phares": [
       {
         "id": "isetcom_tunis_licence_en_sciences_de_l_informatiqu",
@@ -2566,11 +2328,6 @@
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "6 ans pour le Diplôme National d'Architecte (incluant les stages professionnels)",
-    "score_derniere_annee": {
-      "bac_math": 168.5,
-      "bac_sc": 162,
-      "bac_info": 155.2
-    },
     "filieres_phares": [
       {
         "id": "enau_dipl_me_national_d_architecte",
@@ -2656,12 +2413,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
-    "score_derniere_annee": {
-      "bac_info": 138.2,
-      "bac_math": 128.5,
-      "bac_tech": 131,
-      "bac_eco": 122.4
-    },
     "filieres_phares": [
       {
         "id": "iset_rades_licence_en_technologies_de_l_informatiq",
@@ -2774,12 +2525,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
-    "score_derniere_annee": {
-      "bac_info": 132,
-      "bac_math": 122.4,
-      "bac_tech": 126.8,
-      "bac_eco": 118
-    },
     "filieres_phares": [
       {
         "id": "iset_nabeul_licence_en_g_nie_civil__b_timents_et_t",
@@ -2892,12 +2637,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence",
-    "score_derniere_annee": {
-      "bac_info": 115.5,
-      "bac_math": 105,
-      "bac_eco": 108.2,
-      "bac_sc": 102
-    },
     "filieres_phares": [
       {
         "id": "iset_djerba_licence_en_technologies_de_l_informati",
@@ -2990,12 +2729,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
-    "score_derniere_annee": {
-      "bac_tech": 120.4,
-      "bac_math": 112.8,
-      "bac_info": 122,
-      "bac_sc": 110.5
-    },
     "filieres_phares": [
       {
         "id": "iset_gabes_licence_en_g_nie_des_proc_d_s__chimie_i",
@@ -3109,12 +2842,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
-    "score_derniere_annee": {
-      "bac_info": 136.4,
-      "bac_math": 125,
-      "bac_tech": 128.2,
-      "bac_eco": 120.6
-    },
     "filieres_phares": [
       {
         "id": "iset_sfax_licence_en_technologies_de_l_informatiqu",
@@ -3226,12 +2953,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
-    "score_derniere_annee": {
-      "bac_let": 138.5,
-      "bac_eco": 142,
-      "bac_math": 128.5,
-      "bac_sc": 132
-    },
     "filieres_phares": [
       {
         "id": "fsjpst_tunis_licence_en_droit",
@@ -3284,12 +3005,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
-    "score_derniere_annee": {
-      "bac_let": 140.2,
-      "bac_eco": 145.5,
-      "bac_math": 131,
-      "bac_sc": 134.5
-    },
     "filieres_phares": [
       {
         "id": "fdspt_tunis_licence_en_droit",
@@ -3344,12 +3059,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
-    "score_derniere_annee": {
-      "bac_let": 115.2,
-      "bac_eco": 124.8,
-      "bac_math": 108,
-      "bac_sc": 112.5
-    },
     "filieres_phares": [
       {
         "id": "fds_sfax_licence_en_droit",
@@ -3404,12 +3113,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère (9 parcours), Doctorat",
-    "score_derniere_annee": {
-      "bac_let": 122,
-      "bac_eco": 130.4,
-      "bac_math": 114.2,
-      "bac_sc": 118
-    },
     "filieres_phares": [
       {
         "id": "fdsps_sousse_licence_en_droit",
@@ -3463,7 +3166,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "Licence Fondamentale et Licences Appliquées (3 ans), Mastères de Recherche et Professionnels (2 ans), Doctorat",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "essect_tunis_f1",
@@ -3532,7 +3234,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans), Cycle d'Ingénieur (5 ans), Mastères",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "esprit_tunis_f1",
@@ -3600,7 +3301,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "esstsm_monastir_f1",
@@ -3664,7 +3364,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "esstss_sfax_f1",
@@ -3726,7 +3425,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "esstss_sousse_f1",
@@ -3788,7 +3486,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "esstst_tunis_f1",
@@ -3849,7 +3546,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères (2 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "fseg_mahdia_f1",
@@ -3914,7 +3610,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères de Recherche et Professionnels, Doctorat",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "fshst_tunis_f1",
@@ -3980,7 +3675,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Cycle d'Ingénieur, Mastères, Doctorat",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "fsm_monastir_f1",
@@ -4043,7 +3737,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Cycle d'Ingénieur, Mastères, Doctorat",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "fss_sfax_f1",
@@ -4106,7 +3799,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isam_gabes_f1",
@@ -4150,7 +3842,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isamm_manouba_f1",
@@ -4215,7 +3906,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences Appliquées (3 ans), Mastères, Doctorat en Sciences Biologiques et Biotechnologie",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isbm_monastir_f1",
@@ -4267,7 +3957,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "Licences Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "iseahz_zaghouan_f1",
@@ -4311,7 +4000,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "iset_bizerte_f1",
@@ -4361,7 +4049,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isi_medenine_f1",
@@ -4413,7 +4100,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "issat_mahdia_f1",
@@ -4464,7 +4150,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Appliquées (3 ans), Mastères Professionnels",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "issbat_tunis_f1",
@@ -4516,7 +4201,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isspes_sfax_f1",
@@ -4569,7 +4253,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isgs_sousse_f1",
@@ -4621,7 +4304,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Licence en Sciences Infirmières (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "issiso_sousse_f1",
@@ -4663,7 +4345,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isban_nabeul_f1",
@@ -4716,7 +4397,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "iset_mahdia_f1",
@@ -4767,7 +4447,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "isimg_gabes_f1",
@@ -4817,7 +4496,6 @@
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "issh_medenine_f1",
@@ -4860,7 +4538,6 @@
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "Licences (3 ans), Mastères, Doctorat (LMD)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "istic_borjcedria_f1",
@@ -4911,7 +4588,6 @@
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères de Recherche et Professionnels",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "istls_sousse_f1",
@@ -4977,7 +4653,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "iset_charguia_f1",
@@ -5028,7 +4703,6 @@
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
     "regimes_etudes": "Licences Appliquées (3 ans, LMD), Mastères",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "issat_gabes_f1",
@@ -5079,7 +4753,6 @@
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "Doctorat en Médecine Vétérinaire (6 ans)",
-    "score_derniere_annee": {},
     "filieres_phares": [
       {
         "id": "enmv_sidithabet_f1",
