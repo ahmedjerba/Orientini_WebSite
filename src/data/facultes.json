@@ -1509,9 +1509,7 @@
       "Commerce",
       "Gestion",
       "Finance",
-      "Business",
-      "Préparatoire",
-      "Ingénierie"
+      "Business"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, cursus Doctorat et Expertise Comptable",
@@ -1568,9 +1566,8 @@
     ],
     "site_web": "http://www.ihec.rnu.tn",
     "tags": [
-      "Cycles Préparatoires Intégrés",
-      "Génie & Technologies Appliquées",
-      "Business, Commerce, Finance & Gestion"
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
     ]
   },
   {
@@ -1703,7 +1700,6 @@
     ],
     "site_web": "http://www.iscae.rnu.tn",
     "tags": [
-      "Cycles Préparatoires Intégrés",
       "Business, Commerce, Finance & Gestion"
     ]
   },
@@ -1797,9 +1793,8 @@
     ],
     "site_web": "http://www.isg.rnu.tn",
     "tags": [
-      "Cycles Préparatoires Intégrés",
-      "Informatique & Réseaux",
-      "Business, Commerce, Finance & Gestion"
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
     ]
   },
   {
@@ -1853,7 +1848,6 @@
     ],
     "site_web": "http://www.ihecsf.rnu.tn",
     "tags": [
-      "Génie & Technologies Appliquées",
       "Business, Commerce, Finance & Gestion"
     ]
   },
@@ -1945,8 +1939,9 @@
     ],
     "site_web": "http://www.isi.rnu.tn",
     "tags": [
+      "Génie & Technologies Appliquées",
       "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
+      "Cycles Préparatoires Intégrés"
     ]
   },
   {
@@ -2072,9 +2067,10 @@
     ],
     "site_web": "http://www.isimm.rnu.tn",
     "tags": [
+      "Génie & Technologies Appliquées",
       "Informatique & Réseaux",
       "Sciences Fondamentales & Biotechnologie",
-      "Génie & Technologies Appliquées"
+      "Cycles Préparatoires Intégrés"
     ]
   },
   {
@@ -2413,7 +2409,6 @@
     ],
     "site_web": "http://www.enau.rnu.tn",
     "tags": [
-      "Cycles Préparatoires Intégrés",
       "Architecture",
       "Arts, Design & Multimédia"
     ]
@@ -2931,7 +2926,8 @@
     "site_web": "http://www.isetgb.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
     ]
   },
   {
@@ -3355,7 +3351,8 @@
     ],
     "site_web": "http://www.essect.rnu.tn",
     "tags": [
-      "Business, Commerce, Finance & Gestion"
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
     ]
   },
   {
@@ -4786,7 +4783,11 @@
     ],
     "site_web": "https://www.fss.rnu.tn",
     "tags": [
-      "Sciences Fondamentales & Biotechnologie"
+      "Sciences Fondamentales & Biotechnologie",
+      "Cycles Préparatoires Intégrés",
+      "Classes Préparatoires Classiques",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
     ]
   },
   {
@@ -5040,7 +5041,10 @@
     ],
     "site_web": "https://isa2m.rnu.tn",
     "tags": [
-      "Arts, Design & Multimédia"
+      "Arts, Design & Multimédia",
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
     ]
   },
   {
@@ -5267,7 +5271,8 @@
     "site_web": "http://www.isetb.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
     ]
   },
   {
@@ -5600,7 +5605,8 @@
     ],
     "site_web": "https://isgs.rnu.tn",
     "tags": [
-      "Business, Commerce, Finance & Gestion"
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
     ]
   },
   {
@@ -5876,7 +5882,8 @@
     "site_web": "https://isetma.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
     ]
   },
   {
@@ -5993,8 +6000,10 @@
     ],
     "site_web": "https://isimg.rnu.tn",
     "tags": [
+      "Arts, Design & Multimédia",
       "Informatique & Réseaux",
-      "Arts, Design & Multimédia"
+      "Cycles Préparatoires Intégrés",
+      "Génie & Technologies Appliquées"
     ]
   },
   {
@@ -6443,7 +6452,7 @@
     "site_web": "http://www.isetch.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
+      "Business, Commerce, Finance & Gestion"
     ]
   },
   {
