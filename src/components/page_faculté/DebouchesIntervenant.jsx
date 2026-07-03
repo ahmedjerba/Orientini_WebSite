@@ -6,7 +6,7 @@ export default function DebouchesIntervenant({ faculte }) {
   } = faculte || {};
 
   // Extraction des champs de témoignage avec des valeurs de repli (fallbacks)
-  const texteDetaille = temoignage?.texte_detaille || "Aucun témoignage disponible pour le moment.";
+  const texteDetaille = temoignage?.texte_detaille || "Témoignage indisponible pour le moment.";
   const auteurTemoignage = temoignage?.auteur || "Intervenant";
 
   return (

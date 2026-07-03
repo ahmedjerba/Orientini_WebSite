@@ -37,11 +37,10 @@
       "Recherche Médicale et Biomédicale",
       "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
-    "temoignage": {
-      "auteur": "Sarra, Interne en Médecine",
-      "texte_detaille": "Le rythme à la FMT est un marathon de several années qui demande une énorme résilience dès la première année. L'accès aux stages dans les grands CHU de Tunis offre une formation pratique d'une richesse incomparable."
-    },
-    "site_web": "http://www.fmt.rnu.tn"
+    "site_web": "http://www.fmt.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "fmso",
@@ -81,11 +80,10 @@
       "Recherche Médicale et Biomédicale",
       "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Résident",
-      "texte_detaille": "La faculté de Sousse se distingue par une ambiance d'entraide très forte entre les étudiants et une ouverture rapide sur la pratique clinique hospitalière."
-    },
-    "site_web": "http://www.fms.rnu.tn"
+    "site_web": "http://www.fms.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "fmm",
@@ -124,11 +122,10 @@
       "Carrière Hospitalo-Universitaire",
       "Médecin de Famille, du Travail ou de Santé Publique"
     ],
-    "temoignage": {
-      "auteur": "Amine, Étudiant en 4ème année",
-      "texte_detaille": "Étudier à Monastir permet de se concentrer à fond sur ses examens grâce à un cadre de vie étudiant très paisible et des infrastructures hospitalières de premier ordre à proximité."
-    },
-    "site_web": "http://www.fmm.rnu.tn"
+    "site_web": "http://www.fmm.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "fms",
@@ -167,11 +164,10 @@
       "Carrière Hospitalo-Universitaire",
       "Médecin de Famille, du Travail ou de Santé Publique"
     ],
-    "temoignage": {
-      "auteur": "Rania, Étudiante",
-      "texte_detaille": "La rigueur sfaxienne se ressent dans l'excellence de notre encadrement. Les professeurs sont très accessibles et poussent constamment vers l'excellence."
-    },
-    "site_web": "http://www.fmsf.rnu.tn"
+    "site_web": "http://www.fmsf.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "fmd_monastir",
@@ -210,11 +206,10 @@
       "Praticien hospitalier dans le secteur public",
       "Consultant ou expert pour les industries de santé bucco-dentaire"
     ],
-    "temoignage": {
-      "auteur": "Skander, Étudiant en clinique",
-      "texte_detaille": "La FMDM demande beaucoup de minutie et de rigueur technique dès les premières séances de TP, mais la formation clinique finale est d'une valeur inestimable."
-    },
-    "site_web": "http://www.fmdm.rnu.tn"
+    "site_web": "http://www.fmdm.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "fph_monastir",
@@ -260,11 +255,10 @@
       "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
       "Pharmacien Hospitalier"
     ],
-    "temoignage": {
-      "auteur": "Amine, Résident en Biologie Médicale",
-      "texte_detaille": "Être l'unique faculté de pharmacie du pays crée un fort esprit de corps. Le cursus est très varié : on passe de la chimie organique pure à la pharmacologie clinique, avec de superbes opportunités dans l'industrie pharmaceutique locale."
-    },
-    "site_web": "http://www.fphm.rnu.tn"
+    "site_web": "http://www.fphm.rnu.tn",
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ]
   },
   {
     "id": "insat",
@@ -334,7 +328,13 @@
       "auteur": "Ahmed,étudiant en GL2 à l'Insat",
       "texte_detaille": "La prépa intégrée MPI / CBA de l'INSAT permet de développer un excellent niveau théorique sans le stress d'un concours national classique. L'immersion directe en cycle de spécialité d'ingénieur assure une employabilité internationale exceptionnelle. La vie estudiantine est l'une des meilleures et la réputation de la faculté fait d'elle un cadre exceptionnel."
     },
-    "site_web": "http://www.insat.rnu.tn"
+    "site_web": "http://www.insat.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "fst",
@@ -737,11 +737,13 @@
       "Enseignant-Chercheur en Mathématiques Appliquées",
       "Cartographe / Géomaticien"
     ],
-    "temoignage": {
-      "auteur": "Inès, Élève Ingénieur",
-      "texte_detaille": "Le passage par les licences ou les cycles préparatoires spécifiques de la FST offre un bagage théorique solide en mathématiques avant de basculer sur l'informatique."
-    },
-    "site_web": "http://www.fst.rnu.tn"
+    "site_web": "http://www.fst.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "mse",
@@ -804,11 +806,12 @@
       "Data Analyst Spatial",
       "Manager de Projets Technologiques Internationaux"
     ],
-    "temoignage": {
-      "auteur": "Youssef, Engineering Student",
-      "texte_detaille": "L'apprentissage complet en anglais et les spécialisations modernes nous donnent un vrai coup d'avance sur le marché de l'emploi national et international."
-    },
-    "site_web": "https://www.smu.tn/mse"
+    "site_web": "https://www.smu.tn/mse",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "issat_sousse",
@@ -985,11 +988,13 @@
       "Ingénieur en Télécommunications",
       "Licence en Informatique et Systèmes"
     ],
-    "temoignage": {
-      "auteur": "Rania, Étudiante en 2ème année Ingénieur GL",
-      "texte_detaille": "L'avantage de l'ISSAT Sousse, c'est qu'on entre directement dans le bain technique dès la prépa intégrée. Pas besoin de passer le concours national stressant, le passage en cycle d'ingénieur se fait au mérite sur contrôle continu, et l'ambiance associative y est excellente."
-    },
-    "site_web": "http://www.issatso.rnu.tn"
+    "site_web": "http://www.issatso.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "hide_tunis",
@@ -1038,11 +1043,12 @@
       "Ingénieur R&D en Technologies Numériques & Arts Virtuels",
       "Ingénieur en Développement de jeux vidéos"
     ],
-    "temoignage": {
-      "auteur": "Malek, Étudiant de la première promotion",
-      "texte_detaille": "Intégrer le HIDE est un vrai défi vu les scores demandés au Bac, mais l'expérience en vaut la peine. Les cours 100% en anglais nous projettent directement vers l'international, et le focus immédiat sur l'IA et la data dès la prépa intégrée change complètement des cursus classiques théoriques."
-    },
-    "site_web": "https://hide.rnu.tn"
+    "site_web": "https://hide.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeit",
@@ -1085,11 +1091,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Khalil, Ancien IPEIT (Polytechnique)",
-      "texte_detaille": "Montfleury c'est une institution. La charge de travail est colossale, mais l'émulation entre étudiants pousse chacun à donner le meilleur de lui-même pour le concours."
-    },
-    "site_web": "http://www.ipeit.rnu.tn"
+    "site_web": "http://www.ipeit.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipein",
@@ -1146,11 +1152,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Ahmed, Ancien élève",
-      "texte_detaille": "Une ambiance de campus saine à Nabeul qui aide à supporter les colles et les DS du samedi. Une super formation théorique pour décrocher de grandes écoles."
-    },
-    "site_web": "http://www.ipein.rnu.tn"
+    "site_web": "http://www.ipein.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeim",
@@ -1207,11 +1213,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Wassim, Étudiant",
-      "texte_detaille": "L'encadrement professoral à l'IPEIM est fantastique. Les enseignants s'investissent beaucoup dans la correction des anciens concours pour nous roder."
-    },
-    "site_web": "http://www.ipeim.rnu.tn"
+    "site_web": "http://www.ipeim.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeis",
@@ -1283,11 +1289,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Malek, Élève Sup'Com",
-      "texte_detaille": "Faire sa prépa à Sfax donne un mental d'acier. Le niveau requis en mathématiques et sciences physiques est exigeant, ce qui prépare idéalement à la suite."
-    },
-    "site_web": "http://www.ipeis.rnu.tn"
+    "site_web": "http://www.ipeis.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeiem",
@@ -1344,11 +1350,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Ancien IPEIEM (SUP'COM)",
-      "texte_detaille": "Le cadre à El Manar est idéal pour étudier. Les professeurs sont très engagés et l'ambiance de groupe aide beaucoup à surmonter le stress de la prépa."
-    },
-    "site_web": "http://www.ipeiem.rnu.tn"
+    "site_web": "http://www.ipeiem.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeigb",
@@ -1420,11 +1426,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Rania, Ancienne IPEIGB (ENIT)",
-      "texte_detaille": "Une prépa à taille humaine où l'entraide entre étudiants et la disponibilité des professeurs m'ont permis d'intégrer une grande école à Tunis."
-    },
-    "site_web": "http://www.ipeigb.rnu.tn"
+    "site_web": "http://www.ipeigb.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ipeib",
@@ -1482,11 +1488,11 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "temoignage": {
-      "auteur": "Ahmed, Ancien IPEIB (ENSI)",
-      "texte_detaille": "L'ambiance d'étude à Bizerte est excellente, loin du tumulte de la capitale. Les résultats au concours national s'améliorent d'année en année."
-    },
-    "site_web": "http://www.ipeib.rnu.tn"
+    "site_web": "http://www.ipeib.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "ihec_carthage",
@@ -1560,11 +1566,12 @@
       "Consultant en stratégie et organisation",
       "Entrepreneur / Gestionnaire de structure privée"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Diplômé en Finance",
-      "texte_detaille": "L'IHEC Carthage offre bien plus qu'un diplôme, c'est un état d'esprit. La rigueur des enseignants combinée à une vie associative ultra-dynamique prépare parfaitement aux exigences des multinationales et des grands cabinets d'audit."
-    },
-    "site_web": "http://www.ihec.rnu.tn"
+    "site_web": "http://www.ihec.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "tbs_tunis",
@@ -1618,11 +1625,11 @@
       "Spécialiste Supply Chain / International Business",
       "Manager en Marketing Digital et Stratégique"
     ],
-    "temoignage": {
-      "auteur": "Aya, Senior Student en Business Analytics",
-      "texte_detaille": "Étudier à TBS en anglais ouvre des portes directes à l'international. Le système de majors/minors nous permet de personnaliser notre parcours, et l'accent mis sur les soft skills et les présentations orales nous donne une vraie longueur d'avance en entreprise."
-    },
-    "site_web": "http://www.tbs.rnu.tn"
+    "site_web": "http://www.tbs.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "iscae_manouba",
@@ -1694,11 +1701,11 @@
       "Auditeur financier / Conseiller fiscal",
       "Comptable /Expert Comptable (via Concours)"
     ],
-    "temoignage": {
-      "auteur": "Mohamed, Étudiant en Révision Comptable",
-      "texte_detaille": "Si votre but est de devenir Expert-Comptable, l'ISCAE reste une voie royale. Les examens y sont exigeants et la formation technique en fiscalité, droit des affaires et comptabilité est d'un niveau d'excellence reconnu par tous les professionnels du chiffre."
-    },
-    "site_web": "http://www.iscae.rnu.tn"
+    "site_web": "http://www.iscae.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "isg_tunis",
@@ -1788,11 +1795,12 @@
       "Responsable Logistique / Digital Marketing Manager",
       "Auditeur de systèmes d'information"
     ],
-    "temoignage": {
-      "auteur": "Fedi, Diplômé en Business Computing",
-      "texte_detaille": "Ce que j'adore à l'ISG Tunis, c'est l'hybridation informatique-gestion. On en ressort polyvalent, capable de parler aussi bien le langage des développeurs que celui des directeurs financiers, ce qui nous rend ultra-recherchés sur le marché."
-    },
-    "site_web": "http://www.isg.rnu.tn"
+    "site_web": "http://www.isg.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "ihec_sfax",
@@ -1843,11 +1851,11 @@
       "Gestionnaire d'entreprise / Consultant junior",
       "Analyste de crédit bancaire / Chargé d'affaires entreprises"
     ],
-    "temoignage": {
-      "auteur": "Emna, Étudiante en Master Fiscalité",
-      "texte_detaille": "Bénéficiant du tissu industriel et entrepreneurial dense de la région de Sfax, l'IHEC Sfax offre une proximité immédiate avec le marché du travail. Le corps professoral est dévoué et les partenariats avec les entreprises locales sont un vrai plus pour nos stages."
-    },
-    "site_web": "http://www.ihecsf.rnu.tn"
+    "site_web": "http://www.ihecsf.rnu.tn",
+    "tags": [
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "isi_ariana",
@@ -1935,11 +1943,11 @@
       "Ingénieur Systèmes Embarqués et IoT",
       "Lead AI"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Étudiant en Cycle Ingénieur (ex-Licence)",
-      "texte_detaille": "L'ISI offre une ambiance de partage unique. Les clubs comme ACM ou IEEE y sont ultra-actifs, ce qui permet de compléter les cours théoriques par d'immenses projets pratiques. L'insertion sur le marché ou la poursuite d'études en ingénierie y est garantie si on est bosseur."
-    },
-    "site_web": "http://www.isi.rnu.tn"
+    "site_web": "http://www.isi.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isimm_monastir",
@@ -2062,11 +2070,12 @@
       "Administrateur Systèmes et Réseaux",
       "Spécialiste en Automatisme et Informatique Industrielle"
     ],
-    "temoignage": {
-      "auteur": "Rania, Étudiante en L3 Informatique",
-      "texte_detaille": "L'ISIMM possède un très fort ancrage théorique grâce aux mathématiques, ce qui nous donne un gros avantage pour comprendre les algorithmes complexes et l'IA. La vie associative y est vibrante avec des clubs de programmation et de robotique très compétitifs qui nous poussent à coder des projets concrets."
-    },
-    "site_web": "http://www.isimm.rnu.tn"
+    "site_web": "http://www.isimm.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isitcom_sousse",
@@ -2185,11 +2194,12 @@
       "Consultant en Solutions Télécoms & VoIP",
       "Ingénieur Support et Cybersécurité"
     ],
-    "temoignage": {
-      "auteur": "Sarra, Diplômée en Licence Informatique",
-      "texte_detaille": "L'ISITCOM à Sousse offre un cadre de travail idéal. Les profs viennent souvent du monde de l'entreprise et la formation est calée sur les besoins du marché international. Le pôle technologique de Sousse juste à côté facilite grandement la recherche de stages PFE."
-    },
-    "site_web": "http://www.isitcom.rnu.tn"
+    "site_web": "http://www.isitcom.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isima_mahdia",
@@ -2276,11 +2286,13 @@
       "Technicien Supérieur en Maintenance Réseaux",
       "Développeur Front-End / Spécialiste CMS"
     ],
-    "temoignage": {
-      "auteur": "Ahmed, Étudiant en L3 Informatique",
-      "texte_detaille": "C'est un institut à taille humaine où tout le monde se connaît. Les professeurs sont très accessibles pour nous aider sur nos projets de fin d'études. C'est l'endroit parfait pour acquérir des bases solides en algorithmique sans la pression des mégas-campus."
-    },
-    "site_web": "http://www.isima.rnu.tn"
+    "site_web": "http://www.isima.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées",
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "isetcom_tunis",
@@ -2347,11 +2359,11 @@
       "Chef de Projet Junior en Agence",
       "Responsable Administratif et Financier (RAF)"
     ],
-    "temoignage": {
-      "auteur": "Malek, Étudiante en L3 Sciences de l'Information et de la Communication",
-      "texte_detaille": "Étudier au technopôle El Ghazala change complètement l'expérience universitaire. Les entreprises du secteur sont nos voisines de palier, ce qui est un avantage incroyable pour décrocher des stages. Les labos réseau de l'ISET'COM sont super bien équipés, on manipule de vrais équipements télécoms professionnels."
-    },
-    "site_web": "http://www.isetcom.tn"
+    "site_web": "http://www.isetcom.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "enau",
@@ -2399,11 +2411,12 @@
       "Chef de projet / Consultant en patrimoine architectural",
       "Expert en bâtiments et conduite de travaux"
     ],
-    "temoignage": {
-      "auteur": "Lina, Étudiante en 4ème année ENAU",
-      "texte_detaille": "L'ENAU est une école intense mais magique. Travailler dans les ateliers de 'charrette' face à la mer à Sidi Bou Saïd donne une inspiration unique. Le rythme est soutenu, on passe des nuits blanches sur les maquettes, mais la communauté et l'esprit d'école y sont incroyables."
-    },
-    "site_web": "http://www.enau.rnu.tn"
+    "site_web": "http://www.enau.rnu.tn",
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Architecture",
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "iset_rades",
@@ -2533,11 +2546,12 @@
       "Dessinateur Projeteur / Concepteur Mécanique CAD",
       "Technicien en Automatismes et Robotique"
     ],
-    "temoignage": {
-      "auteur": "Mohamed, Diplômé en Génie Électrique",
-      "texte_detaille": "L'ISET Radès est hyper réputée auprès des industriels. On passe énormément de temps en ateliers pratiques, ce qui fait qu'en arrivant en stage de fin d'études (PFE), on est directement opérationnels par rapport aux profils des facs classiques. Les clubs techniques y sont aussi super dynamiques."
-    },
-    "site_web": "http://www.isetr.rnu.tn"
+    "site_web": "http://www.isetr.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "iset_nabeul",
@@ -2663,11 +2677,12 @@
       "Technicien d'essais et de contrôle en électricité",
       "Gestionnaire de stock et approvisionnement"
     ],
-    "temoignage": {
-      "auteur": "Farah, Étudiante en L3 Génie Civil",
-      "texte_detaille": "Le campus de Mrezga est super agréable. À l'ISET Nabeul, le département Génie Civil est très fort, on a des équipements de labo modernes pour tester le béton et les structures. L'ambiance entre étudiants est conviviale et solidaire."
-    },
-    "site_web": "http://www.isetn.rnu.tn"
+    "site_web": "http://www.isetn.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "iset_djerba",
@@ -2778,11 +2793,12 @@
       "Support technique informatique hôtelier / d'entreprise",
       "Technicien de maintenance industrielle"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Étudiant en Informatique",
-      "texte_detaille": "Étudier à Djerba offre un cadre de vie paisible idéal pour se concentrer. L'ISET dispose d'un bon réseau de contacts pour les stages. C'est parfait si on cherche une formation technologique de proximité sans devoir obligatoirement monter sur Tunis."
-    },
-    "site_web": "http://www.isetdj.rnu.tn"
+    "site_web": "http://www.isetdj.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "iset_gabes",
@@ -2912,11 +2928,11 @@
       "Développeur d'applications industrielles / IT",
       "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
     ],
-    "temoignage": {
-      "auteur": "Sami, Diplômé en Génie des Procédés",
-      "texte_detaille": "La force de l'ISET Gabès réside dans sa filière Génie des Procédés. La proximité avec le Groupe Chimique Tunisien et les usines de la zone industrielle de Zrig offre de vraies opportunités de stages techniques poussés sur de vraies installations."
-    },
-    "site_web": "http://www.isetgb.rnu.tn"
+    "site_web": "http://www.isetgb.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "iset_sfax",
@@ -3034,11 +3050,12 @@
       "Technicien de bureau d'études en mécanique",
       "Comptable ou Analyste de gestion d'atelier"
     ],
-    "temoignage": {
-      "auteur": "Amira, Étudiante en L3 Logistique",
-      "texte_detaille": "À Sfax, les PME cherchent tout le temps des profils ISET parce qu'ils savent qu'on fait beaucoup de pratique. Les enseignants de l'ISET Sfax poussent énormément vers l'entrepreneuriat et le développement de projets personnels à travers les mini-projets de semestre."
-    },
-    "site_web": "http://www.isetsf.rnu.tn"
+    "site_web": "http://www.isetsf.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "fsjpst_tunis",
@@ -3085,11 +3102,10 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "temoignage": {
-      "auteur": "Yassine, Étudiant en Mastère",
-      "texte_detaille": "Une faculté exigeante avec une culture de la gagne très ancrée. Idéal si on vise l'excellence académique et la réussite des grands concours nationaux comme l'ISM ou l'Avocature."
-    },
-    "site_web": "http://www.fsjpst.rnu.tn"
+    "site_web": "http://www.fsjpst.rnu.tn",
+    "tags": [
+      "Droit & Sciences Politiques"
+    ]
   },
   {
     "id": "fdspt_tunis",
@@ -3140,11 +3156,10 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "temoignage": {
-      "auteur": "Farah, Étudiante en L3",
-      "texte_detaille": "Le cadre au Centre Urbain Nord is hyper dynamique et moderne. Les masters proposés ici, notamment en commerce international ou en Common-law, ouvrent de vraies portes vers des carrières internationales."
-    },
-    "site_web": "http://www.fdspt.rnu.tn"
+    "site_web": "http://www.fdspt.rnu.tn",
+    "tags": [
+      "Droit & Sciences Politiques"
+    ]
   },
   {
     "id": "fds_sfax",
@@ -3194,11 +3209,10 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "temoignage": {
-      "auteur": "Anis, Diplômé de la Faculté",
-      "texte_detaille": "L'ambiance est excellente et l'équipe associative y est très active. Le grand avantage ici est la proximité avec le tissu industriel local pour trouver des stages en droit des affaires."
-    },
-    "site_web": "https://fdsf.rnu.tn"
+    "site_web": "https://fdsf.rnu.tn",
+    "tags": [
+      "Droit & Sciences Politiques"
+    ]
   },
   {
     "id": "fdsps_sousse",
@@ -3248,11 +3262,10 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "temoignage": {
-      "auteur": "Sami, Étudiant en M2 Droit du Numérique",
-      "texte_detaille": "Sousse propose des spécialisations vraiment uniques en Tunisie, comme le droit des nouvelles technologies. Les enseignants nous préparent activement aux mutations modernes du métier de juriste."
-    },
-    "site_web": "https://fdsps.rnu.tn"
+    "site_web": "https://fdsps.rnu.tn",
+    "tags": [
+      "Droit & Sciences Politiques"
+    ]
   },
   {
     "id": "essect_tunis",
@@ -3340,11 +3353,10 @@
       "Poursuite en Mastère de Gestion",
       "Fonction publique économique"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.essect.rnu.tn"
+    "site_web": "http://www.essect.rnu.tn",
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "esprit_tunis",
@@ -3408,11 +3420,11 @@
       "Data Scientist / Développeur",
       "Chef de projet technique"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://esprit.tn"
+    "site_web": "https://esprit.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "esstsm_monastir",
@@ -3482,7 +3494,7 @@
         "duree": "3 ans",
         "description": "Techniques de radiologie, d'imagerie et de traitements par rayons.",
         "scores": {
-          "bac_math": 140.20,
+          "bac_math": 140.2,
           "bac_sc": 150.95
         },
         "debouches": [
@@ -3528,11 +3540,10 @@
       "Cadre paramédical hospitalier",
       "Poursuite en Mastère de Santé"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.esstsm.org"
+    "site_web": "http://www.esstsm.org",
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ]
   },
   {
     "id": "esstss_sfax",
@@ -3616,7 +3627,7 @@
         "duree": "3 ans",
         "description": "Analyse de la vision, conception d'équipements optiques et rééducation oculaire.",
         "scores": {
-          "bac_math": 110.50,
+          "bac_math": 110.5,
           "bac_sc": 130.54
         },
         "debouches": [
@@ -3676,11 +3687,10 @@
       "Cadre paramédical hospitalier",
       "Poursuite en Mastère de Santé"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://www.esstssfax.org"
+    "site_web": "https://www.esstssfax.org",
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ]
   },
   {
     "id": "esstss_sousse",
@@ -3708,7 +3718,7 @@
         "scores": {
           "bac_math": 135.24,
           "bac_sc": 130.55,
-          "bac_tech": 124.40
+          "bac_tech": 124.4
         },
         "debouches": [
           "Podologue",
@@ -3767,11 +3777,10 @@
       "Cadre paramédical hospitalier",
       "Poursuite en Mastère de Santé"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://www.esstssousse.tn"
+    "site_web": "https://www.esstssousse.tn",
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ]
   },
   {
     "id": "esstst_tunis",
@@ -3900,7 +3909,7 @@
         "description": "Conception, réalisation et adaptation des prothèses et orthèses.",
         "scores": {
           "bac_math": 119.95,
-          "bac_sc": 131.60
+          "bac_sc": 131.6
         },
         "debouches": [
           "Orthoprothésiste",
@@ -3978,7 +3987,7 @@
           "bac_lettres": 138.38,
           "bac_math": 133.21,
           "bac_sc": 154.29,
-          "bac_sport": 182.20
+          "bac_sport": 182.2
         },
         "debouches": [
           "Sage-femme",
@@ -3991,11 +4000,10 @@
       "Cadre paramédical hospitalier",
       "Poursuite en Mastère de Santé"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://esstst.com"
+    "site_web": "https://esstst.com",
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ]
   },
   {
     "id": "fseg_mahdia",
@@ -4077,11 +4085,10 @@
       "Poursuite en Mastère de Gestion",
       "Fonction publique économique"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://fsegma.rnu.tn"
+    "site_web": "https://fsegma.rnu.tn",
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "fshst_tunis",
@@ -4286,11 +4293,10 @@
       "Recherche en sciences sociales",
       "Travail social et ressources humaines"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://www.fshst.rnu.tn"
+    "site_web": "https://www.fshst.rnu.tn",
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ]
   },
   {
     "id": "fsm_monastir",
@@ -4461,11 +4467,10 @@
       "Recherche fondamentale et appliquée",
       "Poursuite en Mastère et Doctorat"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://fsm.rnu.tn"
+    "site_web": "https://fsm.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie"
+    ]
   },
   {
     "id": "fss_sfax",
@@ -4779,11 +4784,10 @@
       "Recherche fondamentale et appliquée",
       "Poursuite en Mastère et Doctorat"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://www.fss.rnu.tn"
+    "site_web": "https://www.fss.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie"
+    ]
   },
   {
     "id": "isam_gabes",
@@ -4896,7 +4900,7 @@
           "bac_lettres": null,
           "bac_eco": null,
           "bac_tech": null,
-          "bac_info": null,
+          "bac_info": null
         },
         "debouches": [
           "Artiste plasticien / Designer",
@@ -4912,11 +4916,10 @@
       "Poursuite d'études en Mastère",
       "Insertion dans les industries créatives"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.univgb.rnu.tn"
+    "site_web": "http://www.univgb.rnu.tn",
+    "tags": [
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "isamm_manouba",
@@ -5035,11 +5038,10 @@
       "Développeur multimédia",
       "Game designer"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://isa2m.rnu.tn"
+    "site_web": "https://isa2m.rnu.tn",
+    "tags": [
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "isbm_monastir",
@@ -5095,11 +5097,10 @@
       "Laboratoire de recherche et industrie pharmaceutique",
       "Poursuite en Doctorat"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://isbm.rnu.tn"
+    "site_web": "https://isbm.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie"
+    ]
   },
   {
     "id": "iseahz_zaghouan",
@@ -5159,11 +5160,10 @@
       "Enseignement",
       "Poursuite d'études en Mastère"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.iseahz.rnu.tn"
+    "site_web": "http://www.iseahz.rnu.tn",
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ]
   },
   {
     "id": "iset_bizerte",
@@ -5264,11 +5264,11 @@
       "Insertion professionnelle directe",
       "Poursuite en Mastère ou cycle d'ingénieur"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.isetb.rnu.tn"
+    "site_web": "http://www.isetb.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isi_medenine",
@@ -5288,31 +5288,10 @@
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
     "filieres_phares": [
       {
-        "id": "isi_medenine_f1",
-        "nom": "Licence en Informatique Industrielle",
-        "duree": "3 ans",
-        "description": "Formation en informatique industrielle et automatisme.",
-        "scores": {},
-        "debouches": [
-          "Technicien/Ingénieur en informatique industrielle"
-        ]
-      },
-      {
-        "id": "isi_medenine_f2",
-        "nom": "Licence en Informatique et Multimédia",
-        "duree": "3 ans",
-        "description": "Formation en développement et multimédia.",
-        "scores": {},
-        "debouches": [
-          "Développeur",
-          "Infographiste"
-        ]
-      },
-      {
         "id": "isi_medenine_licence_en_informatique_decisionnelle",
-        "nom": "Licence en Informatique Décisionnelle",
+        "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
-        "description": "Formation en systèmes d'information et informatique décisionnelle dispensée à Médenine. Débouche sur les métiers de l'informatique de gestion.",
+        "description": "Formation en systèmes d'information et informatique décisionnelle dispensée à Médenine. Débouche sur les métiers de l'informatique.",
         "scores": {
           "bac_math": 93.72,
           "bac_sc": 91.75,
@@ -5321,12 +5300,13 @@
         },
         "debouches": [
           "Développeur",
-          "Analyste informatique décisionnelle"
+          "Analyste informatique décisionnelle",
+          "Développeur Applications Web et Mobile"
         ]
       },
       {
         "id": "isi_medenine_licence_en_telecommunications",
-        "nom": "Licence en Télécommunications",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
         "description": "Formation en télécommunications dispensée à Médenine. Débouche sur les métiers des réseaux de communication.",
         "scores": {
@@ -5336,20 +5316,20 @@
         },
         "debouches": [
           "Technicien télécom",
-          "Ingénieur réseaux"
+          "Ingénieur réseaux",
+          "Administrateur Réseaux et Systèmes / Cloud"
         ]
       }
     ],
     "debouches": [
       "Développeur / Technicien informatique",
-      "Ingénieur en informatique industrielle",
+      "Administrateur Systèmes et Réseaux",
       "Poursuite en Mastère"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.univgb.rnu.tn"
+    "site_web": "http://www.univgb.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux"
+    ]
   },
   {
     "id": "issat_mahdia",
@@ -5370,30 +5350,10 @@
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
     "filieres_phares": [
       {
-        "id": "issat_mahdia_f1",
-        "nom": "Licence Appliquée en Génie Informatique",
+        "id": "issat_mahdia_licence_en_technologie_info",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
-        "description": "Formation technologique en informatique.",
-        "scores": {},
-        "debouches": [
-          "Développeur / Technicien informatique"
-        ]
-      },
-      {
-        "id": "issat_mahdia_f2",
-        "nom": "Licence Appliquée en Génie Électromécanique",
-        "duree": "3 ans",
-        "description": "Formation technologique en électromécanique.",
-        "scores": {},
-        "debouches": [
-          "Technicien supérieur en électromécanique"
-        ]
-      },
-      {
-        "id": "issat_mahdia_licence_en_securite_informatique",
-        "nom": "Licence en Sécurité Informatique",
-        "duree": "3 ans",
-        "description": "Formation en sécurité des systèmes d'information dispensée à Mahdia. Prépare aux métiers de la cybersécurité industrielle.",
+        "description": "Licence en Technologies de l'Information et Télécommunications dispensée à Mahdia. Prépare aux métiers de la cybersécurité industrielle.",
         "scores": {
           "bac_math": 135.75,
           "bac_sc": 159.79,
@@ -5402,7 +5362,8 @@
         },
         "debouches": [
           "Expert cybersécurité",
-          "Administrateur réseaux"
+          "Administrateur réseaux",
+          "Spécialiste en  Systèmes Embarqués et IoT"
         ]
       },
       {
@@ -5411,12 +5372,14 @@
         "duree": "3 ans",
         "description": "Formation en énergies renouvelables et gestion environnementale dispensée à Mahdia. Prépare aux métiers de l'énergie durable.",
         "scores": {
-          "bac_sc": 91.94,
-          "bac_tech": 103.38
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_math": null
         },
         "debouches": [
-          "Ingénieur énergie renouvelable",
-          "Technicien environnement"
+          "Technicien en énergie renouvelable",
+          "Technicien environnement",
+          "Spécialist en Maintenance et efficacité énergétique"
         ]
       },
       {
@@ -5432,6 +5395,22 @@
         "debouches": [
           "Accès aux écoles d'ingénieurs"
         ]
+      },
+      {
+        "id": "issat_mahdia_licence_en_eeea",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée à Mahdia. Prépare aux métiers de l'électronique, de l'électrotechnique et de l'automatique.",
+        "scores": {
+          "bac_math": 114.93,
+          "bac_sc": 105.11,
+          "bac_info": 116.28,
+          "bac_tech": 119.82
+        },
+        "debouches": [
+          "Développeur Web et Mobile Junior",
+          "Spécialiste en  Systèmes Embarqués et IoT"
+        ]
       }
     ],
     "debouches": [
@@ -5439,11 +5418,11 @@
       "Insertion professionnelle directe",
       "Poursuite en Mastère ou cycle d'ingénieur"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.issatmh.rnu.tn"
+    "site_web": "http://www.issatmh.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "issbat_tunis",
@@ -5465,47 +5444,32 @@
     "filieres_phares": [
       {
         "id": "issbat_tunis_f1",
-        "nom": "Licence Appliquée en Biotechnologie",
+        "nom": "Licence  en Biotechnologie",
         "duree": "3 ans",
-        "description": "Formation en biotechnologie appliquée.",
-        "scores": {},
+        "description": "Licence en Biotechnologie. ",
+        "scores": {
+          "bac_math": 104.1,
+          "bac_sc": 106.81
+        },
         "debouches": [
-          "Technicien/Ingénieur en biotechnologie"
-        ]
-      },
-      {
-        "id": "issbat_tunis_f2",
-        "nom": "Licence Appliquée en Protection de l'Environnement",
-        "duree": "3 ans",
-        "description": "Formation en gestion et protection de l'environnement.",
-        "scores": {},
-        "debouches": [
-          "Technicien en environnement",
-          "Qualité/Sécurité/Environnement"
-        ]
-      },
-      {
-        "id": "issbat_tunis_licence_en_technologies_de_l_environnement",
-        "nom": "Licence en Technologies de l'Environnement",
-        "duree": "3 ans",
-        "description": "Formation en sciences biologiques appliquées à l'environnement durable dispensée à Tunis. Prépare aux métiers de la gestion environnementale.",
-        "scores": {},
-        "debouches": [
-          "Ingénieur environnement",
-          "Technicien en biologie appliquée"
+          "Technicien/Ingénieur en biotechnologie",
+          "Bio-informaticien",
+          "Biochimiste",
+          "Laboratoire de recherche et industrie pharmaceutique",
+          "Industrie agroalimentaire"
         ]
       }
     ],
     "debouches": [
-      "Technicien / Ingénieur en biotechnologie",
+      "Technicien en biotechnologie",
       "Métiers de l'environnement et de la qualité alimentaire",
       "Poursuite en Mastère"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.issbat.rnu.tn"
+    "site_web": "http://www.issbat.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isspes_sfax",
@@ -5529,35 +5493,30 @@
         "id": "isspes_sfax_f1",
         "nom": "Licence en Éducation Physique et Sportive",
         "duree": "3 ans",
-        "description": "Formation de professeurs et entraîneurs d'éducation physique.",
-        "scores": {},
+        "description": "Formation de professeurs et entraîneurs d'éducation physique. Nécessite un examen et note en EP=>16",
+        "scores": {
+          "bac_lettres": 136.99,
+          "bac_math": 118.37,
+          "bac_sc": 147.62,
+          "bac_tech": 164.39,
+          "bac_sport": 74.48,
+          "bac_info": 147.68,
+          "bac_eco": 156.95
+        },
         "debouches": [
           "Professeur d'éducation physique",
           "Entraîneur sportif"
-        ]
-      },
-      {
-        "id": "isspes_sfax_f2",
-        "nom": "Licence en Management du Sport",
-        "duree": "3 ans",
-        "description": "Formation en gestion et management des structures sportives.",
-        "scores": {},
-        "debouches": [
-          "Manager sportif",
-          "Gestion de clubs et fédérations"
         ]
       }
     ],
     "debouches": [
       "Professeur d'éducation physique",
-      "Entraîneur sportif",
-      "Management d'infrastructures sportives"
+      "Entraîneur sportif"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": null
+    "site_web": null,
+    "tags": [
+      "Sport & Éducation Physique"
+    ]
   },
   {
     "id": "isgs_sousse",
@@ -5578,27 +5537,6 @@
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères",
     "filieres_phares": [
       {
-        "id": "isgs_sousse_f1",
-        "nom": "Licence Fondamentale en Gestion / Finance",
-        "duree": "3 ans",
-        "description": "Tronc commun en gestion et finance.",
-        "scores": {},
-        "debouches": [
-          "Cadre en entreprise",
-          "Poursuite en Mastère"
-        ]
-      },
-      {
-        "id": "isgs_sousse_f2",
-        "nom": "Licence Appliquée en Comptabilité",
-        "duree": "3 ans",
-        "description": "Filière professionnalisante en comptabilité.",
-        "scores": {},
-        "debouches": [
-          "Comptable / Contrôleur de gestion"
-        ]
-      },
-      {
         "id": "isgs_sousse_licence_en_sciences_economiques",
         "nom": "Licence en Sciences Économiques",
         "duree": "3 ans",
@@ -5612,6 +5550,26 @@
           "Économiste",
           "Analyste financier",
           "Chargé d'études"
+        ]
+      },
+      {
+        "id": "isgs_sousse_licence_en_sciences_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Cursus économique dispensé à Sousse, axé sur l'analyse macroéconomique et les données financières. Prépare aux carrières dans les institutions économiques.",
+        "scores": {
+          "bac_math": 106.63,
+          "bac_sc": 139.07,
+          "bac_eco": 138.17,
+          "bac_info": 120.26,
+          "bac_tech": 153.46
+        },
+        "debouches": [
+          "Manager / Chef de produit Marketing",
+          "Responsable commercial",
+          "Chargé d'études",
+          "Cadre en entreprise (finance, gestion, comptabilité)",
+          "Analyste Financier / Directeur Financier (CFO)"
         ]
       },
       {
@@ -5629,7 +5587,9 @@
         "debouches": [
           "Développeur",
           "Consultant SI",
-          "Chef de projet informatique"
+          "Chef de projet informatique",
+          "Data Analyst / Business Analyst",
+          "Auditeur SI"
         ]
       }
     ],
@@ -5638,11 +5598,10 @@
       "Poursuite en Mastère de Gestion",
       "Fonction publique économique"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://isgs.rnu.tn"
+    "site_web": "https://isgs.rnu.tn",
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ]
   },
   {
     "id": "issiso_sousse",
@@ -5664,10 +5623,31 @@
     "filieres_phares": [
       {
         "id": "issiso_sousse_f1",
-        "nom": "Licence en Sciences Infirmières",
+        "nom": "Licence en Sciences Infirmières(Hommes)",
         "duree": "3 ans",
-        "description": "Formation d'infirmiers diplômés d'État.",
-        "scores": {},
+        "description": "Formation d'infirmiers diplômés d'État.SVT et EP Obligatoire.Nécessite un examen.",
+        "scores": {
+          "bac_math": 135.57,
+          "bac_sc": 140.64,
+          "bac_let": 139.95,
+          "bac_sport": 182.83
+        },
+        "debouches": [
+          "Infirmier(e) diplômé(e) d'État",
+          "Cadre de santé (après spécialisation)"
+        ]
+      },
+      {
+        "id": "issiso_sousse_f2",
+        "nom": "Licence en Sciences Infirmières(Femmes)",
+        "duree": "3 ans",
+        "description": "Formation d'infirmiers diplômés d'État.SVT et EP Obligatoire.Nécessite un examen.",
+        "scores": {
+          "bac_math": 161.59,
+          "bac_sc": 163.59,
+          "bac_let": 138.77,
+          "bac_sport": 182.42
+        },
         "debouches": [
           "Infirmier(e) diplômé(e) d'État",
           "Cadre de santé (après spécialisation)"
@@ -5679,11 +5659,10 @@
       "Cadre de santé hospitalier",
       "Poursuite en Mastère de Santé"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.sciencesinfirmieres-sousse.rns.tn"
+    "site_web": "http://www.sciencesinfirmieres-sousse.rns.tn",
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ]
   },
   {
     "id": "isban_nabeul",
@@ -5708,20 +5687,18 @@
         "nom": "Licence en Arts Plastiques",
         "duree": "3 ans",
         "description": "Formation en peinture, sculpture et arts visuels.",
-        "scores": {},
+        "scores": {
+          "bac_math": 114.41,
+          "bac_let": 89.52,
+          "bac_sc": 105.79,
+          "bac_eco": 85.63,
+          "bac_tech": 87.68,
+          "bac_info": 71.98,
+          "bac_sport": 113.52
+        },
         "debouches": [
           "Artiste plasticien",
           "Enseignement artistique"
-        ]
-      },
-      {
-        "id": "isban_nabeul_f2",
-        "nom": "Licence en Design",
-        "duree": "3 ans",
-        "description": "Formation en design graphique ou produit.",
-        "scores": {},
-        "debouches": [
-          "Designer graphique / produit"
         ]
       },
       {
@@ -5734,7 +5711,8 @@
           "bac_sc": 127.64,
           "bac_tech": 100,
           "bac_eco": 98.02,
-          "bac_lettres": 129.68
+          "bac_lettres": 129.68,
+          "bac_math": null
         },
         "debouches": [
           "Architecte d'intérieur",
@@ -5753,7 +5731,8 @@
           "bac_sc": 113.28,
           "bac_tech": 68.54,
           "bac_eco": 77.5,
-          "bac_lettres": 110.79
+          "bac_lettres": 110.79,
+          "bac_math": null
         },
         "debouches": [
           "Designer produit",
@@ -5773,7 +5752,8 @@
           "bac_sc": 112.04,
           "bac_tech": 83.97,
           "bac_eco": 82.75,
-          "bac_lettres": 115.45
+          "bac_lettres": 115.45,
+          "bac_sport": 90.5
         },
         "debouches": [
           "Graphiste",
@@ -5788,11 +5768,10 @@
       "Enseignement artistique",
       "Industries créatives"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": null
+    "site_web": "www.isban.rnu.tn",
+    "tags": [
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "iset_mahdia",
@@ -5814,23 +5793,24 @@
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
     "filieres_phares": [
       {
-        "id": "iset_mahdia_f1",
-        "nom": "Licence Appliquée en Génie Électrique",
-        "duree": "3 ans",
-        "description": "Formation technologique en électricité/électronique.",
-        "scores": {},
-        "debouches": [
-          "Technicien supérieur en électricité"
-        ]
-      },
-      {
         "id": "iset_mahdia_f2",
-        "nom": "Licence Appliquée en Sciences Économiques et Gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Formation technologique en gestion.",
-        "scores": {},
+        "description": "Licence en Sciences de Gestion dispensée par ISET Mahdia",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
-          "Technicien supérieur en gestion"
+          "Cadre en entreprise",
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       },
       {
@@ -5839,11 +5819,11 @@
         "duree": "3 ans",
         "description": "Formation technologique en informatique dispensée à Mahdia. Débouche sur les métiers du développement et de l'administration systèmes.",
         "scores": {
-          "bac_math": 100.38,
-          "bac_sc": 121.11,
-          "bac_eco": 123.73,
-          "bac_tech": 143.1,
-          "bac_info": 138.08
+          "bac_math": 105.04,
+          "bac_sc": 123.49,
+          "bac_eco": 116.79,
+          "bac_tech": 139.52,
+          "bac_info": 141.84
         },
         "debouches": [
           "Technicien informatique",
@@ -5856,14 +5836,17 @@
         "duree": "3 ans",
         "description": "Formation en conception mécanique dispensée à Mahdia. Prépare aux métiers de l'industrie mécanique.",
         "scores": {
-          "bac_math": 98.95,
-          "bac_sc": 117.05,
-          "bac_tech": 111.08,
-          "bac_info": 118.18
+          "bac_math": 142.97,
+          "bac_sc": 114.61,
+          "bac_tech": 113.98,
+          "bac_info": 129.13
         },
         "debouches": [
           "Technicien mécanique",
-          "Ingénieur maintenance"
+          "Technicien automatisme",
+          "Technicien Supérieur en CAO/DAO",
+          "Technicien Supérieur en Mécatronique",
+          "Responbale Maintenance"
         ]
       },
       {
@@ -5872,14 +5855,16 @@
         "duree": "3 ans",
         "description": "Formation en électronique dispensée à Mahdia. Prépare aux métiers de l'électricité industrielle et des systèmes embarqués.",
         "scores": {
-          "bac_math": 99.75,
-          "bac_sc": 111.43,
-          "bac_tech": 113.38,
-          "bac_info": 119.94
+          "bac_math": 139.1,
+          "bac_sc": 115.94,
+          "bac_tech": 112.79,
+          "bac_info": 123.46
         },
         "debouches": [
           "Technicien électrique",
-          "Ingénieur automatisme"
+          "Ingénieur automatisme",
+          "Spécialiste en  Systèmes Embarqués et IoT",
+          "Responsable Maintenance en Énergies Nouvelles"
         ]
       }
     ],
@@ -5888,11 +5873,11 @@
       "Insertion professionnelle directe",
       "Poursuite en Mastère ou cycle d'ingénieur"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://isetma.rnu.tn"
+    "site_web": "https://isetma.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "isimg_gabes",
@@ -5914,22 +5899,19 @@
     "filieres_phares": [
       {
         "id": "isimg_gabes_f1",
-        "nom": "Licence en Informatique",
-        "duree": "3 ans",
-        "description": "Formation en développement informatique.",
-        "scores": {},
+        "nom": "Cycle préparatoire intégré en Mathématiques, Physique, Informatique (MPI)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "description": "Cycle préparatoire intégré menant à un diplôme national d'ingénieur. L'institut est rattaché à l'Université de Gabès.",
+        "scores": {
+          "bac_math": 137.4,
+          "bac_sc": 149.53,
+          "bac_tech": 140.3,
+          "bac_info": 160.43
+        },
         "debouches": [
-          "Développeur informatique"
-        ]
-      },
-      {
-        "id": "isimg_gabes_f2",
-        "nom": "Licence en Multimédia",
-        "duree": "3 ans",
-        "description": "Formation en création multimédia.",
-        "scores": {},
-        "debouches": [
-          "Infographiste / Développeur multimédia"
+          "Développeur informatique",
+          "Ingénieur en Génie Logiciel",
+          "Ingénieur en Systèmes Embarqueés"
         ]
       },
       {
@@ -5942,7 +5924,8 @@
           "bac_sc": 86.56,
           "bac_eco": 92.66,
           "bac_tech": 80.5,
-          "bac_lettres": 117.23
+          "bac_lettres": 117.23,
+          "bac_math": null
         },
         "debouches": [
           "Designer multimédia",
@@ -5951,10 +5934,10 @@
         ]
       },
       {
-        "id": "isimg_gabes_licence_en_big_data_et_applications_mobiles",
-        "nom": "Licence en Big Data et Applications Mobiles",
+        "id": "isimg_gabes_licence_en_sciences_infos",
+        "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
-        "description": "Formation en analyse de données et applications mobiles dispensée à Gabès. Prépare aux métiers du développement mobile et data.",
+        "description": "Licence en Sciences de l'Informatique dispensée à Gabès. Prépare aux métiers du développement mobile et data.",
         "scores": {
           "bac_math": 86.57,
           "bac_sc": 114.57,
@@ -5963,14 +5946,15 @@
         },
         "debouches": [
           "Développeur mobile",
-          "Data analyst"
+          "Data analyst",
+          "Technicien Systèmes Embarqués et IoT"
         ]
       },
       {
         "id": "isimg_gabes_licence_en_systemes_d_information_mobiles",
-        "nom": "Licence en Systèmes d'Information Mobiles",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
         "duree": "3 ans",
-        "description": "Formation en systèmes numériques mobiles dispensée à Gabès. Débouche sur le développement d'applications et systèmes embarqués.",
+        "description": "Licence en Ingénieurie des systèmes informatiques dispensés par ISIMG",
         "scores": {
           "bac_math": 90.32,
           "bac_sc": 106.8,
@@ -5979,14 +5963,15 @@
         },
         "debouches": [
           "Développeur mobile",
-          "Ingénieur systèmes embarqués"
+          "Ingénieur systèmes embarqués",
+          "Administrateur Réseaux et Systèmes / Cloud"
         ]
       },
       {
         "id": "isimg_gabes_licence_en_electronique_et_technologies_fines",
-        "nom": "Licence en Électronique et Technologies Fines",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
-        "description": "Formation en électronique et technologies de communication dispensée à Gabès. Prépare aux métiers des télécommunications.",
+        "description": "Formation en informatique et technologies de communication dispensée à Gabès. Prépare aux métiers des télécommunications.",
         "scores": {
           "bac_math": 108.49,
           "bac_sc": 94.16,
@@ -5995,7 +5980,9 @@
         },
         "debouches": [
           "Technicien télécom",
-          "Ingénieur réseaux"
+          "Ingénieur réseaux",
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Technicien Systèmes Embarqués et IoT"
         ]
       }
     ],
@@ -6004,11 +5991,11 @@
       "Infographiste / Métiers du multimédia",
       "Poursuite en Mastère"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://isimg.rnu.tn"
+    "site_web": "https://isimg.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Arts, Design & Multimédia"
+    ]
   },
   {
     "id": "issh_medenine",
@@ -6028,18 +6015,6 @@
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
     "filieres_phares": [
       {
-        "id": "issh_medenine_f1",
-        "nom": "Licence en Sciences Humaines (Histoire / Géographie / Langues)",
-        "duree": "3 ans",
-        "description": "Filière principale dispensée par l'ISSH Médenine.",
-        "scores": {},
-        "debouches": [
-          "Enseignement",
-          "Recherche",
-          "Médiation culturelle"
-        ]
-      },
-      {
         "id": "issh_medenine_licence_en_arabe",
         "nom": "Licence en Arabe",
         "duree": "3 ans",
@@ -6048,7 +6023,8 @@
           "bac_info": 104.7,
           "bac_sc": 156.54,
           "bac_eco": 83.59,
-          "bac_lettres": 95.23
+          "bac_lettres": 95.23,
+          "bac_math": null
         },
         "debouches": [
           "Enseignement de l'arabe",
@@ -6067,7 +6043,9 @@
           "bac_sc": 141.41,
           "bac_tech": 88.78,
           "bac_eco": 84.26,
-          "bac_lettres": 79.08
+          "bac_lettres": 79.08,
+          "bac_math": null,
+          "bac_sport": null
         },
         "debouches": [
           "Enseignement de l'allemand",
@@ -6078,15 +6056,44 @@
       },
       {
         "id": "issh_medenine_licence_en_traduction",
-        "nom": "Licence en Traduction",
+        "nom": "Licence en Anglais",
         "duree": "3 ans",
-        "description": "Formation trilingue (arabe, français, anglais) aux techniques de traduction. Elle prépare aux métiers de la traduction, de l'interprétariat et de la médiation linguistique.",
-        "scores": {},
+        "description": "Formation en Anglais.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 140.88,
+          "bac_tech": 114.78,
+          "bac_eco": 73.85,
+          "bac_info": 109.33,
+          "bac_let": 77.25,
+          "bac_sport": null
+        },
         "debouches": [
           "Traducteur professionnel",
           "Interprétariat",
           "Édition multilingue",
-          "Organisations internationales"
+          "Enseignant en Anglais"
+        ]
+      },
+      {
+        "id": "issh_medenine_licence_en_francais",
+        "nom": "Licence en Français",
+        "duree": "3 ans",
+        "description": "Licence en Français",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 130.18,
+          "bac_tech": 127.16,
+          "bac_eco": 79.24,
+          "bac_info": null,
+          "bac_let": 88.11,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Traducteur professionnel",
+          "Interprétariat",
+          "Édition multilingue",
+          "Enseignant en Français"
         ]
       },
       {
@@ -6108,6 +6115,25 @@
           "Conseiller d'orientation",
           "Cadre éducatif"
         ]
+      },
+      {
+        "id": "issh_medenine_licence_en_traduction",
+        "nom": "Licence en Traduction",
+        "duree": "3 ans",
+        "description": "Licence en traduction Français/Anglais/Arabe",
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null,
+          "bac_lettres": null
+        },
+        "debouches": [
+          "Traducteur professionnel",
+          "Traduction et interprétariat",
+          "Spécialiste en Langues "
+        ]
       }
     ],
     "debouches": [
@@ -6115,11 +6141,10 @@
       "Recherche en sciences humaines",
       "Médiation culturelle et communication"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.univgb.rnu.tn"
+    "site_web": "http://www.univgb.rnu.tn",
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ]
   },
   {
     "id": "istic_borjcedria",
@@ -6141,27 +6166,43 @@
     "filieres_phares": [
       {
         "id": "istic_borjcedria_f1",
-        "nom": "Licence en Informatique / Réseaux",
+        "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
-        "description": "Formation en informatique et réseaux.",
-        "scores": {},
+        "description": "Licence en Sciences de l'Informatique",
+        "scores": {
+          "bac_math": 152.42,
+          "bac_sc": 152,
+          "bac_tech": 158.72,
+          "bac_info": 173.65
+        },
         "debouches": [
-          "Développeur / Ingénieur réseaux"
+          "Développeur / Ingénieur réseaux",
+          "Développeur Web et Mobile Junior",
+          "Data Analyst / Scientist"
         ]
       },
       {
         "id": "istic_borjcedria_f2",
-        "nom": "Licence en Informatique Industrielle",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
         "duree": "3 ans",
-        "description": "Formation en informatique industrielle et automatisme.",
-        "scores": {},
+        "description": "Formation en automatique et systèmes.",
+        "scores": {
+          "bac_math": 98.35,
+          "bac_sc": 108.35,
+          "bac_tech": 98.28,
+          "bac_info": 152.35
+        },
         "debouches": [
-          "Technicien/Ingénieur en informatique industrielle"
+          "Technicien en maintenance électronique",
+          "Technicien en automatisme",
+          "Technicien en électrotechnique",
+          "Responsable maintenance des systèmes électroniques",
+          "Responsable en maintenance industrielle"
         ]
       },
       {
         "id": "istic_borjcedria_licence_en_technologies_de_l_information",
-        "nom": "Licence en Technologies de l'Information",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
         "duree": "3 ans",
         "description": "Formation en technologies de l'information et de la communication dispensée à Borj Cedria. Prépare aux métiers du numérique.",
         "scores": {
@@ -6171,13 +6212,15 @@
           "bac_info": 157.4
         },
         "debouches": [
-          "Ingénieur informatique",
-          "Chef de projet IT"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Chef de projet IT",
+          "Technicien Systèmes Embarqués et IoT",
+          "Développeur Web et Mobile Junior"
         ]
       },
       {
         "id": "istic_borjcedria_licence_en_telecommunications",
-        "nom": "Licence en Télécommunications",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
         "description": "Formation en télécommunications et systèmes d'information dispensée à Borj Cedria. Débouche sur les métiers des réseaux télécom.",
         "scores": {
@@ -6187,32 +6230,58 @@
           "bac_info": 143.95
         },
         "debouches": [
-          "Ingénieur télécom",
-          "Ingénieur réseaux"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Architecte Big Data / Cloud Specialist"
         ]
       },
       {
         "id": "istic_borjcedria_licence_en_electronique_et_systemes_communicants",
-        "nom": "Licence en Électronique et Systèmes Communicants",
+        "nom": "Licence en Ingénieurie énergétique",
         "duree": "3 ans",
-        "description": "Formation en électronique et systèmes de communication dispensée à Borj Cedria. Prépare aux métiers de l'électronique industrielle.",
-        "scores": {},
+        "description": "Licence en Ingénieurie énergétique",
+        "scores": {
+          "bac_math": 120.49,
+          "bac_sc": 106.45,
+          "bac_tech": 114.74
+        },
         "debouches": [
-          "Ingénieur électronique",
-          "Technicien systèmes"
+          "Technicien en énergie",
+          "Responsable Maintenance en Énergies Nouvelles",
+          "Contrôleur Qualité Électrique",
+          "QA Électronique",
+          "Technicien en instrumentation et automatisation"
+        ]
+      },
+      {
+        "id": "istic_borjcedria_licence_en_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "description": "Licence en Génie Électrique",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
+        "debouches": [
+          "Technicien en énergie",
+          "Responsable Maintenance en Énergies Nouvelles",
+          "Contrôleur Qualité Électrique",
+          "QA Électronique",
+          "Technicien en instrumentation et automatisation"
         ]
       }
     ],
     "debouches": [
       "Développeur / Ingénieur informatique",
-      "Ingénieur télécoms/réseaux",
+      "Technicien télécoms/réseaux",
       "Poursuite en Mastère ou Doctorat"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.istic.rnu.tn"
+    "site_web": "http://www.istic.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "istls_sousse",
@@ -6232,28 +6301,6 @@
     "filtre": "💼 Business, Commerce & Gestion",
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères de Recherche et Professionnels",
     "filieres_phares": [
-      {
-        "id": "istls_sousse_f1",
-        "nom": "Licence Fondamentale en Sciences du Transport et de la Logistique",
-        "duree": "3 ans",
-        "description": "Formation généraliste en transport et logistique multimodale.",
-        "scores": {},
-        "debouches": [
-          "Cadre logistique",
-          "Gestionnaire de la chaîne d'approvisionnement"
-        ]
-      },
-      {
-        "id": "istls_sousse_f2",
-        "nom": "Licence Appliquée en Technologies du Transport et de la Logistique",
-        "duree": "3 ans",
-        "description": "Filière technique en transport maritime, terrestre ou diagnostic/maintenance.",
-        "scores": {},
-        "debouches": [
-          "Technicien/Ingénieur transport",
-          "Responsable exploitation"
-        ]
-      },
       {
         "id": "istls_sousse_licence_en_logistique_et_distribution",
         "nom": "Licence en Logistique et Distribution",
@@ -6323,11 +6370,10 @@
       "Métiers portuaires, maritimes et aériens",
       "Poursuite en Mastère"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://istls.rnu.tn"
+    "site_web": "https://istls.rnu.tn",
+    "tags": [
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "iset_charguia",
@@ -6349,34 +6395,23 @@
     "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
     "filieres_phares": [
       {
-        "id": "iset_charguia_f1",
-        "nom": "Licence Appliquée en Génie Informatique",
+        "id": "iset_charguiatunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Formation technologique en informatique.",
-        "scores": {},
+        "description": "Filière en Sciences de Gestion dispensée par ISET'COM.",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        },
         "debouches": [
-          "Développeur / Technicien informatique"
-        ]
-      },
-      {
-        "id": "iset_charguia_f2",
-        "nom": "Licence Appliquée en Génie Civil / Électromécanique",
-        "duree": "3 ans",
-        "description": "Formation technologique appliquée.",
-        "scores": {},
-        "debouches": [
-          "Technicien supérieur BTP / électromécanique"
-        ]
-      },
-      {
-        "id": "iset_charguia_licence_en_gestion_industrielle",
-        "nom": "Licence en Gestion Industrielle",
-        "duree": "3 ans",
-        "description": "Formation technologique en gestion industrielle appliquée, dispensée à Charguia. Prépare aux fonctions de gestion de production et de logistique industrielle.",
-        "scores": {},
-        "debouches": [
-          "Responsable de production",
-          "Gestionnaire industriel"
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       },
       {
@@ -6393,50 +6428,10 @@
         },
         "debouches": [
           "Technicien informatique",
-          "Développeur"
-        ]
-      },
-      {
-        "id": "iset_charguia_licence_en_genie_civil",
-        "nom": "Licence en Génie Civil",
-        "duree": "3 ans",
-        "description": "Formation en bâtiment et conduite de chantier dispensée à Charguia. Prépare aux métiers du BTP.",
-        "scores": {
-          "bac_math": 126.94,
-          "bac_sc": 120.66,
-          "bac_tech": 99.74,
-          "bac_info": 144.22
-        },
-        "debouches": [
-          "Conducteur de travaux",
-          "Technicien BTP"
-        ]
-      },
-      {
-        "id": "iset_charguia_licence_en_telecommunications",
-        "nom": "Licence en Télécommunications",
-        "duree": "3 ans",
-        "description": "Formation spécialisée en télécommunications dispensée à Tunis. Débouche sur les métiers des réseaux de télécommunication.",
-        "scores": {},
-        "debouches": [
-          "Ingénieur télécom",
-          "Technicien réseaux"
-        ]
-      },
-      {
-        "id": "iset_charguia_licence_en_electronique_et_automatismes_industriels",
-        "nom": "Licence en Électronique et Automatismes Industriels",
-        "duree": "3 ans",
-        "description": "Formation en électronique industrielle et automatismes dispensée à Tunis. Débouche sur les métiers de l'automatisation.",
-        "scores": {
-          "bac_math": 98.35,
-          "bac_sc": 108.35,
-          "bac_tech": 98.28,
-          "bac_info": 152.35
-        },
-        "debouches": [
-          "Technicien automatisme",
-          "Ingénieur électronique"
+          "Développeur",
+          "Data Analyst / Scientist",
+          "Administrateur Systèmes, Réseaux et Cloud",
+          "Technicien Systèmes Embarqués et IoT"
         ]
       }
     ],
@@ -6445,11 +6440,11 @@
       "Insertion professionnelle directe",
       "Poursuite en Mastère ou cycle d'ingénieur"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.isetch.rnu.tn"
+    "site_web": "http://www.isetch.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ]
   },
   {
     "id": "issat_gabes",
@@ -6471,32 +6466,67 @@
     "filieres_phares": [
       {
         "id": "issat_gabes_f1",
-        "nom": "Licence Appliquée en Génie Informatique",
+        "nom": "Licence en Génie Civil",
         "duree": "3 ans",
-        "description": "Formation technologique en informatique.",
-        "scores": {},
+        "description": "Licence en Génie Civil dispensée par ISSAT Gabès",
+        "scores": {
+          "bac_math": 140.19,
+          "bac_sc": 115.69,
+          "bac_tech": 88.28,
+          "bac_info": 102.14
+        },
         "debouches": [
-          "Développeur / Technicien informatique"
+          "Chef de Chantier",
+          "Technicien Supérieur en Génie Civil",
+          "Coordinateur Sécurité Chantier"
+        ]
+      },
+      {
+        "id": "issat_gabes_f25",
+        "nom": "Licence en Génie des Procédés (Chimie Industrielle)",
+        "duree": "3 ans",
+        "description": "Licence en Génie des Procédés dispensée par ISSAT Gabès",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 75.58,
+          "bac_tech": 92.75
+        },
+        "debouches": [
+          "Technicien de Laboratoire Chimique / Contrôle Qualité",
+          "Opérateur / Chef de poste en industrie lourde",
+          "Technicien de Maintenance Systèmes Électromécaniques",
+          "Développeur d'applications industrielles / IT",
+          "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
         ]
       },
       {
         "id": "issat_gabes_f2",
-        "nom": "Licence Appliquée en Génie des Procédés / Chimie",
+        "nom": "Licence en Génie Mécanique",
         "duree": "3 ans",
-        "description": "Formation technologique en génie des procédés.",
-        "scores": {},
+        "description": "Formation en Génie Mécanique ",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 75.22,
+          "bac_tech": 91.2,
+          "bac_info": 93.04
+        },
         "debouches": [
-          "Technicien supérieur en industrie chimique"
+          "Dessinateur Projeteur / Concepteur Mécanique CAD",
+          "Technicien Supérieur en CAO/DAO",
+          "Technicien en Mécatronique",
+          "Responsable ligne de production",
+          "Technicien en énergie renouvelable"
         ]
       },
       {
         "id": "issat_gabes_licence_en_transition_energetique",
-        "nom": "Licence en Transition Énergétique",
+        "nom": "Licence en Génie Énergétique",
         "duree": "3 ans",
         "description": "Formation en transition énergétique et technologies durables dispensée à Gabès. Débouche sur les métiers de l'énergie.",
         "scores": {
-          "bac_sc": 76.52,
-          "bac_tech": 91.35
+          "bac_sc": 91.94,
+          "bac_tech": 103.38,
+          "bac_math": null
         },
         "debouches": [
           "Ingénieur énergie",
@@ -6505,18 +6535,21 @@
       },
       {
         "id": "issat_gabes_licence_en_electronique_et_reseaux",
-        "nom": "Licence en Électronique et Réseaux",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
         "duree": "3 ans",
-        "description": "Formation en électronique industrielle et réseaux dispensée à Gabès. Prépare aux métiers de l'automatisation et de la maintenance.",
+        "description": "Formation en électronique industrielle et automatique dispensée à Gabès. Prépare aux métiers de l'automatisation et de la maintenance.",
         "scores": {
-          "bac_math": 112.97,
-          "bac_sc": 75.14,
-          "bac_tech": 91.53,
-          "bac_info": 101.48
+          "bac_math": 117.52,
+          "bac_sc": 75.21,
+          "bac_tech": 104.48,
+          "bac_info": 138.77
         },
         "debouches": [
-          "Technicien réseaux",
-          "Ingénieur électronique"
+          "Programmateur d'Automates Industriels",
+          "Technicien Supérieur en Électronique",
+          "Responsable Maintenance Électrique",
+          "Technicien de Maintenance",
+          "Contrôleur Qualité Électrique / QA Électronique"
         ]
       }
     ],
@@ -6525,54 +6558,10 @@
       "Insertion professionnelle directe",
       "Poursuite en Mastère ou cycle d'ingénieur"
     ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "https://issatgb.rnu.tn"
-  },
-  {
-    "id": "enmv_sidithabet",
-    "nom_court": "ENMV",
-    "nom_complet": "École Nationale de Médecine Vétérinaire de Sidi Thabet",
-    "universite": "Université de la Manouba",
-    "ville": "Sidi Thabet",
-    "logo": "/logos/ENMV.png",
-    "fac_hero_banner": "/banners/ENMV_hero.jpg",
-    "description_breve": "Unique établissement de formation en médecine vétérinaire de Tunisie, fondé en 1974, l'ENMV est un établissement hospitalo-universitaire en cotutelle avec le Ministère de l'Agriculture.",
-    "adresse": "École Nationale de Médecine Vétérinaire, Sidi Thabet, 2020 Ariana",
-    "lien_google_maps": "https://maps.google.com/?q=ENMV+Sidi+Thabet",
-    "categories": [
-      "Santé",
-      "Médecine Vétérinaire"
-    ],
-    "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Doctorat en Médecine Vétérinaire (6 ans)",
-    "filieres_phares": [
-      {
-        "id": "enmv_sidithabet_f1",
-        "nom": "Doctorat en Médecine Vétérinaire",
-        "duree": "6 ans",
-        "description": "Formation unique en Tunisie menant au diplôme de docteur vétérinaire.",
-        "scores": {},
-        "debouches": [
-          "Vétérinaire clinicien (secteur public ou privé)",
-          "Inspecteur vétérinaire sanitaire",
-          "Recherche en santé animale",
-          "Industrie agroalimentaire"
-        ]
-      }
-    ],
-    "debouches": [
-      "Vétérinaire clinicien (secteur public ou privé)",
-      "Inspecteur vétérinaire sanitaire",
-      "Recherche en santé animale",
-      "Industrie agroalimentaire"
-    ],
-    "temoignage": {
-      "auteur": "À compléter",
-      "texte_detaille": "Témoignage à recueillir auprès d'un étudiant ou représentant de cet établissement."
-    },
-    "site_web": "http://www.enmv.agrinet.tn"
+    "site_web": "https://issatgb.rnu.tn",
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ]
   }
 ]
