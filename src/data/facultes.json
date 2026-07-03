@@ -75,10 +75,11 @@
       }
     ],
     "debouches": [
-      "Médecine Générale en Cabinet ou Structure Hospitalière",
-      "Résidanat et Spécialisation Médicale",
-      "Ingénierie Pédagogique Médicale",
-      "Recherche en Sciences de la Santé et Innovation Clinique"
+      "Médecin Généraliste (Secteur public ou privé)",
+      "Médecin Spécialiste (Cardiologie, Chirurgie, Pédiatrie, etc.)",
+      "Enseignement Hospitalo-Universitaire",
+      "Recherche Médicale et Biomédicale",
+      "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
     "temoignage": {
       "auteur": "Yassine, Résident",
@@ -2981,7 +2982,7 @@
           "Chef de chantier",
           "Dessinateur BTP",
           "Technicien supérieur en génie civil",
-          "Technicien supérieur en topographie",
+          "Technicien supérieur en topographie"
         ]
       },
       {

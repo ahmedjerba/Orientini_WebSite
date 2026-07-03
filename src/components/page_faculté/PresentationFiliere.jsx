@@ -23,20 +23,29 @@ export default function PresentationFiliere({ faculte }) {
         faculte?.nom_court?.toLowerCase().includes("ipei") ||
         filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
 
+      const hasScoresDefined = filiere.scores !== undefined;
+      const allScoresNull = hasScoresDefined && (
+        !filiere.scores ||
+        Object.keys(filiere.scores).length === 0 ||
+        Object.values(filiere.scores).every(val => val === null || val === 0 || val === "" || val === undefined)
+      );
+      const isNouvelle = allScoresNull;
+
       return {
         id: filiere.id || `filiere_${idx}`,
         nom: filiere.nom || "Spécialité",
         duree: filiere.duree || (regimes_etudes ? regimes_etudes.split(' pour ')[0] || "N/A" : "N/A"),
         description: filiere.description || `Formation de spécialité de premier plan dispensée à ${faculte?.nom_court}.`,
-        bac_math: filiere.scores?.bac_math || score_derniere_annee?.bac_math,
-        bac_sc: filiere.scores?.bac_sc || score_derniere_annee?.bac_sc,
-        bac_info: filiere.scores?.bac_info || score_derniere_annee?.bac_info,
-        bac_tech: filiere.scores?.bac_tech || score_derniere_annee?.bac_tech,
-        bac_eco: filiere.scores?.bac_eco || score_derniere_annee?.bac_eco,
-        bac_lettres: filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres,
-        bac_let: filiere.scores?.bac_let || score_derniere_annee?.bac_let || filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres,
-        bac_sport: filiere.scores?.bac_sport || score_derniere_annee?.bac_sport,
+        bac_math: isNouvelle ? null : (filiere.scores?.bac_math || score_derniere_annee?.bac_math),
+        bac_sc: isNouvelle ? null : (filiere.scores?.bac_sc || score_derniere_annee?.bac_sc),
+        bac_info: isNouvelle ? null : (filiere.scores?.bac_info || score_derniere_annee?.bac_info),
+        bac_tech: isNouvelle ? null : (filiere.scores?.bac_tech || score_derniere_annee?.bac_tech),
+        bac_eco: isNouvelle ? null : (filiere.scores?.bac_eco || score_derniere_annee?.bac_eco),
+        bac_lettres: isNouvelle ? null : (filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres),
+        bac_let: isNouvelle ? null : (filiere.scores?.bac_let || score_derniere_annee?.bac_let || filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres),
+        bac_sport: isNouvelle ? null : (filiere.scores?.bac_sport || score_derniere_annee?.bac_sport),
         concours: isPrepa,
+        isNouvelle: isNouvelle,
         debouches: filiere.debouches || debouches || []
       };
     }
