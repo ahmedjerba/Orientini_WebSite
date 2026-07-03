@@ -14,7 +14,7 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "Campagne Orientation",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
@@ -44,8 +44,8 @@
     "site_web": "http://www.fmt.rnu.tn"
   },
   {
-    "id": "fms",
-    "nom_court": "FMS",
+    "id": "fmso",
+    "nom_court": "FMSO",
     "nom_complet": "Faculté de Médecine de Sousse",
     "universite": "Université de Sousse",
     "ville": "Sousse",
@@ -58,11 +58,11 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "Campagne Orientation",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fms_medecine",
+        "id": "fms0_medecine",
         "nom": "Médecine",
         "duree": "9 ans",
         "description": "Filière unique de Médecine. Note : L'enseignement sera assuré en anglais pour un groupe d'étudiants.",
@@ -101,7 +101,7 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "Campagne Orientation",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
@@ -130,8 +130,8 @@
     "site_web": "http://www.fmm.rnu.tn"
   },
   {
-    "id": "fmsf",
-    "nom_court": "FMSF",
+    "id": "fms",
+    "nom_court": "FMS",
     "nom_complet": "Faculté de Médecine de Sfax",
     "universite": "Université de Sfax",
     "ville": "Sfax",
@@ -144,11 +144,11 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "Campagne Orientation",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "9 ans (Nouveau régime)",
     "filieres_phares": [
       {
-        "id": "fmsf_medecine",
+        "id": "fms_medecine",
         "nom": "Médecine",
         "duree": "9 ans",
         "description": "Filière unique de Médecine.",
@@ -161,10 +161,10 @@
       }
     ],
     "debouches": [
-      "Médecin Généraliste ou de Libre Pratique",
-      "Spécialisation Chirurgicale ou Médicale en CHU",
-      "Responsable de Programmes de Santé Communautaire",
-      "Recherche Épidémiologique"
+      "Médecin Généraliste (Secteur public ou privé)",
+      "Médecin Spécialiste (Cardiologie, Chirurgie, Pédiatrie, etc.)",
+      "Carrière Hospitalo-Universitaire",
+      "Médecin de Famille, du Travail ou de Santé Publique"
     ],
     "temoignage": {
       "auteur": "Rania, Étudiante",
@@ -187,7 +187,7 @@
       "Santé",
       "Médecine"
     ],
-    "filtre": "Campagne Orientation",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
     "regimes_etudes": "6 ans pour le diplôme national de Docteur en Médecine Dentaire (+ internat)",
     "filieres_phares": [
       {
@@ -201,24 +201,6 @@
           "bac_sc": 180.94,
           "bac_sport": 192.28
         }
-      },
-      {
-        "id": "fmd_monastir_doctorat_en_medecine_dentaire",
-        "nom": "Doctorat en Médecine Dentaire",
-        "duree": "6 ans",
-        "description": "Formation complète de six ans menant au diplôme de docteur en médecine dentaire, dispensée à la Faculté de Médecine Dentaire de Monastir ; une partie des étudiants bénéficie d'un enseignement en anglais.",
-        "scores": {
-          "bac_lettres": 162.35,
-          "bac_math": 184.73,
-          "bac_sc": 180.94,
-          "bac_sport": 192.28
-        },
-        "debouches": [
-          "Chirurgien-dentiste",
-          "Praticien en cabinet privé",
-          "Praticien hospitalier",
-          "Chercheur en médecine dentaire"
-        ]
       }
     ],
     "debouches": [
@@ -250,12 +232,12 @@
       "Pharmacie"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "6 ans pour le diplôme national de Docteur en Pharmacie, cursus de résistanat (Biologie, Pharmacie Hospitalière/Industrielle)",
+    "regimes_etudes": "6 ans ",
     "filieres_phares": [
       {
         "id": "fph_monastir_sciences_pharmaceutiques__tronc_commu",
         "nom": "Pharmacie",
-        "duree": "6 à 11 ans",
+        "duree": "6ans",
         "description": "Filière phare en Sciences Pharmaceutiques  dispensée par FPHM.",
         "scores": {
           "bac_math": 176.38,
@@ -268,24 +250,6 @@
           "Pharmacien Biologiste (Laboratoires d'analyses médicaux)",
           "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
           "Pharmacien Hospitalier"
-        ]
-      },
-      {
-        "id": "fph_monastir_doctorat_en_pharmacie",
-        "nom": "Doctorat en Pharmacie",
-        "duree": "6 ans",
-        "description": "Formation pharmaceutique complète de six ans menant au diplôme de docteur en pharmacie, dispensée à la Faculté de Pharmacie de Monastir. La section Sciences Expérimentales avec matière Sciences de la Vie et de la Terre y est obligatoire.",
-        "scores": {
-          "bac_lettres": 138.96,
-          "bac_math": 176.38,
-          "bac_sc": 176.37,
-          "bac_sport": 182.99
-        },
-        "debouches": [
-          "Pharmacien d'officine",
-          "Pharmacien hospitalier",
-          "Pharmacien industriel",
-          "Chercheur en sciences pharmaceutiques"
         ]
       }
     ],
@@ -445,9 +409,8 @@
         "debouches": [
           "Statisticien",
           "Data Analyst / Scientist",
-          "Doctorat / Enseignant Universitaire en Mathématique",
-          "Professeur de Mathématiques (Enseignement secondaire, collèges privés ou via les concours du CAPES)",
-          "Administrateur Systèmes et Réseaux"
+          "Doctorat / Enseignant-Chercheur en Mathématiques",
+          "Professeur de Mathématiques (Enseignement secondaire, collèges privés ou via les concours du CAPES)"
         ]
       },
       {
@@ -466,7 +429,8 @@
           "Ingénieur en Systèmes Embarqués",
           "Développeur Full-Stack / Lead Tech",
           "Administrateur Réseaux et Systèmes / Cloud",
-          "Chef de projet technique"
+          "Chef de projet technique",
+          "Architecte IoT / Objets Connectés"
         ]
       },
       {
@@ -530,9 +494,9 @@
       },
       {
         "id": "fst_geomatique",
-        "nom": "Licence en Sciences Géomatiques et Applications",
+        "nom": "Licence en Sciences Géomatiques Appliquées",
         "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
-        "description": "Licence en Sciences Géomatiques et Applications dispensée par FST",
+        "description": "Licence en Sciences Géomatiques Appliquées dispensée par FST",
         "scores": {
           "bac_math": 119.82,
           "bac_sc": 110.61,
@@ -561,8 +525,7 @@
           "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
           "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
           "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ],
-        "concours": true
+        ]
       },
       {
         "id": "fst_licence_en_chimie",
@@ -571,7 +534,8 @@
         "description": "Formation en chimie fondamentale et appliquée dispensée à Tunis. Débouche sur les métiers de laboratoire et d'analyse chimique.",
         "scores": {
           "bac_math": 95.01,
-          "bac_tech": 92.23
+          "bac_tech": 92.23,
+          "bac_sc": 78.3
         },
         "debouches": [
           "Chimiste analyste",
@@ -622,16 +586,17 @@
           "bac_tech": 105.94
         },
         "debouches": [
-          "Ingénieur énergie",
+          "Technicien supérieur en énergie",
           "Chercheur",
+          "Physicien",
           "Technicien"
         ]
       },
       {
         "id": "fst_licence_en_biologie_cellulaire",
-        "nom": "Licence en Biologie Cellulaire",
+        "nom": "Licence en Sciences Naturelles",
         "duree": "3 ans",
-        "description": "Formation en biologie cellulaire et moléculaire dispensée à Tunis. Débouche sur la recherche biomédicale et les analyses biologiques.",
+        "description": "Formation en sciences naturelles dispensée à Tunis. Débouche sur la recherche biomédicale et les analyses biologiques.",
         "scores": {
           "bac_math": 119.48,
           "bac_sc": 109.43
@@ -639,7 +604,8 @@
         "debouches": [
           "Chercheur",
           "Technicien de laboratoire",
-          "Biologiste"
+          "Biologiste",
+          "Professeur de Sciences Naturelles (Enseignement secondaire, collèges privés ou via les concours du CAPES)"
         ]
       },
       {
@@ -648,12 +614,13 @@
         "duree": "3 ans",
         "description": "Formation en géologie et gestion des ressources naturelles dispensée à Tunis. Prépare aux métiers de la géologie et de l'environnement.",
         "scores": {
+          "bac_math": null,
           "bac_sc": 78.91,
           "bac_tech": 91.64
         },
         "debouches": [
           "Géologue",
-          "Ingénieur environnement"
+          "Spécialiste environnement"
         ]
       },
       {
@@ -661,10 +628,15 @@
         "nom": "Licence en Bio-informatique",
         "duree": "3 ans",
         "description": "Formation à l'interface de la biologie et de l'informatique dispensée à Tunis. Prépare aux métiers de l'analyse de données biologiques.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        },
         "debouches": [
           "Bio-informaticien",
-          "Chercheur"
+          "Chercheur",
+          "Développeur en biotechnologies",
+          "Analyste de données biologiques"
         ]
       },
       {
@@ -673,11 +645,12 @@
         "duree": "3 ans",
         "description": "Formation en gestion et valorisation des ressources naturelles dispensée à Tunis. Débouche sur les métiers de l'environnement.",
         "scores": {
-          "bac_sc": 78.59
+          "bac_sc": 78.59,
+          "bac_math": null
         },
         "debouches": [
-          "Ingénieur environnement",
-          "Chercheur"
+          "Chercheur",
+          "Spécialiste Environnement"
         ]
       },
       {
@@ -686,7 +659,8 @@
         "duree": "3 ans",
         "description": "Formation combinant biologie et géologie dispensée à Tunis. Prépare à l'enseignement et à la recherche.",
         "scores": {
-          "bac_sc": 112.01
+          "bac_sc": 112.01,
+          "bac_math": 113.87
         },
         "debouches": [
           "Enseignant",
@@ -709,61 +683,17 @@
         ]
       },
       {
-        "id": "fst_licence_en_informatique_et_systemes",
-        "nom": "Licence en Informatique et Systèmes",
-        "duree": "3 ans",
-        "description": "Formation en génie logiciel et informatique dispensée à Tunis. Débouche sur les métiers du développement informatique.",
-        "scores": {
-          "bac_math": 140.44,
-          "bac_sc": 163.83,
-          "bac_eco": 178.64,
-          "bac_tech": 183.52
-        },
-        "debouches": [
-          "Développeur logiciel",
-          "Ingénieur systèmes"
-        ]
-      },
-      {
-        "id": "fst_licence_en_securite_informatique",
-        "nom": "Licence en Sécurité Informatique",
-        "duree": "3 ans",
-        "description": "Formation en cybersécurité et réseaux dispensée à Tunis. Prépare aux métiers de la sécurité des systèmes d'information.",
-        "scores": {
-          "bac_math": 99.2,
-          "bac_sc": 155.14,
-          "bac_tech": 168.51
-        },
-        "debouches": [
-          "Expert cybersécurité",
-          "Administrateur réseaux"
-        ]
-      },
-      {
         "id": "fst_licence_en_physique_biomedicale",
-        "nom": "Licence en Physique Biomédicale",
+        "nom": "Licence en Biologie_Physique",
         "duree": "3 ans",
         "description": "Formation en biophysique appliquée dispensée à Tunis. Débouche sur les métiers de l'imagerie médicale et de l'instrumentation.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        },
         "debouches": [
           "Physicien médical",
           "Technicien en imagerie"
-        ]
-      },
-      {
-        "id": "fst_licence_en_sciences_des_technologies_de_l_information_et_communication",
-        "nom": "Licence en Sciences des Technologies de l'Information et Communication",
-        "duree": "3 ans",
-        "description": "Formation dispensée à Tunis en sécurité des réseaux et systèmes de communication. Prépare aux métiers de l'ingénierie télécom.",
-        "scores": {
-          "bac_math": 101.35,
-          "bac_sc": 116.94,
-          "bac_tech": 142.67,
-          "bac_info": 139.01
-        },
-        "debouches": [
-          "Ingénieur télécom",
-          "Ingénieur réseaux"
         ]
       },
       {
@@ -777,7 +707,7 @@
           "bac_info": 140.33
         },
         "debouches": [
-          "Accès aux écoles d'ingénieurs"
+          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.) via concours"
         ]
       },
       {
@@ -950,7 +880,8 @@
           "Ingénieur en Systèmes Embarqués",
           "Développeur Full-Stack / Lead Tech",
           "Administrateur Réseaux et Systèmes / Cloud",
-          "Chef de projet technique"
+          "Chef de projet technique",
+          "Architecte IoT / Objets Connectés"
         ]
       },
       {
@@ -1025,22 +956,6 @@
         ]
       },
       {
-        "id": "issat_sousse_licence_en_telecommunications",
-        "nom": "Licence en Télécommunications",
-        "duree": "3 ans",
-        "description": "Formation en télécommunications et TIC dispensée à Hammam Sousse. Prépare aux métiers de l'ingénierie télécom.",
-        "scores": {
-          "bac_math": 107.87,
-          "bac_sc": 123.73,
-          "bac_tech": 156.75,
-          "bac_info": 126.41
-        },
-        "debouches": [
-          "Ingénieur télécom",
-          "Technicien réseaux"
-        ]
-      },
-      {
         "id": "issat_sousse_licence_en_ingenierie_energetique",
         "nom": "Licence en Ingénierie Énergétique",
         "duree": "3 ans",
@@ -1052,23 +967,10 @@
         },
         "debouches": [
           "Ingénieur énergie",
-          "Technicien environnement"
-        ]
-      },
-      {
-        "id": "issat_sousse_licence_en_controle_industriel_automatise",
-        "nom": "Licence en Contrôle Industriel Automatisé",
-        "duree": "3 ans",
-        "description": "Formation en systèmes de contrôle industriel dispensée à Sousse. Débouche sur les métiers de l'automatisation industrielle.",
-        "scores": {
-          "bac_math": 102.74,
-          "bac_sc": 106.71,
-          "bac_tech": 127.13,
-          "bac_info": 126.97
-        },
-        "debouches": [
-          "Technicien automatisme",
-          "Ingénieur contrôle qualité"
+          "Technicien environnement",
+          "Responsable Maintenance en Énergies Nouvelles",
+          "Responsable Climatisation",
+          "Responsable QHSE"
         ]
       }
     ],
@@ -1078,7 +980,9 @@
       "Ingénieur en Systèmes Embarqués",
       "Développeur Full-Stack / Lead Tech",
       "Technicien en automatisation et contrôle Process",
-      "Chef de projet technique"
+      "Chef de projet technique",
+      "Ingénieur en Télécommunications",
+      "Licence en Informatique et Systèmes"
     ],
     "temoignage": {
       "auteur": "Rania, Étudiante en 2ème année Ingénieur GL",
@@ -1159,35 +1063,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeit_mp__math_physique_",
-        "nom": " MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIT.",
-        "scores": {
-          "bac_math": 120.61
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeit_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIT.",
-        "scores": {
-          "bac_sc": 121.88,
-          "bac_info": 154.12
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
         "id": "ipeit_classes_preparatoires_scientifiques_technologie_maths_physique_physique_chimie",
         "nom": "Classes préparatoires scientifiques – Technologie (Maths-Physique / Physique-Chimie)",
         "duree": "2 ans de cycle préparatoire",
@@ -1198,8 +1073,7 @@
           "bac_info": 154.12
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1236,49 +1110,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipein_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIN.",
-        "scores": {
-          "bac_math": 131.97
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipein_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIN.",
-        "scores": {
-          "bac_sc": 148.34,
-          "bac_info": 161.07
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipein_pt__physique_tech_",
-        "nom": "PT (Physique-Tech)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
-        "scores": {
-          "bac_tech": 153.12
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
         "id": "ipein_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1289,8 +1120,7 @@
           "bac_info": 161.07
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1304,10 +1134,9 @@
           "bac_tech": 153.12
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur en génie industriel",
-          "Ingénieur en génie électrique",
-          "Poursuite en master scientifique"
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
         ]
       }
     ],
@@ -1342,49 +1171,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeim_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIM.",
-        "scores": {
-          "bac_math": 158.33
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeim_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIM.",
-        "scores": {
-          "bac_sc": 155.44,
-          "bac_info": 164.16
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeim_pt__physique_tech_",
-        "nom": "PT (Physique-Tech)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
-        "scores": {
-          "bac_tech": 156.5
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
         "id": "ipeim_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1395,8 +1181,7 @@
           "bac_info": 164.16
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1410,10 +1195,9 @@
           "bac_tech": 156.5
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur en génie industriel",
-          "Ingénieur en génie électrique",
-          "Poursuite en master scientifique"
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
         ]
       }
     ],
@@ -1448,64 +1232,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeis_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIS.",
-        "scores": {
-          "bac_math": 141.49
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeis_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIS.",
-        "scores": {
-          "bac_sc": 142.1,
-          "bac_info": 144.27
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeis_pt__physique_tech_",
-        "nom": "PT (Physique-Tech)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIN.",
-        "scores": {
-          "bac_tech": 139.78
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeis_bg__biologie_g_ologie_",
-        "nom": "BG (Biologie-Géologie)",
-        "duree": "2 ans",
-        "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIS.",
-        "scores": {
-          "bac_math": 139.27,
-          "bac_sc": 101.69
-        },
-        "debouches": [
-          "Intégration des Grandes Écoles d'Ingénieurs Nationales",
-          "Candidature aux Écoles du Concours Commun Français",
-          "Ingénierie en Géosciences et Biotechnologies (via filière BG)"
-        ]
-      },
-      {
         "id": "ipeis_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1516,8 +1242,7 @@
           "bac_info": 144.27
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1526,15 +1251,14 @@
         "id": "ipeis_classes_preparatoires_technologie",
         "nom": "Classes préparatoires Technologie",
         "duree": "2 ans de cycle préparatoire",
-        "description": "Classes préparatoires de la filière Technologie, de deux ans, préparant aux concours nationaux d'entrée aux écoles d'ingénieurs. L'institut est situé à Sfax.",
+        "description": "Classes préparatoires de la filière Technologie, de deux ans, préparant aux concours nationaux d'entrée aux écoles d'ingénieurs. L' institut est situé à Sfax.",
         "scores": {
           "bac_tech": 139.78
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur en génie industriel",
-          "Ingénieur en génie électrique",
-          "Poursuite en master scientifique"
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
         ]
       },
       {
@@ -1548,7 +1272,6 @@
         },
         "debouches": [
           "Accès sur concours à l'École Nationale de Médecine Vétérinaire",
-          "Ingénieur en biotechnologie",
           "Poursuite en licence Biologie-Géologie",
           "Recherche en sciences de la vie et de la terre"
         ]
@@ -1585,49 +1308,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeiem_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIEM.",
-        "scores": {
-          "bac_math": 163.15
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeiem_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIEM.",
-        "scores": {
-          "bac_sc": 154.94,
-          "bac_info": 170.91
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeiem_pt__physique_technologie_",
-        "nom": "PT (Physique-Technologie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Technologie) dispensée par IPEIEM.",
-        "scores": {
-          "bac_tech": 148.14
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
         "id": "ipeiem_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1638,8 +1318,7 @@
           "bac_info": 170.91
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs EPT,SUP'COM,ENIT,ENSI, ...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1653,10 +1332,9 @@
           "bac_tech": 148.14
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur en génie industriel",
-          "Ingénieur en génie électrique",
-          "Poursuite en master scientifique"
+          "Accès sur concours aux écoles nationales d'ingénieurs EPT,SUP'COM,ENIT,ENSI, ...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
         ]
       }
     ],
@@ -1691,64 +1369,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeigb_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIGB.",
-        "scores": {
-          "bac_math": 89.89
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeigb_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIGB.",
-        "scores": {
-          "bac_sc": 99.75,
-          "bac_info": 96.82
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeigb_pt__physique_tech_",
-        "nom": "PT (Physique-Tech)",
-        "duree": "2 ans",
-        "description": "Filière phare en PT (Physique-Tech) dispensée par IPEIGB.",
-        "scores": {
-          "bac_tech": 119
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeigb_bg__biologie_g_ologie_",
-        "nom": "BG (Biologie-Géologie)",
-        "duree": "2 ans",
-        "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIGB.",
-        "scores": {
-          "bac_math": 105.81,
-          "bac_sc": 90.74
-        },
-        "debouches": [
-          "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
-          "Spécialisation en Génie Chimique et Procédés industriels",
-          "Parcours Universitaires Scientifiques Suppérieurs"
-        ]
-      },
-      {
         "id": "ipeigb_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1759,8 +1379,7 @@
           "bac_info": 96.82
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1774,10 +1393,9 @@
           "bac_tech": 119
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur en génie industriel",
-          "Ingénieur en génie électrique",
-          "Poursuite en master scientifique"
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
         ]
       },
       {
@@ -1791,7 +1409,6 @@
         },
         "debouches": [
           "Accès sur concours à l'École Nationale de Médecine Vétérinaire",
-          "Ingénieur en biotechnologie",
           "Poursuite en licence Biologie-Géologie",
           "Recherche en sciences de la vie et de la terre"
         ]
@@ -1828,51 +1445,6 @@
     "regimes_etudes": "2 ans (Préparation intensive aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs)",
     "filieres_phares": [
       {
-        "id": "ipeib_mp__math_physique_",
-        "nom": "MP (Math-Physique)",
-        "duree": "2 ans",
-        "description": "Filière phare en MP (Math-Physique) dispensée par IPEIB.",
-        "scores": {
-          "bac_math": 88.3
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ],
-        "concours": true
-      },
-      {
-        "id": "ipeib_pc__physique_chimie_",
-        "nom": "PC (Physique-Chimie)",
-        "duree": "2 ans",
-        "description": "Filière phare en PC (Physique-Chimie) dispensée par IPEIB.",
-        "scores": {
-          "bac_sc": 111.46,
-          "bac_info": 150.12
-        },
-        "debouches": [
-          "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.)",
-          "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
-          "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
-        ]
-      },
-      {
-        "id": "ipeib_bg__biologie_g_ologie_",
-        "nom": "BG (Biologie-Géologie)",
-        "duree": "2 ans",
-        "description": "Filière phare en BG (Biologie-Géologie) dispensée par IPEIB.",
-        "scores": {
-          "bac_math": 100.27,
-          "bac_sc": 103.72
-        },
-        "debouches": [
-          "Intégration d'Écoles Nationales d'Ingénieurs (ENIG, ENIT, etc.)",
-          "Spécialisation en Génie Chimique et Procédés industriels",
-          "Parcours Universitaires Scientifiques Suppérieurs"
-        ]
-      },
-      {
         "id": "ipeib_classes_preparatoires_scientifiques",
         "nom": "Classes préparatoires scientifiques",
         "duree": "2 ans de cycle préparatoire",
@@ -1883,8 +1455,7 @@
           "bac_info": 150.12
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
+          "Accès sur concours aux écoles nationales d'ingénieurs EPT,SUP'COM,ENIT,ENSI, ...",
           "Poursuite en master scientifique",
           "Recherche appliquée"
         ]
@@ -1900,7 +1471,6 @@
         },
         "debouches": [
           "Accès sur concours à l'École Nationale de Médecine Vétérinaire",
-          "Ingénieur en biotechnologie",
           "Poursuite en licence Biologie-Géologie",
           "Recherche en sciences de la vie et de la terre"
         ]
@@ -2003,7 +1573,7 @@
     "ville": "Bir El Bey",
     "logo": "/logos/TBS.jpg",
     "fac_hero_banner": "/banners/TBS_hero.jpg",
-    "description_breve": "Première institution publique tunisienne de commerce adoptant le modèle d'éducation américain, avec un cursus d'affaires intégralement dispensé en anglais.",
+    "description_breve": "Première institution publique tunisienne de commerce adoptant le modèle d'éducation américain, avec un cursus d'affaires intégralement dispensé en anglais.Nécessite de passer un examen",
     "adresse": "Route de Borj Cedria, Bir El Bey, Ben Arous 2055",
     "lien_google_maps": "https://maps.google.com/?q=Tunis+Business+School",
     "categories": [
@@ -2080,9 +1650,9 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences Économiques dispensée par ISCAE. Nouvelle filière",
         "scores": {
-          "bac_math": 0,
-          "bac_eco": 0,
-          "bac_sc": 0
+          "bac_math": null,
+          "bac_eco": null,
+          "bac_sc": null
         },
         "debouches": [
           "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
@@ -2157,10 +1727,11 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Business Computing (Informatique de Gestion) dispensée par ISG.",
         "scores": {
-          "bac_info": 155.4,
-          "bac_math": 149.8,
-          "bac_eco": 148.5,
-          "bac_sc": 140.2
+          "bac_info": 156.93,
+          "bac_math": 111,
+          "bac_eco": 166.96,
+          "bac_sc": 159.45,
+          "bac_tech": 176.38
         },
         "debouches": [
           "Consultant en Business Intelligence (BI) / ERP",
@@ -2168,8 +1739,26 @@
           "Gestionnaire de Portefeuille / Risk Manager",
           "Responsable Logistique / Digital Marketing Manager",
           "Auditeur de systèmes d'information"
-        ],
-        "concours": true
+        ]
+      },
+      {
+        "id": "isg_licence_en_sciences_ecnomoqieus__sp_c",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "description": "Filière phare en Licence en Sciences Économiques dispensée par ISCAE. Nouvelle filière",
+        "scores": {
+          "bac_math": 126.81,
+          "bac_eco": 143.77,
+          "bac_sc": 167.01
+        },
+        "debouches": [
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)",
+          "Auditeur financier / Conseiller fiscal"
+        ]
       },
       {
         "id": "isg_tunis_licence_en_sciences_de_gestion",
@@ -2231,10 +1820,11 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de Gestion dispensée par IHEC Sfax.",
         "scores": {
-          "bac_math": 145.8,
-          "bac_eco": 144.2,
-          "bac_info": 139.5,
-          "bac_sc": 135
+          "bac_math": 102.33,
+          "bac_eco": 104.62,
+          "bac_info": 102.82,
+          "bac_sc": 118.72,
+          "bac_tech": 107.15
         },
         "debouches": [
           "Manager commercial / Ingénieur d'affaires",
@@ -2285,9 +1875,10 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique (Génie Logiciel / Réseaux) dispensée par ISI Ariana.",
         "scores": {
-          "bac_info": 165.2,
-          "bac_math": 158.5,
-          "bac_sc": 152
+          "bac_info": 192.55,
+          "bac_math": 182.4,
+          "bac_sc": 179.51,
+          "bac_tech": 178.78
         },
         "debouches": [
           "Ingénieur DevOps / Administrateur Cloud",
@@ -2298,8 +1889,8 @@
         ]
       },
       {
-        "id": "isi_ariana_licence_en_securite_informatique",
-        "nom": "Licence en Sécurité Informatique",
+        "id": "isi_ariana_licence_en_systeme",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
         "duree": "3 ans",
         "description": "Formation spécialisée en sécurité des réseaux et protection des données dispensée à Ariana. Débouche sur les métiers de la cybersécurité.",
         "scores": {
@@ -2310,7 +1901,28 @@
         },
         "debouches": [
           "Expert cybersécurité",
-          "Analyste SOC"
+          "Analyste SOC",
+          "Architecte IoT / Objets Connectés",
+          "Administrateur Réseaux et Systèmes / Cloud"
+        ]
+      },
+      {
+        "id": "isi_ariana_prepa_integree",
+        "nom": "Cycle Préparatoire Integrée en Informatique ",
+        "duree": " 5 ans : 2 ans prepa integrée + 3 ans cycle ingénieur",
+        "description": "Le tout nouveau  cycle préparatoire integré en informatique en Tunisie.  , débouchant sur le diplôme d'ingénieur en informatique.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
+        "debouches": [
+          "Ingénieur en informatique",
+          "Diplôme d'Ingénieur en Génie Logiciel et Système d'Information",
+          "Diplôme d'Ingénieur en Intelligence Artificielle / Data Science",
+          "Diplôme d'Ingénieur en Réseaux et Télécommunications",
+          "Diplôme d'Ingénieur en Systèmes Embarqués"
         ]
       }
     ],
@@ -2319,7 +1931,8 @@
       "Développeur Full-Stack / Mobile Senior",
       "Consultant en Cybersécurité / Pentester",
       "Architecte Logiciel / Tech Lead",
-      "Ingénieur Systèmes Embarqués et IoT"
+      "Ingénieur Systèmes Embarqués et IoT",
+      "Lead AI"
     ],
     "temoignage": {
       "auteur": "Yassine, Étudiant en Cycle Ingénieur (ex-Licence)",
@@ -2342,7 +1955,8 @@
       "Informatique",
       "Mathématiques Appliquées",
       "Systèmes Embarqués",
-      "Ingénierie"
+      "Ingénierie",
+      "Mathématique"
     ],
     "filtre": "💻 Licence d'Informatique",
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (sur concours national ou dossier)",
@@ -2353,9 +1967,10 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par ISIMM.",
         "scores": {
-          "bac_info": 152.4,
-          "bac_math": 145,
-          "bac_sc": 138.2
+          "bac_info": 166.04,
+          "bac_math": 153.34,
+          "bac_sc": 155.12,
+          "bac_tech": 173.19
         },
         "debouches": [
           "Développeur Logiciel Web / Mobile",
@@ -2367,35 +1982,57 @@
       },
       {
         "id": "isimm_monastir_licence_en_informatique_et_mathematiques",
-        "nom": "Licence en Informatique et Mathématiques",
+        "nom": "Licence en Mathématiques Appliquées",
         "duree": "3 ans",
-        "description": "Formation en informatique et mathématiques appliquées dispensée à Monastir. Prépare aux métiers du développement et de l'analyse de données.",
+        "description": "Formation en mathématiques appliquées dispensée à Monastir. Prépare aux métiers du développement et de l'analyse de données.",
         "scores": {
-          "bac_math": 153.34,
-          "bac_sc": 155.12,
-          "bac_tech": 173.19,
-          "bac_info": 166.04
+          "bac_math": 95.18,
+          "bac_sc": 110.61,
+          "bac_tech": 101.01,
+          "bac_info": 118.67
         },
         "debouches": [
           "Développeur",
           "Data analyst",
-          "Ingénieur informatique"
+          "Ingénieur informatique",
+          "Statisticien"
         ]
       },
       {
-        "id": "isimm_monastir_licence_en_reseaux_et_securite_informatique",
-        "nom": "Licence en Réseaux et Sécurité Informatique",
+        "id": "isimm_monastir_licence_en_technologie_info",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
-        "description": "Formation en systèmes numériques et sécurité informatique dispensée à Monastir. Débouche sur les métiers de la cybersécurité.",
+        "description": "Licence en Technologies de l'Information et Télécommunications dispensée à Monastir.",
         "scores": {
-          "bac_math": 111.13,
-          "bac_sc": 115.94,
-          "bac_tech": 131.44,
-          "bac_info": 122.47
+          "bac_math": 101.23,
+          "bac_sc": 125.75,
+          "bac_tech": 155.17,
+          "bac_info": 128.11
         },
         "debouches": [
           "Expert cybersécurité",
-          "Ingénieur réseaux"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Architecte IoT / Objets Connectés",
+          "Spécialiste en  Systèmes Embarqués et IoT"
+        ]
+      },
+      {
+        "id": "isimm_monastir_licence_en_electtroniques",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée à Monastir.",
+        "scores": {
+          "bac_math": 116.23,
+          "bac_sc": 81.39,
+          "bac_tech": 131.42,
+          "bac_info": 139.86
+        },
+        "debouches": [
+          "Programmateur d'Automates Industriels",
+          "Technicien Supérieur en Électronique",
+          "Responsable Maintenance Électrique",
+          "Technicien de Maintenance",
+          "Contrôleur Qualité Électrique / QA Électronique"
         ]
       },
       {
@@ -2471,7 +2108,7 @@
       },
       {
         "id": "isitcom_sousse_licence_en_informatique_et_reseaux",
-        "nom": "Licence en Informatique et Réseaux",
+        "nom": "Licence en Informatique",
         "duree": "3 ans",
         "description": "Formation en informatique et technologies de communication dispensée à Hammam Sousse. Débouche sur les métiers des télécommunications et du développement.",
         "scores": {
@@ -2487,10 +2124,10 @@
         ]
       },
       {
-        "id": "isitcom_sousse_licence_en_reseaux_et_securite",
-        "nom": "Licence en Réseaux et Sécurité",
+        "id": "isitcom_sousse_licence_en_systemes_informatiques",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
         "duree": "3 ans",
-        "description": "Formation en informatique et sécurité des réseaux dispensée à Hammam Sousse. Débouche sur les métiers de l'administration réseaux.",
+        "description": "Formation en Ingénieurie des systèmes informatiques dispensée à Hammam Sousse. Débouche sur les métiers de l'ingénieurie des systèmes informatiques.",
         "scores": {
           "bac_math": 104.71,
           "bac_sc": 132.61,
@@ -2498,13 +2135,14 @@
           "bac_info": 143.71
         },
         "debouches": [
-          "Administrateur réseaux",
-          "Expert cybersécurité"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Architecte IoT / Objets Connectés",
+          "Développeur Full-Stack / Lead Tech"
         ]
       },
       {
         "id": "isitcom_sousse_licence_en_technologies_de_l_information",
-        "nom": "Licence en Technologies de l'Information",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
         "duree": "3 ans",
         "description": "Formation en télécommunications dispensée à Hammam Sousse. Prépare aux métiers des réseaux et systèmes de communication.",
         "scores": {
@@ -2515,7 +2153,9 @@
         },
         "debouches": [
           "Ingénieur télécom",
-          "Technicien réseaux"
+          "Technicien réseaux",
+          "Technicien en systèmes embarqués",
+          "Administrateur Réseaux et Systèmes / Cloud"
         ]
       },
       {
@@ -2523,7 +2163,12 @@
         "nom": "Cycle préparatoire intégré en Informatique (PII)",
         "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Formation d'ingénieur intégrée en informatique, orientée vers les technologies de l'information et de la communication. L'institut est situé à Hammam Sousse, rattaché à l'Université de Sousse.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null
+        },
         "debouches": [
           "Ingénieur en réseaux et sécurité",
           "Ingénieur en informatique décisionnelle",
@@ -2571,9 +2216,10 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par ISIMA Mahdia.",
         "scores": {
-          "bac_info": 128.5,
-          "bac_math": 121,
-          "bac_sc": 118.4
+          "bac_info": 155.33,
+          "bac_math": 128.5,
+          "bac_sc": 139.81,
+          "bac_tech": 160.69
         },
         "debouches": [
           "Développeur Logiciel / Intégrateur Web",
@@ -2584,26 +2230,30 @@
         ]
       },
       {
-        "id": "isima_mahdia_licence_en_big_data",
-        "nom": "Licence en Big Data",
+        "id": "isima_mahdia_licence_en_info_gestion",
+        "nom": "Licence en Informatique de Gestion",
         "duree": "3 ans",
-        "description": "Formation en gestion des données massives et analyse de données dispensée à Mahdia. Débouche sur les métiers de la data science.",
+        "description": "Filière en Informatique de Gestion dispensée par ISIMA Mahdia.",
         "scores": {
-          "bac_math": 128.5,
-          "bac_sc": 139.81,
-          "bac_tech": 160.69,
-          "bac_info": 155.33
+          "bac_math": 108.28,
+          "bac_sc": 137.5,
+          "bac_tech": 129.18,
+          "bac_info": 130.09,
+          "bac_eco": 137.83
         },
         "debouches": [
-          "Data analyst",
-          "Ingénieur data"
+          "Consultant / Analyste BI",
+          "Product Owner / Manager e-Business",
+          "Assistant Chef de Projet IT / Business Analyst",
+          "Consultant en stratégie et organisation",
+          "Entrepreneur / Gestionnaire de structure privée"
         ]
       },
       {
         "id": "isima_mahdia_licence_en_reseaux_et_securite",
-        "nom": "Licence en Réseaux et Sécurité",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
         "duree": "3 ans",
-        "description": "Formation en réseaux, sécurité informatique et cybersécurité dispensée à Mahdia. Débouche sur les métiers de la protection des systèmes.",
+        "description": "Formation en Ingénieurie des Systèmes Informatiques dispensée par ISIMA Mahdia. Débouche sur les métiers de la protection des systèmes.",
         "scores": {
           "bac_math": 103.96,
           "bac_sc": 126.36,
@@ -2611,8 +2261,10 @@
           "bac_info": 142.06
         },
         "debouches": [
-          "Administrateur réseaux",
-          "Expert cybersécurité"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Expert cybersécurité",
+          "Architecte IoT / Objets Connectés",
+          "Spécialiste en  Systèmes Embarqués et IoT"
         ]
       }
     ],
@@ -2649,33 +2301,53 @@
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Formations certifiantes (Cisco, Huawei, etc.)",
     "filieres_phares": [
       {
-        "id": "isetcom_tunis_licence_en_sciences_de_l_informatiqu",
-        "nom": "Licence en Sciences de l'Informatique (Parcours Systèmes & Réseaux)",
+        "id": "isetcom_tunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Sciences de l'Informatique (Parcours Systèmes & Réseaux) dispensée par ISET'COM.",
+        "description": "Filière en Sciences de Gestion dispensée par ISET'COM.",
         "scores": {
-          "bac_info": 149.6,
-          "bac_math": 143.2,
-          "bac_sc": 138.5
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
         },
         "debouches": [
-          "Administrateur Réseaux et Systèmes / Cloud",
-          "Ingénieur Support Télécom & VoIP",
-          "Technicien Supérieur en Cybersécurité et Commutation",
-          "Développeur d'applications connectées (IoT)",
-          "Responsable d'infrastructure IT et Exploitation"
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
+        ]
+      },
+      {
+        "id": "isetcom_tunis_licence_en_sciencs_information",
+        "nom": "Licence en Sciences de l'Information et de la Communication",
+        "duree": "3 ans",
+        "description": "Filière en Sciences de l'Information et de la Communication dispensée par ISET'COM.",
+        "scores": {
+          "bac_info": 171.66,
+          "bac_math": 148.75,
+          "bac_sc": 153.66,
+          "bac_tech": 160.87
+        },
+        "debouches": [
+          "Community Manager / Social Media Manager",
+          "Rédacteur Web / Concepteur-Rédacteur",
+          "Communication Digitale / E-marketing.",
+          "Chef de Projet Junior en Agence"
         ]
       }
     ],
     "debouches": [
-      "Administrateur Réseaux et Systèmes / Cloud",
-      "Ingénieur Support Télécom & VoIP",
-      "Technicien Supérieur en Cybersécurité et Commutation",
-      "Développeur d'applications connectées (IoT)",
-      "Responsable d'infrastructure IT et Exploitation"
+      "Community Manager / Social Media Manager",
+      "Rédacteur Web / Concepteur-Rédacteur",
+      "Communication Digitale / E-marketing.",
+      "Chef de Projet Junior en Agence",
+      "Responsable Administratif et Financier (RAF)"
     ],
     "temoignage": {
-      "auteur": "Malek, Étudiante en L3 Réseaux",
+      "auteur": "Malek, Étudiante en L3 Sciences de l'Information et de la Communication",
       "texte_detaille": "Étudier au technopôle El Ghazala change complètement l'expérience universitaire. Les entreprises du secteur sont nos voisines de palier, ce qui est un avantage incroyable pour décrocher des stages. Les labos réseau de l'ISET'COM sont super bien équipés, on manipule de vrais équipements télécoms professionnels."
     },
     "site_web": "http://www.isetcom.tn"
@@ -2700,23 +2372,6 @@
     "regimes_etudes": "6 ans pour le Diplôme National d'Architecte (incluant les stages professionnels)",
     "filieres_phares": [
       {
-        "id": "enau_dipl_me_national_d_architecte",
-        "nom": "Diplôme National d'Architecte",
-        "duree": "6 ans",
-        "description": "Filière phare en Diplôme National d'Architecte dispensée par ENAU.",
-        "scores": {
-          "bac_math": 168.5,
-          "bac_sc": 162,
-          "bac_info": 155.2
-        },
-        "debouches": [
-          "Architecte (Secteur Public/Cabinet privé / Profession libérale)",
-          "Urbaniste / Planificateur territorial pour l'État ou les municipalités",
-          "Chef de projet / Consultant en patrimoine architectural",
-          "Expert en bâtiments et conduite de travaux"
-        ]
-      },
-      {
         "id": "enau_cycle_en_architecture",
         "nom": "Cycle en Architecture",
         "duree": "6 ans",
@@ -2730,8 +2385,10 @@
           "bac_lettres": 158.29
         },
         "debouches": [
-          "Architecte",
-          "Urbaniste"
+          "Architecte (Secteur Public/Cabinet privé / Profession libérale)",
+          "Urbaniste / Planificateur territorial pour l'État ou les municipalités",
+          "Chef de projet / Consultant en patrimoine architectural",
+          "Expert en bâtiments et conduite de travaux"
         ]
       }
     ],
@@ -2769,22 +2426,23 @@
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "filieres_phares": [
       {
-        "id": "iset_rades_licence_en_technologies_de_l_informatiq",
-        "nom": "Licence en Technologies de l'Informatique (DSI / RSI / SEM)",
+        "id": "isetcom_tunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies de l'Informatique (DSI / RSI / SEM) dispensée par ISET Radès.",
+        "description": "Filière en Sciences de Gestion dispensée par ISET'COM.",
         "scores": {
-          "bac_info": 138.2,
-          "bac_math": 128.5,
-          "bac_tech": 131,
-          "bac_eco": 122.4
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
         },
         "debouches": [
-          "Développeur d'applications / Administrateur Réseaux",
-          "Technicien Supérieur en Maintenance Industrielle",
-          "Superviseur de Production / Chef d'équipe logistique",
-          "Dessinateur Projeteur / Concepteur Mécanique CAD",
-          "Technicien en Automatismes et Robotique"
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       },
       {
@@ -2801,7 +2459,11 @@
         },
         "debouches": [
           "Technicien informatique",
-          "Développeur"
+          "Développeur",
+          "Développeur Full-Stack / Lead Tech",
+          "Administrateur Réseaux",
+          "Administrateur Systèmes",
+          "Chef de Projet IT"
         ]
       },
       {
@@ -2811,13 +2473,16 @@
         "description": "Formation technologique en bâtiment et travaux publics dispensée à Radès. Débouche sur les métiers du BTP et de la conduite de chantier.",
         "scores": {
           "bac_math": 128.41,
-          "bac_sc": 129.39,
-          "bac_tech": 92.06,
-          "bac_info": 133.53
+          "bac_sc": 120.66,
+          "bac_tech": 99.74,
+          "bac_info": 144.22
         },
         "debouches": [
           "Conducteur de travaux",
-          "Technicien BTP"
+          "Technicien BTP",
+          "Spécialiste en maintenance des infrastructures",
+          "Chef de Projet BTP",
+          "Expert en Bâtiment et Conduite de Travaux"
         ]
       },
       {
@@ -2833,7 +2498,11 @@
         },
         "debouches": [
           "Technicien mécanique",
-          "Ingénieur maintenance"
+          "Technicien maintenance",
+          "Technicien Supérieur en CAO/DAO",
+          "Technicien en maintenance et en systèmes automatisation",
+          "Concepteur Mécanique",
+          "Technicien en Mécatronique"
         ]
       },
       {
@@ -2849,7 +2518,10 @@
         },
         "debouches": [
           "Technicien électrique",
-          "Ingénieur automatisme"
+          "Ingénieur automatisme",
+          "Technicien Supérieur en Électrotechnique",
+          "Technicien en Systèmes Électroniques et Informatiques",
+          "Superviseur de Maintenance Électrique"
         ]
       }
     ],
@@ -2889,25 +2561,6 @@
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "filieres_phares": [
       {
-        "id": "iset_nabeul_licence_en_g_nie_civil__b_timents_et_t",
-        "nom": "Licence en Génie Civil (Bâtiments et Travaux Publics)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Génie Civil (Bâtiments et Travaux Publics) dispensée par ISET Nabeul.",
-        "scores": {
-          "bac_info": 132,
-          "bac_math": 122.4,
-          "bac_tech": 126.8,
-          "bac_eco": 118
-        },
-        "debouches": [
-          "Conducteur de Travaux / Métreur en Génie Civil",
-          "Développeur Web et Mobile Junior",
-          "Comptable d'entreprise / Assistant RH",
-          "Technicien d'essais et de contrôle en électricité",
-          "Gestionnaire de stock et approvisionnement"
-        ]
-      },
-      {
         "id": "iset_nabeul_licence_en_technologies_de_l_informatique",
         "nom": "Licence en Technologies de l'Informatique",
         "duree": "3 ans",
@@ -2920,8 +2573,10 @@
           "bac_info": 151.61
         },
         "debouches": [
-          "Technicien informatique",
-          "Développeur"
+          "Développeur Full-Stack / Lead Tech",
+          "Administrateur Réseaux",
+          "Administrateur Systèmes",
+          "Chef de Projet IT"
         ]
       },
       {
@@ -2937,7 +2592,10 @@
         },
         "debouches": [
           "Conducteur de travaux",
-          "Technicien BTP"
+          "Technicien BTP",
+          "Spécialiste en maintenance des infrastructures",
+          "Chef de Projet BTP",
+          "Expert en Bâtiment et Conduite de Travaux"
         ]
       },
       {
@@ -2952,8 +2610,10 @@
           "bac_info": 160.77
         },
         "debouches": [
-          "Technicien mécanique",
-          "Ingénieur maintenance"
+          "Technicien Supérieur en CAO/DAO",
+          "Technicien en maintenance et en systèmes automatisation",
+          "Concepteur Mécanique",
+          "Technicien en Mécatronique"
         ]
       },
       {
@@ -2969,7 +2629,29 @@
         },
         "debouches": [
           "Technicien électrique",
-          "Ingénieur automatisme"
+          "Technicien d'essais et de contrôle en électricité",
+          "Technicien en Systèmes Électroniques et Informatiques",
+          "Superviseur de Maintenance Électrique"
+        ]
+      },
+      {
+        "id": "isetnabueltunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Filière en Sciences de Gestion dispensée par ISET'COM.",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        },
+        "debouches": [
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       }
     ],
@@ -3014,17 +2696,18 @@
         "duree": "3 ans",
         "description": "Filière phare en Licence en Technologies de l'Informatique dispensée par ISET Djerba.",
         "scores": {
-          "bac_info": 115.5,
-          "bac_math": 105,
-          "bac_eco": 108.2,
-          "bac_sc": 102
+          "bac_info": 119.46,
+          "bac_math": 94.58,
+          "bac_eco": 104.6,
+          "bac_sc": 106.49,
+          "bac_tech": 115.43
         },
         "debouches": [
-          "Webmaster / Développeur d'applications Web",
-          "Chargé de clientèle / Assistant de Gestion",
-          "Technicien en maintenance d'installations photovoltaïques",
-          "Support technique informatique hôtelier / d'entreprise",
-          "Technicien de maintenance industrielle"
+          "Développeur d'applications web et mobiles",
+          "Technicien Supérieur en Informatique",
+          "Administrateur de Réseaux Informatiques",
+          "Administrateur de Bases de Données",
+          "Support technique informatique hôtelier et d'entreprise"
         ]
       },
       {
@@ -3033,14 +2716,18 @@
         "duree": "3 ans",
         "description": "Formation en conception mécanique dispensée à Djerba. Débouche sur les métiers de la maintenance industrielle.",
         "scores": {
-          "bac_math": 116.68,
-          "bac_sc": 86.98,
-          "bac_tech": 82.34,
-          "bac_info": 107.97
+          "bac_math": 84.01,
+          "bac_sc": 100.33,
+          "bac_tech": 100.77,
+          "bac_info": 128.05
         },
         "debouches": [
-          "Technicien mécanique",
-          "Ingénieur maintenance"
+          "Technicien supérieur en mécanique",
+          "Technicien en conception assistée par ordinateur",
+          "Technicien en maintenance industrielle",
+          "Technicien en outillage",
+          "Dessinateur-projeteur",
+          "Technicien Supérieur en CAO/DAO"
         ]
       },
       {
@@ -3049,13 +2736,37 @@
         "duree": "3 ans",
         "description": "Formation en électricité industrielle dispensée à Djerba. Prépare aux métiers de l'automatisation industrielle.",
         "scores": {
-          "bac_sc": 91.86,
-          "bac_tech": 97.54,
-          "bac_info": 114.46
+          "bac_sc": 96.65,
+          "bac_tech": 97.22,
+          "bac_info": 123.09,
+          "bac_math": 92.94
         },
         "debouches": [
-          "Technicien électrique",
-          "Ingénieur automatisme"
+          "Technicien supérieur en génie électrique",
+          "Technicien en maintenance industrielle",
+          "Technicien en automatisation industrielle",
+          "Technicien Supérieur en Instrumentation et Automatisation",
+          "Technicien Supérieur en Maintenance des Systèmes Électroniques"
+        ]
+      },
+      {
+        "id": "iset_djerba_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Filière en Sciences de Gestion dispensée par ISET'Djerba.",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        },
+        "debouches": [
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       }
     ],
@@ -3125,22 +2836,30 @@
         },
         "debouches": [
           "Conducteur de travaux",
-          "Technicien BTP"
+          "Technicien BTP",
+          "Métreur en Génie Civil",
+          "Topographe",
+          "Chef de chantier",
+          "Dessinateur BTP"
         ]
       },
       {
         "id": "iset_gabes_licence_en_genie_mecanique",
         "nom": "Licence en Génie Mécanique",
         "duree": "3 ans",
-        "description": "Formation en systèmes industriels avancés dispensée à Gabès. Prépare aux métiers de l'industrie mécanique.",
+        "description": "Licence en Génie Mécanique dispensée à Gabès.",
         "scores": {
-          "bac_sc": 78.54,
-          "bac_tech": 87.1,
-          "bac_info": 119.07
+          "bac_math": null,
+          "bac_sc": 83.29,
+          "bac_tech": 94.06,
+          "bac_info": 90.77
         },
         "debouches": [
           "Technicien mécanique",
-          "Ingénieur maintenance"
+          "Technicien supérieur en systèmes automatisés",
+          "Dessinateur projeteur",
+          "Technicien supérieur en mécanique et productique",
+          "Technicien Supérieur en maintenance des systèmes mécaniques"
         ]
       },
       {
@@ -3156,7 +2875,32 @@
         },
         "debouches": [
           "Technicien électrique",
-          "Ingénieur énergie"
+          "Ingénieur énergie",
+          "Technicien en maintenance d'installations photovoltaïques",
+          "Technicien supérieur en génie électrique",
+          "Technicien en automatisation industrielle",
+          "Technicien Supérieur en Maintenance des Systèmes Électroniques",
+          "Technicien supérieur en électronique"
+        ]
+      },
+      {
+        "id": "iset_gabes_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Filière en Sciences de Gestion dispensée par l'ISET de Gabès.",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        },
+        "debouches": [
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       }
     ],
@@ -3197,25 +2941,6 @@
     "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
     "filieres_phares": [
       {
-        "id": "iset_sfax_licence_en_technologies_de_l_informatiqu",
-        "nom": "Licence en Technologies de l'Informatique (Réseaux / Web)",
-        "duree": "3 ans",
-        "description": "Filière phare en Licence en Technologies de l'Informatique (Réseaux / Web) dispensée par ISET Sfax.",
-        "scores": {
-          "bac_info": 136.4,
-          "bac_math": 125,
-          "bac_tech": 128.2,
-          "bac_eco": 120.6
-        },
-        "debouches": [
-          "Développeur Logiciel / Intégrateur d'applications",
-          "Gestionnaire de flux logistiques / Supply Chain Assistant",
-          "Technicien Supérieur en Automatisation Industrielle",
-          "Technicien de bureau d'études en mécanique",
-          "Comptable ou Analyste de gestion d'atelier"
-        ]
-      },
-      {
         "id": "iset_sfax_licence_en_technologies_de_l_informatique",
         "nom": "Licence en Technologies de l'Informatique",
         "duree": "3 ans",
@@ -3229,14 +2954,19 @@
         },
         "debouches": [
           "Technicien informatique",
-          "Développeur"
+          "Développeur",
+          "Technicien Supérieur en Réseaux et Systèmes Informatiques",
+          "Technicien Supérieur en Maintenance des Systèmes Informatiques",
+          "Technicien supérieur en développement d’applications",
+          "Technicien supérieur en informatique de gestion",
+          "Administrateur de réseaux informatiques"
         ]
       },
       {
         "id": "iset_sfax_licence_en_genie_civil_topographie",
-        "nom": "Licence en Génie Civil - Topographie",
+        "nom": "Licence en Génie Civil",
         "duree": "3 ans",
-        "description": "Formation en bâtiment et topographie dispensée à Sfax. Débouche sur les métiers du géomètre et du BTP.",
+        "description": "Formation en Génie Civil dispensée à Sfax. Débouche sur les métiers du géomètre et du BTP.",
         "scores": {
           "bac_math": 102.96,
           "bac_sc": 122.82,
@@ -3244,8 +2974,14 @@
           "bac_info": 100.2
         },
         "debouches": [
-          "Géomètre-topographe",
-          "Technicien BTP"
+          "Conducteur de travaux",
+          "Technicien BTP",
+          "Métreur en Génie Civil",
+          "Topographe",
+          "Chef de chantier",
+          "Dessinateur BTP",
+          "Technicien supérieur en génie civil",
+          "Technicien supérieur en topographie",
         ]
       },
       {
@@ -3261,7 +2997,32 @@
         },
         "debouches": [
           "Technicien mécatronique",
-          "Ingénieur maintenance"
+          "Ingénieur maintenance",
+          "Technicien supérieur en génie mécanique",
+          "Technicien supérieur en mécanique et productique",
+          "Technicien Supérieur en Maintenance des Systèmes Mécaniques",
+          "Technicien supérieur en maintenance industrielle",
+          "Technicien Supérieur en Mécatronique"
+        ]
+      },
+      {
+        "id": "iset_gabes_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Filière en Sciences de Gestion dispensée par l'ISET de Gabès.",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        },
+        "debouches": [
+          "Réviseur Comptable / Collaborateur au sein de cabinets BIG 4",
+          "Contrôleur de Gestion",
+          "Auditeur Interne / Externe",
+          "Directeur des Ressources Humaines (DRH)",
+          "Responsable Administratif et Financier (RAF)"
         ]
       }
     ],
@@ -3512,27 +3273,23 @@
     "regimes_etudes": "Licence Fondamentale et Licences Appliquées (3 ans), Mastères de Recherche et Professionnels (2 ans), Doctorat",
     "filieres_phares": [
       {
-        "id": "essect_tunis_f1",
-        "nom": "Licence Fondamentale en Sciences Économiques et de Gestion",
-        "duree": "3 ans",
-        "description": "Tronc commun en économie et gestion dispensé par l'ESSECT.",
-        "scores": {},
-        "debouches": [
-          "Cadre en entreprise",
-          "Poursuite en Mastère",
-          "Concours administratifs"
-        ]
-      },
-      {
         "id": "essect_tunis_f2",
-        "nom": "Licence Appliquée en Comptabilité / Finance",
+        "nom": "Licence en Informatique de Gestion",
         "duree": "3 ans",
-        "description": "Filière professionnalisante en comptabilité et finance.",
-        "scores": {},
+        "description": "Licence en Informatique de Gestion, l'une des filières les plus demandées à l'ESSECT Tunis.",
+        "scores": {
+          "bac_math": 111.61,
+          "bac_sc": 139.27,
+          "bac_tech": 153.29,
+          "bac_info": 146.95,
+          "bac_eco": 151.83
+        },
         "debouches": [
-          "Comptable / Auditeur",
-          "Analyste financier",
-          "Expertise comptable (poursuite)"
+          "Consultant / Analyste BI",
+          "Product Owner / Manager e-Business",
+          "Assistant Chef de Projet IT / Business Analyst",
+          "Consultant en stratégie et organisation",
+          "Entrepreneur / Gestionnaire de structure privée"
         ]
       },
       {
@@ -3548,7 +3305,10 @@
         "debouches": [
           "Économiste",
           "Analyste financier",
-          "Chargé d'études économiques"
+          "Monéticien bancaire",
+          "Financier",
+          "Fonctionnaire dans la haute administration",
+          "Cadre commercial"
         ]
       },
       {
@@ -3565,8 +3325,11 @@
         },
         "debouches": [
           "Gestionnaire",
-          "Comptable",
-          "Responsable marketing"
+          "Comptable /Expert Comptable (via Concours)",
+          "Responsable marketing",
+          "Administration des affaires",
+          "Gestionnaire de projet",
+          "Cadre commercial"
         ]
       }
     ],
@@ -3669,36 +3432,93 @@
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
     "filieres_phares": [
       {
-        "id": "esstsm_monastir_f1",
-        "nom": "Licence en Sciences Maïeutiques / Sage-femme",
+        "id": "esstsm_monastir_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
         "duree": "3 ans",
-        "description": "Formation de sages-femmes diplômées d'État.",
-        "scores": {},
+        "description": "Accompagnement de la femme enceinte, accouchement et soins aux nouveau-nés.",
+        "scores": {
+          "bac_lettres": 136.63,
+          "bac_math": 144.85,
+          "bac_sc": 148.44,
+          "bac_sport": 186.47
+        },
         "debouches": [
-          "Sage-femme (secteur public ou privé)",
-          "Cadre de santé maternelle"
+          "Sage-femme",
+          "Consultante en périnatalité"
         ]
       },
       {
-        "id": "esstsm_monastir_f2",
+        "id": "esstsm_monastir_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "description": "Formation de techniciens de laboratoire pour les analyses médicales.",
+        "scores": {
+          "bac_math": 150.25,
+          "bac_sc": 144.13
+        },
+        "debouches": [
+          "Technicien de laboratoire d'analyses médicales",
+          "Assistant de recherche"
+        ]
+      },
+      {
+        "id": "esstsm_monastir_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
+        "duree": "3 ans",
+        "description": "Filière paramédicale de rééducation et de soins critiques.",
+        "scores": {
+          "bac_math": 164.93,
+          "bac_sc": 165.12
+        },
+        "debouches": [
+          "Technicien en anesthésie-réanimation",
+          "Infirmier en soins intensifs"
+        ]
+      },
+      {
+        "id": "esstsm_monastir_imagerie",
         "nom": "Licence en Imagerie Médicale et Radiothérapie",
         "duree": "3 ans",
-        "description": "Formation de techniciens supérieurs en imagerie médicale.",
-        "scores": {},
+        "description": "Techniques de radiologie, d'imagerie et de traitements par rayons.",
+        "scores": {
+          "bac_math": 140.20,
+          "bac_sc": 150.95
+        },
         "debouches": [
-          "Technicien en imagerie médicale",
-          "Manipulateur en radiothérapie"
+          "Manipulateur en radiologie",
+          "Technicien en imagerie médicale"
         ]
       },
       {
-        "id": "esstsm_monastir_f3",
-        "nom": "Licence en Physiothérapie / Anesthésie-Réanimation",
+        "id": "esstsm_monastir_physiotherapie",
+        "nom": "Licence en Physiothérapie",
         "duree": "3 ans",
-        "description": "Filières paramédicales de rééducation et de soins critiques.",
-        "scores": {},
+        "description": "Rééducation motrice, fonctionnelle et thérapie physique.",
+        "scores": {
+          "bac_lettres": 147.53,
+          "bac_math": 161.45,
+          "bac_sc": 153.03,
+          "bac_sport": 195.03
+        },
         "debouches": [
           "Physiothérapeute",
-          "Technicien en anesthésie-réanimation"
+          "Kinésithérapeute"
+        ]
+      },
+      {
+        "id": "esstsm_monastir_prothese",
+        "nom": "Licence en Prothèse Dentaire",
+        "duree": "3 ans",
+        "description": "Fabrication et réparation d'appareillages dentaires fixes et amovibles.",
+        "scores": {
+          "bac_lettres": 137.67,
+          "bac_math": 130.35,
+          "bac_sc": 135.99,
+          "bac_sport": 173.69
+        },
+        "debouches": [
+          "Prothésiste dentaire",
+          "Technicien de laboratoire dentaire"
         ]
       }
     ],
@@ -3732,34 +3552,121 @@
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
     "filieres_phares": [
       {
-        "id": "esstss_sfax_f1",
-        "nom": "Licence en Biologie Médicale",
-        "duree": "3 ans",
-        "description": "Formation de techniciens supérieurs en biologie médicale.",
-        "scores": {},
-        "debouches": [
-          "Technicien de laboratoire médical",
-          "Cadre paramédical"
-        ]
-      },
-      {
-        "id": "esstss_sfax_f2",
+        "id": "esstssfax_imagerie",
         "nom": "Licence en Imagerie Médicale et Radiothérapie",
         "duree": "3 ans",
-        "description": "Formation en imagerie médicale et radiothérapie.",
-        "scores": {},
+        "description": "Formation aux techniques de radiologie, scanner, IRM et radiothérapie.",
+        "scores": {
+          "bac_math": 131.75,
+          "bac_sc": 150.51
+        },
         "debouches": [
-          "Technicien en imagerie médicale"
+          "Technicien supérieur en imagerie médicale",
+          "Manipulateur en radiologie"
         ]
       },
       {
-        "id": "esstss_sfax_f3",
-        "nom": "Licence en Physiothérapie",
+        "id": "esstss_sfax_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
         "duree": "3 ans",
-        "description": "Formation de kinésithérapeutes/physiothérapeutes.",
-        "scores": {},
+        "description": "Formation paramédicale en soins critiques et anesthésiologie.",
+        "scores": {
+          "bac_math": 147.83,
+          "bac_sc": 161.97
+        },
         "debouches": [
-          "Physiothérapeute libéral ou hospitalier"
+          "Technicien en anesthésie-réanimation",
+          "Assistant bloc opératoire"
+        ]
+      },
+      {
+        "id": "esstss_sfax_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "description": "Formation en analyses biologiques et diagnostic médical en laboratoire.",
+        "scores": {
+          "bac_math": 123.17,
+          "bac_sc": 141.54
+        },
+        "debouches": [
+          "Technicien de laboratoire",
+          "Analyste biologiste"
+        ]
+      },
+      {
+        "id": "esstss_sfax_physiotherapie",
+        "nom": "Licence en Physiothérapie (العلاج الطبيعي)",
+        "duree": "3 ans",
+        "description": "Rééducation motrice, fonctionnelle et thérapie physique.",
+        "scores": {
+          "bac_lettres": 148.09,
+          "bac_math": 165.51,
+          "bac_sc": 155.01,
+          "bac_sport": 177.97
+        },
+        "debouches": [
+          "Physiothérapeute",
+          "Kinésithérapeute"
+        ]
+      },
+      {
+        "id": "esstss_sfax_optique",
+        "nom": "Licence en Sciences de la Vision / Optique",
+        "duree": "3 ans",
+        "description": "Analyse de la vision, conception d'équipements optiques et rééducation oculaire.",
+        "scores": {
+          "bac_math": 110.50,
+          "bac_sc": 130.54
+        },
+        "debouches": [
+          "Opticien-Lunetier",
+          "Optométriste"
+        ]
+      },
+      {
+        "id": "esstss_sfax_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
+        "duree": "3 ans",
+        "description": "Préparation du matériel chirurgical et assistance technique durant les interventions.",
+        "scores": {
+          "bac_math": 116.94,
+          "bac_sc": 146.09
+        },
+        "debouches": [
+          "Instrumentiste de bloc opératoire",
+          "Assistant chirurgien"
+        ]
+      },
+      {
+        "id": "isbs_sfax_biomedical",
+        "nom": "Licence en Génie Biomédical",
+        "duree": "3 ans",
+        "description": "Santé numérique, gestion de systèmes biomédicaux et ingénierie d'imagerie.",
+        "scores": {
+          "bac_math": 97.74,
+          "bac_sc": 133.69,
+          "bac_tech": 123.92,
+          "bac_info": 133.57
+        },
+        "debouches": [
+          "Technicien en maintenance d'équipements médicaux",
+          "Spécialiste en imagerie médicale"
+        ]
+      },
+      {
+        "id": "esstss_sfax_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
+        "duree": "3 ans",
+        "description": "Suivi de la grossesse, accouchement et accompagnement post-natal.",
+        "scores": {
+          "bac_lettres": 123.69,
+          "bac_math": 143.09,
+          "bac_sc": 150.23,
+          "bac_sport": 174.35
+        },
+        "debouches": [
+          "Sage-femme",
+          "Consultante en périnatalité"
         ]
       }
     ],
@@ -3793,34 +3700,64 @@
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
     "filieres_phares": [
       {
-        "id": "esstss_sousse_f1",
-        "nom": "Licence en Biologie Médicale",
+        "id": "esstss_sousse_podologie",
+        "nom": "Licence en Podologie et Pédicurie",
         "duree": "3 ans",
-        "description": "Formation de techniciens supérieurs en biologie médicale.",
-        "scores": {},
+        "description": "Spécialité paramédicale pour le soin et le traitement des affections du pied.",
+        "scores": {
+          "bac_math": 135.24,
+          "bac_sc": 130.55,
+          "bac_tech": 124.40
+        },
         "debouches": [
-          "Technicien de laboratoire médical"
+          "Podologue",
+          "Pédicure spécialisé"
         ]
       },
       {
-        "id": "esstss_sousse_f2",
-        "nom": "Licence en Imagerie Médicale et Radiothérapie",
+        "id": "esstss_sousse_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
         "duree": "3 ans",
-        "description": "Formation en imagerie médicale.",
-        "scores": {},
+        "description": "Préparation du matériel chirurgical et assistance technique durant les interventions.",
+        "scores": {
+          "bac_math": 129.78,
+          "bac_sc": 149.22
+        },
         "debouches": [
-          "Technicien en imagerie médicale"
+          "Instrumentiste de bloc opératoire",
+          "Assistant chirurgien"
         ]
       },
       {
-        "id": "esstss_sousse_f3",
-        "nom": "Licence en Physiothérapie / Sciences infirmières",
+        "id": "esstss_sousse_pediatrie",
+        "nom": "Licence en Soins Pédiatriques",
         "duree": "3 ans",
-        "description": "Filières paramédicales de soins et de rééducation.",
-        "scores": {},
+        "description": "Accompagnement paramédical et soins spécialisés pour les enfants.",
+        "scores": {
+          "bac_lettres": 129.42,
+          "bac_math": 143.73,
+          "bac_sc": 149.88,
+          "bac_sport": 179.13
+        },
         "debouches": [
-          "Physiothérapeute",
-          "Infirmier(e) diplômé(e)"
+          "Technicien en soins pédiatriques",
+          "Puériculteur(trice)"
+        ]
+      },
+      {
+        "id": "esstss_sousse_urgences",
+        "nom": "Licence en Soins d'Urgence et de Réanimation",
+        "duree": "3 ans",
+        "description": "Prise en charge paramédicale en cas d'urgences pré-hospitalières et intra-hospitalières.",
+        "scores": {
+          "bac_lettres": 136.98,
+          "bac_math": 152.53,
+          "bac_sc": 152.56,
+          "bac_sport": 184.52
+        },
+        "debouches": [
+          "Technicien urgentiste",
+          "Infirmier réanimateur"
         ]
       }
     ],
@@ -3854,33 +3791,197 @@
     "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
     "filieres_phares": [
       {
-        "id": "esstst_tunis_f1",
-        "nom": "Licence en Biologie Médicale",
+        "id": "esstst_tunis_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
         "duree": "3 ans",
-        "description": "Formation de techniciens supérieurs en biologie médicale.",
-        "scores": {},
+        "description": "Formation paramédicale en soins critiques et anesthésiologie.",
+        "scores": {
+          "bac_math": 109.38,
+          "bac_sc": 171.12
+        },
         "debouches": [
-          "Technicien de laboratoire médical"
+          "Technicien en anesthésie-réanimation",
+          "Assistant bloc opératoire"
         ]
       },
       {
-        "id": "esstst_tunis_f2",
+        "id": "esstst_tunis_imagerie",
         "nom": "Licence en Imagerie Médicale et Radiothérapie",
         "duree": "3 ans",
-        "description": "Formation en imagerie médicale et radiothérapie.",
-        "scores": {},
+        "description": "Techniques de radiologie, d'imagerie et de traitements par rayons.",
+        "scores": {
+          "bac_math": 112.77,
+          "bac_sc": 161.42
+        },
         "debouches": [
+          "Manipulateur en radiologie",
           "Technicien en imagerie médicale"
         ]
       },
       {
-        "id": "esstst_tunis_f3",
+        "id": "esstst_tunis_hygiene",
+        "nom": "Licence en Hygiène, Santé et Environnement",
+        "duree": "3 ans",
+        "description": "Prévention des risques sanitaires et gestion de l'hygiène en milieux médical et industriel.",
+        "scores": {
+          "bac_lettres": 121.41,
+          "bac_math": 103.73,
+          "bac_sc": 123.89,
+          "bac_sport": 170.02
+        },
+        "debouches": [
+          "Technicien en hygiène hospitalière",
+          "Responsable HSE"
+        ]
+      },
+      {
+        "id": "esstst_tunis_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "description": "Formation en analyses biologiques et diagnostic médical en laboratoire.",
+        "scores": {
+          "bac_math": 118.65,
+          "bac_sc": 151.61
+        },
+        "debouches": [
+          "Technicien de laboratoire",
+          "Analyste biologiste"
+        ]
+      },
+      {
+        "id": "esstst_tunis_physiotherapie",
         "nom": "Licence en Physiothérapie",
         "duree": "3 ans",
-        "description": "Formation de kinésithérapeutes/physiothérapeutes.",
-        "scores": {},
+        "description": "Rééducation motrice, fonctionnelle et thérapie physique.",
+        "scores": {
+          "bac_lettres": 131.32,
+          "bac_math": 152.13,
+          "bac_sc": 152.42,
+          "bac_sport": 183.63
+        },
         "debouches": [
-          "Physiothérapeute libéral ou hospitalier"
+          "Physiothérapeute",
+          "Kinésithérapeute"
+        ]
+      },
+      {
+        "id": "esstst_tunis_physiotherapie_malvoyants",
+        "nom": "Licence en Physiothérapie (Section Malvoyants)",
+        "duree": "3 ans",
+        "description": "Section spécialisée en thérapie physique pour les bacheliers issus de l'Institut des Aveugles.",
+        "scores": {
+          "bac_lettres": 88.24
+        },
+        "debouches": [
+          "Physiothérapeute",
+          "Kinésithérapeute"
+        ]
+      },
+      {
+        "id": "esstst_tunis_orthophonie",
+        "nom": "Licence en Orthophonie",
+        "duree": "3 ans",
+        "description": "Dépistage et rééducation des troubles du langage, de la parole et de la voix.",
+        "scores": {
+          "bac_lettres": 128.75,
+          "bac_math": 129.35,
+          "bac_sc": 147.23
+        },
+        "debouches": [
+          "Orthophoniste",
+          "Rééducateur du langage"
+        ]
+      },
+      {
+        "id": "esstst_tunis_appareillage",
+        "nom": "Licence en Appareillage Orthopédique",
+        "duree": "3 ans",
+        "description": "Conception, réalisation et adaptation des prothèses et orthèses.",
+        "scores": {
+          "bac_math": 119.95,
+          "bac_sc": 131.60
+        },
+        "debouches": [
+          "Orthoprothésiste",
+          "Technicien en appareillage"
+        ]
+      },
+      {
+        "id": "esstst_tunis_nutrition",
+        "nom": "Licence en Nutrition Humaine",
+        "duree": "3 ans",
+        "description": "Prévention et traitement nutritionnel, élaboration de régimes alimentaires.",
+        "scores": {
+          "bac_lettres": 132.39,
+          "bac_math": 143.26,
+          "bac_sc": 141.63,
+          "bac_sport": 176.97
+        },
+        "debouches": [
+          "Diététicien",
+          "Nutritionniste"
+        ]
+      },
+      {
+        "id": "esstst_tunis_ergotherapie",
+        "nom": "Licence en Ergothérapie",
+        "duree": "3 ans",
+        "description": "Réhabilitation pour le maintien de l'autonomie des personnes en situation de handicap.",
+        "scores": {
+          "bac_lettres": 134.23,
+          "bac_math": 124.05,
+          "bac_sc": 135.94,
+          "bac_sport": 171.59
+        },
+        "debouches": [
+          "Ergothérapeute",
+          "Rééducateur en autonomie"
+        ]
+      },
+      {
+        "id": "esstst_tunis_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
+        "duree": "3 ans",
+        "description": "Préparation du matériel chirurgical et assistance technique durant les interventions.",
+        "scores": {
+          "bac_math": 119.05,
+          "bac_sc": 150.94
+        },
+        "debouches": [
+          "Instrumentiste de bloc opératoire",
+          "Assistant chirurgien"
+        ]
+      },
+      {
+        "id": "esstst_tunis_pediatrie",
+        "nom": "Licence en Soins Pédiatriques",
+        "duree": "3 ans",
+        "description": "Accompagnement paramédical et soins spécialisés pour les enfants.",
+        "scores": {
+          "bac_lettres": 139.72,
+          "bac_math": 138.96,
+          "bac_sc": 148.52,
+          "bac_sport": 176.98
+        },
+        "debouches": [
+          "Technicien en soins pédiatriques",
+          "Puériculteur(trice)"
+        ]
+      },
+      {
+        "id": "esstst_tunis_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
+        "duree": "3 ans",
+        "description": "Suivi de la grossesse, accouchement et accompagnement post-natal.",
+        "scores": {
+          "bac_lettres": 138.38,
+          "bac_math": 133.21,
+          "bac_sc": 154.29,
+          "bac_sport": 182.20
+        },
+        "debouches": [
+          "Sage-femme",
+          "Consultante en périnatalité"
         ]
       }
     ],
