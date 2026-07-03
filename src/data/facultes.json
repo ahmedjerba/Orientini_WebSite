@@ -356,7 +356,7 @@
       "Mathématique"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
-    "regimes_etudes": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur), Pour les licences 3 ans (+ 2ans mastère optionnel)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "fst_g_prepa integree",
@@ -380,7 +380,7 @@
       {
         "id": "fst_licence_info",
         "nom": "Licence en Sciences de l'Informatique",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Filière phare en Licence en Sciences de l'Informatique dispensée par FST",
         "scores": {
           "bac_math": 140.44,
@@ -399,7 +399,7 @@
       {
         "id": "fst_math",
         "nom": "Licence en Mathématiques",
-        "duree": "3 ans Licence",
+        "duree": "3 ans",
         "description": "Filière phare en Mathématiques dispensée par FST.",
         "scores": {
           "bac_math": 85.1,
@@ -417,7 +417,7 @@
       {
         "id": "fst_systeme_infos",
         "nom": "Licence en Ingénieurie des systèmes informatiques",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Ingénieurie des systèmes informatiques dispensés par FST",
         "scores": {
           "bac_math": 99.2,
@@ -437,7 +437,7 @@
       {
         "id": "fst_math_appliques",
         "nom": "Licence en Mathématiques Appliquées",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Filière phare en Mathématiques Appliquées dispensée par FST.",
         "scores": {
           "bac_math": 99.11,
@@ -458,7 +458,7 @@
       {
         "id": "fst_electro_tech",
         "nom": "Licence en Électronique, Électrotechnique et Automatique",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Électronique, Électrotechnique et Automatique dispensée par FST",
         "scores": {
           "bac_math": 118.05,
@@ -477,7 +477,7 @@
       {
         "id": "fst_info_telecom",
         "nom": "Licence en Technologies de l'Information et Télécommunications",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence Technologies de l'Information et Communications dispensée par FST",
         "scores": {
           "bac_math": 101.35,
@@ -496,7 +496,7 @@
       {
         "id": "fst_geomatique",
         "nom": "Licence en Sciences Géomatiques Appliquées",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Sciences Géomatiques Appliquées dispensée par FST",
         "scores": {
           "bac_math": 119.82,
@@ -853,7 +853,7 @@
       {
         "id": "issat_sousse_cycle_pr_paratoire_int_gr____cba__chi",
         "nom": "Licence en Sciences de l'Informatique",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Informatique dispensée par ISSAT Sousse",
         "scores": {
           "bac_math": 161.3,
@@ -871,7 +871,7 @@
       {
         "id": "issat_sousse_cycle_d_ing_nieur_en_g_nie_logiciel",
         "nom": "Licence en Ingénieurie des systèmes informatiques",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Ingénieurie des systèmes informatiques dispensés par ISSAT Sousse",
         "scores": {
           "bac_math": 106.85,
@@ -891,7 +891,7 @@
       {
         "id": "issat_sousse_licence_mécanique",
         "nom": "Licence en Ingénieurie Mécanique",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Ingénieurie mécanique dispensée par ISSAT Sousse",
         "scores": {
           "bac_math": 123.14,
@@ -909,7 +909,7 @@
       {
         "id": "issat_sousse_licence_civil",
         "nom": "Licence en Génie Civil",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Génie Civil dispensée par ISSAT Sousse",
         "scores": {
           "bac_math": 125.42,
@@ -926,7 +926,7 @@
       {
         "id": "issat_sousse_licence_Electromécanique",
         "nom": "Licence en Électromécanique ",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Électromécanique dispensée par ISSAT Sousse",
         "scores": {
           "bac_math": 110.44,
@@ -943,7 +943,7 @@
       {
         "id": "issat_sousse_licence_Electrotechnique",
         "nom": "Licence en Électronique, Électrotechnique et Automatique",
-        "duree": "3 ans Licence  (+ 2 ans mastère optionnel)",
+        "duree": "3 ans",
         "description": "Licence en Électronique, Électrotechnique et Automatique dispensée par ISSAT Sousse",
         "scores": {
           "bac_math": 108.56,
@@ -1001,7 +1001,7 @@
     "nom_court": "HIDE",
     "nom_complet": "Higher Institute of Digital Engineering of Tunis",
     "universite": "Université de Tunis",
-    "ville": "Tunis (Bab Saadoun)",
+    "ville": "Tunis",
     "logo": "/logos/HIDE.png",
     "fac_hero_banner": "/banners/HIDE_Tunis_hero.jpg",
     "description_breve": "Institution publique d'élite et d'excellence, pionnière en Tunisie pour sa formation d'ingénieurs en Intelligence Artificielle et technologies numériques, dispensée exclusivement en langue anglaise.",
@@ -1300,7 +1300,7 @@
     "nom_court": "IPEIEM",
     "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs d'El Manar",
     "universite": "Université de Tunis El Manar",
-    "ville": "Tunis (El Manar)",
+    "ville": "Tunis",
     "logo": "/logos/IPEIEM.jpg",
     "fac_hero_banner": "/banners/IPEIEM_hero.jpg",
     "description_breve": "L'école préparatoire scientifique d'El Manar, réputée pour son cadre académique rigoureux et ses excellents résultats aux concours nationaux d'ingénieurs.",
@@ -1499,7 +1499,7 @@
     "nom_court": "IHEC",
     "nom_complet": "Institut des Hautes Études Commerciales de Carthage",
     "universite": "Université de Carthage",
-    "ville": "Carthage",
+    "ville": "Tunis",
     "logo": "/logos/IHEC_Tunis.jpg",
     "fac_hero_banner": "/banners/IHEC_Carthage_hero.jpg",
     "description_breve": "Le pionnier de l'enseignement du commerce et de la gestion en Tunisie, réputé pour son excellence académique et son réseau d'alumni influent dans le monde des affaires.",
@@ -1512,7 +1512,7 @@
       "Business"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, cursus Doctorat et Expertise Comptable",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Expertise Comptable",
     "filieres_phares": [
       {
         "id": "ihec_carthage_licence_en_sciences_de_gestion__fina",
@@ -1575,7 +1575,7 @@
     "nom_court": "TBS",
     "nom_complet": "Tunis Business School",
     "universite": "Université de Tunis",
-    "ville": "Bir El Bey",
+    "ville": "Ben Arous",
     "logo": "/logos/TBS.jpg",
     "fac_hero_banner": "/banners/TBS_hero.jpg",
     "description_breve": "Première institution publique tunisienne de commerce adoptant le modèle d'éducation américain, avec un cursus d'affaires intégralement dispensé en anglais.Nécessite de passer un examen",
@@ -1647,7 +1647,7 @@
       "Préparatoire"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus officiel d'Expertise Comptable",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Expertise Comptable",
     "filieres_phares": [
       {
         "id": "iscae_manouba_licence_en_sciences_de_gestion__sp_c",
@@ -1723,7 +1723,7 @@
       "Préparatoire"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, École Doctorale intégrée",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isg_tunis_licence_en_business_computing__informati",
@@ -1816,7 +1816,7 @@
       "Ingénierie"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Expertise Comptable",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Expertise Comptable",
     "filieres_phares": [
       {
         "id": "ihec_sfax_licence_en_sciences_de_gestion",
@@ -1870,7 +1870,7 @@
       "Télécommunications"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (Filière intégrée ou sur concours)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "isi_ariana_licence_en_sciences_de_l_informatique__",
@@ -1963,7 +1963,7 @@
       "Mathématique"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur (sur concours national ou dossier)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "isimm_monastir_licence_en_sciences_de_l_informatiq",
@@ -2092,7 +2092,7 @@
       "Préparatoire"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Cursus d'Ingénieur",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "isitcom_sousse_licence_en_sciences_de_l_informatiq",
@@ -2215,7 +2215,7 @@
       "Ingénierie"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isima_mahdia_licence_en_sciences_de_l_informatique",
@@ -2295,7 +2295,7 @@
     "nom_court": "ISET'COM",
     "nom_complet": "Institut Supérieur des Études Technologiques en Communications de Tunis",
     "universite": "Université de Carthage / Co-tutelle Ministère des Technologies de la Communication",
-    "ville": "Ariana (Technopôle El Ghazala)",
+    "ville": "Ariana",
     "logo": "/logos/ISETCOM.jpg",
     "fac_hero_banner": "/banners/ISETCOM_Tunis.jpg",
     "description_breve": "L'institut de référence historique en télécommunications, stratégiquement situé au cœur du technopôle El Ghazala, offrant une immersion directe avec les géants du secteur numérique tunisien.",
@@ -2307,7 +2307,7 @@
       "Réseaux"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Formations certifiantes (Cisco, Huawei, etc.)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isetcom_tunis_licence_en_sciences_de_gestion",
@@ -2366,7 +2366,7 @@
     "nom_court": "ENAU",
     "nom_complet": "École Nationale d'Architecture et d'Urbanisme de Tunis",
     "universite": "Université de Carthage",
-    "ville": "Carthage (Sidi Bou Saïd)",
+    "ville": "Tunis",
     "logo": "/logos/ENAU.jpg",
     "fac_hero_banner": "/banners/ENAU.jpg",
     "description_breve": "L'unique institution publique de formation d'architectes en Tunisie, nichée sur la colline de Sidi Bou Saïd, alliant rigueur technique, urbanisme moderne et sensibilité artistique.",
@@ -2418,7 +2418,7 @@
     "nom_court": "ISET Radès",
     "nom_complet": "Institut Supérieur des Études Technologiques de Radès",
     "universite": "Direction Générale des Études Technologiques (DGET)",
-    "ville": "Ben Arous (Radès)",
+    "ville": "Ben Arous",
     "logo": "/logos/ISET_Rades.png",
     "fac_hero_banner": "/banners/ISET_Rades_hero.jpg",
     "description_breve": "Le plus grand et le plus ancien fleuron du réseau des ISET, idéalement situé dans la zone industrielle de Radès, reconnu pour ses laboratoires de pointe et sa forte insertion professionnelle.",
@@ -2432,13 +2432,13 @@
       "Ingénierie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
-        "id": "isetcom_tunis_licence_en_sciences_de_gestion",
+        "id": "iset_rades_licence_en_sciences_de_gestion",
         "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Filière en Sciences de Gestion dispensée par ISET'COM.",
+        "description": "Filière en Sciences de Gestion dispensée par ISET Radès",
         "scores": {
           "bac_info": null,
           "bac_math": null,
@@ -2568,7 +2568,7 @@
       "Business"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_nabeul_licence_en_technologies_de_l_informatique",
@@ -2699,7 +2699,7 @@
       "Ingénierie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_djerba_licence_en_technologies_de_l_informati",
@@ -2814,7 +2814,7 @@
       "Ingénierie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_gabes_licence_en_g_nie_des_proc_d_s__chimie_i",
@@ -2951,7 +2951,7 @@
       "Ingénierie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère Professionnel Co-construit",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_sfax_licence_en_technologies_de_l_informatique",
@@ -3071,7 +3071,7 @@
       "Droit"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "fsjpst_tunis_licence_en_droit",
@@ -3122,7 +3122,7 @@
       "Droit"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "fdspt_tunis_licence_en_droit",
@@ -3175,7 +3175,7 @@
       "Droit"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "fds_sfax_licence_en_droit",
@@ -3228,7 +3228,7 @@
       "Droit"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "3 ans pour Licence, 2 ans pour Mastère (9 parcours), Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "fdsps_sousse_licence_en_droit",
@@ -3280,7 +3280,7 @@
       "Gestion"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "Licence Fondamentale et Licences Appliquées (3 ans), Mastères de Recherche et Professionnels (2 ans), Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "essect_tunis_f2",
@@ -3356,74 +3356,6 @@
     ]
   },
   {
-    "id": "esprit_tunis",
-    "nom_court": "ESPRIT",
-    "nom_complet": "École Supérieure Privée d'Ingénierie et de Technologies",
-    "universite": "Établissement privé",
-    "ville": "Ariana (Charguia)",
-    "logo": "/logos/ESPRIT.jpg",
-    "fac_hero_banner": "/banners/ESPRIT_hero.jpg",
-    "description_breve": "Plus grand établissement privé d'enseignement supérieur en Tunisie, ESPRIT forme des ingénieurs opérationnels en informatique, télécommunications, génie civil et électromécanique, avec une forte proximité avec le monde entrepreneurial.",
-    "adresse": "18, Rue de l'Usine, ZI Aéroport, Charguia II, 2035 Ariana",
-    "lien_google_maps": "https://maps.google.com/?q=ESPRIT+18+Rue+de+l'Usine+Charguia+II+Ariana",
-    "categories": [
-      "Ingénierie",
-      "Informatique",
-      "Technologies"
-    ],
-    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans), Cycle d'Ingénieur (5 ans), Mastères",
-    "filieres_phares": [
-      {
-        "id": "esprit_tunis_f1",
-        "nom": "Diplôme National d'Ingénieur en Informatique",
-        "duree": "5 ans",
-        "description": "Cycle ingénieur en informatique (data, IA, cybersécurité, développement).",
-        "scores": {},
-        "debouches": [
-          "Ingénieur logiciel / Data Scientist",
-          "Chef de projet IT",
-          "Développeur / DevOps"
-        ]
-      },
-      {
-        "id": "esprit_tunis_f2",
-        "nom": "Diplôme National d'Ingénieur en Télécommunications",
-        "duree": "5 ans",
-        "description": "Formation d'ingénieurs en réseaux et télécommunications.",
-        "scores": {},
-        "debouches": [
-          "Ingénieur télécoms/réseaux",
-          "Ingénieur cybersécurité",
-          "Consultant IT"
-        ]
-      },
-      {
-        "id": "esprit_tunis_f3",
-        "nom": "Licence Appliquée en Génie Civil / Électromécanique",
-        "duree": "3 ans",
-        "description": "Formation technique en génie civil ou électromécanique.",
-        "scores": {},
-        "debouches": [
-          "Technicien supérieur BTP",
-          "Poursuite en cycle ingénieur",
-          "Chargé d'études techniques"
-        ]
-      }
-    ],
-    "debouches": [
-      "Ingénieur en Informatique / Télécommunications",
-      "Ingénieur en Génie Civil ou Électromécanique",
-      "Data Scientist / Développeur",
-      "Chef de projet technique"
-    ],
-    "site_web": "https://esprit.tn",
-    "tags": [
-      "Informatique & Réseaux",
-      "Génie & Technologies Appliquées"
-    ]
-  },
-  {
     "id": "esstsm_monastir",
     "nom_court": "ESSTS Monastir",
     "nom_complet": "École Supérieure des Sciences et Techniques de la Santé de Monastir",
@@ -3439,7 +3371,7 @@
       "Paramédical"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "esstsm_monastir_obstetrique",
@@ -3558,7 +3490,7 @@
       "Paramédical"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "esstssfax_imagerie",
@@ -3705,7 +3637,7 @@
       "Paramédical"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "esstss_sousse_podologie",
@@ -3795,7 +3727,7 @@
       "Paramédical"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Nationales (3 ans) en sciences de la santé",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "esstst_tunis_anesthesie",
@@ -4018,7 +3950,7 @@
       "Gestion"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères (2 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "fseg_mahdia_f1",
@@ -4103,7 +4035,7 @@
       "Sciences Sociales"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères de Recherche et Professionnels, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "fshst_tunis_f1",
@@ -4310,7 +4242,7 @@
       "Sciences Fondamentales"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Cycle d'Ingénieur, Mastères, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "fsm_monastir_f1",
@@ -4484,7 +4416,7 @@
       "Sciences Fondamentales"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Cycle d'Ingénieur, Mastères, Doctorat",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Cursus d'Ingénieur",
     "filieres_phares": [
       {
         "id": "fss_sfax_licence_en_geomatique_appliquee",
@@ -4806,7 +4738,7 @@
       "Métiers"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isam_gabes_f1",
@@ -4939,7 +4871,7 @@
       "Design"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isamm_manouba_f1",
@@ -5063,7 +4995,7 @@
       "Sciences"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences Appliquées (3 ans), Mastères, Doctorat en Sciences Biologiques et Biotechnologie",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "isbm_monastir_licence_en_biotechnologie",
@@ -5121,7 +5053,7 @@
       "Sciences Humaines"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "Licences Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iseahz_zaghouan_f1",
@@ -5186,7 +5118,7 @@
       "Génie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_bizerte_f1",
@@ -5290,7 +5222,7 @@
       "Informatique"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isi_medenine_licence_en_informatique_decisionnelle",
@@ -5352,7 +5284,7 @@
       "Sciences Appliquées"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "issat_mahdia_licence_en_technologie_info",
@@ -5445,7 +5377,7 @@
       "Sciences Appliquées"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Appliquées (3 ans), Mastères Professionnels",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "issbat_tunis_f1",
@@ -5492,7 +5424,7 @@
       "Éducation Physique"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isspes_sfax_f1",
@@ -5539,7 +5471,7 @@
       "Commerce"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isgs_sousse_licence_en_sciences_economiques",
@@ -5625,7 +5557,7 @@
       "Sciences Infirmières"
     ],
     "filtre": "🩺 Sciences de la Santé & Médecine",
-    "regimes_etudes": "Licence en Sciences Infirmières (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "issiso_sousse_f1",
@@ -5686,7 +5618,7 @@
       "Beaux-Arts"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isban_nabeul_f1",
@@ -5796,7 +5728,7 @@
       "Génie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_mahdia_f2",
@@ -5902,7 +5834,7 @@
       "Multimédia"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "isimg_gabes_f1",
@@ -6021,7 +5953,7 @@
       "Sciences Humaines"
     ],
     "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "issh_medenine_licence_en_arabe",
@@ -6160,7 +6092,7 @@
     "nom_court": "ISTIC",
     "nom_complet": "Institut Supérieur des Technologies de l'Information et de la Communication",
     "universite": "Université de Carthage",
-    "ville": "Borj Cédria",
+    "ville": "Ben Arous",
     "logo": "/logos/ISTIC.jpg",
     "fac_hero_banner": "/banners/ISTIC_hero.jpg",
     "description_breve": "Institut public de l'Université de Carthage créé en 2011, situé dans la Technopole de Borj Cédria, formant des cadres en technologies de l'information et de la communication.",
@@ -6171,7 +6103,7 @@
       "Télécommunications"
     ],
     "filtre": "💻 Licence d'Informatique",
-    "regimes_etudes": "Licences (3 ans), Mastères, Doctorat (LMD)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère, Doctorat",
     "filieres_phares": [
       {
         "id": "istic_borjcedria_f1",
@@ -6308,7 +6240,7 @@
       "Logistique"
     ],
     "filtre": "💼 Business, Commerce & Gestion",
-    "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Mastères de Recherche et Professionnels",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "istls_sousse_licence_en_logistique_et_distribution",
@@ -6389,7 +6321,7 @@
     "nom_court": "ISET Charguia",
     "nom_complet": "Institut Supérieur des Études Technologiques de Charguia",
     "universite": "Réseau ISET",
-    "ville": "Ariana (Charguia)",
+    "ville": "Ariana",
     "logo": "/logos/ISET_Charguia.png",
     "fac_hero_banner": "/banners/ISET_Charguia_hero.jpg",
     "description_breve": "Institut du réseau national des ISET situé à Charguia (Tunis Carthage), formant des techniciens supérieurs en technologies.",
@@ -6401,7 +6333,7 @@
       "Génie"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans, LMD)",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "iset_charguiatunis_licence_en_sciences_de_gestion",
@@ -6471,7 +6403,7 @@
       "Sciences Appliquées"
     ],
     "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
-    "regimes_etudes": "Licences Appliquées (3 ans, LMD), Mastères",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), 2 ans pour Mastère",
     "filieres_phares": [
       {
         "id": "issat_gabes_f1",

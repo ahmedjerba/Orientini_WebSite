@@ -14,36 +14,72 @@ export default function PresentationFiliere({ faculte }) {
   // État local pour le Deep-Dive de la spécialité cliquée
   const [activeSpecialty, setActiveSpecialty] = useState(null);
 
+  const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
+    if (filiereScores !== undefined) {
+      if (filiereScores && key in filiereScores) {
+        const val = filiereScores[key];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      if (key === 'bac_lettres' && filiereScores && 'bac_let' in filiereScores) {
+        const val = filiereScores['bac_let'];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      if (key === 'bac_let' && filiereScores && 'bac_lettres' in filiereScores) {
+        const val = filiereScores['bac_lettres'];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      return null;
+    }
+    if (facScores && key in facScores) {
+      const val = facScores[key];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    if (key === 'bac_lettres' && facScores && 'bac_let' in facScores) {
+      const val = facScores['bac_let'];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    if (key === 'bac_let' && facScores && 'bac_lettres' in facScores) {
+      const val = facScores['bac_lettres'];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    return null;
+  };
+
   // Génération dynamique locale des détails des spécialités phares
   const matchedSpecialties = filieres_phares.map((filiere, idx) => {
-    // Si la filière est déjà un objet (terrain préparé dans data.json)
-    if (typeof filiere === 'object' && filiere !== null) {
+    const isObject = typeof filiere === 'object' && filiere !== null;
+    const filiereScores = isObject ? filiere.scores : undefined;
+
+    const hasScoresDefined = filiereScores !== undefined;
+    const allScoresNull = hasScoresDefined
+      ? (!filiereScores ||
+        Object.keys(filiereScores).length === 0 ||
+        Object.values(filiereScores).every(val => val === null || val === 0 || val === "" || val === undefined))
+      : (!score_derniere_annee ||
+        Object.keys(score_derniere_annee).length === 0 ||
+        Object.values(score_derniere_annee).every(val => val === null || val === 0 || val === "" || val === undefined));
+
+    const isNouvelle = allScoresNull;
+
+    if (isObject) {
       const isPrepa = filiere.concours ||
         faculte?.categories?.includes("Préparatoire") ||
         faculte?.nom_court?.toLowerCase().includes("ipei") ||
         filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
-
-      const hasScoresDefined = filiere.scores !== undefined;
-      const allScoresNull = hasScoresDefined && (
-        !filiere.scores ||
-        Object.keys(filiere.scores).length === 0 ||
-        Object.values(filiere.scores).every(val => val === null || val === 0 || val === "" || val === undefined)
-      );
-      const isNouvelle = allScoresNull;
 
       return {
         id: filiere.id || `filiere_${idx}`,
         nom: filiere.nom || "Spécialité",
         duree: filiere.duree || (regimes_etudes ? regimes_etudes.split(' pour ')[0] || "N/A" : "N/A"),
         description: filiere.description || `Formation de spécialité de premier plan dispensée à ${faculte?.nom_court}.`,
-        bac_math: isNouvelle ? null : (filiere.scores?.bac_math || score_derniere_annee?.bac_math),
-        bac_sc: isNouvelle ? null : (filiere.scores?.bac_sc || score_derniere_annee?.bac_sc),
-        bac_info: isNouvelle ? null : (filiere.scores?.bac_info || score_derniere_annee?.bac_info),
-        bac_tech: isNouvelle ? null : (filiere.scores?.bac_tech || score_derniere_annee?.bac_tech),
-        bac_eco: isNouvelle ? null : (filiere.scores?.bac_eco || score_derniere_annee?.bac_eco),
-        bac_lettres: isNouvelle ? null : (filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres),
-        bac_let: isNouvelle ? null : (filiere.scores?.bac_let || score_derniere_annee?.bac_let || filiere.scores?.bac_lettres || score_derniere_annee?.bac_lettres),
-        bac_sport: isNouvelle ? null : (filiere.scores?.bac_sport || score_derniere_annee?.bac_sport),
+        bac_math: resolveScore('bac_math', filiereScores, score_derniere_annee, isNouvelle),
+        bac_sc: resolveScore('bac_sc', filiereScores, score_derniere_annee, isNouvelle),
+        bac_info: resolveScore('bac_info', filiereScores, score_derniere_annee, isNouvelle),
+        bac_tech: resolveScore('bac_tech', filiereScores, score_derniere_annee, isNouvelle),
+        bac_eco: resolveScore('bac_eco', filiereScores, score_derniere_annee, isNouvelle),
+        bac_lettres: resolveScore('bac_lettres', filiereScores, score_derniere_annee, isNouvelle),
+        bac_let: resolveScore('bac_let', filiereScores, score_derniere_annee, isNouvelle),
+        bac_sport: resolveScore('bac_sport', filiereScores, score_derniere_annee, isNouvelle),
         concours: isPrepa,
         isNouvelle: isNouvelle,
         debouches: filiere.debouches || debouches || []
@@ -61,12 +97,16 @@ export default function PresentationFiliere({ faculte }) {
       nom: filiereName,
       duree: regimes_etudes ? regimes_etudes.split(' pour ')[0] || "N/A" : "N/A",
       description: `Formation de spécialité de premier plan en ${filiereName} dispensée à ${faculte?.nom_court || 'cet établissement'}.`,
-      bac_math: score_derniere_annee?.bac_math,
-      bac_sc: score_derniere_annee?.bac_sc,
-      bac_info: score_derniere_annee?.bac_info,
-      bac_tech: score_derniere_annee?.bac_tech,
-      bac_eco: score_derniere_annee?.bac_eco,
+      bac_math: resolveScore('bac_math', undefined, score_derniere_annee, isNouvelle),
+      bac_sc: resolveScore('bac_sc', undefined, score_derniere_annee, isNouvelle),
+      bac_info: resolveScore('bac_info', undefined, score_derniere_annee, isNouvelle),
+      bac_tech: resolveScore('bac_tech', undefined, score_derniere_annee, isNouvelle),
+      bac_eco: resolveScore('bac_eco', undefined, score_derniere_annee, isNouvelle),
+      bac_lettres: resolveScore('bac_lettres', undefined, score_derniere_annee, isNouvelle),
+      bac_let: resolveScore('bac_let', undefined, score_derniere_annee, isNouvelle),
+      bac_sport: resolveScore('bac_sport', undefined, score_derniere_annee, isNouvelle),
       concours: isPrepa,
+      isNouvelle: isNouvelle,
       debouches: debouches || []
     };
   });
@@ -138,9 +178,16 @@ export default function PresentationFiliere({ faculte }) {
                 🎓
               </div>
               <div className="space-y-0.5">
-                <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
-                  Cursus de {activeSpecialty.duree}
-                </span>
+                <div className="flex flex-wrap gap-1.5 items-center">
+                  <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                    Cursus de {activeSpecialty.duree}
+                  </span>
+                  {activeSpecialty.isNouvelle && (
+                    <span className="bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                      ✨ Nouvelle filière
+                    </span>
+                  )}
+                </div>
                 <h3 className="text-base md:text-lg font-black text-[#1b1464] tracking-tight">
                   {activeSpecialty.nom}
                 </h3>
@@ -158,7 +205,7 @@ export default function PresentationFiliere({ faculte }) {
               </div>
 
               {/* Admission / Scores */}
-              {(activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
+              {(activeSpecialty.isNouvelle || activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
                 <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-gray-100/50">
                   <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
                   <div className="flex flex-wrap gap-2 mt-1">

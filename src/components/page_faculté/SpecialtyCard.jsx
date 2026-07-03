@@ -7,9 +7,16 @@ export default function SpecialtyCard({ spec, onClick }) {
       {/* En-tête : Nom + Durée avec alignement propre et gestion du wrap */}
       <div className="flex flex-col gap-2.5">
         <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2.5">
-          <h4 className="font-black text-xs md:text-sm text-[#1b1464] leading-snug break-words max-w-full">
-            {spec.nom}
-          </h4>
+          <div className="flex flex-col gap-1 max-w-full">
+            {spec.isNouvelle && (
+              <span className="self-start bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider mb-0.5">
+                ✨ Nouvelle filière
+              </span>
+            )}
+            <h4 className="font-black text-xs md:text-sm text-[#1b1464] leading-snug break-words max-w-full">
+              {spec.nom}
+            </h4>
+          </div>
           <span className="shrink-0 bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] md:text-[10px] font-black px-2.5 py-1 rounded-full text-center leading-normal block sm:inline-block max-w-full break-words">
             {spec.duree}
           </span>
@@ -24,7 +31,7 @@ export default function SpecialtyCard({ spec, onClick }) {
       {/* Pied de la mini-carte : Score & Débouchés */}
       <div className="space-y-3 pt-3 border-t border-gray-100/60 mt-auto">
         {/* Scores minimums ou Concours */}
-        {(spec.bac_math || spec.bac_sc || spec.bac_info || spec.bac_tech || spec.bac_eco || spec.bac_lettres || spec.bac_let || spec.bac_sport) ? (
+        {(spec.isNouvelle || spec.bac_math || spec.bac_sc || spec.bac_info || spec.bac_tech || spec.bac_eco || spec.bac_lettres || spec.bac_let || spec.bac_sport) ? (
           <div className="flex flex-col gap-1">
             <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider">Seuils requis :</span>
             <div className="flex flex-wrap gap-1">

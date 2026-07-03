@@ -15,7 +15,7 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
   // Extraction dynamique des villes (régions) uniques
   const regions = useMemo(() => {
     const list = new Set(facultesData.map(fac => fac.ville).filter(Boolean));
-    return ["Toutes", ...Array.from(list).sort()];
+    return ["Toutes", "Grand Tunis", ...Array.from(list).sort()];
   }, []);
 
   // Extraction dynamique des catégories de disciplines
@@ -33,8 +33,15 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
   const filteredResults = useMemo(() => {
     return facultesData.filter(fac => {
       // 1. Filtre par Région / Ville
-      if (selectedRegion !== "Toutes" && fac.ville !== selectedRegion) {
-        return false;
+      if (selectedRegion !== "Toutes") {
+        if (selectedRegion === "Grand Tunis") {
+          const grandTunisVilles = ["Tunis", "Ariana", "Manouba", "Ben Arous"];
+          if (!grandTunisVilles.includes(fac.ville)) {
+            return false;
+          }
+        } else if (fac.ville !== selectedRegion) {
+          return false;
+        }
       }
 
       // 2. Filtre par Catégorie discipline
@@ -88,8 +95,55 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
   }, [searchQuery, selectedRegion, selectedCategory, selectedScoreType, minScore]);
 
   // Handler d'ouverture pour le deep-dive poussé d'une spécialité
+  const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
+    if (filiereScores !== undefined) {
+      if (filiereScores && key in filiereScores) {
+        const val = filiereScores[key];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      if (key === 'bac_lettres' && filiereScores && 'bac_let' in filiereScores) {
+        const val = filiereScores['bac_let'];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      if (key === 'bac_let' && filiereScores && 'bac_lettres' in filiereScores) {
+        const val = filiereScores['bac_lettres'];
+        return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+      }
+      return null;
+    }
+    if (facScores && key in facScores) {
+      const val = facScores[key];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    if (key === 'bac_lettres' && facScores && 'bac_let' in facScores) {
+      const val = facScores['bac_let'];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    if (key === 'bac_let' && facScores && 'bac_lettres' in facScores) {
+      const val = facScores['bac_lettres'];
+      return (val === null || val === undefined || val === 0 || val === "") ? "-" : val;
+    }
+    return null;
+  };
+
+  // Handler d'ouverture pour le deep-dive poussé d'une spécialité
   const handleOpenSpecialty = (filiere, fac) => {
-    if (typeof filiere === 'object' && filiere !== null) {
+    const isObject = typeof filiere === 'object' && filiere !== null;
+    const filiereScores = isObject ? filiere.scores : undefined;
+    const facScores = fac.score_derniere_annee;
+    
+    const hasScoresDefined = filiereScores !== undefined;
+    const allScoresNull = hasScoresDefined
+      ? (!filiereScores ||
+         Object.keys(filiereScores).length === 0 ||
+         Object.values(filiereScores).every(val => val === null || val === 0 || val === "" || val === undefined))
+      : (!facScores ||
+         Object.keys(facScores).length === 0 ||
+         Object.values(facScores).every(val => val === null || val === 0 || val === "" || val === undefined));
+    
+    const isNouvelle = allScoresNull;
+
+    if (isObject) {
       const isPrepa = filiere.concours || 
                       fac?.categories?.includes("Préparatoire") || 
                       fac?.nom_court?.toLowerCase().includes("ipei") ||
@@ -100,12 +154,16 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
         nom: filiere.nom || "Spécialité",
         duree: filiere.duree || (fac.regimes_etudes ? fac.regimes_etudes.split(' pour ')[0] || "N/A" : "N/A"),
         description: filiere.description || `Formation de spécialité de premier plan dispensée à ${fac.nom_court}.`,
-        bac_math: filiere.scores?.bac_math || fac.score_derniere_annee?.bac_math,
-        bac_sc: filiere.scores?.bac_sc || fac.score_derniere_annee?.bac_sc,
-        bac_info: filiere.scores?.bac_info || fac.score_derniere_annee?.bac_info,
-        bac_tech: filiere.scores?.bac_tech || fac.score_derniere_annee?.bac_tech,
-        bac_eco: filiere.scores?.bac_eco || fac.score_derniere_annee?.bac_eco,
+        bac_math: resolveScore('bac_math', filiereScores, facScores, isNouvelle),
+        bac_sc: resolveScore('bac_sc', filiereScores, facScores, isNouvelle),
+        bac_info: resolveScore('bac_info', filiereScores, facScores, isNouvelle),
+        bac_tech: resolveScore('bac_tech', filiereScores, facScores, isNouvelle),
+        bac_eco: resolveScore('bac_eco', filiereScores, facScores, isNouvelle),
+        bac_lettres: resolveScore('bac_lettres', filiereScores, facScores, isNouvelle),
+        bac_let: resolveScore('bac_let', filiereScores, facScores, isNouvelle),
+        bac_sport: resolveScore('bac_sport', filiereScores, facScores, isNouvelle),
         concours: isPrepa,
+        isNouvelle: isNouvelle,
         debouches: filiere.debouches || fac.debouches || [],
         facName: fac.nom_complet,
         facLogo: fac.logo,
@@ -124,12 +182,16 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
       nom: filiereName,
       duree: fac.regimes_etudes ? fac.regimes_etudes.split(' pour ')[0] || "N/A" : "N/A",
       description: `Formation de spécialité de premier plan en ${filiereName} dispensée à ${fac.nom_court}.`,
-      bac_math: fac.score_derniere_annee?.bac_math,
-      bac_sc: fac.score_derniere_annee?.bac_sc,
-      bac_info: fac.score_derniere_annee?.bac_info,
-      bac_tech: fac.score_derniere_annee?.bac_tech,
-      bac_eco: fac.score_derniere_annee?.bac_eco,
+      bac_math: resolveScore('bac_math', undefined, facScores, isNouvelle),
+      bac_sc: resolveScore('bac_sc', undefined, facScores, isNouvelle),
+      bac_info: resolveScore('bac_info', undefined, facScores, isNouvelle),
+      bac_tech: resolveScore('bac_tech', undefined, facScores, isNouvelle),
+      bac_eco: resolveScore('bac_eco', undefined, facScores, isNouvelle),
+      bac_lettres: resolveScore('bac_lettres', undefined, facScores, isNouvelle),
+      bac_let: resolveScore('bac_let', undefined, facScores, isNouvelle),
+      bac_sport: resolveScore('bac_sport', undefined, facScores, isNouvelle),
       concours: isPrepa,
+      isNouvelle: isNouvelle,
       debouches: fac.debouches || [],
       facName: fac.nom_complet,
       facLogo: fac.logo,
@@ -380,9 +442,16 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
                 <img src={activeSpecialty.facLogo} alt={activeSpecialty.facName} className="w-full h-full object-contain" />
               </div>
               <div className="space-y-0.5">
-                <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
-                  🎓 Spécialité • {activeSpecialty.duree}
-                </span>
+                <div className="flex flex-wrap gap-1.5 items-center">
+                  <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                    🎓 Spécialité • {activeSpecialty.duree}
+                  </span>
+                  {activeSpecialty.isNouvelle && (
+                    <span className="bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                      ✨ Nouvelle filière
+                    </span>
+                  )}
+                </div>
                 <h3 className="text-base md:text-lg font-black text-[#1b1464] tracking-tight">
                   {activeSpecialty.nom}
                 </h3>
@@ -400,7 +469,7 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
               </div>
 
               {/* Admission / Scores */}
-              {(activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
+              {(activeSpecialty.isNouvelle || activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
                 <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-gray-100/50">
                   <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
                   <div className="flex flex-wrap gap-2 mt-1">
