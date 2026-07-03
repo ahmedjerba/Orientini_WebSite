@@ -4017,25 +4017,42 @@
     "filieres_phares": [
       {
         "id": "fseg_mahdia_f1",
-        "nom": "Licence Fondamentale en Économie / Gestion",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Tronc commun en sciences économiques et de gestion.",
-        "scores": {},
+        "description": "Licence en Sciences de Gestion dispensée par FSEG Mahdia",
+        "scores": {
+          "bac_math": 96.69,
+          "bac_sc": 122.82,
+          "bac_eco": 116.89,
+          "bac_info": 111.75,
+          "bac_tech": 137.86
+        },
         "debouches": [
           "Cadre en entreprise",
           "Poursuite en Mastère",
-          "Concours administratifs"
+          "Concours administratifs",
+          "Ressources humaines",
+          "Cadre en entreprise (finance, marketing, commerce)"
         ]
       },
       {
         "id": "fseg_mahdia_f2",
-        "nom": "Licence Appliquée en Comptabilité / Finance",
+        "nom": "Licence en Informatique de Gestion",
         "duree": "3 ans",
-        "description": "Filière professionnalisante en comptabilité, finance ou gestion.",
-        "scores": {},
+        "description": "Licence en Informatique de Gestion, l'une des filières les plus demandées à FSEG Mahdia",
+        "scores": {
+          "bac_math": 102.7,
+          "bac_sc": 126.15,
+          "bac_tech": 142.39,
+          "bac_info": 125.32,
+          "bac_eco": 133.29
+        },
         "debouches": [
-          "Comptable / Contrôleur de gestion",
-          "Analyste financier"
+          "Consultant / Analyste BI",
+          "Product Owner / Manager e-Business",
+          "Assistant Chef de Projet IT / Business Analyst",
+          "Consultant en stratégie et organisation",
+          "Entrepreneur / Gestionnaire de structure privée"
         ]
       },
       {
@@ -4089,35 +4106,19 @@
         "nom": "Licence en Psychologie",
         "duree": "3 ans",
         "description": "Formation fondamentale en psychologie.",
-        "scores": {},
+        "scores": {
+          "bac_lettres": 123.99,
+          "bac_math": 159.32,
+          "bac_sciences": 127.17,
+          "bac_eco": 122.28,
+          "bac_tech": 126.17,
+          "bac_info": 130.54,
+          "bac_sport": 187.58
+        },
         "debouches": [
           "Psychologue (après spécialisation)",
           "Ressources humaines",
           "Enseignement"
-        ]
-      },
-      {
-        "id": "fshst_tunis_f2",
-        "nom": "Licence en Histoire / Géographie",
-        "duree": "3 ans",
-        "description": "Formation en sciences humaines classiques.",
-        "scores": {},
-        "debouches": [
-          "Enseignement",
-          "Recherche",
-          "Patrimoine et tourisme culturel"
-        ]
-      },
-      {
-        "id": "fshst_tunis_f3",
-        "nom": "Licence en Langue, Littérature et Civilisation (Arabe / Français / Anglais)",
-        "duree": "3 ans",
-        "description": "Filières de langues et littératures.",
-        "scores": {},
-        "debouches": [
-          "Enseignement des langues",
-          "Traduction",
-          "Médias et communication"
         ]
       },
       {
@@ -4148,7 +4149,8 @@
           "bac_sc": 124.25,
           "bac_tech": 127.63,
           "bac_eco": 81.2,
-          "bac_lettres": 104.79
+          "bac_lettres": 104.79,
+          "bac_sport": 147.63
         },
         "debouches": [
           "Enseignement de l'anglais",
@@ -4167,7 +4169,9 @@
           "bac_sc": 122.05,
           "bac_tech": 100.77,
           "bac_eco": 82.26,
-          "bac_lettres": 68.22
+          "bac_lettres": 68.22,
+          "bac_math": null,
+          "bac_sport": 113.65
         },
         "debouches": [
           "Enseignement du français",
@@ -4186,7 +4190,8 @@
           "bac_sc": 98.92,
           "bac_tech": 125.65,
           "bac_eco": 86.02,
-          "bac_lettres": 109.86
+          "bac_lettres": 109.86,
+          "bac_info": null
         },
         "debouches": [
           "Chargé d'études sociales",
@@ -4205,7 +4210,9 @@
           "bac_sc": 94.67,
           "bac_tech": 88.14,
           "bac_eco": 81.45,
-          "bac_lettres": 95.36
+          "bac_lettres": 95.36,
+          "bac_math": null,
+          "bac_sport": 114.95
         },
         "debouches": [
           "Enseignement de la philosophie",
@@ -4224,7 +4231,9 @@
           "bac_sc": 110.07,
           "bac_tech": 105.19,
           "bac_eco": 78.95,
-          "bac_lettres": 88.17
+          "bac_lettres": 88.17,
+          "bac_math": null,
+          "bac_sport": null
         },
         "debouches": [
           "Enseignement de l'histoire",
@@ -4242,7 +4251,9 @@
           "bac_sc": 103.77,
           "bac_tech": 88.66,
           "bac_eco": 79.52,
-          "bac_lettres": 91.94
+          "bac_lettres": 91.94,
+          "bac_math": null,
+          "bac_sport": null
         },
         "debouches": [
           "Aménagement du territoire",
@@ -4259,7 +4270,8 @@
         "scores": {
           "bac_info": 78.23,
           "bac_sc": 89.02,
-          "bac_tech": 72.33
+          "bac_tech": 72.33,
+          "bac_math": null
         },
         "debouches": [
           "Technicien SIG",
@@ -4299,24 +4311,21 @@
     "filieres_phares": [
       {
         "id": "fsm_monastir_f1",
-        "nom": "Licence Fondamentale en Sciences de l'Informatique",
+        "nom": "Licence  en Sciences de l'Informatique",
         "duree": "3 ans",
         "description": "Formation en informatique fondamentale.",
-        "scores": {},
+        "scores": {
+          "bac_math": 122,
+          "bac_sciences": 134.83,
+          "bac_tech": 152.37,
+          "bac_info": 148.99
+        },
         "debouches": [
           "Développeur",
-          "Poursuite en Mastère/Ingénieur"
-        ]
-      },
-      {
-        "id": "fsm_monastir_f2",
-        "nom": "Licence en Mathématiques / Physique / Chimie",
-        "duree": "3 ans",
-        "description": "Formations scientifiques fondamentales.",
-        "scores": {},
-        "debouches": [
-          "Enseignement scientifique",
-          "Recherche"
+          "Poursuite en Mastère/Ingénieur",
+          "Data Analyst / Scientist",
+          "Spécialiste en Big Data",
+          "Administrateur Systèmes, Réseaux et Cloud"
         ]
       },
       {
@@ -4352,7 +4361,8 @@
         "description": "Formation en physique et chimie dispensée à Monastir. Débouche sur l'enseignement et les métiers de laboratoire.",
         "scores": {
           "bac_math": 107.41,
-          "bac_sc": 89.51
+          "bac_sc": 89.51,
+          "bac_tech": 101.74
         },
         "debouches": [
           "Enseignant",
@@ -4371,14 +4381,15 @@
         },
         "debouches": [
           "Physicien",
-          "Enseignant"
+          "Enseignant",
+          "Technicien de Laboratoire"
         ]
       },
       {
-        "id": "fsm_monastir_licence_en_sciences_des_donnees",
-        "nom": "Licence en Sciences des Données",
+        "id": "fsm_monastir_licence_en_maths_appliques",
+        "nom": "Licence en Mathématiques Appliquées",
         "duree": "3 ans",
-        "description": "Formation en analyse et traitement des données massives dispensée à Monastir. Prépare aux métiers de la data science.",
+        "description": "Formation en mathématiques appliquées dispensée à Monastir. Prépare aux métiers du développement et de l'analyse de données.",
         "scores": {
           "bac_math": 96.19,
           "bac_sc": 105.79,
@@ -4387,7 +4398,9 @@
         },
         "debouches": [
           "Data scientist",
-          "Analyste de données"
+          "Analyste de données",
+          "Business Analyst / Data Analyst",
+          "Statisticien"
         ]
       },
       {
@@ -4403,22 +4416,27 @@
         },
         "debouches": [
           "Enseignant",
-          "Actuaire"
+          "Actuaire",
+          "Statisticien",
+          "Mathématicien"
         ]
       },
       {
-        "id": "fsm_monastir_licence_en_systemes_embarques",
-        "nom": "Licence en Systèmes Embarqués",
+        "id": "fsm_monastir_licence_en_electrtotech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
         "duree": "3 ans",
-        "description": "Formation en physique appliquée aux systèmes numériques dispensée à Monastir. Débouche sur les métiers de l'électronique embarquée.",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée à Monastir.",
         "scores": {
-          "bac_sc": 92.4,
-          "bac_tech": 81.23,
-          "bac_info": 87.21
+          "bac_sc": 98.83,
+          "bac_tech": 107.79,
+          "bac_info": 120.58,
+          "bac_math": 97.77
         },
         "debouches": [
           "Ingénieur systèmes embarqués",
-          "Technicien électronique"
+          "Technicien électronique",
+          "Technicien en instrumentation et maintenance",
+          "Automaticien"
         ]
       },
       {
@@ -4432,9 +4450,8 @@
           "bac_info": 150.73
         },
         "debouches": [
-          "Accès sur concours aux écoles nationales d'ingénieurs",
-          "Ingénieur généraliste",
-          "Poursuite en master scientifique",
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en études scientifique",
           "Recherche appliquée"
         ]
       }
@@ -4468,46 +4485,37 @@
     "regimes_etudes": "Licences Fondamentales et Appliquées (3 ans), Cycle d'Ingénieur, Mastères, Doctorat",
     "filieres_phares": [
       {
-        "id": "fss_sfax_f1",
-        "nom": "Licence Fondamentale en Sciences de l'Informatique",
-        "duree": "3 ans",
-        "description": "Formation en informatique fondamentale.",
-        "scores": {},
-        "debouches": [
-          "Développeur",
-          "Poursuite en Mastère/Ingénieur"
-        ]
-      },
-      {
-        "id": "fss_sfax_f2",
-        "nom": "Licence en Mathématiques / Physique / Chimie / Biologie",
-        "duree": "3 ans",
-        "description": "Formations scientifiques fondamentales.",
-        "scores": {},
-        "debouches": [
-          "Enseignement scientifique",
-          "Recherche"
-        ]
-      },
-      {
-        "id": "fss_sfax_f3",
-        "nom": "Cycle d'Ingénieur en Informatique",
-        "duree": "2 ans (après cycle préparatoire)",
-        "description": "Formation d'ingénieurs.",
-        "scores": {},
-        "debouches": [
-          "Ingénieur informatique"
-        ]
-      },
-      {
         "id": "fss_sfax_licence_en_geomatique_appliquee",
         "nom": "Licence en Géomatique Appliquée",
         "duree": "3 ans",
         "description": "Formation en géomatique appliquée à la topographie, dispensée à Sfax. Prépare aux métiers de l'aménagement urbain et de la cartographie.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
           "Géomaticien",
           "Topographe"
+        ]
+      },
+      {
+        "id": "fsm_monastir_licence_en_electrtotech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "description": "Licence en Électronique, Électrotechnique et Automatique dispensée à Monastir.",
+        "scores": {
+          "bac_sc": 89.58,
+          "bac_tech": 101.06,
+          "bac_info": 115.66,
+          "bac_math": 106.33
+        },
+        "debouches": [
+          "Spécialiste en  Systèmes Embarqués et IoT",
+          "Technicien électronique",
+          "Technicien en instrumentation et maintenance",
+          "Automaticien"
         ]
       },
       {
@@ -4522,7 +4530,7 @@
         },
         "debouches": [
           "Chimiste",
-          "Ingénieur cosmétique"
+          "Technicien de Laboratoire Chimique / Contrôle Qualité"
         ]
       },
       {
@@ -4532,11 +4540,13 @@
         "description": "Formation en physique et chimie dispensée à Sfax. Prépare à l'enseignement et à la recherche.",
         "scores": {
           "bac_sc": 76.43,
-          "bac_tech": 96.77
+          "bac_tech": 96.77,
+          "bac_math": null
         },
         "debouches": [
           "Enseignant",
-          "Chercheur"
+          "Chercheur",
+          "Chimiste analyste"
         ]
       },
       {
@@ -4546,7 +4556,8 @@
         "description": "Formation en physique dispensée à Sfax. Prépare à l'enseignement et aux métiers scientifiques.",
         "scores": {
           "bac_sc": 81.85,
-          "bac_tech": 89.7
+          "bac_tech": 89.7,
+          "bac_math": null
         },
         "debouches": [
           "Physicien",
@@ -4564,15 +4575,16 @@
           "bac_tech": 91.4
         },
         "debouches": [
-          "Ingénieur énergie",
-          "Technicien"
+          "Technicien énergie",
+          "Technicien",
+          "Technicien en maintenance d'installations photovoltaïques"
         ]
       },
       {
-        "id": "fss_sfax_licence_en_sciences_des_donnees",
-        "nom": "Licence en Sciences des Données",
+        "id": "fss_sfax_licence_en_maths_appliquées",
+        "nom": "Licence en Mathématiques Appliquées",
         "duree": "3 ans",
-        "description": "Formation en science des données dispensée à Sfax. Débouche sur l'analyse et le traitement de données.",
+        "description": "Formation en mathématiques appliquées dispensée à Sfax. Prépare aux métiers du développement et de l'analyse de données.",
         "scores": {
           "bac_math": 102.38,
           "bac_sc": 90.39,
@@ -4581,7 +4593,8 @@
         },
         "debouches": [
           "Data scientist",
-          "Analyste de données"
+          "Analyste de données",
+          "Actuaire"
         ]
       },
       {
@@ -4597,7 +4610,8 @@
         },
         "debouches": [
           "Enseignant",
-          "Actuaire"
+          "Actuaire",
+          "Statisticien"
         ]
       },
       {
@@ -4605,19 +4619,23 @@
         "nom": "Licence en Chimie-Biologie",
         "duree": "3 ans",
         "description": "Formation interdisciplinaire en chimie et biologie dispensée à Sfax. Prépare aux métiers de la recherche et de l'analyse biochimique.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        },
         "debouches": [
           "Biochimiste",
           "Technicien de laboratoire"
         ]
       },
       {
-        "id": "fss_sfax_licence_en_biologie_cellulaire",
-        "nom": "Licence en Biologie Cellulaire",
+        "id": "fss_sfax_licence_en_scienses_vie",
+        "nom": "Licence en Sciences de la Vie",
         "duree": "3 ans",
-        "description": "Formation en biologie cellulaire dispensée à Sfax. Débouche sur les métiers de laboratoire et de recherche.",
+        "description": "Formation en Sciences de la Vie dispensée à Sfax. Débouche sur les métiers de laboratoire et de recherche.",
         "scores": {
-          "bac_sc": 103.44
+          "bac_sc": 103.44,
+          "bac_math": null
         },
         "debouches": [
           "Technicien de laboratoire",
@@ -4630,7 +4648,9 @@
         "duree": "3 ans",
         "description": "Formation en géologie dispensée à Sfax, orientée aménagement du territoire. Débouche sur les métiers de la géologie appliquée.",
         "scores": {
-          "bac_tech": 88.39
+          "bac_tech": 88.39,
+          "bac_sc": 80,
+          "bac_math": null
         },
         "debouches": [
           "Géologue",
@@ -4638,8 +4658,8 @@
         ]
       },
       {
-        "id": "fss_sfax_licence_en_systemes_numeriques",
-        "nom": "Licence en Systèmes Numériques",
+        "id": "fss_sfax_licence_en_informatique",
+        "nom": "Licence en Sciences de l'Informatique",
         "duree": "3 ans",
         "description": "Formation en informatique et systèmes numériques dispensée à Sfax. Débouche sur les métiers du développement logiciel.",
         "scores": {
@@ -4650,14 +4670,15 @@
         },
         "debouches": [
           "Développeur",
-          "Administrateur systèmes"
+          "Administrateur systèmes",
+          "Architecte IoT / Objets Connectés"
         ]
       },
       {
-        "id": "fss_sfax_licence_en_reseaux_et_securite",
-        "nom": "Licence en Réseaux et Sécurité",
+        "id": "fss_sfax_licence_en_systeme_info",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
         "duree": "3 ans",
-        "description": "Formation en réseaux informatiques et cybersécurité dispensée à Sfax. Prépare aux métiers de l'administration de systèmes.",
+        "description": "Formation en Ingénieurie des Systèmes Informatiques dispensée à Sfax. Prépare aux métiers de l'administration de systèmes.",
         "scores": {
           "bac_math": 108.6,
           "bac_sc": 122,
@@ -4666,7 +4687,8 @@
         },
         "debouches": [
           "Administrateur réseaux",
-          "Ingénieur sécurité"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "IT Consultant "
         ]
       },
       {
@@ -4674,7 +4696,10 @@
         "nom": "Licence en Technologies Modernes des Sciences de la Vie",
         "duree": "3 ans",
         "description": "Formation biotechnologique moderne dispensée à Sfax. Débouche sur les métiers de la recherche en sciences de la vie.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        },
         "debouches": [
           "Chercheur",
           "Technicien biotech"
@@ -4685,10 +4710,16 @@
         "nom": "Licence en Sciences des Technologies de l'Information",
         "duree": "3 ans",
         "description": "Formation en informatique et télécommunications dispensée à Sfax. Débouche sur les métiers des réseaux et systèmes.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
           "Ingénieur réseaux",
-          "Développeur"
+          "Développeur",
+          "Développeur Full-Stack / Mobile Senior"
         ]
       },
       {
@@ -4774,14 +4805,105 @@
     "filieres_phares": [
       {
         "id": "isam_gabes_f1",
-        "nom": "Licence Appliquée en Design / Arts Appliqués",
+        "nom": "Licence en Conservation et Restauration du Patrimoine Culturel ",
         "duree": "3 ans",
-        "description": "Filière principale dispensée par l'ISAM Gabès.",
-        "scores": {},
+        "description": "Licence en Conservation et Restauration du Patrimoine Culturel dispensée par ISAM Gabès.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_lettres": 91,
+          "bac_eco": 76.16,
+          "bac_tech": 164.08,
+          "bac_info": null,
+          "bac_sport": null
+        },
         "debouches": [
-          "Designer",
-          "Artisan d'art",
-          "Poursuite en Mastère"
+          "Conservation du patrimoine architectural",
+          "Restauration d'œuvres d'art",
+          "Restaurateur de biens culturels",
+          "Documentaliste ou archiviste spécialisé"
+        ]
+      },
+      {
+        "id": "isam_gabes_f2",
+        "nom": "Licence en Musique et Sciences Musicales ",
+        "duree": "3 ans",
+        "description": "Licence en Musique dispensée par ISAM Gabès.",
+        "scores": {
+          "bac_math": 103.11,
+          "bac_sc": 105.74,
+          "bac_lettres": 85.55,
+          "bac_eco": 121.91,
+          "bac_tech": null,
+          "bac_info": null,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Musicien",
+          "Enseignant en Musique",
+          "Directeur D'Orchestre"
+        ]
+      },
+      {
+        "id": "isam_gabes_f3",
+        "nom": "Licence en Arts Plastiques",
+        "duree": "3 ans",
+        "description": "Licence en Arts Plastiques dispensée par ISAM Gabès.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 104.37,
+          "bac_lettres": 93.34,
+          "bac_eco": 77,
+          "bac_tech": 84.47,
+          "bac_info": null,
+          "bac_sport": 107.66
+        },
+        "debouches": [
+          "Arts Plastiques",
+          "Artiste plasticien / Designer",
+          "Expert en Sculpture",
+          "Enseignant en Arts Plastiques"
+        ]
+      },
+      {
+        "id": "isam_gabes_f4",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "description": "Licence en Design de L'Espace dispensée par ISAM Gabès.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 122.58,
+          "bac_lettres": 120.35,
+          "bac_eco": 93.71,
+          "bac_tech": 86.77,
+          "bac_info": 82.83,
+          "bac_sport": 122.86
+        },
+        "debouches": [
+          "Artiste plasticien / Designer",
+          "Designer / Artisan d'art",
+          "Architecte d'intérieur"
+        ]
+      },
+      {
+        "id": "isam_gabes_f4",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "description": "Licence en Arts  dispensée par ISAM Gabès.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_lettres": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null,
+        },
+        "debouches": [
+          "Artiste plasticien / Designer",
+          "Designer / Artisan d'art",
+          "Architecte d'intérieur",
+          "UI/Ux",
+          "Réalisateur / Monteur"
         ]
       }
     ],
@@ -4817,22 +4939,35 @@
     "filieres_phares": [
       {
         "id": "isamm_manouba_f1",
-        "nom": "Licence en Arts et Technologies des Images de Synthèse",
+        "nom": "Licence en Informatique",
         "duree": "3 ans",
-        "description": "Formation en animation 3D et effets visuels.",
-        "scores": {},
+        "description": "Formation en aInformatique dispensée par ISAMM",
+        "scores": {
+          "bac_math": 126.08,
+          "bac_sc": 149.18,
+          "bac_tech": 161.63,
+          "bac_info": 173.28
+        },
         "debouches": [
-          "Infographiste 3D",
-          "Animateur",
-          "Motion designer"
+          "Data Analyst / Scientist",
+          "Développeur Full-Stack / Lead Tech",
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Spécialiste en Big Data"
         ]
       },
       {
         "id": "isamm_manouba_f2",
         "nom": "Licence en Cinéma et Audiovisuel",
         "duree": "3 ans",
-        "description": "Formation en réalisation et production audiovisuelle.",
-        "scores": {},
+        "description": "Formation en réalisation et production audiovisuelle.Nécessite un examen",
+        "scores": {
+          "bac_math": 113.07,
+          "bac_lettres": 104.17,
+          "bac_sc": 108.46,
+          "bac_eco": 99.53,
+          "bac_info": 97.56,
+          "bac_tech": 84.15
+        },
         "debouches": [
           "Réalisateur / Monteur",
           "Producteur audiovisuel"
@@ -4840,12 +4975,19 @@
       },
       {
         "id": "isamm_manouba_f3",
-        "nom": "Licence en Informatique Multimédia",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
         "duree": "3 ans",
-        "description": "Formation en développement multimédia et jeux vidéo.",
-        "scores": {},
+        "description": "Formation en Ingénieurie des Systèmes Informatiques dispensée à Manouba. Prépare aux métiers de l'administration de systèmes.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
-          "Développeur multimédia / jeux vidéo"
+          "Administrateur Réseaux et Systèmes / Cloud",
+          "Architecte IoT / Objets Connectés",
+          "Spécialiste en  Systèmes Embarqués et IoT"
         ]
       },
       {
@@ -4873,7 +5015,12 @@
         "nom": "Cycle préparatoire intégré en Mathématiques, Physique, Informatique (MPI)",
         "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Cycle préparatoire intégré menant à un diplôme national d'ingénieur en sciences appliquées et technologie, axé sur le multimédia. L'institut est rattaché à l'Université de la Manouba.",
-        "scores": {},
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
           "Ingénieur multimédia",
           "Ingénieur en développement de jeux vidéo",
@@ -4913,29 +5060,33 @@
     "regimes_etudes": "Licences Appliquées (3 ans), Mastères, Doctorat en Sciences Biologiques et Biotechnologie",
     "filieres_phares": [
       {
-        "id": "isbm_monastir_f1",
-        "nom": "Licence Appliquée en Biotechnologie",
-        "duree": "3 ans",
-        "description": "Formation en biotechnologie appliquée.",
-        "scores": {},
-        "debouches": [
-          "Technicien/Ingénieur en biotechnologie",
-          "Laboratoire de recherche"
-        ]
-      },
-      {
         "id": "isbm_monastir_licence_en_biotechnologie",
         "nom": "Licence en Biotechnologie",
         "duree": "3 ans",
         "description": "Formation en biotechnologie appliquée dispensée à Monastir. Prépare aux métiers de la recherche et de l'industrie biotechnologique.",
         "scores": {
-          "bac_math": 112.84,
-          "bac_sc": 113.32
+          "bac_math": 110.14,
+          "bac_sc": 114.44
         },
         "debouches": [
           "Biotechnologue",
           "Chercheur",
           "Technicien biotech"
+        ]
+      },
+      {
+        "id": "isbm_monastir_licence_en_vivant",
+        "nom": "Licence en Sciences de la Vie et de l'Environnement",
+        "duree": "3 ans",
+        "description": "Formation en Sciences de la Vie et de l'Environnement  dispensée à Monastir.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        },
+        "debouches": [
+          "Économie Bleue",
+          "Chercheur",
+          "Technicien en Environnement"
         ]
       }
     ],
@@ -4969,19 +5120,42 @@
     "filieres_phares": [
       {
         "id": "iseahz_zaghouan_f1",
-        "nom": "Licence Appliquée en Humanités (Langues / Communication)",
+        "nom": "Licence en Éducation et Enseignement",
         "duree": "3 ans",
         "description": "Filière principale dispensée par l'ISEAHZ.",
-        "scores": {},
+        "scores": {
+          "bac_math": 130.98,
+          "bac_lettres": 128.96,
+          "bac_sc": 151.42,
+          "bac_tech": 150.71,
+          "bac_info": 151.35,
+          "bac_eco": 156.88
+        },
         "debouches": [
-          "Communication",
           "Enseignement",
-          "Médiation culturelle"
+          "Enseignant du primaire"
+        ]
+      },
+      {
+        "id": "iseahz_zaghouan_f2",
+        "nom": "Licence en Ingénieurie Pédagogique et Techniques Modernes",
+        "duree": "3 ans",
+        "description": "Filière dispensée par l'ISEAHZ en Pédagogie",
+        "scores": {
+          "bac_math": null,
+          "bac_lettres": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null,
+          "bac_eco": null
+        },
+        "debouches": [
+          "Formateur pédagogique",
+          "Pédagogue"
         ]
       }
     ],
     "debouches": [
-      "Communication et médiation culturelle",
       "Enseignement",
       "Poursuite d'études en Mastère"
     ],
@@ -5012,10 +5186,16 @@
     "filieres_phares": [
       {
         "id": "iset_bizerte_f1",
-        "nom": "Licence Appliquée en Génie Informatique",
+        "nom": "Licence en Sciences de Gestion",
         "duree": "3 ans",
-        "description": "Formation technologique en informatique.",
-        "scores": {},
+        "description": "Formation en Sciences de Gestion",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null
+        },
         "debouches": [
           "Développeur / Technicien informatique"
         ]
