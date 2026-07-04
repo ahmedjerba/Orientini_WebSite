@@ -3,6 +3,19 @@ import { useState } from 'react';
 export default function Navbar({ onHomeClick, onSearchClick }) {
   // State pour ouvrir/fermer le menu burger sur mobile
   const [isOpen, setIsOpen] = useState(false);
+  // State pour afficher le tooltip JID sur mobile lors du premier clic
+  const [showMobileTooltip, setShowMobileTooltip] = useState(false);
+
+  const handleMobileJIDClick = (e) => {
+    if (!showMobileTooltip) {
+      e.preventDefault();
+      setShowMobileTooltip(true);
+      // Masquer automatiquement après 3 secondes
+      setTimeout(() => {
+        setShowMobileTooltip(false);
+      }, 3000);
+    }
+  };
 
   const handleHomeClick = (e) => {
     if (onHomeClick) {
@@ -83,8 +96,30 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
           </div>
         </div>
 
-        {/* BOUTON BURGER (Visible uniquement sur Mobile) */}
-        <div className="md:hidden flex items-center">
+        {/* BOUTON BURGER ET LOGO JID (Visible uniquement sur Mobile) */}
+        <div className="md:hidden flex items-center gap-3">
+          <a 
+            href="https://jidjerba.tn/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="relative flex items-center"
+            onClick={handleMobileJIDClick}
+          >
+            {/* Bulle Tooltip Mobile */}
+            <span className={`absolute right-10 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[#1b1464] text-white text-[11px] font-black px-3 py-1.5 rounded-xl shadow-lg transition-all duration-300 ${
+              showMobileTooltip ? 'opacity-100 translate-x-0' : 'opacity-0 pointer-events-none translate-x-1.5'
+            }`}>
+              Veux-tu nous rejoindre ? 🚀
+              {/* Flèche du tooltip vers la droite */}
+              <span className="absolute top-1/2 -translate-y-1/2 -right-1.5 w-0 h-0 border-y-4 border-y-transparent border-l-[6px] border-l-[#1b1464]"></span>
+            </span>
+
+            <img 
+              src="/logo_jid.png" 
+              alt="JID Logo" 
+              className="w-8 h-8 object-contain hover:scale-110 transition-transform duration-300" 
+            />
+          </a>
           <button 
             onClick={() => setIsOpen(!isOpen)} 
             className="text-[#1b1464] focus:outline-none p-1"
