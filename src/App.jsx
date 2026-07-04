@@ -11,6 +11,7 @@ import FacultyDetailPage from './components/page_faculté/FacultePage';
 
 // 3. Importation de la recherche avancée
 import AdvancedSearchPage from './components/AdvancedSearchPage';
+import Sponsors from './components/Sponsors';
 
 // 4. Importation de la base de données complète des établissements
 import facultesData from './data/facultes.json';
@@ -196,6 +197,9 @@ export default function App() {
 
               </div>
             </section>
+
+            {/* 5. SECTION SPONSORS */}
+            <Sponsors />
           </>
         )}
 

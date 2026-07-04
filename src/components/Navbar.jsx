@@ -61,7 +61,25 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
         {/* CÔTÉ DROIT : LOGO JID & CTA (PC) */}
         <div className="hidden md:flex items-center gap-5">
           <div className="text-right">
-            <img src="/logo_jid.png" alt="JID Logo" className="w-10 h-10 object-contain" />
+            <a 
+              href="https://jidjerba.tn/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group relative flex items-center"
+            >
+              {/* Bulle Tooltip */}
+              <span className="absolute right-12 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[#1b1464] text-white text-[11px] font-black px-3 py-1.5 rounded-xl shadow-lg opacity-0 pointer-events-none group-hover:opacity-100 group-hover:translate-x-0 translate-x-1.5 transition-all duration-300">
+                Veux-tu nous rejoindre ? 🚀
+                {/* Flèche du tooltip vers la droite */}
+                <span className="absolute top-1/2 -translate-y-1/2 -right-1.5 w-0 h-0 border-y-4 border-y-transparent border-l-[6px] border-l-[#1b1464]"></span>
+              </span>
+
+              <img 
+                src="/logo_jid.png" 
+                alt="JID Logo" 
+                className="w-10 h-10 object-contain hover:scale-110 transition-transform duration-300" 
+              />
+            </a>
           </div>
         </div>
 
