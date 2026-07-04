@@ -1,5 +1,5 @@
 import HeroText from './hero/HeroText';
-import Countdown from './hero/Countdown';
+import Countdown from './hero/CountDown';
 import HeroVisual from './hero/HeroVisual';
 
 export default function HeroSection() {
