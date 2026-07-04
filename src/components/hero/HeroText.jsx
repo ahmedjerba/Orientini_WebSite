@@ -20,16 +20,16 @@ export default function HeroText() {
       </p>
       {/* Boutons d'action */}
       <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto items-center pt-4">
-        <a 
-          href="https://forms.google.com"
+        <a
+          href="https://near.tl/sm/nIXQgB1Zu"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto bg-gradient-to-r from-pourpre via-[#f5d203] to-pourpre bg-[length:200%_auto] text-white px-10 py-5 rounded-full font-black text-base uppercase tracking-widest shadow-lg shadow-pourpre/30 hover:bg-right transition-all duration-500 animate-bounce [animation-duration:3s] text-center"
         >
           <span>🚀</span> REJOINDRE L'ÉVÉNEMENT
         </a>
-        
-        <a 
+
+        <a
           href="#programme"
           className="w-full sm:w-auto bg-slate-100/80 hover:bg-slate-200/80 text-bleu px-7 py-4 rounded-full font-bold text-sm tracking-wide transition-all duration-300 text-center border border-slate-200/60"
         >
