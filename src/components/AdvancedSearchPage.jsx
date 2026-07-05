@@ -294,9 +294,9 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
           </select>
         </div>
 
-        {/* Filtre par score minimal */}
+        {/* Filtre par score maximal */}
         <div className="space-y-1.5 col-span-1 md:col-span-2">
-          <label className="text-[11px] font-black text-gray-400 uppercase tracking-wider block">📊 Score Minimal Requis</label>
+          <label className="text-[11px] font-black text-gray-400 uppercase tracking-wider block">📊 Score Maximal</label>
           <div className="flex gap-2">
             <select
               value={selectedScoreType}
