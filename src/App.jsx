@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Programme from './components/Programme';
@@ -16,20 +16,90 @@ import Sponsors from './components/Sponsors';
 // 4. Importation de la base de données complète des établissements
 import facultesData from './data/facultes.json';
 
+const defaultSearchPageState = {
+  searchQuery: '',
+  selectedRegion: 'Toutes',
+  selectedCategory: 'Toutes',
+  selectedScoreType: 'bac_math',
+  minScore: '',
+  activeSpecialty: null,
+};
+
+const defaultHomeState = {
+  searchQuery: '',
+  selectedFilter: 'Tous',
+};
+
+const readHistoryState = () => {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  return window.history.state;
+};
+
+const createHistoryState = ({
+  viewMode,
+  selectedFaculteId = null,
+  homeState = defaultHomeState,
+  searchPageState = defaultSearchPageState,
+}) => ({
+  viewMode,
+  selectedFaculteId,
+  homeState,
+  searchPageState,
+});
+
 export default function App() {
   // Mode d'affichage de l'application : 'home' | 'search' | 'detail'
-  const [viewMode, setViewMode] = useState('home');
-  const [selectedFaculte, setSelectedFaculte] = useState(null);
+  const [viewMode, setViewMode] = useState(() => readHistoryState()?.viewMode || 'home');
+  const [selectedFaculte, setSelectedFaculte] = useState(() => {
+    const historyState = readHistoryState();
+    const selectedFaculteId = historyState?.selectedFaculteId;
+
+    if (!selectedFaculteId) {
+      return null;
+    }
+
+    return facultesData.find((fac) => fac.id === selectedFaculteId) || null;
+  });
 
   // LOGIQUE DE FILTRAGE & RECHERCHE DE BASE (Sur l'accueil)
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedFilter, setSelectedFilter] = useState("Tous");
+  const [searchQuery, setSearchQuery] = useState(() => readHistoryState()?.homeState?.searchQuery || '');
+  const [selectedFilter, setSelectedFilter] = useState(() => readHistoryState()?.homeState?.selectedFilter || 'Tous');
+
+  // Etat conservé pour restaurer la recherche avancée au retour navigateur
+  const [searchPageState, setSearchPageState] = useState(() => {
+    return readHistoryState()?.searchPageState || defaultSearchPageState;
+  });
 
   // Options de filtres uniques extraites dynamiquement
   const filterOptions = useMemo(() => {
     const filters = new Set(facultesData.map(fac => fac.filtre).filter(Boolean));
     return ["Tous", ...Array.from(filters)];
   }, []);
+
+  const syncHistoryState = (nextState, { replace = false } = {}) => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const method = replace ? 'replaceState' : 'pushState';
+    window.history[method](nextState, '', window.location.href);
+  };
+
+  const handleSearchPageStateChange = (nextState) => {
+    setSearchPageState((currentState) => {
+      const mergedState = {
+        ...defaultSearchPageState,
+        ...currentState,
+        ...nextState,
+      };
+
+      const isSame = Object.keys(defaultSearchPageState).every((key) => currentState?.[key] === mergedState[key]);
+      return isSame ? currentState : mergedState;
+    });
+  };
 
   // Filtrage hybride des facultés (nom, nom court, et spécialités reliées)
   const filteredFacultes = useMemo(() => {
@@ -56,21 +126,103 @@ export default function App() {
     });
   }, [searchQuery, selectedFilter]);
 
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return undefined;
+    }
+
+    if (!window.history.state) {
+      syncHistoryState(
+        createHistoryState({
+          viewMode: 'home',
+          homeState: defaultHomeState,
+          searchPageState: defaultSearchPageState,
+        }),
+        { replace: true }
+      );
+    }
+
+    const handlePopState = (event) => {
+      const state = event.state || createHistoryState({
+        viewMode: 'home',
+        homeState: defaultHomeState,
+        searchPageState: defaultSearchPageState,
+      });
+
+      setViewMode(state.viewMode || 'home');
+      setSearchQuery(state.homeState?.searchQuery || '');
+      setSelectedFilter(state.homeState?.selectedFilter || 'Tous');
+      setSearchPageState({
+        ...defaultSearchPageState,
+        ...(state.searchPageState || {}),
+      });
+
+      if (state.selectedFaculteId) {
+        setSelectedFaculte(facultesData.find((fac) => fac.id === state.selectedFaculteId) || null);
+      } else {
+        setSelectedFaculte(null);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
   // Handlers de navigation
   const handleGoToDetail = (fac) => {
     setSelectedFaculte(fac);
     setViewMode('detail');
+    syncHistoryState(
+      createHistoryState({
+        viewMode: 'detail',
+        selectedFaculteId: fac.id,
+        homeState: { searchQuery, selectedFilter },
+        searchPageState,
+      })
+    );
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleGoHome = () => {
     setSelectedFaculte(null);
     setViewMode('home');
+    syncHistoryState(
+      createHistoryState({
+        viewMode: 'home',
+        homeState: { searchQuery, selectedFilter },
+        searchPageState,
+      })
+    );
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleGoToSearch = () => {
     setViewMode('search');
+    syncHistoryState(
+      createHistoryState({
+        viewMode: 'search',
+        homeState: { searchQuery, selectedFilter },
+        searchPageState,
+      })
+    );
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleGoToProgramme = () => {
+    setSelectedFaculte(null);
+    setViewMode('home');
+    syncHistoryState(
+      createHistoryState({
+        viewMode: 'home',
+        homeState: { searchQuery, selectedFilter },
+        searchPageState,
+      })
+    );
+
+    window.requestAnimationFrame(() => {
+      const programmeSection = document.getElementById('programme');
+      programmeSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   };
 
   return (
@@ -79,7 +231,11 @@ export default function App() {
       {/* =========================================================
           1. NAVBAR (Gère maintenant le retour d'état)
          ========================================================= */}
-      <Navbar onHomeClick={handleGoHome} onSearchClick={handleGoToSearch} />
+      <Navbar
+        onHomeClick={handleGoHome}
+        onProgrammeClick={handleGoToProgramme}
+        onSearchClick={handleGoToSearch}
+      />
 
       {/* ZONE DE CONTENU DYNAMIQUE (ROUTAGE) */}
       <main className="flex-grow">
@@ -97,6 +253,8 @@ export default function App() {
           <AdvancedSearchPage 
             onCardClick={handleGoToDetail} 
             onBack={handleGoHome}
+            initialState={searchPageState}
+            onStateChange={handleSearchPageStateChange}
           />
         )}
 

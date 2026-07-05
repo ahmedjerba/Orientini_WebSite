@@ -37,7 +37,7 @@
       "Recherche Médicale et Biomédicale",
       "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
-    "site_web": "http://www.fmt.rnu.tn",
+    "site_web": "https://fmt.rnu.tn",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -80,7 +80,7 @@
       "Recherche Médicale et Biomédicale",
       "Expertise Santé auprès des ONG ou Organismes Internationaux"
     ],
-    "site_web": "http://www.fms.rnu.tn",
+    "site_web": "https://www.medecinesousse.com",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -122,7 +122,7 @@
       "Carrière Hospitalo-Universitaire",
       "Médecin de Famille, du Travail ou de Santé Publique"
     ],
-    "site_web": "http://www.fmm.rnu.tn",
+    "site_web": "https://www.fmm.tn",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -164,7 +164,7 @@
       "Carrière Hospitalo-Universitaire",
       "Médecin de Famille, du Travail ou de Santé Publique"
     ],
-    "site_web": "http://www.fmsf.rnu.tn",
+    "site_web": "https://moodle.medecinesfax.tn/",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -206,7 +206,7 @@
       "Praticien hospitalier dans le secteur public",
       "Consultant ou expert pour les industries de santé bucco-dentaire"
     ],
-    "site_web": "http://www.fmdm.rnu.tn",
+    "site_web": "https://fmdm.rnu.tn",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -255,7 +255,7 @@
       "Cadre dans l'Industrie Pharmaceutique (Production, Contrôle Qualité, Affaires Réglementaires)",
       "Pharmacien Hospitalier"
     ],
-    "site_web": "http://www.fphm.rnu.tn",
+    "site_web": "https://fphm.rnu.tn",
     "tags": [
       "Médecine, Pharmacie & Médecine Dentaire"
     ]
@@ -328,7 +328,7 @@
       "auteur": "Ahmed,étudiant en GL2 à l'Insat",
       "texte_detaille": "La prépa intégrée MPI / CBA de l'INSAT permet de développer un excellent niveau théorique sans le stress d'un concours national classique. L'immersion directe en cycle de spécialité d'ingénieur assure une employabilité internationale exceptionnelle. La vie estudiantine est l'une des meilleures et la réputation de la faculté fait d'elle un cadre exceptionnel."
     },
-    "site_web": "http://www.insat.rnu.tn",
+    "site_web": "https://insat.rnu.tn",
     "tags": [
       "Cycles Préparatoires Intégrés",
       "Informatique & Réseaux",
@@ -737,7 +737,7 @@
       "Enseignant-Chercheur en Mathématiques Appliquées",
       "Cartographe / Géomaticien"
     ],
-    "site_web": "http://www.fst.rnu.tn",
+    "site_web": "https://fst.rnu.tn",
     "tags": [
       "Cycles Préparatoires Intégrés",
       "Informatique & Réseaux",
@@ -748,19 +748,19 @@
   {
     "id": "mse",
     "nom_court": "MSE",
-    "nom_complet": "Mediterranean School of Engineering (MSB/MSE)",
-    "universite": "South Mediterranean University",
-    "ville": "Tunis",
+    "nom_complet": "Manouba School of Engineering",
+    "universite": "Université de Manouba",
+    "ville": "Manouba",
     "logo": "/logos/MSE.jpg",
     "fac_hero_banner": "/banners/MSE_hero.jpg",
     "description_breve": "Pôle technologique d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle moderne et innovant.",
-    "adresse": "Les Berges du Lac 2, Tunis 1053",
-    "lien_google_maps": "https://maps.google.com/?q=South+Mediterranean+University",
+    "adresse": "Campus Universitaire de la Manouba, 2010 Manouba, Tunisie",
+    "lien_google_maps": "https://maps.google.com/?q=Manouba School of Engineering",
     "categories": [
       "Ingénierie",
       "Technologie",
-      "Gestion",
-      "Business"
+      "Informatique",
+      "Analytics"
     ],
     "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
     "regimes_etudes": "Cycle Préparatoire Intégré (2 ans) + Cycle d'Ingénieur (3 ans) - Enseigné en Anglais",
@@ -806,7 +806,7 @@
       "Data Analyst Spatial",
       "Manager de Projets Technologiques Internationaux"
     ],
-    "site_web": "https://www.smu.tn/mse",
+    "site_web": "https://mse.rnu.tn",
     "tags": [
       "Cycles Préparatoires Intégrés",
       "Génie & Technologies Appliquées",
@@ -988,7 +988,7 @@
       "Ingénieur en Télécommunications",
       "Licence en Informatique et Systèmes"
     ],
-    "site_web": "http://www.issatso.rnu.tn",
+    "site_web": "https://issatso.rnu.tn",
     "tags": [
       "Cycles Préparatoires Intégrés",
       "Informatique & Réseaux",
@@ -1091,7 +1091,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipeit.rnu.tn",
+    "site_web": "https://ipeit.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1104,7 +1104,7 @@
     "universite": "Université de Carthage",
     "ville": "Nabeul",
     "logo": "/logos/IPEIN.png",
-    "fac_hero_banner": "/banners/IPEIN_hero.jpg",
+    "fac_hero_banner": "/banners/IPEIN.jpg",
     "description_breve": "Établissement préparatoire de premier plan implanté au pôle universitaire de Mrezga, affichant d'excellents taux de réussite aux concours nationaux.",
     "adresse": "Campus Universitaire Mrezga, Nabeul 8000",
     "lien_google_maps": "https://maps.google.com/?q=IPEIN",
@@ -1152,7 +1152,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipein.rnu.tn",
+    "site_web": "https://ipein.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1213,7 +1213,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipeim.rnu.tn",
+    "site_web": "https://ipeim.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1289,7 +1289,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipeis.rnu.tn",
+    "site_web": "https://ipeis.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1350,7 +1350,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipeiem.rnu.tn",
+    "site_web": "https://ipeiem.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1488,7 +1488,7 @@
       "Accès aux Écoles d'Ingénieurs Françaises sur Concours Étrangers",
       "Carrière de chercheur ou enseignant en Sciences Fondamentales (après poursuite d'études)"
     ],
-    "site_web": "http://www.ipeib.rnu.tn",
+    "site_web": "https://ipeib.rnu.tn",
     "tags": [
       "Classes Préparatoires Classiques",
       "Génie & Technologies Appliquées"
@@ -1501,7 +1501,7 @@
     "universite": "Université de Carthage",
     "ville": "Tunis",
     "logo": "/logos/IHEC_Tunis.jpg",
-    "fac_hero_banner": "/banners/IHEC_Carthage_hero.jpg",
+    "fac_hero_banner": "/banners/IHEC.jpg",
     "description_breve": "Le pionnier de l'enseignement du commerce et de la gestion en Tunisie, réputé pour son excellence académique et son réseau d'alumni influent dans le monde des affaires.",
     "adresse": "Rue Antoine de Saint-Exupéry, Carthage Présidence 2016",
     "lien_google_maps": "https://maps.google.com/?q=IHEC+Carthage",
@@ -1564,7 +1564,7 @@
       "Consultant en stratégie et organisation",
       "Entrepreneur / Gestionnaire de structure privée"
     ],
-    "site_web": "http://www.ihec.rnu.tn",
+    "site_web": "https://ihec.rnu.tn",
     "tags": [
       "Business, Commerce, Finance & Gestion",
       "Informatique & Réseaux"
@@ -1622,7 +1622,7 @@
       "Spécialiste Supply Chain / International Business",
       "Manager en Marketing Digital et Stratégique"
     ],
-    "site_web": "http://www.tbs.rnu.tn",
+    "site_web": "https://tunis-business-school.tn",
     "tags": [
       "Informatique & Réseaux",
       "Business, Commerce, Finance & Gestion"
@@ -1698,7 +1698,7 @@
       "Auditeur financier / Conseiller fiscal",
       "Comptable /Expert Comptable (via Concours)"
     ],
-    "site_web": "http://www.iscae.rnu.tn",
+    "site_web": "https://iscae.rnu.tn",
     "tags": [
       "Business, Commerce, Finance & Gestion"
     ]
@@ -1791,7 +1791,7 @@
       "Responsable Logistique / Digital Marketing Manager",
       "Auditeur de systèmes d'information"
     ],
-    "site_web": "http://www.isg.rnu.tn",
+    "site_web": "https://isg.rnu.tn",
     "tags": [
       "Business, Commerce, Finance & Gestion",
       "Informatique & Réseaux"
@@ -1846,7 +1846,7 @@
       "Gestionnaire d'entreprise / Consultant junior",
       "Analyste de crédit bancaire / Chargé d'affaires entreprises"
     ],
-    "site_web": "http://www.ihecsf.rnu.tn",
+    "site_web": "https://ihecsf.rnu.tn",
     "tags": [
       "Business, Commerce, Finance & Gestion"
     ]
@@ -1937,7 +1937,7 @@
       "Ingénieur Systèmes Embarqués et IoT",
       "Lead AI"
     ],
-    "site_web": "http://www.isi.rnu.tn",
+    "site_web": "https://isi.rnu.tn",
     "tags": [
       "Génie & Technologies Appliquées",
       "Informatique & Réseaux",
@@ -2065,7 +2065,7 @@
       "Administrateur Systèmes et Réseaux",
       "Spécialiste en Automatisme et Informatique Industrielle"
     ],
-    "site_web": "http://www.isimm.rnu.tn",
+    "site_web": "https://isimm.rnu.tn",
     "tags": [
       "Génie & Technologies Appliquées",
       "Informatique & Réseaux",
@@ -2190,7 +2190,7 @@
       "Consultant en Solutions Télécoms & VoIP",
       "Ingénieur Support et Cybersécurité"
     ],
-    "site_web": "http://www.isitcom.rnu.tn",
+    "site_web": "https://isitcom.rnu.tn",
     "tags": [
       "Cycles Préparatoires Intégrés",
       "Informatique & Réseaux",
@@ -2282,7 +2282,7 @@
       "Technicien Supérieur en Maintenance Réseaux",
       "Développeur Front-End / Spécialiste CMS"
     ],
-    "site_web": "http://www.isima.rnu.tn",
+    "site_web": "https://isima.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Sciences Fondamentales & Biotechnologie",
@@ -2355,7 +2355,7 @@
       "Chef de Projet Junior en Agence",
       "Responsable Administratif et Financier (RAF)"
     ],
-    "site_web": "http://www.isetcom.tn",
+    "site_web": "https://www.isetcom.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées"
@@ -2407,7 +2407,7 @@
       "Chef de projet / Consultant en patrimoine architectural",
       "Expert en bâtiments et conduite de travaux"
     ],
-    "site_web": "http://www.enau.rnu.tn",
+    "site_web": "https://enau.rnu.tn",
     "tags": [
       "Architecture",
       "Arts, Design & Multimédia"
@@ -2541,7 +2541,7 @@
       "Dessinateur Projeteur / Concepteur Mécanique CAD",
       "Technicien en Automatismes et Robotique"
     ],
-    "site_web": "http://www.isetr.rnu.tn",
+    "site_web": "https://isetr.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées",
@@ -2672,7 +2672,7 @@
       "Technicien d'essais et de contrôle en électricité",
       "Gestionnaire de stock et approvisionnement"
     ],
-    "site_web": "http://www.isetn.rnu.tn",
+    "site_web": "https://isetn.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées",
@@ -2788,7 +2788,7 @@
       "Support technique informatique hôtelier / d'entreprise",
       "Technicien de maintenance industrielle"
     ],
-    "site_web": "http://www.isetdj.rnu.tn",
+    "site_web": "https://isetjb.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées",
@@ -2923,7 +2923,7 @@
       "Développeur d'applications industrielles / IT",
       "Responsable HSE (Hygiène, Sécurité, Environnement) Junior"
     ],
-    "site_web": "http://www.isetgb.rnu.tn",
+    "site_web": "https://isetgb.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées",
@@ -3046,7 +3046,7 @@
       "Technicien de bureau d'études en mécanique",
       "Comptable ou Analyste de gestion d'atelier"
     ],
-    "site_web": "http://www.isetsf.rnu.tn",
+    "site_web": "https://isetsf.rnu.tn",
     "tags": [
       "Informatique & Réseaux",
       "Génie & Technologies Appliquées",
@@ -3098,7 +3098,7 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "site_web": "http://www.fsjpst.rnu.tn",
+    "site_web": "https://fsjpst.rnu.tn",
     "tags": [
       "Droit & Sciences Politiques"
     ]
@@ -3152,7 +3152,7 @@
       "Conseiller juridique et fiscal d'entreprise",
       "Haut fonctionnaire de l'administration publique (ENA)"
     ],
-    "site_web": "http://www.fdspt.rnu.tn",
+    "site_web": "https://fdspt.rnu.tn",
     "tags": [
       "Droit & Sciences Politiques"
     ]
@@ -3941,7 +3941,7 @@
     "universite": "Université de Monastir",
     "ville": "Mahdia",
     "logo": "/logos/FSEG_Mahdia.jpg",
-    "fac_hero_banner": "/banners/FSEG_Mahdia_hero.jpg",
+    "fac_hero_banner": "/banners/FSEG_Mahdia.jpg",
     "description_breve": "Faculté de l'Université de Monastir dispensant des formations en économie et gestion, dans un cadre universitaire au cœur de la zone touristique de Mahdia.",
     "adresse": "Cité Sidi Messaoud, Mahdia",
     "lien_google_maps": "https://maps.google.com/?q=FSEG+Mahdia+Cite+Sidi+Messaoud",

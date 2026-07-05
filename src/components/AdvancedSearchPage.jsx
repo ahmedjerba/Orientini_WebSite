@@ -1,16 +1,25 @@
-import { useState, useMemo } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import facultesData from '../data/facultes.json';
 
-export default function AdvancedSearchPage({ onCardClick, onBack }) {
+const defaultInitialState = {
+  searchQuery: '',
+  selectedRegion: 'Toutes',
+  selectedCategory: 'Toutes',
+  selectedScoreType: 'bac_math',
+  minScore: '',
+  activeSpecialty: null,
+};
+
+export default function AdvancedSearchPage({ onCardClick, onBack, initialState, onStateChange }) {
   // Etats pour les filtres avancés
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedRegion, setSelectedRegion] = useState("Toutes");
-  const [selectedCategory, setSelectedCategory] = useState("Toutes");
-  const [selectedScoreType, setSelectedScoreType] = useState("bac_math");
-  const [minScore, setMinScore] = useState("");
+  const [searchQuery, setSearchQuery] = useState(initialState?.searchQuery ?? defaultInitialState.searchQuery);
+  const [selectedRegion, setSelectedRegion] = useState(initialState?.selectedRegion ?? defaultInitialState.selectedRegion);
+  const [selectedCategory, setSelectedCategory] = useState(initialState?.selectedCategory ?? defaultInitialState.selectedCategory);
+  const [selectedScoreType, setSelectedScoreType] = useState(initialState?.selectedScoreType ?? defaultInitialState.selectedScoreType);
+  const [minScore, setMinScore] = useState(initialState?.minScore ?? defaultInitialState.minScore);
 
   // Etat pour la spécialité sélectionnée dans le modal / panneau de Deep-Dive
-  const [activeSpecialty, setActiveSpecialty] = useState(null);
+  const [activeSpecialty, setActiveSpecialty] = useState(initialState?.activeSpecialty ?? defaultInitialState.activeSpecialty);
 
   // Extraction dynamique des villes (régions) uniques
   const regions = useMemo(() => {
@@ -56,9 +65,9 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
           const hasMatchingScore = fac.filieres_phares?.some(filiere => {
             if (typeof filiere === 'object' && filiere !== null) {
               const scores = filiere.scores || {};
-              const score = scores[selectedScoreType] || 
-                            (selectedScoreType === 'bac_lettres' ? scores.bac_lettres || scores.bac_let : undefined);
-              return score !== undefined && score >= threshold;
+              const score = scores[selectedScoreType] ||
+                (selectedScoreType === 'bac_lettres' ? scores.bac_lettres || scores.bac_let : undefined);
+              return score !== undefined && score <= threshold;
             }
             return false;
           });
@@ -81,8 +90,8 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
 
         const matchSpecialite = fac.filieres_phares?.some(filiere => {
           if (typeof filiere === 'object' && filiere !== null) {
-            return filiere.nom?.toLowerCase().includes(query) || 
-                   filiere.description?.toLowerCase().includes(query);
+            return filiere.nom?.toLowerCase().includes(query) ||
+              filiere.description?.toLowerCase().includes(query);
           }
           return filiere.toLowerCase().includes(query);
         });
@@ -93,6 +102,19 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
       return true;
     });
   }, [searchQuery, selectedRegion, selectedCategory, selectedScoreType, minScore]);
+
+  useEffect(() => {
+    if (onStateChange) {
+      onStateChange({
+        searchQuery,
+        selectedRegion,
+        selectedCategory,
+        selectedScoreType,
+        minScore,
+        activeSpecialty,
+      });
+    }
+  }, [searchQuery, selectedRegion, selectedCategory, selectedScoreType, minScore, activeSpecialty, onStateChange]);
 
   // Handler d'ouverture pour le deep-dive poussé d'une spécialité
   const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
@@ -131,23 +153,23 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
     const isObject = typeof filiere === 'object' && filiere !== null;
     const filiereScores = isObject ? filiere.scores : undefined;
     const facScores = fac.score_derniere_annee;
-    
+
     const hasScoresDefined = filiereScores !== undefined;
     const allScoresNull = hasScoresDefined
       ? (!filiereScores ||
-         Object.keys(filiereScores).length === 0 ||
-         Object.values(filiereScores).every(val => val === null || val === 0 || val === "" || val === undefined))
+        Object.keys(filiereScores).length === 0 ||
+        Object.values(filiereScores).every(val => val === null || val === 0 || val === "" || val === undefined))
       : (!facScores ||
-         Object.keys(facScores).length === 0 ||
-         Object.values(facScores).every(val => val === null || val === 0 || val === "" || val === undefined));
-    
+        Object.keys(facScores).length === 0 ||
+        Object.values(facScores).every(val => val === null || val === 0 || val === "" || val === undefined));
+
     const isNouvelle = allScoresNull;
 
     if (isObject) {
-      const isPrepa = filiere.concours || 
-                      fac?.categories?.includes("Préparatoire") || 
-                      fac?.nom_court?.toLowerCase().includes("ipei") ||
-                      filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
+      const isPrepa = filiere.concours ||
+        fac?.categories?.includes("Préparatoire") ||
+        fac?.nom_court?.toLowerCase().includes("ipei") ||
+        filiere.nom?.includes("MP") || filiere.nom?.includes("PC") || filiere.nom?.includes("PT") || filiere.nom?.includes("BG");
 
       setActiveSpecialty({
         id: filiere.id || filiere.nom?.toLowerCase().replace(/[^a-z0-9]/g, '_'),
@@ -173,9 +195,9 @@ export default function AdvancedSearchPage({ onCardClick, onBack }) {
     }
 
     const filiereName = filiere || "";
-    const isPrepa = fac?.categories?.includes("Préparatoire") || 
-                    fac?.nom_court?.toLowerCase().includes("ipei") ||
-                    filiereName.includes("MP") || filiereName.includes("PC") || filiereName.includes("PT") || filiereName.includes("BG");
+    const isPrepa = fac?.categories?.includes("Préparatoire") ||
+      fac?.nom_court?.toLowerCase().includes("ipei") ||
+      filiereName.includes("MP") || filiereName.includes("PC") || filiereName.includes("PT") || filiereName.includes("BG");
 
     setActiveSpecialty({
       id: filiereName.toLowerCase().replace(/[^a-z0-9]/g, '_'),

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Navbar({ onHomeClick, onSearchClick }) {
+export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick }) {
   // State pour ouvrir/fermer le menu burger sur mobile
   const [isOpen, setIsOpen] = useState(false);
   // State pour afficher le tooltip JID sur mobile lors du premier clic
@@ -18,6 +18,7 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
   };
 
   const handleHomeClick = (e) => {
+    e.preventDefault();
     if (onHomeClick) {
       onHomeClick();
     }
@@ -27,6 +28,13 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
     e.preventDefault();
     if (onSearchClick) {
       onSearchClick();
+    }
+  };
+
+  const handleProgrammeClick = (e) => {
+    e.preventDefault();
+    if (onProgrammeClick) {
+      onProgrammeClick();
     }
   };
 
@@ -57,7 +65,7 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
           </a>
           <a
             href="#programme"
-            onClick={handleHomeClick}
+            onClick={handleProgrammeClick}
             className="hover:text-[#de3f6b] hover:border-b-2 hover:border-[#de3f6b] pb-1 transition-all"
           >
             Programme
@@ -149,7 +157,7 @@ export default function Navbar({ onHomeClick, onSearchClick }) {
             🏠 Accueil
           </a>
           <a
-            onClick={(e) => { setIsOpen(false); handleHomeClick(e); }}
+            onClick={(e) => { setIsOpen(false); handleProgrammeClick(e); }}
             href="#programme"
             className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
           >
