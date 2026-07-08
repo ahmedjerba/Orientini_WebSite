@@ -1,7 +1,18 @@
 import { useState, useEffect } from 'react';
-import LittleCard from "./LittleCard";
+import { motion, useReducedMotion } from 'framer-motion';
+import LittleCard, { LittleCardSkeleton } from "./LittleCard";
 
 export default function CategoryRow({ title, facultes, onCardClick }) {
+  const shouldReduceMotion = useReducedMotion();
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Petit délai de chargement initial pour afficher les squelettes de façon fluide
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 450);
+    return () => clearTimeout(timer);
+  }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsVisible, setCardsVisible] = useState(3);
   
@@ -80,7 +91,13 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
   if (!facultes || facultes.length === 0) return null;
 
   return (
-    <div className="space-y-4 relative py-2 w-full max-w-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 25 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="space-y-4 relative py-2 w-full max-w-full overflow-hidden"
+    >
       
       {/* EN-TÊTE RESPONSIVE (S'empile sur petit mobile, s'aligne sur PC) */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 px-2">
@@ -125,24 +142,38 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
             transform: `translateX(calc(-${currentIndex} * (100% / ${cardsVisible}) - (${currentIndex} * ${window.innerWidth < 640 ? '0.75rem' : '1rem'} / ${cardsVisible})))`
           }}
         >
-          {facultes.map((fac) => (
-            <div 
-              key={fac.id} 
-              style={{ 
-                // Adapte dynamiquement la largeur en fonction de l'espace des gaps (gap-3 sur mobile vs gap-4 sur PC)
-                width: `calc((100% - (${cardsVisible} - 1) * ${window.innerWidth < 640 ? '0.75rem' : '1rem'}) / ${cardsVisible})` 
-              }}
-              className="flex-shrink-0 w-full"
-            >
-              <LittleCard
-                fac={fac} 
-                onClick={() => onCardClick(fac)} 
-              />
-            </div>
-          ))}
+          {isLoading ? (
+            // Affichage initial des squelettes shimmer
+            Array.from({ length: cardsVisible }).map((_, sIdx) => (
+              <div 
+                key={`skeleton-${sIdx}`} 
+                style={{ 
+                  width: `calc((100% - (${cardsVisible} - 1) * ${window.innerWidth < 640 ? '0.75rem' : '1rem'}) / ${cardsVisible})` 
+                }}
+                className="flex-shrink-0 w-full"
+              >
+                <LittleCardSkeleton />
+              </div>
+            ))
+          ) : (
+            facultes.map((fac) => (
+              <div 
+                key={fac.id} 
+                style={{ 
+                  width: `calc((100% - (${cardsVisible} - 1) * ${window.innerWidth < 640 ? '0.75rem' : '1rem'}) / ${cardsVisible})` 
+                }}
+                className="flex-shrink-0 w-full"
+              >
+                <LittleCard
+                  fac={fac} 
+                  onClick={() => onCardClick(fac)} 
+                />
+              </div>
+            ))
+          )}
         </div>
       </div>
 
-    </div>
+    </motion.div>
   );
 }

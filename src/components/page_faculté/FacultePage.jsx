@@ -1,10 +1,13 @@
 // Importation de tes briques isolées
+import { motion, useReducedMotion } from 'framer-motion';
 import HeroBanner from './HeroBanner';
 import PresentationFiliere from './PresentationFiliere';
 import DebouchesIntervenant from './DebouchesIntervenant';
 import ContactActions from './ContactActions';
 
 export default function FacultePage({ faculte, onBack }) {
+  const shouldReduceMotion = useReducedMotion();
+
   // Sécurité : si aucune faculté n'est sélectionnée ou trouvée dans le JSON
   if (!faculte) {
     return (
@@ -16,7 +19,12 @@ export default function FacultePage({ faculte, onBack }) {
   }
 
   return (
-    <div className="w-full bg-slate-50 min-h-screen">
+    <motion.div 
+      initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="w-full bg-slate-50 min-h-screen"
+    >
 
       {/* 1. ZONE HAUTE : Immersion totale avec la Banner & le bouton Retour */}
       <div className="p-4 md:p-8">
@@ -61,6 +69,6 @@ export default function FacultePage({ faculte, onBack }) {
           Orient'ini — 8ème édition — By Jeunes Ingénieurs de Djerba
         </p>
       </footer>
-    </div>
+    </motion.div>
   );
 }

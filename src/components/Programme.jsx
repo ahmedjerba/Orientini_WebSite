@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
 // Données réelles du planning sans le champ intervenant
 const parcoursData = [
@@ -34,6 +35,7 @@ const parcoursData = [
 
 export default function Programme() {
   const [activeStationId, setActiveStationId] = useState(parcoursData[0].id);
+  const shouldReduceMotion = useReducedMotion();
 
   const handleKeyDown = (e, index) => {
     if (e.key === 'ArrowRight' && index < parcoursData.length - 1) {
@@ -45,16 +47,54 @@ export default function Programme() {
 
   const activeStation = parcoursData.find(s => s.id === activeStationId);
 
+  const wordContainerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: shouldReduceMotion ? 0 : 0.04
+      }
+    }
+  };
+
+  const wordVariants = {
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 5 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.25, ease: "easeOut" }
+    }
+  };
+
   return (
-    <div className="w-full bg-slate-50 rounded-3xl border border-gray-100 p-6 md:p-8 shadow-inner max-w-5xl mx-auto space-y-8">
+    <motion.div
+      initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="w-full bg-slate-50 rounded-3xl border border-gray-100 p-6 md:p-8 shadow-inner max-w-5xl mx-auto space-y-8"
+    >
       
       {/* 1. Titre et Indicateur */}
       <div className="flex flex-col sm:flex-row sm:items-center gap-2 border-b border-gray-200/60 pb-4">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🗺️</span>
-          <h3 className="text-lg font-black text-[#1b1464] tracking-tight uppercase">
-            Le Déroulement de votre Journée
-          </h3>
+          <motion.h3 
+            variants={wordContainerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="text-lg font-black text-[#1b1464] tracking-tight uppercase"
+          >
+            {"Le Déroulement de votre Journée".split(" ").map((word, idx) => (
+              <motion.span 
+                key={idx} 
+                variants={wordVariants} 
+                className="inline-block mr-1.5"
+              >
+                {word}
+              </motion.span>
+            ))}
+          </motion.h3>
         </div>
         <p className="sm:ml-auto text-xs font-bold text-gray-400 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm">
           📍 Cliquez sur une étape pour voir les détails
@@ -116,27 +156,36 @@ export default function Programme() {
       </div>
 
       {/* 3. LE PANNEAU D'INFORMATION (La station sélectionnée) */}
-      <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm transition-all duration-300 relative group overflow-hidden">
-        <div className="absolute -top-10 -right-10 w-24 h-24 bg-[#de3f6b]/5 rounded-full group-hover:scale-110 transition-transform" />
+      <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm relative group overflow-hidden min-h-[140px]">
+        <div className="absolute -top-10 -right-10 w-24 h-24 bg-[#de3f6b]/5 rounded-full group-hover:scale-110 transition-transform duration-500" />
 
-        <div className="relative z-10 space-y-2">
-          {/* Badge de l'étape */}
-          <div>
-            <span className="inline-flex items-center gap-1.5 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-[#de3f6b]/10 text-[#de3f6b] border border-[#de3f6b]/10">
-              Étape {parcoursData.indexOf(activeStation) + 1} • {activeStation.heure}
-            </span>
-          </div>
-          
-          {/* Titre & Description */}
-          <h4 className="font-black text-lg md:text-xl text-[#1b1464] tracking-tight leading-tight">
-            {activeStation.titre}
-          </h4>
-          <p className="text-xs font-medium text-gray-500 leading-relaxed max-w-3xl">
-            {activeStation.description}
-          </p>
-        </div>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeStationId}
+            initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: shouldReduceMotion ? 0 : -10 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            className="relative z-10 space-y-2"
+          >
+            {/* Badge de l'étape */}
+            <div>
+              <span className="inline-flex items-center gap-1.5 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-[#de3f6b]/10 text-[#de3f6b] border border-[#de3f6b]/10">
+                Étape {parcoursData.indexOf(activeStation) + 1} • {activeStation.heure}
+              </span>
+            </div>
+            
+            {/* Titre & Description */}
+            <h4 className="font-black text-lg md:text-xl text-[#1b1464] tracking-tight leading-tight">
+              {activeStation.titre}
+            </h4>
+            <p className="text-xs font-medium text-gray-500 leading-relaxed max-w-3xl">
+              {activeStation.description}
+            </p>
+          </motion.div>
+        </AnimatePresence>
       </div>
 
-    </div>
+    </motion.div>
   );
 }

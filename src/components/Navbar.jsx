@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick }) {
   // State pour ouvrir/fermer le menu burger sur mobile
@@ -48,7 +49,7 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
           className="flex items-center gap-2.5 max-w-[200px] cursor-pointer"
         >
           <img
-            src="/logo_orientini.png"
+            src="/logo.png"
             alt="Orient'ini Logo"
             className="h-10 w-auto object-contain"
           />
@@ -59,16 +60,18 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
           <a
             href="#home"
             onClick={handleHomeClick}
-            className="text-[#de3f6b] border-b-2 border-[#de3f6b] pb-1 transition-all"
+            className="relative py-1 text-[#de3f6b] group"
           >
-            Accueil
+            <span>Accueil</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#de3f6b] transition-transform duration-300 origin-left scale-x-100" />
           </a>
           <a
             href="#programme"
             onClick={handleProgrammeClick}
-            className="hover:text-[#de3f6b] hover:border-b-2 hover:border-[#de3f6b] pb-1 transition-all"
+            className="relative py-1 hover:text-[#de3f6b] transition-colors group"
           >
-            Programme
+            <span>Programme</span>
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#de3f6b] transition-transform duration-300 origin-left scale-x-0 group-hover:scale-x-100" />
           </a>
           <a
             href="#facultes"
@@ -147,43 +150,51 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
       </div>
 
       {/* MENU DÉROULANT MOBILE (S'affiche uniquement si isOpen est true) */}
-      {isOpen && (
-        <div className="md:hidden mt-4 bg-slate-50 rounded-2xl p-4 border border-gray-100 flex flex-col gap-4 animate-fadeIn shadow-sm">
-          <a
-            onClick={(e) => { setIsOpen(false); handleHomeClick(e); }}
-            href="#home"
-            className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden mt-4 bg-slate-50 rounded-2xl p-4 border border-gray-100 flex flex-col gap-4 shadow-sm overflow-hidden"
           >
-            🏠 Accueil
-          </a>
-          <a
-            onClick={(e) => { setIsOpen(false); handleProgrammeClick(e); }}
-            href="#programme"
-            className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
-          >
-            📅 Programme
-          </a>
-          <a
-            onClick={(e) => { setIsOpen(false); handleSearchClick(e); }}
-            href="#facultes"
-            className="font-extrabold text-[#1b1464] bg-[#f5d203]/30 p-3 rounded-xl transition-colors flex items-center gap-2"
-          >
-            🔍 Trouver une Faculté
-          </a>
+            <a
+              onClick={(e) => { setIsOpen(false); handleHomeClick(e); }}
+              href="#home"
+              className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
+            >
+              🏠 Accueil
+            </a>
+            <a
+              onClick={(e) => { setIsOpen(false); handleProgrammeClick(e); }}
+              href="#programme"
+              className="font-bold text-gray-700 hover:text-[#de3f6b] p-2 rounded-lg transition-colors"
+            >
+              📅 Programme
+            </a>
+            <a
+              onClick={(e) => { setIsOpen(false); handleSearchClick(e); }}
+              href="#facultes"
+              className="font-extrabold text-[#1b1464] bg-[#f5d203]/30 p-3 rounded-xl transition-colors flex items-center gap-2"
+            >
+              🔍 Trouver une Faculté
+            </a>
 
-          <hr className="border-gray-200 my-1" />
+            <hr className="border-gray-200 my-1" />
 
-          {/* Bouton d'inscription sur mobile */}
-          <a
-            href="https://near.tl/sm/nIXQgB1Zu"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-[#de3f6b] text-white text-center py-3 rounded-xl font-bold uppercase tracking-wider text-sm shadow-sm active:scale-95 transition-all"
-          >
-            Rejoindre l'évenement
-          </a>
-        </div>
-      )}
+            {/* Bouton d'inscription sur mobile */}
+            <a
+              href="https://near.tl/sm/nIXQgB1Zu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#de3f6b] text-white text-center py-3 rounded-xl font-bold uppercase tracking-wider text-sm shadow-sm active:scale-95 transition-all"
+            >
+              Rejoindre l'évenement
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 }

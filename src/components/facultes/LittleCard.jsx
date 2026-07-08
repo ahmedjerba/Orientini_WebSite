@@ -1,4 +1,35 @@
+import { useState } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
+
 export default function LittleCard({ fac, onClick }) {
+  const shouldReduceMotion = useReducedMotion();
+  const [tiltStyle, setTiltStyle] = useState({});
+
+  const handleMouseMove = (e) => {
+    // Désactiver sur mobile (touch/coarse) ou si reduced motion est actif
+    if (window.matchMedia("(pointer: coarse)").matches || shouldReduceMotion) return;
+    
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const xc = rect.width / 2;
+    const yc = rect.height / 2;
+    const rotateX = -(y - yc) / 16;
+    const rotateY = (x - xc) / 16;
+    
+    setTiltStyle({
+      transform: `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
+      transition: "transform 0.1s ease-out"
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setTiltStyle({
+      transform: `perspective(600px) rotateX(0deg) rotateY(0deg)`,
+      transition: "transform 0.35s ease-out"
+    });
+  };
+
   const bacConfig = {
     bac_math: { label: "Bac Math", emoji: "📊" },
     bac_sc: { label: "Bac Sciences", emoji: "🧪" },
@@ -8,14 +39,17 @@ export default function LittleCard({ fac, onClick }) {
     bac_let: { label: "Bac Lettres", emoji: "📚" },
     bac_sport: { label: "Bac Sport", emoji: "🏃" }
   };
-  return (
-    <div 
-      onClick={onClick}
-      // ICI : w-full uniquement ! C'est le parent (le carrousel) qui décide de la taille réelle.
-      className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 ease-out cursor-pointer group relative overflow-hidden flex flex-col justify-between"
-    >
-      {/* Tout le reste de ton code à l'intérieur reste STRICTEMENT le même */}
 
+  return (
+    <motion.div 
+      onClick={onClick}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ ...tiltStyle, willChange: "transform" }}
+      whileHover={shouldReduceMotion ? {} : { scale: 1.015 }}
+      whileTap={shouldReduceMotion ? {} : { scale: 0.985 }}
+      className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl cursor-pointer group relative overflow-hidden flex flex-col justify-between h-full"
+    >
       {/* BLOC SUPÉRIEUR : LOGO + IDENTITÉ */}
       <div>
         <div className="flex items-center gap-4 pr-12">
@@ -74,33 +108,58 @@ export default function LittleCard({ fac, onClick }) {
       </div>
 
       {/* PIED DE LA CARTE : SECTIONS ADMISSIBLES */}
-<div className="flex items-center justify-between pt-4 mt-5 border-t border-gray-50">
-  <span className="text-[11px] font-bold text-gray-400">
-    Bacs acceptés
-  </span>
-  
-  {/* PIED DE LA CARTE : SECTIONS ADMISSIBLES */}
-<div className="pt-3 mt-4 border-t border-gray-50 flex items-center justify-end">
-  <div className="flex flex-wrap items-center gap-1">
-    {Object.keys(fac.score_derniere_annee || {})
-      .filter((cle) => fac.score_derniere_annee[cle] > 0)
-      .map((cle) => {
-        const config = bacConfig[cle] || { label: cle, emoji: "🎓" };
+      <div className="flex items-center justify-between pt-4 mt-5 border-t border-gray-50">
+        <span className="text-[11px] font-bold text-gray-400">
+          Bacs acceptés
+        </span>
+        
+        <div className="flex flex-wrap items-center gap-1">
+          {Object.keys(fac.score_derniere_annee || {})
+            .filter((cle) => fac.score_derniere_annee[cle] > 0)
+            .map((cle) => {
+              const config = bacConfig[cle] || { label: cle, emoji: "🎓" };
 
-        return (
-          <span 
-            key={cle}
-            className="text-[9px] font-black text-[#1b1464] bg-slate-50 border border-gray-100/70 px-1.5 py-0 rounded-md flex items-center gap-0.5 transition-all duration-300 group-hover:bg-[#1b1464]/5 group-hover:border-[#1b1464]/10"
-          >
-            <span className="text-[10px]">{config.emoji}</span>
-            <span>{config.label}</span>
-          </span>
-        );
-      })}
-  </div>
-</div>
-</div>
+              return (
+                <span 
+                  key={cle}
+                  className="text-[9px] font-black text-[#1b1464] bg-slate-50 border border-gray-100/70 px-1.5 py-0 rounded-md flex items-center gap-0.5 transition-all duration-300 group-hover:bg-[#1b1464]/5 group-hover:border-[#1b1464]/10"
+                >
+                  <span className="text-[10px]">{config.emoji}</span>
+                  <span>{config.label}</span>
+                </span>
+              );
+            })}
+        </div>
+      </div>
 
+    </motion.div>
+  );
+}
+
+// Composant Skeleton avec effet Shimmer (Wave animation)
+export function LittleCardSkeleton() {
+  return (
+    <div className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm flex flex-col justify-between h-full min-h-[190px] relative overflow-hidden select-none">
+      {/* Effet Shimmer brillant */}
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full animate-shimmer" style={{ animationDuration: '1.5s' }} />
+      
+      <div>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-2xl bg-slate-100 shrink-0" />
+          <div className="space-y-2 flex-1">
+            <div className="h-4 bg-slate-100 rounded-md w-2/3" />
+            <div className="h-3 bg-slate-100 rounded-md w-1/3" />
+          </div>
+        </div>
+        <div className="space-y-2 mt-5">
+          <div className="h-3 bg-slate-100 rounded-md w-full" />
+          <div className="h-3 bg-slate-100 rounded-md w-4/5" />
+        </div>
+      </div>
+      <div className="pt-4 border-t border-gray-50 flex items-center justify-between mt-auto">
+        <div className="h-3 bg-slate-100 rounded-md w-1/4" />
+        <div className="h-3 bg-slate-100 rounded-md w-1/3" />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
 import facultesData from '../data/facultes.json';
 
 const defaultInitialState = {
@@ -11,6 +12,26 @@ const defaultInitialState = {
 };
 
 export default function AdvancedSearchPage({ onCardClick, onBack, initialState, onStateChange }) {
+  const shouldReduceMotion = useReducedMotion();
+
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: shouldReduceMotion ? 0 : 0.04
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 12 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.35, ease: "easeOut" }
+    }
+  };
+
   // Etats pour les filtres avancés
   const [searchQuery, setSearchQuery] = useState(initialState?.searchQuery ?? defaultInitialState.searchQuery);
   const [selectedRegion, setSelectedRegion] = useState(initialState?.selectedRegion ?? defaultInitialState.selectedRegion);
@@ -347,10 +368,17 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
         </div>
 
         {filteredResults.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <motion.div 
+            key={`${selectedRegion}-${selectedCategory}-${selectedScoreType}-${minScore}-${searchQuery.length}`}
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
             {filteredResults.map(fac => (
-              <div
+              <motion.div
                 key={fac.id}
+                variants={itemVariants}
                 onClick={() => onCardClick(fac)}
                 className="bg-white border border-gray-100 rounded-3xl p-6 shadow-sm hover:shadow-md hover:scale-[1.01] transition-all duration-300 flex flex-col justify-between cursor-pointer"
               >
@@ -431,9 +459,9 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
                     Voir la Fiche complète →
                   </span>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         ) : (
           <div className="text-center py-16 bg-white rounded-3xl border border-gray-100 shadow-sm space-y-3">
             <span className="text-4xl">🔍</span>

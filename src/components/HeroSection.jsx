@@ -1,10 +1,14 @@
 import HeroText from './hero/HeroText';
 import Countdown from './hero/CountDown';
 import HeroVisual from './hero/HeroVisual';
+import HeroBackgroundCanvas from './hero/HeroBackgroundCanvas';
 
 export default function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-white py-8 md:py-12 flex items-center justify-center">
+      {/* Constellation Canvas en arrière-plan */}
+      <HeroBackgroundCanvas />
+
       {/* Vagues de fond */}
       <div className="absolute top-0 right-0 -z-10 w-96 h-96 bg-cyan/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 -z-10 w-96 h-96 bg-pourpre/5 rounded-full blur-3xl" />

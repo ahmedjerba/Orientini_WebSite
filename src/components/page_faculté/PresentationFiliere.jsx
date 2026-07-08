@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
 import SpecialtyCard from './SpecialtyCard';
 
 export default function PresentationFiliere({ faculte }) {
@@ -13,6 +14,27 @@ export default function PresentationFiliere({ faculte }) {
 
   // État local pour le Deep-Dive de la spécialité cliquée
   const [activeSpecialty, setActiveSpecialty] = useState(null);
+
+  const shouldReduceMotion = useReducedMotion();
+
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: shouldReduceMotion ? 0 : 0.08
+      }
+    }
+  };
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, scale: shouldReduceMotion ? 1 : 0.95 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      transition: { duration: 0.45, ease: "easeOut" }
+    }
+  };
 
   const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
     if (filiereScores !== undefined) {
@@ -130,15 +152,22 @@ export default function PresentationFiliere({ faculte }) {
           <h3 className="text-sm font-black text-[#1b1464] uppercase tracking-wider flex items-center gap-2">
             🌱 Focus Spécialités & Cursus (Cliquer pour le Deep-Dive)
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <motion.div 
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-50px" }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-4"
+          >
             {matchedSpecialties.map((spec) => (
               <SpecialtyCard
                 key={spec.id}
                 spec={spec}
+                variants={cardVariants}
                 onClick={() => setActiveSpecialty(spec)}
               />
             ))}
-          </div>
+          </motion.div>
         </div>
       )}
 
