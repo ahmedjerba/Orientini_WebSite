@@ -17,6 +17,7 @@ import Sponsors from './components/Sponsors';
 
 // 4. Importation de la base de données complète des établissements
 import facultesData from './data/facultes.json';
+import { getCategoryColor, getContrastText } from './data/categoryColors';
 
 const defaultSearchPageState = {
   searchQuery: '',
@@ -249,13 +250,16 @@ export default function App() {
                         <div className="overflow-x-auto whitespace-nowrap pb-2 -mx-6 px-6 scrollbar-hide flex gap-2">
                           {filterOptions.map((filter) => {
                             const isActive = selectedFilter === filter;
+                            const catColor = filter === 'Tous' ? '#de3f6b' : getCategoryColor(filter);
+                            const textColor = getContrastText(catColor);
                             return (
                               <button
                                 key={filter}
                                 onClick={() => setSelectedFilter(filter)}
+                                style={isActive ? { backgroundColor: catColor, color: textColor } : {}}
                                 className={`inline-block px-4 py-2 rounded-xl text-xs font-black tracking-wide transition-all ${
                                   isActive
-                                    ? 'bg-[#de3f6b] text-white shadow-md shadow-[#de3f6b]/20'
+                                    ? 'shadow-md shadow-slate-200/50'
                                     : 'bg-white text-gray-500 border border-gray-200 hover:bg-gray-50'
                                 }`}
                               >

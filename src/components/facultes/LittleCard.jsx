@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 
-export default function LittleCard({ fac, onClick }) {
+
+export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
   const shouldReduceMotion = useReducedMotion();
   const [tiltStyle, setTiltStyle] = useState({});
 
@@ -14,41 +15,40 @@ export default function LittleCard({ fac, onClick }) {
     const y = e.clientY - rect.top;
     const xc = rect.width / 2;
     const yc = rect.height / 2;
-    const rotateX = -(y - yc) / 16;
-    const rotateY = (x - xc) / 16;
+    const angleX = (yc - y) / 12; // inclinaison modérée (max ~10deg)
+    const angleY = (x - xc) / 12;
     
     setTiltStyle({
-      transform: `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
-      transition: "transform 0.1s ease-out"
+      transform: `perspective(500px) rotateX(${angleX}deg) rotateY(${angleY}deg)`
     });
   };
 
   const handleMouseLeave = () => {
-    setTiltStyle({
-      transform: `perspective(600px) rotateX(0deg) rotateY(0deg)`,
-      transition: "transform 0.35s ease-out"
-    });
+    setTiltStyle({});
   };
 
+  // Liste des emojis et labels pour les scores
   const bacConfig = {
-    bac_math: { label: "Bac Math", emoji: "📊" },
+    bac_math: { label: "Bac Math", emoji: "📐" },
     bac_sc: { label: "Bac Sciences", emoji: "🧪" },
     bac_info: { label: "Bac Info", emoji: "💻" },
-    bac_tech: { label: "Bac Technique", emoji: "⚙️" },
+    bac_tech: { label: "Bac Tech", emoji: "⚙️" },
     bac_eco: { label: "Bac Éco", emoji: "📈" },
-    bac_let: { label: "Bac Lettres", emoji: "📚" },
+    bac_lettres: { label: "Bac Lettres", emoji: "📝" },
+    bac_let: { label: "Bac Lettres", emoji: "📝" },
     bac_sport: { label: "Bac Sport", emoji: "🏃" }
   };
+
 
   return (
     <motion.div 
       onClick={onClick}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      style={{ ...tiltStyle, willChange: "transform" }}
+      style={{ ...tiltStyle, borderLeft: `4px solid ${color}`, willChange: "transform" }}
       whileHover={shouldReduceMotion ? {} : { scale: 1.015 }}
       whileTap={shouldReduceMotion ? {} : { scale: 0.985 }}
-      className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm hover:shadow-xl cursor-pointer group relative overflow-hidden flex flex-col justify-between h-full"
+      className="w-full bg-white rounded-3xl border-y border-r border-gray-100 p-6 shadow-sm hover:shadow-xl cursor-pointer group relative overflow-hidden flex flex-col justify-between h-full"
     >
       {/* BLOC SUPÉRIEUR : LOGO + IDENTITÉ */}
       <div>
@@ -96,7 +96,12 @@ export default function LittleCard({ fac, onClick }) {
             return (
               <span 
                 key={idx} 
-                className="bg-cyan/5 text-cyan text-[10px] font-extrabold px-2.5 py-0.5 rounded-md border border-cyan/10"
+                className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-md border"
+                style={{
+                  backgroundColor: `${color}12`,
+                  color: color,
+                  borderColor: `${color}30`,
+                }}
               >
                 {shortName}
               </span>

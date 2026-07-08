@@ -19,14 +19,14 @@ export default function FacultePage({ faculte, onBack }) {
   }
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="w-full bg-slate-50 min-h-screen"
     >
 
-      {/* 1. ZONE HAUTE : Immersion totale avec la Banner & le bouton Retour */}
+      {/* 1. ZONE HAUTE : HeroBanner avec gradient catégorie intégré */}
       <div className="p-4 md:p-8">
         <HeroBanner faculte={faculte} onBack={onBack} />
       </div>

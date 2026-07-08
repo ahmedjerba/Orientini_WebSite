@@ -28,7 +28,7 @@ const parcoursData = [
     id: 4,
     heure: "14:00",
     titre: "Clôture du Salon",
-    description: "Fin des sessions d'échanges et fermeture des portes du salon virtuel.",
+    description: "Fin des sessions d'échanges et fermeture des portes de l'événement.",
     icon: "✨"
   }
 ];
@@ -64,6 +64,9 @@ export default function Programme() {
       transition: { duration: 0.25, ease: "easeOut" }
     }
   };
+
+  const activeIndex = parcoursData.findIndex(s => s.id === activeStationId);
+  const progressFraction = activeIndex / (parcoursData.length - 1);
 
   return (
     <motion.div
@@ -107,6 +110,15 @@ export default function Programme() {
           
           {/* La ligne directrice (le chemin) */}
           <div className="absolute top-7 left-0 right-0 h-1 bg-gray-200 rounded-full z-0" />
+          
+          {/* Remplissage animé (GPU-accelerated scaleX) */}
+          <div 
+            className="absolute top-7 left-0 right-0 h-1 bg-[#1b1464] rounded-full z-0 origin-left"
+            style={{
+              transform: `scaleX(${progressFraction})`,
+              transition: shouldReduceMotion ? 'none' : 'transform 350ms cubic-bezier(0.16, 1, 0.3, 1)'
+            }}
+          />
           
           {/* Les stations (les points du parcours) */}
           <div className="flex justify-between items-center relative z-10">

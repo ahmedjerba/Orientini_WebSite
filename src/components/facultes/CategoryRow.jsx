@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import LittleCard, { LittleCardSkeleton } from "./LittleCard";
 
-export default function CategoryRow({ title, facultes, onCardClick }) {
+export default function CategoryRow({ title, facultes, onCardClick, color = '#de3f6b' }) {
   const shouldReduceMotion = useReducedMotion();
   const [isLoading, setIsLoading] = useState(true);
 
@@ -88,6 +88,21 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
     setTouchEndX(0);
   };
 
+  const totalPages = Math.max(0, facultes.length - cardsVisible + 1);
+  const maxDots = 6;
+  let startDot = 0;
+  let endDot = totalPages;
+  if (totalPages > maxDots) {
+    startDot = Math.max(0, currentIndex - Math.floor(maxDots / 2));
+    endDot = startDot + maxDots;
+    if (endDot > totalPages) {
+      endDot = totalPages;
+      startDot = Math.max(0, endDot - maxDots);
+    }
+  }
+
+  const dotRange = Array.from({ length: endDot - startDot }, (_, idx) => startDot + idx);
+
   if (!facultes || facultes.length === 0) return null;
 
   return (
@@ -101,7 +116,10 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
       
       {/* EN-TÊTE RESPONSIVE (S'empile sur petit mobile, s'aligne sur PC) */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 px-2">
-        <h3 className="text-sm sm:text-base font-black text-[#1b1464] tracking-tight uppercase border-l-4 border-[#de3f6b] pl-3 flex flex-wrap items-center gap-2">
+        <h3
+          className="text-sm sm:text-base font-black text-[#1b1464] tracking-tight uppercase pl-3 flex flex-wrap items-center gap-2"
+          style={{ borderLeft: `4px solid ${color}` }}
+        >
           {title} 
           <span className="text-[10px] sm:text-[11px] font-bold text-gray-400 lowercase bg-slate-100 px-2 py-0.5 rounded-full whitespace-nowrap">
             {facultes.length} {facultes.length > 1 ? 'établissements' : 'établissement'}
@@ -114,16 +132,18 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
             <button 
               onClick={prevSlide} 
               className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95 cursor-pointer touch-manipulation"
+              style={{ '--tw-ring-color': color }}
               aria-label="Précédent"
             >
-              ◀
+              ◄
             </button>
             <button 
               onClick={nextSlide} 
               className="bg-white hover:bg-slate-50 border border-gray-200 text-[#1b1464] w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center font-black text-xs transition-all shadow-sm active:scale-95 cursor-pointer touch-manipulation"
+              style={{ '--tw-ring-color': color }}
               aria-label="Suivant"
             >
-              ▶
+              ►
             </button>
           </div>
         )}
@@ -165,14 +185,38 @@ export default function CategoryRow({ title, facultes, onCardClick }) {
                 className="flex-shrink-0 w-full"
               >
                 <LittleCard
-                  fac={fac} 
-                  onClick={() => onCardClick(fac)} 
+                  fac={fac}
+                  onClick={() => onCardClick(fac)}
+                  color={color}
                 />
               </div>
             ))
           )}
         </div>
       </div>
+
+      {/* POINTS DE PAGINATION */}
+      {totalPages > 1 && (
+        <div className="flex justify-center items-center gap-1 mt-4">
+          {dotRange.map((i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentIndex(i)}
+              className="h-3 w-6 flex items-center justify-center cursor-pointer focus:outline-none touch-manipulation"
+              aria-label={`Aller à la page ${i + 1}`}
+            >
+              <div
+                className="h-1.5 w-full rounded-full"
+                style={{
+                  backgroundColor: currentIndex === i ? color : '#e5e7eb',
+                  transform: `scaleX(${currentIndex === i ? 1.0 : 0.33})`,
+                  transition: shouldReduceMotion ? 'none' : 'transform 300ms cubic-bezier(0.16, 1, 0.3, 1), background-color 300ms'
+                }}
+              />
+            </button>
+          ))}
+        </div>
+      )}
 
     </motion.div>
   );
