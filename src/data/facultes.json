@@ -286,7 +286,7 @@
       {
         "id": "insat_prep_mpi",
         "nom": "Prépa Intégrée MPI (Math-Physique-Info)",
-        "duree": "2 ans",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Le cycle préparatoire MPI offre une formation intensive en mathématiques, physique, et fondamentaux de l'informatique. Il mène aux filières d'ingénieurs en informatique et technologie (GL, RT, IIA, IMI).",
         "scores": {
           "bac_math": 188.38,
@@ -304,7 +304,7 @@
       {
         "id": "insat_prep_cba",
         "nom": "Prépa Intégrée CBA (Chimie-Biologie Appliquée)",
-        "duree": "2 ans",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Le cycle préparatoire CBA propose un enseignement renforcé en chimie et en biologie pour préparer les étudiants aux spécialisations en biotechnologie et génie chimique.",
         "scores": {
           "bac_math": 166.61,
@@ -836,7 +836,7 @@
       {
         "id": "issat_sousse_cycle_pr_paratoire_int_gr____mpi__mat",
         "nom": "Cycle Préparatoire Intégré : MPI (Maths-Physique-Info)",
-        "duree": "2 ans de Cycle Préparatoire Intégré, suivis de 3 ans de Cycle d'Ingénieur ",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Filière phare en Cycle Préparatoire Intégré : MPI (Maths-Physique-Info) dispensée par ISSAT Sousse.",
         "scores": {
           "bac_math": 173.96,
@@ -1019,7 +1019,7 @@
       {
         "id": "hide_tunis_cycle_pr_paratoire_int_gr___exact_scien",
         "nom": "Cycle Préparatoire Intégré ",
-        "duree": "5 ans d'études intégrées (2 ans de Cycle Préparatoire Intégré + 3 ans de Cycle d'Ingénieur)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": " Cycle Préparatoire Intégré  dispensée par HIDE.",
         "scores": {
           "bac_math": 184.24,
@@ -1911,7 +1911,7 @@
       {
         "id": "isi_ariana_prepa_integree",
         "nom": "Cycle Préparatoire Integrée en Informatique ",
-        "duree": " 5 ans : 2 ans prepa integrée + 3 ans cycle ingénieur",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
         "description": "Le tout nouveau  cycle préparatoire integré en informatique en Tunisie.  , débouchant sur le diplôme d'ingénieur en informatique.",
         "scores": {
           "bac_math": null,
