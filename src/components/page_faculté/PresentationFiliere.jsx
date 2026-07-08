@@ -36,7 +36,7 @@ export default function PresentationFiliere({ faculte }) {
     }
   };
 
-  const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
+  const resolveScore = (key, filiereScores, facScores) => {
     if (filiereScores !== undefined) {
       if (filiereScores && key in filiereScores) {
         const val = filiereScores[key];
@@ -94,14 +94,14 @@ export default function PresentationFiliere({ faculte }) {
         nom: filiere.nom || "Spécialité",
         duree: filiere.duree || (regimes_etudes ? regimes_etudes.split(' pour ')[0] || "N/A" : "N/A"),
         description: filiere.description || `Formation de spécialité de premier plan dispensée à ${faculte?.nom_court}.`,
-        bac_math: resolveScore('bac_math', filiereScores, score_derniere_annee, isNouvelle),
-        bac_sc: resolveScore('bac_sc', filiereScores, score_derniere_annee, isNouvelle),
-        bac_info: resolveScore('bac_info', filiereScores, score_derniere_annee, isNouvelle),
-        bac_tech: resolveScore('bac_tech', filiereScores, score_derniere_annee, isNouvelle),
-        bac_eco: resolveScore('bac_eco', filiereScores, score_derniere_annee, isNouvelle),
-        bac_lettres: resolveScore('bac_lettres', filiereScores, score_derniere_annee, isNouvelle),
-        bac_let: resolveScore('bac_let', filiereScores, score_derniere_annee, isNouvelle),
-        bac_sport: resolveScore('bac_sport', filiereScores, score_derniere_annee, isNouvelle),
+        bac_math: resolveScore('bac_math', filiereScores, score_derniere_annee),
+        bac_sc: resolveScore('bac_sc', filiereScores, score_derniere_annee),
+        bac_info: resolveScore('bac_info', filiereScores, score_derniere_annee),
+        bac_tech: resolveScore('bac_tech', filiereScores, score_derniere_annee),
+        bac_eco: resolveScore('bac_eco', filiereScores, score_derniere_annee),
+        bac_lettres: resolveScore('bac_lettres', filiereScores, score_derniere_annee),
+        bac_let: resolveScore('bac_let', filiereScores, score_derniere_annee),
+        bac_sport: resolveScore('bac_sport', filiereScores, score_derniere_annee),
         concours: isPrepa,
         isNouvelle: isNouvelle,
         debouches: filiere.debouches || debouches || []

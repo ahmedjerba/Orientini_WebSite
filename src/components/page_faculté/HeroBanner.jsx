@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function HeroBanner({ faculte, onBack, bannerGradient }) {
   const DEFAULT_BANNER = "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80";
@@ -12,12 +12,13 @@ export default function HeroBanner({ faculte, onBack, bannerGradient }) {
   } = faculte || {};
 
   // État local pour gérer l'URL de la bannière dynamique
+  const [prevBanner, setPrevBanner] = useState(fac_hero_banner);
   const [bannerUrl, setBannerUrl] = useState(fac_hero_banner);
 
-  // Mettre à jour l'URL si la faculté change
-  useEffect(() => {
+  if (fac_hero_banner !== prevBanner) {
+    setPrevBanner(fac_hero_banner);
     setBannerUrl(fac_hero_banner);
-  }, [fac_hero_banner]);
+  }
 
   return (
     // MODIFICATION MOBILE : Hauteur automatique (h-auto) ou fixe minimale (min-h-[320px]) sur mobile pour laisser le texte respirer sans déborder
@@ -56,7 +57,14 @@ export default function HeroBanner({ faculte, onBack, bannerGradient }) {
 
           {/* Logo Circulaire : Légèrement plus petit sur mobile (w-14 h-14) pour économiser de l'espace */}
           <div className="w-14 h-14 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center border-4 border-white/20 shadow-md shrink-0">
-            <img src={logo} alt={nom_complet} className="w-full h-full object-cover rounded-full" />
+            <img 
+              src={logo} 
+              alt={nom_complet} 
+              loading="lazy" 
+              width="80" 
+              height="80" 
+              className="w-full h-full object-cover rounded-full" 
+            />
           </div>
 
           {/* Bloc d'informations textuelles */}

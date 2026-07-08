@@ -60,8 +60,11 @@ export default function DebouchesIntervenant({ faculte }) {
             {/* Rond bleu contenant le logo JID */}
             <div className="w-8 h-8 bg-[#1b1464] rounded-full flex items-center justify-center p-1.5 shrink-0 shadow-sm">
               <img 
-                src="/logo_jid.png" 
+                src="/logo_jid.webp" 
                 alt="Logo JID" 
+                loading="lazy"
+                width="32"
+                height="32"
                 className="w-full h-full object-contain"
               />
             </div>

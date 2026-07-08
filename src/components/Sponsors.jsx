@@ -4,16 +4,16 @@ export default function Sponsors() {
   const shouldReduceMotion = useReducedMotion();
 
   const sponsors = [
-    { id: 1, name: "Bricola", logo: "/logos_sponsors/Bricola.jpg" },
-    { id: 2, name: "Altec", logo: "/logos_sponsors/Altec.jpg" },
-    { id: 3, name: "L'Intégrale", logo: "/logos_sponsors/Intégrale.jpg" },
-    { id: 4, name: "Ordre des Ingénieurs Tunisiens", logo: "/logos_sponsors/Ordre.jpg" },
-    { id: 5, name: "Espace Salim", logo: "/logos_sponsors/Salim.jpg" },
-    { id: 6, name: "Gros Frais", logo: "/logos_sponsors/Gros_Frais.jpg" },
-    { id: 7, name: "Codifa", logo: "/logos_sponsors/Codifa.jpg" },
-    { id: 8, name: "Halloumi Céram", logo: "/logos_sponsors/Halloumi.jpg" },
-    { id: 9, name: "Amen Détergents", logo: "/logos_sponsors/Amen.jpg" },
-    { id: 10, name: "Tout est Casa", logo: "/logos_sponsors/Tout_Casa.jpg" },
+    { id: 1, name: "Bricola", logo: "/logos_sponsors/Bricola.webp" },
+    { id: 2, name: "Altec", logo: "/logos_sponsors/Altec.webp" },
+    { id: 3, name: "L'Intégrale", logo: "/logos_sponsors/Intégrale.webp" },
+    { id: 4, name: "Ordre des Ingénieurs Tunisiens", logo: "/logos_sponsors/Ordre.webp" },
+    { id: 5, name: "Espace Salim", logo: "/logos_sponsors/Salim.webp" },
+    { id: 6, name: "Gros Frais", logo: "/logos_sponsors/Gros_Frais.webp" },
+    { id: 7, name: "Codifa", logo: "/logos_sponsors/Codifa.webp" },
+    { id: 8, name: "Halloumi Céram", logo: "/logos_sponsors/Halloumi.webp" },
+    { id: 9, name: "Amen Détergents", logo: "/logos_sponsors/Amen.webp" },
+    { id: 10, name: "Tout est Casa", logo: "/logos_sponsors/Tout_Casa.webp" },
   ];
 
   const containerVariants = {
@@ -104,6 +104,9 @@ export default function Sponsors() {
                 <img
                   src={sponsor.logo}
                   alt={sponsor.name}
+                  loading="lazy"
+                  width="128"
+                  height="128"
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>

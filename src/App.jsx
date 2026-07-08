@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, lazy, Suspense } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
+import { Routes, Route, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Programme from './components/Programme';
@@ -8,11 +9,10 @@ import IntroLoader from './components/IntroLoader';
 // 1. Importation du système de navigation des stands
 import FaculteNavigation from './components/facultes/FaculteNavigation';
 
-// 2. Importation de ton nouveau composant d'assemblage final (Page Unique)
-import FacultyDetailPage from './components/page_faculté/FacultePage';
+// 2. Importation de la recherche et détails avec Lazy Loading
+const FacultyDetailPage = lazy(() => import('./components/page_faculté/FacultePage'));
+const AdvancedSearchPage = lazy(() => import('./components/AdvancedSearchPage'));
 
-// 3. Importation de la recherche avancée
-import AdvancedSearchPage from './components/AdvancedSearchPage';
 import Sponsors from './components/Sponsors';
 
 // 4. Importation de la base de données complète des établissements
@@ -32,25 +32,26 @@ const defaultHomeState = {
   selectedFilter: 'Tous',
 };
 
-const readHistoryState = () => {
-  if (typeof window === 'undefined') {
-    return null;
-  }
+// Wrapper pour la résolution automatique de la faculté via l'ID de l'URL
+function FacultePageWrapper() {
+  const { id } = useParams();
+  const navigate = useNavigate();
 
-  return window.history.state;
-};
+  const faculte = useMemo(() => {
+    return facultesData.find((fac) => fac.id === id) || null;
+  }, [id]);
 
-const createHistoryState = ({
-  viewMode,
-  selectedFaculteId = null,
-  homeState = defaultHomeState,
-  searchPageState = defaultSearchPageState,
-}) => ({
-  viewMode,
-  selectedFaculteId,
-  homeState,
-  searchPageState,
-});
+  const handleBack = () => {
+    navigate('/');
+  };
+
+  return (
+    <FacultyDetailPage 
+      faculte={faculte} 
+      onBack={handleBack} 
+    />
+  );
+}
 
 export default function App() {
   const { scrollYProgress } = useScroll();
@@ -60,42 +61,21 @@ export default function App() {
     restDelta: 0.001
   });
 
-  // Mode d'affichage de l'application : 'home' | 'search' | 'detail'
-  const [viewMode, setViewMode] = useState(() => readHistoryState()?.viewMode || 'home');
-  const [selectedFaculte, setSelectedFaculte] = useState(() => {
-    const historyState = readHistoryState();
-    const selectedFaculteId = historyState?.selectedFaculteId;
-
-    if (!selectedFaculteId) {
-      return null;
-    }
-
-    return facultesData.find((fac) => fac.id === selectedFaculteId) || null;
-  });
+  const navigate = useNavigate();
+  const location = useLocation();
 
   // LOGIQUE DE FILTRAGE & RECHERCHE DE BASE (Sur l'accueil)
-  const [searchQuery, setSearchQuery] = useState(() => readHistoryState()?.homeState?.searchQuery || '');
-  const [selectedFilter, setSelectedFilter] = useState(() => readHistoryState()?.homeState?.selectedFilter || 'Tous');
+  const [searchQuery, setSearchQuery] = useState(defaultHomeState.searchQuery);
+  const [selectedFilter, setSelectedFilter] = useState(defaultHomeState.selectedFilter);
 
-  // Etat conservé pour restaurer la recherche avancée au retour navigateur
-  const [searchPageState, setSearchPageState] = useState(() => {
-    return readHistoryState()?.searchPageState || defaultSearchPageState;
-  });
+  // Etat conservé pour la recherche avancée
+  const [searchPageState, setSearchPageState] = useState(defaultSearchPageState);
 
   // Options de filtres uniques extraites dynamiquement
   const filterOptions = useMemo(() => {
     const filters = new Set(facultesData.map(fac => fac.filtre).filter(Boolean));
     return ["Tous", ...Array.from(filters)];
   }, []);
-
-  const syncHistoryState = (nextState, { replace = false } = {}) => {
-    if (typeof window === 'undefined') {
-      return;
-    }
-
-    const method = replace ? 'replaceState' : 'pushState';
-    window.history[method](nextState, '', window.location.href);
-  };
 
   const handleSearchPageStateChange = (nextState) => {
     setSearchPageState((currentState) => {
@@ -110,7 +90,7 @@ export default function App() {
     });
   };
 
-  // Filtrage hybride des facultés (nom, nom court, et spécialités reliées)
+  // Filtrage hybride des facultés
   const filteredFacultes = useMemo(() => {
     return facultesData.filter(fac => {
       if (selectedFilter !== "Tous" && fac.filtre !== selectedFilter) {
@@ -136,108 +116,46 @@ export default function App() {
     });
   }, [searchQuery, selectedFilter]);
 
+  // Gestion du scroll-to-section sur navigation ou hash change
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return undefined;
-    }
-
-    if (!window.history.state) {
-      syncHistoryState(
-        createHistoryState({
-          viewMode: 'home',
-          homeState: defaultHomeState,
-          searchPageState: defaultSearchPageState,
-        }),
-        { replace: true }
-      );
-    }
-
-    const handlePopState = (event) => {
-      const state = event.state || createHistoryState({
-        viewMode: 'home',
-        homeState: defaultHomeState,
-        searchPageState: defaultSearchPageState,
-      });
-
-      setViewMode(state.viewMode || 'home');
-      setSearchQuery(state.homeState?.searchQuery || '');
-      setSelectedFilter(state.homeState?.selectedFilter || 'Tous');
-      setSearchPageState({
-        ...defaultSearchPageState,
-        ...(state.searchPageState || {}),
-      });
-
-      if (state.selectedFaculteId) {
-        setSelectedFaculte(facultesData.find((fac) => fac.id === state.selectedFaculteId) || null);
-      } else {
-        setSelectedFaculte(null);
+    if (location.pathname === '/') {
+      if (location.hash === '#programme') {
+        setTimeout(() => {
+          document.getElementById('programme')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 150);
+      } else if (location.hash === '#facultes') {
+        setTimeout(() => {
+          document.getElementById('facultes')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 150);
+      } else if (location.hash === '#home') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (!location.hash) {
+        window.scrollTo({ top: 0, behavior: 'auto' });
       }
-    };
+    } else {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }, [location.pathname, location.hash]);
 
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
-
-  // Handlers de navigation
-  const handleGoToDetail = (fac) => {
-    setSelectedFaculte(fac);
-    setViewMode('detail');
-    syncHistoryState(
-      createHistoryState({
-        viewMode: 'detail',
-        selectedFaculteId: fac.id,
-        homeState: { searchQuery, selectedFilter },
-        searchPageState,
-      })
-    );
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
+  // Handlers de navigation pour Navbar
   const handleGoHome = () => {
-    setSelectedFaculte(null);
-    setViewMode('home');
-    syncHistoryState(
-      createHistoryState({
-        viewMode: 'home',
-        homeState: { searchQuery, selectedFilter },
-        searchPageState,
-      })
-    );
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handleGoToSearch = () => {
-    setViewMode('search');
-    syncHistoryState(
-      createHistoryState({
-        viewMode: 'search',
-        homeState: { searchQuery, selectedFilter },
-        searchPageState,
-      })
-    );
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate('/');
   };
 
   const handleGoToProgramme = () => {
-    setSelectedFaculte(null);
-    setViewMode('home');
-    syncHistoryState(
-      createHistoryState({
-        viewMode: 'home',
-        homeState: { searchQuery, selectedFilter },
-        searchPageState,
-      })
-    );
+    navigate('/#programme');
+  };
 
-    window.requestAnimationFrame(() => {
-      const programmeSection = document.getElementById('programme');
-      programmeSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+  const handleGoToSearch = () => {
+    navigate('/recherche');
+  };
+
+  const handleGoToDetail = (fac) => {
+    navigate(`/faculte/${fac.id}`);
   };
 
   return (
     <IntroLoader>
-
       <div className="min-h-screen bg-white text-gray-900 flex flex-col antialiased selection:bg-[#78bec3]/30">
         {/* Barre de Progression de Scroll */}
         <motion.div
@@ -245,183 +163,175 @@ export default function App() {
           style={{ scaleX, transformOrigin: "0%" }}
         />
         
-        {/* =========================================================
-            1. NAVBAR (Gère maintenant le retour d'état)
-           ========================================================= */}
+        {/* NAVBAR */}
         <Navbar
           onHomeClick={handleGoHome}
           onProgrammeClick={handleGoToProgramme}
           onSearchClick={handleGoToSearch}
         />
 
-      {/* ZONE DE CONTENU DYNAMIQUE (ROUTAGE) */}
-      {/* ZONE DE CONTENU DYNAMIQUE (ROUTAGE) */}
-      <main className="flex-grow relative overflow-hidden">
-        <AnimatePresence mode="wait">
-          {viewMode === 'detail' && selectedFaculte && (
-            /* Vue détaillée */
-            <motion.div
-              key="detail"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -20 }}
-              transition={{ duration: 0.25, ease: "easeInOut" }}
-            >
-              <FacultyDetailPage 
-                faculte={selectedFaculte} 
-                onBack={handleGoHome} 
-              />
-            </motion.div>
-          )}
+        {/* ZONE DE CONTENU DYNAMIQUE (ROUTAGE) */}
+        <main className="flex-grow relative overflow-hidden">
+          <Suspense fallback={
+            <div className="flex flex-col items-center justify-center min-h-[60vh] bg-slate-50 p-8">
+              <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-[#1b1464] mb-3"></div>
+              <p className="text-[#1b1464] font-black text-sm">Chargement des données...</p>
+            </div>
+          }>
+            <AnimatePresence mode="wait">
+              <Routes location={location} key={location.pathname}>
+                {/* 1. Page d'accueil */}
+                <Route path="/" element={
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    {/* HERO SECTION */}
+                    <section id="home" className="py-12 border-b border-gray-100 bg-slate-50">
+                      <HeroSection />
+                    </section>
 
-          {viewMode === 'search' && (
-            /* Vue recherche avancée */
-            <motion.div
-              key="search"
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -15 }}
-              transition={{ duration: 0.25, ease: "easeInOut" }}
-            >
-              <AdvancedSearchPage 
-                onCardClick={handleGoToDetail} 
-                onBack={handleGoHome}
-                initialState={searchPageState}
-                onStateChange={handleSearchPageStateChange}
-              />
-            </motion.div>
-          )}
+                    {/* SECTION PROGRAMME */}
+                    <section id="programme" className="py-12 border-b border-gray-100">
+                      <Programme />
+                    </section>
 
-          {viewMode === 'home' && (
-            /* Vue d'accueil par défaut */
-            <motion.div
-              key="home"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.25, ease: "easeInOut" }}
-            >
-              <>
-                {/* 2. HERO SECTION */}
-                <section id="home" className="py-12 border-b border-gray-100 bg-slate-50">
-                  <HeroSection />
-                </section>
+                    {/* SECTION EXPLORATION DES FACULTÉS */}
+                    <section id="facultes" className="py-16 bg-slate-50 overflow-hidden">
+                      <div className="max-w-7xl mx-auto px-6 space-y-8">
+                        <div className="border-b border-gray-200/60 pb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                          <div>
+                            <h2 className="text-2xl font-black text-[#1b1464] tracking-tight">
+                              🎓 Explorez les Établissements par Cursus
+                            </h2>
+                            <p className="text-xs text-gray-400 font-bold mt-1">
+                              Faites défiler horizontalement pour découvrir les filières et cliquez sur une carte pour ouvrir sa fiche complète.
+                            </p>
+                          </div>
 
-                {/* 3. SECTION PROGRAMME */}
-                <section id="programme" className="py-12 border-b border-gray-100">
-                  <Programme />
-                </section>
+                          {/* BARRE DE RECHERCHE RAPIDE & CTA RECHERCHE AVANCÉE */}
+                          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
+                            <div className="relative w-full md:w-80">
+                              <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                              </span>
+                              <input
+                                type="text"
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                                placeholder="Rechercher une fac, prépa..."
+                                className="w-full bg-white border border-gray-200/80 rounded-2xl pl-10 pr-4 py-2.5 text-xs font-semibold text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#de3f6b]/20 focus:border-[#de3f6b] transition-all shadow-sm"
+                              />
+                              {searchQuery && (
+                                <button
+                                  onClick={() => setSearchQuery("")}
+                                  className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600 text-xs font-bold"
+                                >
+                                  ✕
+                                </button>
+                              )}
+                            </div>
 
-                {/* 4. SECTION RECHERCHE & EXPLORATION DES FACULTÉS */}
-                <section id="facultes" className="py-16 bg-slate-50 overflow-hidden">
-                  <div className="max-w-7xl mx-auto px-6 space-y-8">
-                    
-                    {/* En-tête de la section d'orientation */}
-                    <div className="border-b border-gray-200/60 pb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                      <div>
-                        <h2 className="text-2xl font-black text-[#1b1464] tracking-tight">
-                          🎓 Explorez les Établissements par Cursus
-                        </h2>
-                        <p className="text-xs text-gray-400 font-bold mt-1">
-                          Faites défiler horizontalement pour découvrir les filières et cliquez sur une carte pour ouvrir sa fiche complète.
-                        </p>
-                      </div>
-
-                      {/* BARRE DE RECHERCHE RAPIDE & CTA RECHERCHE AVANCÉE */}
-                      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
-                        <div className="relative w-full md:w-80">
-                          <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                            <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                            </svg>
-                          </span>
-                          <input
-                            type="text"
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            placeholder="Rechercher une fac, prépa..."
-                            className="w-full bg-white border border-gray-200/80 rounded-2xl pl-10 pr-4 py-2.5 text-xs font-semibold text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#de3f6b]/20 focus:border-[#de3f6b] transition-all shadow-sm"
-                          />
-                          {searchQuery && (
                             <button
-                              onClick={() => setSearchQuery("")}
-                              className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-gray-600 text-xs font-bold"
+                              onClick={handleGoToSearch}
+                              className="flex items-center justify-center gap-2 bg-[#f5d203]/20 hover:bg-[#f5d203]/30 text-[#1b1464] border border-[#f5d203]/40 px-4 py-2.5 rounded-2xl text-xs font-black transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
                             >
-                              ✕
+                              🔍 Trouver une Fac (Recherche Avancée)
                             </button>
-                          )}
+                          </div>
                         </div>
 
-                        <button
-                          onClick={handleGoToSearch}
-                          className="flex items-center justify-center gap-2 bg-[#f5d203]/20 hover:bg-[#f5d203]/30 text-[#1b1464] border border-[#f5d203]/40 px-4 py-2.5 rounded-2xl text-xs font-black transition-all hover:scale-[1.02] active:scale-95 shadow-sm"
-                        >
-                          🔍 Trouver une Fac (Recherche Avancée)
-                        </button>
+                        {/* FILTRES DÉFILABLES */}
+                        <div className="overflow-x-auto whitespace-nowrap pb-2 -mx-6 px-6 scrollbar-hide flex gap-2">
+                          {filterOptions.map((filter) => {
+                            const isActive = selectedFilter === filter;
+                            return (
+                              <button
+                                key={filter}
+                                onClick={() => setSelectedFilter(filter)}
+                                className={`inline-block px-4 py-2 rounded-xl text-xs font-black tracking-wide transition-all ${
+                                  isActive
+                                    ? 'bg-[#de3f6b] text-white shadow-md shadow-[#de3f6b]/20'
+                                    : 'bg-white text-gray-500 border border-gray-200 hover:bg-gray-50'
+                                }`}
+                              >
+                                {filter}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* Navigation par carrousels */}
+                        {filteredFacultes.length > 0 ? (
+                          <FaculteNavigation 
+                            data={filteredFacultes} 
+                            onCardClick={handleGoToDetail} 
+                          />
+                        ) : (
+                          <div className="text-center py-12 bg-white rounded-3xl border border-gray-100 shadow-sm space-y-3">
+                            <span className="text-3xl">🔍</span>
+                            <h3 className="text-sm font-black text-[#1b1464]">Aucun établissement trouvé</h3>
+                            <p className="text-xs text-gray-400 font-semibold max-w-md mx-auto">
+                              Nous n'avons pas trouvé de résultats. Essayez d'utiliser la recherche avancée par score ou par région.
+                            </p>
+                            <button
+                              onClick={handleGoToSearch}
+                              className="text-xs font-black text-white bg-[#de3f6b] px-4 py-2 rounded-xl mt-2 inline-block shadow-sm"
+                            >
+                              Aller à la recherche avancée 🚀
+                            </button>
+                          </div>
+                        )}
                       </div>
-                    </div>
+                    </section>
 
-                    {/* FILTRES DÉFILABLES */}
-                    <div className="overflow-x-auto whitespace-nowrap pb-2 -mx-6 px-6 scrollbar-hide flex gap-2">
-                      {filterOptions.map((filter) => {
-                        const isActive = selectedFilter === filter;
-                        return (
-                          <button
-                            key={filter}
-                            onClick={() => setSelectedFilter(filter)}
-                            className={`inline-block px-4 py-2 rounded-xl text-xs font-black tracking-wide transition-all ${
-                              isActive
-                                ? 'bg-[#de3f6b] text-white shadow-md shadow-[#de3f6b]/20'
-                                : 'bg-white text-gray-500 border border-gray-200 hover:bg-gray-50'
-                            }`}
-                          >
-                            {filter}
-                          </button>
-                        );
-                      })}
-                    </div>
+                    {/* SECTION SPONSORS */}
+                    <Sponsors />
+                  </motion.div>
+                } />
 
-                    {/* Navigation par carrousels */}
-                    {filteredFacultes.length > 0 ? (
-                      <FaculteNavigation 
-                        data={filteredFacultes} 
-                        onCardClick={handleGoToDetail} 
-                      />
-                    ) : (
-                      <div className="text-center py-12 bg-white rounded-3xl border border-gray-100 shadow-sm space-y-3">
-                        <span className="text-3xl">🔍</span>
-                        <h3 className="text-sm font-black text-[#1b1464]">Aucun établissement trouvé</h3>
-                        <p className="text-xs text-gray-400 font-semibold max-w-md mx-auto">
-                          Nous n'avons pas trouvé de résultats. Essayez d'utiliser la recherche avancée par score ou par région.
-                        </p>
-                        <button
-                          onClick={handleGoToSearch}
-                          className="text-xs font-black text-white bg-[#de3f6b] px-4 py-2 rounded-xl mt-2 inline-block shadow-sm"
-                        >
-                          Aller à la recherche avancée 🚀
-                        </button>
-                      </div>
-                    )}
+                {/* 2. Recherche avancée */}
+                <Route path="/recherche" element={
+                  <motion.div
+                    initial={{ opacity: 0, y: 15 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -15 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    <AdvancedSearchPage 
+                      onCardClick={handleGoToDetail} 
+                      onBack={handleGoHome}
+                      initialState={searchPageState}
+                      onStateChange={handleSearchPageStateChange}
+                    />
+                  </motion.div>
+                } />
 
-                  </div>
-                </section>
+                {/* 3. Fiche faculté */}
+                <Route path="/faculte/:id" element={
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -20 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    <FacultePageWrapper />
+                  </motion.div>
+                } />
+              </Routes>
+            </AnimatePresence>
+          </Suspense>
+        </main>
 
-                {/* 5. SECTION SPONSORS */}
-                <Sponsors />
-              </>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </main>
-
-      {/* =========================================================
-          FOOTER FIXE
-         ========================================================= */}
-      <footer className="bg-[#1b1464] text-white text-center py-4 text-xs font-bold tracking-wide">
-        © 2026 JID — Jeunes Ingénieurs de Djerba | 8ème édition d'Orient'ini
-      </footer>
-
-    </div>
+        {/* FOOTER */}
+        <footer className="bg-[#1b1464] text-white text-center py-4 text-xs font-bold tracking-wide">
+          © 2026 JID — Jeunes Ingénieurs de Djerba | 8ème édition d'Orient'ini
+        </footer>
+      </div>
     </IntroLoader>
   );
 }

@@ -46,8 +46,10 @@ export default function HeroVisual() {
         className="relative p-2.5 sm:p-4 bg-white/40 backdrop-blur-md rounded-2xl border border-white/60 shadow-xl max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-[340px] z-10"
       >
         <img
-          src="Affiche.jpg"
+          src="Affiche.webp"
           alt="Illustration Hero"
+          width="340"
+          height="481"
           className="w-full h-auto object-contain rounded-xl shadow-inner border border-slate-100"
         />
       </motion.div>

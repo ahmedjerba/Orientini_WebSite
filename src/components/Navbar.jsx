@@ -49,8 +49,10 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
           className="flex items-center gap-2.5 max-w-[200px] cursor-pointer"
         >
           <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="Orient'ini Logo"
+            width="95"
+            height="40"
             className="h-10 w-auto object-contain"
           />
         </div>
@@ -99,8 +101,10 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
               </span>
 
               <img
-                src="/logo_jid.png"
+                src="/logo_jid.webp"
                 alt="JID Logo"
+                width="40"
+                height="40"
                 className="w-10 h-10 object-contain hover:scale-110 transition-transform duration-300"
               />
             </a>
@@ -125,8 +129,10 @@ export default function Navbar({ onHomeClick, onProgrammeClick, onSearchClick })
             </span>
 
             <img
-              src="/logo_jid.png"
+              src="/logo_jid.webp"
               alt="JID Logo"
+              width="32"
+              height="32"
               className="w-8 h-8 object-contain hover:scale-110 transition-transform duration-300"
             />
           </a>

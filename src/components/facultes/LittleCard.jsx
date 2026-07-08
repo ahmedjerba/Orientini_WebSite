@@ -59,6 +59,9 @@ export default function LittleCard({ fac, onClick }) {
               <img 
                 src={fac.logo} 
                 alt={`${fac.nom_court} logo`} 
+                loading="lazy"
+                width="48"
+                height="48"
                 className="w-full h-full object-contain"
               />
             ) : (

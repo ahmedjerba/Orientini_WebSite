@@ -138,7 +138,7 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
   }, [searchQuery, selectedRegion, selectedCategory, selectedScoreType, minScore, activeSpecialty, onStateChange]);
 
   // Handler d'ouverture pour le deep-dive poussé d'une spécialité
-  const resolveScore = (key, filiereScores, facScores, isNouvelle) => {
+  const resolveScore = (key, filiereScores, facScores) => {
     if (filiereScores !== undefined) {
       if (filiereScores && key in filiereScores) {
         const val = filiereScores[key];
@@ -197,14 +197,14 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
         nom: filiere.nom || "Spécialité",
         duree: filiere.duree || (fac.regimes_etudes ? fac.regimes_etudes.split(' pour ')[0] || "N/A" : "N/A"),
         description: filiere.description || `Formation de spécialité de premier plan dispensée à ${fac.nom_court}.`,
-        bac_math: resolveScore('bac_math', filiereScores, facScores, isNouvelle),
-        bac_sc: resolveScore('bac_sc', filiereScores, facScores, isNouvelle),
-        bac_info: resolveScore('bac_info', filiereScores, facScores, isNouvelle),
-        bac_tech: resolveScore('bac_tech', filiereScores, facScores, isNouvelle),
-        bac_eco: resolveScore('bac_eco', filiereScores, facScores, isNouvelle),
-        bac_lettres: resolveScore('bac_lettres', filiereScores, facScores, isNouvelle),
-        bac_let: resolveScore('bac_let', filiereScores, facScores, isNouvelle),
-        bac_sport: resolveScore('bac_sport', filiereScores, facScores, isNouvelle),
+        bac_math: resolveScore('bac_math', filiereScores, facScores),
+        bac_sc: resolveScore('bac_sc', filiereScores, facScores),
+        bac_info: resolveScore('bac_info', filiereScores, facScores),
+        bac_tech: resolveScore('bac_tech', filiereScores, facScores),
+        bac_eco: resolveScore('bac_eco', filiereScores, facScores),
+        bac_lettres: resolveScore('bac_lettres', filiereScores, facScores),
+        bac_let: resolveScore('bac_let', filiereScores, facScores),
+        bac_sport: resolveScore('bac_sport', filiereScores, facScores),
         concours: isPrepa,
         isNouvelle: isNouvelle,
         debouches: filiere.debouches || fac.debouches || [],
@@ -387,7 +387,14 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
                   <div className="flex items-center gap-3">
                     <div className="w-11 h-11 rounded-2xl bg-slate-50 border border-gray-100 flex items-center justify-center p-1.5 shrink-0">
                       {fac.logo ? (
-                        <img src={fac.logo} alt={fac.nom_court} className="w-full h-full object-contain" />
+                        <img 
+                          src={fac.logo} 
+                          alt={fac.nom_court} 
+                          loading="lazy"
+                          width="44"
+                          height="44"
+                          className="w-full h-full object-contain" 
+                        />
                       ) : (
                         <span className="text-xs font-black text-[#1b1464]">{fac.nom_court}</span>
                       )}
@@ -489,7 +496,14 @@ export default function AdvancedSearchPage({ onCardClick, onBack, initialState, 
             {/* En-tête : Spécialité + Fac Origine */}
             <div className="flex items-center gap-3.5 border-b border-gray-100 pb-4">
               <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-gray-100 flex items-center justify-center p-2 shrink-0">
-                <img src={activeSpecialty.facLogo} alt={activeSpecialty.facName} className="w-full h-full object-contain" />
+                <img 
+                  src={activeSpecialty.facLogo} 
+                  alt={activeSpecialty.facName} 
+                  loading="lazy"
+                  width="48"
+                  height="48"
+                  className="w-full h-full object-contain" 
+                />
               </div>
               <div className="space-y-0.5">
                 <div className="flex flex-wrap gap-1.5 items-center">
