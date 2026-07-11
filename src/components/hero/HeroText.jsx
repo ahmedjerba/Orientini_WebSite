@@ -106,7 +106,7 @@ export default function HeroText() {
             boxShadow: "0 10px 25px -5px rgba(222, 63, 107, 0.4)" 
           }}
           whileTap={shouldReduceMotion ? {} : { scale: 0.97 }}
-          className="w-full sm:w-auto bg-gradient-to-r from-pourpre via-[#f5d203] to-pourpre bg-[length:200%_auto] text-white px-10 py-5 rounded-full font-black text-base uppercase tracking-widest shadow-lg shadow-pourpre/30 hover:bg-right transition-all duration-500 text-center"
+          className="w-full sm:w-auto bg-gradient-to-r from-pourpre via-[#c0306b] to-bleu bg-[length:200%_auto] text-white px-10 py-5 rounded-full font-black text-base uppercase tracking-widest shadow-lg shadow-pourpre/30 hover:bg-right transition-all duration-500 text-center [box-shadow:0_0_28px_rgba(245,210,3,0.35),0_4px_20px_rgba(222,63,107,0.35)]"
         >
           <span>🚀</span> REJOINDRE L'ÉVÉNEMENT
         </motion.a>
