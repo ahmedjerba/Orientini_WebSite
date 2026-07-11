@@ -138,7 +138,13 @@ export default function HeroBackgroundCanvas() {
     <canvas
       ref={canvasRef}
       className="absolute inset-0 w-full h-full pointer-events-none -z-10"
-      style={{ opacity: 0.8 }}
+      style={{
+        opacity: 0.8,
+        // Masque dégradé : pleine intensité sur les bords, atténué (~35%) au centre/bas
+        // où se situe visuellement le CTA principal — crée un rythme fort→calme→fort
+        maskImage: 'radial-gradient(ellipse 55% 45% at 50% 55%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 70%)',
+        WebkitMaskImage: 'radial-gradient(ellipse 55% 45% at 50% 55%, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 70%)',
+      }}
     />
   );
 }

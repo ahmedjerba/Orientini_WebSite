@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Programme from './components/Programme';
 import IntroLoader from './components/IntroLoader';
+import RouteLoader from './components/RouteLoader';
 
 // 1. Importation du système de navigation des stands
 import FaculteNavigation from './components/facultes/FaculteNavigation';
@@ -173,12 +174,7 @@ export default function App() {
 
         {/* ZONE DE CONTENU DYNAMIQUE (ROUTAGE) */}
         <main className="flex-grow relative overflow-hidden">
-          <Suspense fallback={
-            <div className="flex flex-col items-center justify-center min-h-[60vh] bg-slate-50 p-8">
-              <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-[#1b1464] mb-3"></div>
-              <p className="text-[#1b1464] font-black text-sm">Chargement des données...</p>
-            </div>
-          }>
+          <Suspense fallback={<RouteLoader />}>
             <AnimatePresence mode="wait">
               <Routes location={location} key={location.pathname}>
                 {/* 1. Page d'accueil */}

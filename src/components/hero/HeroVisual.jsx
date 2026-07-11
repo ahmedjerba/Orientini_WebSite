@@ -5,20 +5,20 @@ export default function HeroVisual() {
 
   // Animation de flottement pour les halos
   const floatAnimationLeft = shouldReduceMotion ? {} : {
-    y: [0, -12, 0],
-    x: [0, 8, 0],
+    y: [0, -8, 0],
+    x: [0, 5, 0],
     transition: {
-      duration: 6,
+      duration: 8,
       repeat: Infinity,
       ease: "easeInOut"
     }
   };
 
   const floatAnimationRight = shouldReduceMotion ? {} : {
-    y: [0, 12, 0],
-    x: [0, -8, 0],
+    y: [0, 8, 0],
+    x: [0, -5, 0],
     transition: {
-      duration: 7,
+      duration: 10,
       repeat: Infinity,
       ease: "easeInOut"
     }
@@ -30,11 +30,11 @@ export default function HeroVisual() {
       {/* ─── HALOS LUMINEUX EN ARRIÈRE-PLAN ─── */}
       <motion.div
         animate={floatAnimationLeft}
-        className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#de3f6b]/15 rounded-full blur-3xl pointer-events-none"
+        className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#de3f6b]/8 rounded-full blur-3xl pointer-events-none"
       />
       <motion.div
         animate={floatAnimationRight}
-        className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-64 h-64 bg-[#f5d203]/15 rounded-full blur-3xl pointer-events-none"
+        className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-64 h-64 bg-[#f5d203]/10 rounded-full blur-3xl pointer-events-none"
       />
 
       {/* ─── CONTENEUR DE L'AFFICHE (Cadre fluide style mockup/glassmorphism) ─── */}

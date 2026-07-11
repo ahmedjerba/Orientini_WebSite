@@ -1,8 +1,22 @@
+import { useState, useEffect } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import confetti from 'canvas-confetti';
 
 export default function HeroText() {
   const shouldReduceMotion = useReducedMotion();
+
+  // Compteur animé 1 → 8 au premier chargement pour le badge "8ème Édition"
+  const [editionCount, setEditionCount] = useState(shouldReduceMotion ? 8 : 1);
+  useEffect(() => {
+    if (shouldReduceMotion) return;
+    let count = 1;
+    const interval = setInterval(() => {
+      count++;
+      setEditionCount(count);
+      if (count >= 8) clearInterval(interval);
+    }, 120);
+    return () => clearInterval(interval);
+  }, [shouldReduceMotion]);
 
   // Animation de cascade pour le parent
   const containerVariants = {
@@ -63,12 +77,34 @@ export default function HeroText() {
       animate="visible"
       className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-6"
     >
-      {/* Badge */}
+      {/* Badge 8ème Édition enrichi */}
       <motion.span
         variants={itemVariants}
-        className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-cyan/10 text-bleu border border-cyan/20"
+        whileHover={shouldReduceMotion ? {} : { scale: 1.04 }}
+        className="group relative inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-extrabold tracking-wider uppercase bg-cyan/10 text-bleu border border-cyan/20 cursor-default select-none"
       >
-        ✨ 8ème Édition — #Unlock_your_next_chapter
+        ✨{' '}
+        {/* Chiffre animé */}
+        <motion.span
+          key={editionCount}
+          initial={shouldReduceMotion ? {} : { y: -8, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.12, ease: 'easeOut' }}
+          className="font-black text-pourpre"
+        >
+          {editionCount}
+        </motion.span>
+        ème Édition — #Unlock_your_next_chapter
+
+        {/* Tooltip au survol : continuité historique */}
+        <motion.span
+          initial={{ opacity: 0, scale: 0.9, y: 4 }}
+          whileHover={{ opacity: 1, scale: 1, y: 0 }}
+          className="pointer-events-none absolute -bottom-7 left-1/2 -translate-x-1/2 whitespace-nowrap bg-bleu text-white text-[10px] font-black px-2.5 py-1 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-200 z-10"
+        >
+          🏆 De 2018 à 2026
+          <span className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-full w-0 h-0 border-x-4 border-x-transparent border-b-[5px] border-b-bleu" />
+        </motion.span>
       </motion.span>
 
       {/* Slogan */}
