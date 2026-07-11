@@ -6,7 +6,7 @@ export default function Countdown() {
 
   // ─── Date de l'événement ─────────────────────────────────────────────────
   const EVENT_DATE = new Date("2026-07-19T09:00:00");
-  const TOTAL_DURATION = EVENT_DATE - new Date("2026-01-01T00:00:00"); // référence début d'année
+  const TOTAL_DURATION = EVENT_DATE - new Date("2026-06-21T17:00:00"); // référence début d'année
 
   const calculateTimeLeft = () => {
     const difference = +EVENT_DATE - +new Date();
@@ -33,10 +33,10 @@ export default function Countdown() {
   const progressPct = Math.min(100, (elapsed / TOTAL_DURATION) * 100);
 
   const timeBlocks = [
-    { label: 'Jours',   value: timeLeft.jours    },
-    { label: 'Heures',  value: timeLeft.heures   },
-    { label: 'Min',     value: timeLeft.minutes  },
-    { label: 'Sec',     value: timeLeft.secondes },
+    { label: 'Jours', value: timeLeft.jours },
+    { label: 'Heures', value: timeLeft.heures },
+    { label: 'Min', value: timeLeft.minutes },
+    { label: 'Sec', value: timeLeft.secondes },
   ];
 
   // Position verticale de la fusée : monte de 85% → 5% à mesure qu'on approche
@@ -121,9 +121,8 @@ export default function Countdown() {
               {timeBlocks.map((item, idx) => (
                 <div key={idx} className="relative flex flex-col items-center">
                   {/* Fond bloc avec bordure jaune si c'est le dernier bloc (secondes) */}
-                  <div className={`w-full bg-white/10 backdrop-blur-sm rounded-xl py-2 border ${
-                    idx === 3 ? 'border-jaune/40' : 'border-white/5'
-                  } flex flex-col items-center`}>
+                  <div className={`w-full bg-white/10 backdrop-blur-sm rounded-xl py-2 border ${idx === 3 ? 'border-jaune/40' : 'border-white/5'
+                    } flex flex-col items-center`}>
                     {/* Chiffre animé */}
                     <div className="relative overflow-hidden h-9 w-full flex items-center justify-center">
                       <AnimatePresence mode="popLayout">

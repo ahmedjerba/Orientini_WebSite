@@ -9,7 +9,7 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
   const handleMouseMove = (e) => {
     // Désactiver sur mobile (touch/coarse) ou si reduced motion est actif
     if (window.matchMedia("(pointer: coarse)").matches || shouldReduceMotion) return;
-    
+
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
@@ -17,7 +17,7 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
     const yc = rect.height / 2;
     const angleX = (yc - y) / 12; // inclinaison modérée (max ~10deg)
     const angleY = (x - xc) / 12;
-    
+
     setTiltStyle({
       transform: `perspective(500px) rotateX(${angleX}deg) rotateY(${angleY}deg)`
     });
@@ -29,19 +29,19 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
 
   // Liste des emojis et labels pour les scores
   const bacConfig = {
-    bac_math: { label: "Bac Math", emoji: "📐" },
+    bac_math: { label: "Bac Math", emoji: "📊" },
     bac_sc: { label: "Bac Sciences", emoji: "🧪" },
     bac_info: { label: "Bac Info", emoji: "💻" },
     bac_tech: { label: "Bac Tech", emoji: "⚙️" },
     bac_eco: { label: "Bac Éco", emoji: "📈" },
-    bac_lettres: { label: "Bac Lettres", emoji: "📝" },
-    bac_let: { label: "Bac Lettres", emoji: "📝" },
+    bac_lettres: { label: "Bac Lettres", emoji: "📖" },
+    bac_let: { label: "Bac Lettres", emoji: "📖" },
     bac_sport: { label: "Bac Sport", emoji: "🏃" }
   };
 
 
   return (
-    <motion.div 
+    <motion.div
       onClick={onClick}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -56,9 +56,9 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
           {/* Container du Logo de la Fac */}
           <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-gray-100 flex items-center justify-center p-2 shrink-0 group-hover:bg-white group-hover:border-pourpre/20 group-hover:rotate-3 transition-all duration-300 shadow-sm">
             {fac.logo ? (
-              <img 
-                src={fac.logo} 
-                alt={`${fac.nom_court} logo`} 
+              <img
+                src={fac.logo}
+                alt={`${fac.nom_court} logo`}
                 loading="lazy"
                 width="48"
                 height="48"
@@ -73,7 +73,7 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
           </div>
 
           {/* Titre et Ville */}
-          <div className="space-y-0.5"> 
+          <div className="space-y-0.5">
             <h4 className="font-black text-lg text-bleu tracking-tight group-hover:text-pourpre transition-colors duration-300 leading-tight">
               {fac.nom_court}
             </h4>
@@ -94,8 +94,8 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
             const filiereName = typeof filiere === 'object' && filiere !== null ? filiere.nom : filiere;
             const shortName = filiereName ? filiereName.split(' ')[0] : "Spécialité";
             return (
-              <span 
-                key={idx} 
+              <span
+                key={idx}
                 className="text-xs font-extrabold px-2.5 py-0.5 rounded-md border"
                 style={{
                   backgroundColor: `${color}12`,
@@ -113,6 +113,48 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
             </span>
           )}
         </div>
+
+        {/* Bacs acceptés — déduits des scores présents dans toutes les filières */}
+        {(() => {
+          // Collecte toutes les clés de scores non-nulles sur toutes les filières
+          const seen = new Set();
+          const bacs = [];
+          (fac.filieres_phares || []).forEach((f) => {
+            const scores = (typeof f === 'object' && f !== null) ? (f.scores || {}) : {};
+            Object.entries(scores).forEach(([key, val]) => {
+              if (val !== null && val !== undefined) {
+                // Canoniser bac_let → bac_lettres pour éviter les doublons
+                const canonical = key === 'bac_let' ? 'bac_lettres' : key;
+                if (!seen.has(canonical) && bacConfig[canonical]) {
+                  seen.add(canonical);
+                  bacs.push(canonical);
+                }
+              }
+            });
+          });
+          if (bacs.length === 0) return null;
+          return (
+            <div className="mt-3 pt-3 border-t border-gray-50/80">
+              <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1.5">
+                Bacs acceptés
+              </p>
+              <div className="flex flex-wrap gap-1">
+                {bacs.map((key) => {
+                  const cfg = bacConfig[key];
+                  return (
+                    <span
+                      key={key}
+                      className="inline-flex items-center gap-0.5 text-xs font-black bg-slate-50 border border-gray-100 text-bleu px-2 py-0.5 rounded-full"
+                    >
+                      <span className="text-sm leading-none">{cfg.emoji}</span>
+                      {cfg.label}
+                    </span>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })()}
       </div>
 
       {/* PIED DE LA CARTE */}
@@ -132,7 +174,7 @@ export function LittleCardSkeleton() {
     <div className="w-full bg-white rounded-3xl border border-gray-100 p-6 shadow-sm flex flex-col justify-between h-full min-h-[190px] relative overflow-hidden select-none">
       {/* Effet Shimmer brillant */}
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full animate-shimmer" style={{ animationDuration: '1.5s' }} />
-      
+
       <div>
         <div className="flex items-center gap-4">
           <div className="w-12 h-12 rounded-2xl bg-slate-100 shrink-0" />
