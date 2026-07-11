@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import facultesData from '../data/facultes.json';
+import facultesData from '../data/facultes-index.json';
 import LittleCard from './facultes/LittleCard';
 import { getCategoryColor } from '../data/categoryColors';
 

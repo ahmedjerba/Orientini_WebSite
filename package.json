@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "init-tailwind": "tailwindcss init -p"
+    "init-tailwind": "tailwindcss init -p",
+    "split-data": "node scripts/split-facultes.js"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

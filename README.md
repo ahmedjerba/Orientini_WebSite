@@ -47,6 +47,21 @@ Exécutez ESLint pour valider la qualité du code :
 npm run lint
 ```
 
+### Mise à jour des données établissements
+Le projet utilise une **stratégie de chargement en deux niveaux** pour optimiser la performance mobile :
+
+| Fichier | Poids | Rôle |
+|---|---|---|
+| `src/data/facultes.json` | ~244 Ko | Source de vérité complète (chargée uniquement sur la page détail) |
+| `src/data/facultes-index.json` | ~119 Ko | Index allégé (home + recherche avancée, chargé au démarrage) |
+
+> ⚠️ **Ne jamais éditer `facultes-index.json` à la main** — il est généré automatiquement.
+
+Après avoir modifié `facultes.json`, régénérez l'index :
+```bash
+npm run split-data
+```
+
 ---
 
 ## 📂 Structure du projet `/src`
@@ -64,7 +79,10 @@ src/
 │   ├── Programme.jsx          # Section d'affichage du programme de l'événement
 │   └── Sponsors.jsx           # Section affichant les partenaires officiels
 ├── data/
-│   └── facultes.json # Base de données locale de tous les établissements
+│   ├── facultes.json          # ⭐ Source de vérité — données COMPLÈTES (ne pas importer directement)
+│   └── facultes-index.json    # 🚀 Index allégé — home + recherche avancée (généré auto)
+scripts/
+│   └── split-facultes.js      # Script de génération de l'index allégé
 ├── App.css          # Styles globaux additionnels
 ├── App.jsx          # Cœur de l'application (Routing principal et gestion d'états)
 ├── index.css        # Point d'entrée des styles Tailwind

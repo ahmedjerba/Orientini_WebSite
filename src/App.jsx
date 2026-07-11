@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, lazy, Suspense } from 'react';
+import { useEffect, useMemo, useState, lazy, Suspense, useCallback } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Routes, Route, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -16,8 +16,8 @@ const AdvancedSearchPage = lazy(() => import('./components/AdvancedSearchPage'))
 
 import Sponsors from './components/Sponsors';
 
-// 4. Importation de la base de données complète des établissements
-import facultesData from './data/facultes.json';
+// 4. Index léger pour la home et la recherche (chargé au démarrage)
+import facultesData from './data/facultes-index.json';
 import { getCategoryColor, getContrastText } from './data/categoryColors';
 
 const defaultSearchPageState = {
@@ -34,18 +34,34 @@ const defaultHomeState = {
   selectedFilter: 'Tous',
 };
 
-// Wrapper pour la résolution automatique de la faculté via l'ID de l'URL
+// Wrapper : charge le fichier COMPLET (facultes.json) dynamiquement
+// seulement quand l'utilisateur arrive sur une fiche détail.
 function FacultePageWrapper() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [faculte, setFaculte] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  const faculte = useMemo(() => {
-    return facultesData.find((fac) => fac.id === id) || null;
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    import('./data/facultes.json')
+      .then((mod) => {
+        if (cancelled) return;
+        const full = mod.default ?? mod;
+        const found = full.find((fac) => fac.id === id) || null;
+        setFaculte(found);
+        setLoading(false);
+      })
+      .catch(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => { cancelled = true; };
   }, [id]);
 
-  const handleBack = () => {
-    navigate('/');
-  };
+  const handleBack = useCallback(() => navigate('/'), [navigate]);
+
+  if (loading) return <RouteLoader />;
 
   return (
     <FacultyDetailPage

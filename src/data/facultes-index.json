@@ -1,0 +1,4151 @@
+[
+  {
+    "id": "fmt",
+    "nom_court": "FMT",
+    "nom_complet": "Faculté de Médecine de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/FMT.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "Le plus ancien et grand pôle d'enseignement médical en Tunisie, formant les futurs médecins généralistes et spécialistes à travers un cursus d'excellence.",
+    "filieres_phares": [
+      {
+        "id": "fmt_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "scores": {
+          "bac_lettres": 166.35,
+          "bac_math": 190.33,
+          "bac_sc": 184.8,
+          "bac_sport": 187.54
+        }
+      }
+    ]
+  },
+  {
+    "id": "fmso",
+    "nom_court": "FMSO",
+    "nom_complet": "Faculté de Médecine de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/FMSO.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "Établissement médical d'élite reconnu pour ses innovations pédagogiques (apprentissage par problèmes) et sa recherche scientifique active.",
+    "filieres_phares": [
+      {
+        "id": "fms0_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "scores": {
+          "bac_lettres": 165.8,
+          "bac_math": 195.85,
+          "bac_sc": 190.98,
+          "bac_sport": 197.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "fmm",
+    "nom_court": "FMM",
+    "nom_complet": "Faculté de Médecine de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FMM.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "Un pilier historique de l'enseignement des sciences de la santé en Tunisie, profitant d'un campus universitaire dynamique et ultra-complet.",
+    "filieres_phares": [
+      {
+        "id": "fmm_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "scores": {
+          "bac_lettres": 164.46,
+          "bac_math": 190.98,
+          "bac_sc": 188.27,
+          "bac_sport": 194.12
+        }
+      }
+    ]
+  },
+  {
+    "id": "fms",
+    "nom_court": "FMS",
+    "nom_complet": "Faculté de Médecine de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/FMS.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "Faculté de premier plan formant des professionnels de santé hautement qualifiés, adossée aux grands centres hospitaliers de la capitale du Sud.",
+    "filieres_phares": [
+      {
+        "id": "fms_medecine",
+        "nom": "Médecine",
+        "duree": "9 ans",
+        "scores": {
+          "bac_lettres": 159.86,
+          "bac_math": 187.84,
+          "bac_sc": 182.43,
+          "bac_sport": 189.12
+        }
+      }
+    ]
+  },
+  {
+    "id": "fmd_monastir",
+    "nom_court": "FMDM",
+    "nom_complet": "Faculté de Médecine Dentaire de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FMDM.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "L'unique établissement public en Tunisie formant les futurs médecins dentistes, alliant enseignements théoriques poussés, travaux pratiques de haute précision et stages cliniques. Note : Sciences de la Vie et de la Terre obligatoire(+). Note:Certains étudiants vont etres enseignés en anglais.",
+    "filieres_phares": [
+      {
+        "id": "fmd_monastir_medecine_dentaire",
+        "nom": "Médecine Dentaire",
+        "duree": "6 ans",
+        "scores": {
+          "bac_let": 162.35,
+          "bac_math": 184.73,
+          "bac_sc": 180.94,
+          "bac_sport": 192.28
+        }
+      }
+    ]
+  },
+  {
+    "id": "fph_monastir",
+    "nom_court": "FPHM",
+    "nom_complet": "Faculté de Pharmacie de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FPHM.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Médecine",
+      "Pharmacie"
+    ],
+    "tags": [
+      "Médecine, Pharmacie & Médecine Dentaire"
+    ],
+    "description_breve": "L'unique faculté de pharmacie de Tunisie, pôle d'excellence formant les pharmaciens d'officine, de l'industrie pharmaceutique, de la biologie médicale et de la recherche.   Note : Sciences de la vie et de la Terre obligatoires (+).",
+    "filieres_phares": [
+      {
+        "id": "fph_monastir_sciences_pharmaceutiques__tronc_commu",
+        "nom": "Pharmacie",
+        "duree": "6ans",
+        "scores": {
+          "bac_math": 176.38,
+          "bac_sc": 179,
+          "bac_lettres": 138.96,
+          "bac_sport": 182.99
+        }
+      }
+    ]
+  },
+  {
+    "id": "insat",
+    "nom_court": "INSAT",
+    "nom_complet": "Institut National des Sciences Appliquées et de Technologie",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/INSAT.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Ingénierie",
+      "Technologie",
+      "Préparatoire",
+      "Informatique",
+      "Chimie",
+      "Biologie",
+      "Électrique"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "L'INSAT est une grande école d'ingénieurs tunisienne à cycle préparatoire intégré. L'admission s'effectue après le baccalauréat dans deux grands cycles préparatoires : MPI (Mathématiques-Physique-Informatique) ou CBA (Chimie-Biologie Appliquée). À l'issue des deux années préparatoires, les étudiants s'orientent vers les filières de spécialisation d'ingénieur.",
+    "filieres_phares": [
+      {
+        "id": "insat_prep_mpi",
+        "nom": "Prépa Intégrée MPI (Math-Physique-Info)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 188.38,
+          "bac_info": 192.18,
+          "bac_sc": 178.37,
+          "bac_tech": 185.48
+        }
+      },
+      {
+        "id": "insat_prep_cba",
+        "nom": "Prépa Intégrée CBA (Chimie-Biologie Appliquée)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 166.61,
+          "bac_sc": 159.16
+        }
+      }
+    ]
+  },
+  {
+    "id": "fst",
+    "nom_court": "FST",
+    "nom_complet": "Faculté des Sciences de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/FST.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Technologie",
+      "Informatique",
+      "Télécommunications",
+      "Mathématique"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Propose des filières d'ingénierie à cycle préparatoire intégré performantes, des licences scientifiques. Première faculté de sciences fondée en Tunisie",
+    "filieres_phares": [
+      {
+        "id": "fst_g_prepa integree",
+        "nom": "Prépa Intégrée",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 177.81,
+          "bac_sc": 173.93,
+          "bac_info": 183.78,
+          "bac_tech": 178.62
+        }
+      },
+      {
+        "id": "fst_licence_info",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 140.44,
+          "bac_sc": 163.83,
+          "bac_info": 183.52,
+          "bac_tech": 178.64
+        }
+      },
+      {
+        "id": "fst_math",
+        "nom": "Licence en Mathématiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 85.1,
+          "bac_sc": 111.16,
+          "bac_info": 165.78,
+          "bac_tech": 150.46
+        }
+      },
+      {
+        "id": "fst_systeme_infos",
+        "nom": "Licence en Ingénieurie des systèmes informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.2,
+          "bac_sc": 155.14,
+          "bac_info": 165.25,
+          "bac_tech": 168.51
+        }
+      },
+      {
+        "id": "fst_math_appliques",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.11,
+          "bac_sc": 114.18,
+          "bac_info": 151.12,
+          "bac_tech": 118.71
+        }
+      },
+      {
+        "id": "fst_electro_tech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 118.05,
+          "bac_sc": 117.06,
+          "bac_info": 148.99,
+          "bac_tech": 130.08
+        }
+      },
+      {
+        "id": "fst_info_telecom",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 101.35,
+          "bac_sc": 116.94,
+          "bac_info": 142.67,
+          "bac_tech": 139.01
+        }
+      },
+      {
+        "id": "fst_geomatique",
+        "nom": "Licence en Sciences Géomatiques Appliquées",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.82,
+          "bac_sc": 110.61,
+          "bac_info": 111.91,
+          "bac_tech": 95.76
+        }
+      },
+      {
+        "id": "fst_prepa_pc",
+        "nom": "Cycle Préparatoire en PC(Physique-Chimie) ",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 112.82,
+          "bac_sc": 114.6,
+          "bac_info": 140.32
+        }
+      },
+      {
+        "id": "fst_licence_en_chimie",
+        "nom": "Licence en Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 95.01,
+          "bac_tech": 92.23,
+          "bac_sc": 78.3
+        }
+      },
+      {
+        "id": "fst_licence_en_physique_chimie",
+        "nom": "Licence en Physique-Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.03,
+          "bac_sc": 93.15,
+          "bac_tech": 100.11
+        }
+      },
+      {
+        "id": "fst_licence_en_physique",
+        "nom": "Licence en Physique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 98.32,
+          "bac_sc": 82.19,
+          "bac_tech": 106.45
+        }
+      },
+      {
+        "id": "fst_licence_en_physique_et_energie",
+        "nom": "Licence en Physique et Énergie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.45,
+          "bac_sc": 96.48,
+          "bac_tech": 105.94
+        }
+      },
+      {
+        "id": "fst_licence_en_biologie_cellulaire",
+        "nom": "Licence en Sciences Naturelles",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.48,
+          "bac_sc": 109.43
+        }
+      },
+      {
+        "id": "fst_licence_en_sciences_de_la_terre",
+        "nom": "Licence en Sciences de la Terre",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 78.91,
+          "bac_tech": 91.64
+        }
+      },
+      {
+        "id": "fst_licence_en_bio_informatique",
+        "nom": "Licence en Bio-informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        }
+      },
+      {
+        "id": "fst_licence_en_sciences_de_la_vie_et_de_l_environnement",
+        "nom": "Licence en Sciences de la Vie et de l'Environnement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 78.59,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "fst_licence_en_sciences_de_la_vie_et_de_la_terre",
+        "nom": "Licence en Sciences de la Vie et de la Terre",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 112.01,
+          "bac_math": 113.87
+        }
+      },
+      {
+        "id": "fst_licence_en_chimie_biologie",
+        "nom": "Licence en Chimie-Biologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 105.83,
+          "bac_sc": 93.01,
+          "bac_tech": 86.35
+        }
+      },
+      {
+        "id": "fst_licence_en_physique_biomedicale",
+        "nom": "Licence en Biologie_Physique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        }
+      },
+      {
+        "id": "fst_prepa_physique_chimie",
+        "nom": "Prépa Physique-Chimie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 112.57,
+          "bac_sc": 114.6,
+          "bac_info": 140.33
+        }
+      },
+      {
+        "id": "fst_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 140.22,
+          "bac_sc": 111.12
+        }
+      }
+    ]
+  },
+  {
+    "id": "mse",
+    "nom_court": "MSE",
+    "nom_complet": "Manouba School of Engineering",
+    "universite": "Université de Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/MSE.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Ingénierie",
+      "Technologie",
+      "Informatique",
+      "Analytics"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Pôle technologique d'excellence dispensant des formations d'ingénieurs entièrement en anglais avec un modèle moderne et innovant.",
+    "filieres_phares": [
+      {
+        "id": "mse_11525_engineering",
+        "nom": "Cycle Préparatoire Intégré : Mathématiques, Physique et Chimie (-هندسة إيكولوجية)",
+        "duree": "5 ans",
+        "scores": {
+          "bac_math": 155.03,
+          "bac_sc": 139.13,
+          "bac_tech": 169.53,
+          "bac_info": 175.56
+        }
+      },
+      {
+        "id": "mse_11526_geomatics",
+        "nom": "Cycle Préparatoire Intégré : Mathématiques, Physique et Informatique (-الجيوماتيك)",
+        "duree": "5 ans",
+        "scores": {
+          "bac_math": 167.38,
+          "bac_sc": 156.62,
+          "bac_tech": 167.55,
+          "bac_info": 178.82
+        }
+      }
+    ]
+  },
+  {
+    "id": "issat_sousse",
+    "nom_court": "ISSAT Sousse",
+    "nom_complet": "Institut Supérieur des Sciences Appliquées et de Technologie de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISSAT_Sousse.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Technologie",
+      "Ingénierie",
+      "Sciences",
+      "Préparatoire",
+      "Informatique"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Un pôle technologique majeur de la région du Sahel, réputé pour son cycle préparatoire intégré performant et ses formations d'ingénieurs très ancrées dans le tissu industriel.",
+    "filieres_phares": [
+      {
+        "id": "issat_sousse_cycle_pr_paratoire_int_gr____mpi__mat",
+        "nom": "Cycle Préparatoire Intégré : MPI (Maths-Physique-Info)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 173.96,
+          "bac_info": 183.65,
+          "bac_sc": 171.93,
+          "bac_tech": 177.33
+        }
+      },
+      {
+        "id": "issat_sousse_cycle_pr_paratoire_int_gr____cba__chi",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 161.3,
+          "bac_info": 170.25,
+          "bac_sc": 164.44,
+          "bac_tech": 180.11
+        }
+      },
+      {
+        "id": "issat_sousse_cycle_d_ing_nieur_en_g_nie_logiciel",
+        "nom": "Licence en Ingénieurie des systèmes informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 106.85,
+          "bac_info": 146.77,
+          "bac_sc": 133.27,
+          "bac_tech": 169.35
+        }
+      },
+      {
+        "id": "issat_sousse_licence_mécanique",
+        "nom": "Licence en Ingénieurie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 123.14,
+          "bac_info": 130.08,
+          "bac_sc": 116.95,
+          "bac_tech": 121.38
+        }
+      },
+      {
+        "id": "issat_sousse_licence_civil",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 125.42,
+          "bac_info": 124.07,
+          "bac_sc": 133.54,
+          "bac_tech": 101.93
+        }
+      },
+      {
+        "id": "issat_sousse_licence_Electromécanique",
+        "nom": "Licence en Électromécanique ",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 110.44,
+          "bac_info": 122.83,
+          "bac_sc": 109.83,
+          "bac_tech": 144.29
+        }
+      },
+      {
+        "id": "issat_sousse_licence_Electrotechnique",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 108.56,
+          "bac_info": 122.33,
+          "bac_sc": 107.23,
+          "bac_tech": 137.39
+        }
+      },
+      {
+        "id": "issat_sousse_licence_en_ingenierie_energetique",
+        "nom": "Licence en Ingénierie Énergétique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 116.88,
+          "bac_sc": 101.38,
+          "bac_tech": 112.74
+        }
+      }
+    ]
+  },
+  {
+    "id": "hide_tunis",
+    "nom_court": "HIDE",
+    "nom_complet": "Higher Institute of Digital Engineering of Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/HIDE.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Technologie",
+      "Ingénierie",
+      "Intelligence Artificielle",
+      "Préparatoire",
+      "Génie Logiciel"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Institution publique d'élite et d'excellence, pionnière en Tunisie pour sa formation d'ingénieurs en Intelligence Artificielle et technologies numériques, dispensée exclusivement en langue anglaise.",
+    "filieres_phares": [
+      {
+        "id": "hide_tunis_cycle_pr_paratoire_int_gr___exact_scien",
+        "nom": "Cycle Préparatoire Intégré ",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 184.24,
+          "bac_info": 190.94,
+          "bac_sc": 175.94,
+          "bac_tech": 181.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeit",
+    "nom_court": "IPEIT",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/IPEIT.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "La prépa classique historique de Montfleury, réputée pour envoyer chaque année ses meilleurs éléments majorer les concours nationaux.",
+    "filieres_phares": [
+      {
+        "id": "ipeit_classes_preparatoires_scientifiques_technologie_maths_physique_physique_chimie",
+        "nom": "Classes préparatoires scientifiques – Technologie (Maths-Physique / Physique-Chimie)",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 120.61,
+          "bac_sc": 121.88,
+          "bac_info": 154.12
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipein",
+    "nom_court": "IPEIN",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Nabeul",
+    "universite": "Université de Carthage",
+    "ville": "Nabeul",
+    "logo": "/logos/IPEIN.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Établissement préparatoire de premier plan implanté au pôle universitaire de Mrezga, affichant d'excellents taux de réussite aux concours nationaux.",
+    "filieres_phares": [
+      {
+        "id": "ipein_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 131.97,
+          "bac_sc": 146.34,
+          "bac_info": 161.07
+        }
+      },
+      {
+        "id": "ipein_classes_preparatoires_technologie",
+        "nom": "Classes préparatoires Technologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_tech": 153.12
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeim",
+    "nom_court": "IPEIM",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/IPEIM.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Établissement de référence dans la région du Sahel pour la préparation rigoureuse aux concours d'accès aux grandes écoles d'ingénieurs tunisiennes et françaises.",
+    "filieres_phares": [
+      {
+        "id": "ipeim_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 158.33,
+          "bac_sc": 155.44,
+          "bac_info": 164.16
+        }
+      },
+      {
+        "id": "ipeim_classes_preparatoires_technologie",
+        "nom": "Classes préparatoires Technologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_tech": 156.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeis",
+    "nom_court": "IPEIS",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/IPEIS.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "L'un des plus grands instituts préparatoires du pays, réputé pour sa discipline, son organisation stricte et ses performances académiques élevées.",
+    "filieres_phares": [
+      {
+        "id": "ipeis_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 141.49,
+          "bac_sc": 142.1,
+          "bac_info": 144.27
+        }
+      },
+      {
+        "id": "ipeis_classes_preparatoires_technologie",
+        "nom": "Classes préparatoires Technologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_tech": 139.78
+        }
+      },
+      {
+        "id": "ipeis_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 139.27,
+          "bac_sc": 101.59
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeiem",
+    "nom_court": "IPEIEM",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs d'El Manar",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/IPEIEM.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "L'école préparatoire scientifique d'El Manar, réputée pour son cadre académique rigoureux et ses excellents résultats aux concours nationaux d'ingénieurs.",
+    "filieres_phares": [
+      {
+        "id": "ipeiem_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 163.15,
+          "bac_sc": 154.94,
+          "bac_info": 170.91
+        }
+      },
+      {
+        "id": "ipeiem_classes_preparatoires_technologie",
+        "nom": "Classes préparatoires Technologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_tech": 148.14
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeigb",
+    "nom_court": "IPEIGB",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Gabès",
+    "universite": "Université de Gabès",
+    "ville": "Gabès",
+    "logo": "/logos/IPEIGB.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Le pôle préparatoire scientifique du Sud-Est tunisien, formant avec rigueur les futurs ingénieurs de la région aux concours nationaux.",
+    "filieres_phares": [
+      {
+        "id": "ipeigb_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 89.94,
+          "bac_sc": 99.75,
+          "bac_info": 96.82
+        }
+      },
+      {
+        "id": "ipeigb_classes_preparatoires_technologie",
+        "nom": "Classes préparatoires Technologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_tech": 119
+        }
+      },
+      {
+        "id": "ipeigb_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 105.81,
+          "bac_sc": 90.74
+        }
+      }
+    ]
+  },
+  {
+    "id": "ipeib",
+    "nom_court": "IPEIB",
+    "nom_complet": "Institut Préparatoire aux Études d'Ingénieurs de Bizerte",
+    "universite": "Université de Carthage",
+    "ville": "Bizerte",
+    "logo": "/logos/IPEIB.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "L'institut préparatoire de Bizerte, offrant un encadrement de qualité pour préparer sereinement les concours MP, PC et technologiques.",
+    "filieres_phares": [
+      {
+        "id": "ipeib_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 88.3,
+          "bac_sc": 111.46,
+          "bac_info": 150.12
+        }
+      },
+      {
+        "id": "ipeib_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 100.27,
+          "bac_sc": 103.72
+        }
+      }
+    ]
+  },
+  {
+    "id": "ihec_carthage",
+    "nom_court": "IHEC",
+    "nom_complet": "Institut des Hautes Études Commerciales de Carthage",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/IHEC_Tunis.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Commerce",
+      "Gestion",
+      "Finance",
+      "Business"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Le pionnier de l'enseignement du commerce et de la gestion en Tunisie, réputé pour son excellence académique et son réseau d'alumni influent dans le monde des affaires.",
+    "filieres_phares": [
+      {
+        "id": "ihec_carthage_licence_en_sciences_de_gestion__fina",
+        "nom": "Licence en Sciences de Gestion (Comptabilité, Hautes études Commerciales)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 149.8,
+          "bac_eco": 178.65,
+          "bac_sc": 169.95,
+          "bac_info": 162.02,
+          "bac_tech": 221.35
+        }
+      },
+      {
+        "id": "ihec_carthage_licence_Info_de_gestion",
+        "nom": "Licence en Informatique de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 163.59,
+          "bac_eco": 174.97,
+          "bac_sc": 178.84,
+          "bac_info": 175.96,
+          "bac_tech": 189.27
+        }
+      }
+    ]
+  },
+  {
+    "id": "tbs_tunis",
+    "nom_court": "TBS",
+    "nom_complet": "Tunis Business School",
+    "universite": "Université de Tunis",
+    "ville": "Ben Arous",
+    "logo": "/logos/TBS.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Business",
+      "Management",
+      "Analytics",
+      "Commerce",
+      "Gestion",
+      "Informatique"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Première institution publique tunisienne de commerce adoptant le modèle d'éducation américain, avec un cursus d'affaires intégralement dispensé en anglais.Nécessite de passer un examen",
+    "filieres_phares": [
+      {
+        "id": "tbs_tunis_bachelor_of_science_in_business_administ",
+        "nom": "Bachelor of Science in Business Administration",
+        "duree": "4 ans",
+        "scores": {
+          "bac_math": 155.03,
+          "bac_info": 162.32,
+          "bac_sc": 163.1,
+          "bac_eco": 162.03,
+          "bac_tech": 162.61
+        }
+      }
+    ]
+  },
+  {
+    "id": "iscae_manouba",
+    "nom_court": "ISCAE",
+    "nom_complet": "Institut Supérieur de Comptabilité et d'Administration des Entreprises",
+    "universite": "Université de la Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/ISCAE.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Comptabilité",
+      "Audit",
+      "Gestion",
+      "Business",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Le pôle de référence incontournable en Tunisie pour les études de comptabilité et de révision comptable, adossé à une forte composante de gestion d'entreprise.",
+    "filieres_phares": [
+      {
+        "id": "iscae_manouba_licence_en_sciences_de_gestion__sp_c",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_eco": null,
+          "bac_sc": null
+        }
+      },
+      {
+        "id": "iscae_manouba_licence_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 90.75,
+          "bac_eco": 135.86,
+          "bac_info": 134.66,
+          "bac_sc": 135.41,
+          "bac_tech": 149.07
+        }
+      }
+    ]
+  },
+  {
+    "id": "isg_tunis",
+    "nom_court": "ISG",
+    "nom_complet": "Institut Supérieur de Gestion de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/ISG_Tunis.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Gestion",
+      "Business Computing",
+      "Finance",
+      "Informatique",
+      "Business",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Une institution majeure alliant sciences de la gestion et technologies de l'information, célèbre pour sa double culture managériale et technologique.",
+    "filieres_phares": [
+      {
+        "id": "isg_tunis_licence_en_business_computing__informati",
+        "nom": "Licence en Business Computing (Informatique de Gestion)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 156.93,
+          "bac_math": 111,
+          "bac_eco": 166.96,
+          "bac_sc": 159.45,
+          "bac_tech": 176.38
+        }
+      },
+      {
+        "id": "isg_licence_en_sciences_ecnomoqieus__sp_c",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 126.81,
+          "bac_eco": 143.77,
+          "bac_sc": 167.01
+        }
+      },
+      {
+        "id": "isg_tunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 104.28,
+          "bac_info": 148.45,
+          "bac_sc": 154.38,
+          "bac_tech": 165.88,
+          "bac_eco": 164.62
+        }
+      }
+    ]
+  },
+  {
+    "id": "ihec_sfax",
+    "nom_court": "IHEC Sfax",
+    "nom_complet": "Institut des Hautes Études Commerciales de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/IHEC_Sfax.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Commerce",
+      "Gestion",
+      "Entrepreneuriat",
+      "Business",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Le pôle d'excellence managériale du Centre et Sud tunisien, formant des gestionnaires et décideurs hautement qualifiés au cœur de la capitale économique de la Tunisie.",
+    "filieres_phares": [
+      {
+        "id": "ihec_sfax_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 102.33,
+          "bac_eco": 104.62,
+          "bac_info": 102.82,
+          "bac_sc": 118.72,
+          "bac_tech": 107.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "isi_ariana",
+    "nom_court": "ISI Ariana",
+    "nom_complet": "Institut Supérieur de Informatique d'Ariana",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Ariana",
+    "logo": "/logos/ISI_Ariana.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique",
+      "Génie Logiciel",
+      "Cybersécurité",
+      "Ingénierie",
+      "Télécommunications"
+    ],
+    "tags": [
+      "Génie & Technologies Appliquées",
+      "Informatique & Réseaux",
+      "Cycles Préparatoires Intégrés"
+    ],
+    "description_breve": "L'une des plus prestigieuses institutions technologiques de Tunisie, reconnue pour l'excellence de ses formations en génie logiciel, systèmes embarqués et sécurité informatique.",
+    "filieres_phares": [
+      {
+        "id": "isi_ariana_licence_en_sciences_de_l_informatique__",
+        "nom": "Licence en Sciences de l'Informatique (Génie Logiciel / Réseaux)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 192.55,
+          "bac_math": 182.4,
+          "bac_sc": 179.51,
+          "bac_tech": 178.78
+        }
+      },
+      {
+        "id": "isi_ariana_licence_en_systeme",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 170.51,
+          "bac_sc": 169.28,
+          "bac_tech": 181.33,
+          "bac_info": 181.25
+        }
+      },
+      {
+        "id": "isi_ariana_prepa_integree",
+        "nom": "Cycle Préparatoire Integrée en Informatique ",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "isimm_monastir",
+    "nom_court": "ISIMM",
+    "nom_complet": "Institut Supérieur de Informatique et de Mathématiques de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/ISIMM_Monastir.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique",
+      "Mathématiques Appliquées",
+      "Systèmes Embarqués",
+      "Ingénierie",
+      "Mathématique"
+    ],
+    "tags": [
+      "Génie & Technologies Appliquées",
+      "Informatique & Réseaux",
+      "Sciences Fondamentales & Biotechnologie",
+      "Cycles Préparatoires Intégrés"
+    ],
+    "description_breve": "Une institution universitaire de premier plan reconnue pour son alliance unique entre les mathématiques appliquées et l'informatique, formant des profils hautement qualifiés en génie logiciel et systèmes embarqués.",
+    "filieres_phares": [
+      {
+        "id": "isimm_monastir_licence_en_sciences_de_l_informatiq",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 166.04,
+          "bac_math": 153.34,
+          "bac_sc": 155.12,
+          "bac_tech": 173.19
+        }
+      },
+      {
+        "id": "isimm_monastir_licence_en_informatique_et_mathematiques",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 95.18,
+          "bac_sc": 110.61,
+          "bac_tech": 101.01,
+          "bac_info": 118.67
+        }
+      },
+      {
+        "id": "isimm_monastir_licence_en_technologie_info",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 101.23,
+          "bac_sc": 125.75,
+          "bac_tech": 155.17,
+          "bac_info": 128.11
+        }
+      },
+      {
+        "id": "isimm_monastir_licence_en_electtroniques",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 116.23,
+          "bac_sc": 81.39,
+          "bac_tech": 131.42,
+          "bac_info": 139.86
+        }
+      },
+      {
+        "id": "isimm_monastir_cycle_preparatoire_integre_en_informatique_et_mathematiques",
+        "nom": "Cycle préparatoire intégré en Informatique et Mathématiques",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 171.35,
+          "bac_info": 180.59,
+          "bac_sc": 171.62,
+          "bac_tech": 176.44
+        }
+      }
+    ]
+  },
+  {
+    "id": "isitcom_sousse",
+    "nom_court": "ISITCOM",
+    "nom_complet": "Institut Supérieur de l'Informatique et des Technologies de la Communication de Hammam Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISITCOM.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Informatique",
+      "Télécommunications",
+      "Réseaux",
+      "Ingénierie",
+      "Préparatoire"
+    ],
+    "tags": [
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Le pôle technologique phare du Sahel, combinant à la perfection le développement logiciel, le cloud computing et l'ingénierie des télécommunications.",
+    "filieres_phares": [
+      {
+        "id": "isitcom_sousse_licence_en_sciences_de_l_informatiq",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 152.4,
+          "bac_math": 146.8,
+          "bac_sc": 141.2
+        }
+      },
+      {
+        "id": "isitcom_sousse_licence_en_informatique_et_reseaux",
+        "nom": "Licence en Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 136.78,
+          "bac_sc": 151.77,
+          "bac_tech": 171.65,
+          "bac_info": 154.4
+        }
+      },
+      {
+        "id": "isitcom_sousse_licence_en_systemes_informatiques",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 104.71,
+          "bac_sc": 132.61,
+          "bac_tech": 176.51,
+          "bac_info": 143.71
+        }
+      },
+      {
+        "id": "isitcom_sousse_licence_en_technologies_de_l_information",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 107.87,
+          "bac_sc": 123.73,
+          "bac_tech": 156.75,
+          "bac_info": 126.41
+        }
+      },
+      {
+        "id": "isitcom_sousse_cycle_preparatoire_integre_en_informatique_pii",
+        "nom": "Cycle préparatoire intégré en Informatique (PII)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "isima_mahdia",
+    "nom_court": "ISIMA Mahdia",
+    "nom_complet": "Institut Supérieur d'Informatique et de Mathématiques de Mahdia",
+    "universite": "Université de Monastir",
+    "ville": "Mahdia",
+    "logo": "/logos/ISIMA.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique",
+      "Mathématiques Appliquées",
+      "Multimédia",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Business, Commerce, Finance & Gestion",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Un institut dynamique spécialisé dans les sciences du numérique, alliant les fondements mathématiques rigoureux aux applications informatiques modernes.",
+    "filieres_phares": [
+      {
+        "id": "isima_mahdia_licence_en_sciences_de_l_informatique",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 155.33,
+          "bac_math": 128.5,
+          "bac_sc": 139.81,
+          "bac_tech": 160.69
+        }
+      },
+      {
+        "id": "isima_mahdia_licence_en_info_gestion",
+        "nom": "Licence en Informatique de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 108.28,
+          "bac_sc": 137.5,
+          "bac_tech": 129.18,
+          "bac_info": 130.09,
+          "bac_eco": 137.83
+        }
+      },
+      {
+        "id": "isima_mahdia_licence_en_reseaux_et_securite",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 103.96,
+          "bac_sc": 126.36,
+          "bac_tech": 160.04,
+          "bac_info": 142.06
+        }
+      }
+    ]
+  },
+  {
+    "id": "isetcom_tunis",
+    "nom_court": "ISET'COM",
+    "nom_complet": "Institut Supérieur des Études Technologiques en Communications de Tunis",
+    "universite": "Université de Carthage / Co-tutelle Ministère des Technologies de la Communication",
+    "ville": "Ariana",
+    "logo": "/logos/ISETCOM.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Télécommunications",
+      "Informatique",
+      "Réseaux"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "L'institut de référence historique en télécommunications, stratégiquement situé au cœur du technopôle El Ghazala, offrant une immersion directe avec les géants du secteur numérique tunisien.",
+    "filieres_phares": [
+      {
+        "id": "isetcom_tunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      },
+      {
+        "id": "isetcom_tunis_licence_en_sciencs_information",
+        "nom": "Licence en Sciences de l'Information et de la Communication",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 171.66,
+          "bac_math": 148.75,
+          "bac_sc": 153.66,
+          "bac_tech": 160.87
+        }
+      }
+    ]
+  },
+  {
+    "id": "enau",
+    "nom_court": "ENAU",
+    "nom_complet": "École Nationale d'Architecture et d'Urbanisme de Tunis",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/ENAU.webp",
+    "filtre": "🚀 Cycles Préparatoires Intégrés & Architecture",
+    "categories": [
+      "Architecture",
+      "Urbanisme",
+      "Design"
+    ],
+    "tags": [
+      "Architecture",
+      "Arts, Design & Multimédia"
+    ],
+    "description_breve": "L'unique institution publique de formation d'architectes en Tunisie, nichée sur la colline de Sidi Bou Saïd, alliant rigueur technique, urbanisme moderne et sensibilité artistique.",
+    "filieres_phares": [
+      {
+        "id": "enau_cycle_en_architecture",
+        "nom": "Cycle en Architecture",
+        "duree": "6 ans",
+        "scores": {
+          "bac_math": 124.32,
+          "bac_info": 134.73,
+          "bac_sc": 142.86,
+          "bac_tech": 134.36,
+          "bac_eco": 175.1,
+          "bac_lettres": 158.29
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_rades",
+    "nom_court": "ISET Radès",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Radès",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Ben Arous",
+    "logo": "/logos/ISET_Rades.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Informatique",
+      "Génie Mécanique",
+      "Génie Électrique",
+      "Gestion",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Le plus grand et le plus ancien fleuron du réseau des ISET, idéalement situé dans la zone industrielle de Radès, reconnu pour ses laboratoires de pointe et sa forte insertion professionnelle.",
+    "filieres_phares": [
+      {
+        "id": "iset_rades_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      },
+      {
+        "id": "iset_rades_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 132.82,
+          "bac_sc": 136.66,
+          "bac_eco": 137.04,
+          "bac_tech": 146.46,
+          "bac_info": 160.67
+        }
+      },
+      {
+        "id": "iset_rades_licence_en_genie_civil",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 128.41,
+          "bac_sc": 120.66,
+          "bac_tech": 99.74,
+          "bac_info": 144.22
+        }
+      },
+      {
+        "id": "iset_rades_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 131.27,
+          "bac_sc": 128.56,
+          "bac_tech": 132.57,
+          "bac_info": 144.97
+        }
+      },
+      {
+        "id": "iset_rades_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 124.74,
+          "bac_sc": 123.29,
+          "bac_tech": 127.1,
+          "bac_info": 147.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_nabeul",
+    "nom_court": "ISET Nabeul",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Nabeul",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Nabeul",
+    "logo": "/logos/ISET_Nabeul.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Informatique",
+      "Génie Civil",
+      "Génie Électrique",
+      "Gestion",
+      "Ingénierie",
+      "Business"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Un pôle universitaire technologique majeur au cœur du Cap Bon, formant des techniciens hautement qualifiés qui soutiennent le tissu économique, touristique et industriel de la région.",
+    "filieres_phares": [
+      {
+        "id": "iset_nabeul_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 123.6,
+          "bac_sc": 132.11,
+          "bac_eco": 115.76,
+          "bac_tech": 149.05,
+          "bac_info": 151.61
+        }
+      },
+      {
+        "id": "iset_nabeul_licence_en_genie_civil",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 117.08,
+          "bac_sc": 121.73,
+          "bac_tech": 101.92,
+          "bac_info": 130.48
+        }
+      },
+      {
+        "id": "iset_nabeul_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 129.95,
+          "bac_sc": 119.64,
+          "bac_tech": 119,
+          "bac_info": 160.77
+        }
+      },
+      {
+        "id": "iset_nabeul_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 105.76,
+          "bac_sc": 118.08,
+          "bac_tech": 119.13,
+          "bac_info": 154.82
+        }
+      },
+      {
+        "id": "isetnabueltunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_djerba",
+    "nom_court": "ISET Djerba",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Djerba",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Djerba",
+    "logo": "/logos/ISET_Djerba.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Informatique",
+      "Gestion",
+      "Génie Électrique",
+      "Génie Mécanique",
+      "Business",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Une institution moderne qui se distingue par ses formations adaptées à l'économie numérique et insulaire, combinant les technologies de pointe et la gestion appliquée.",
+    "filieres_phares": [
+      {
+        "id": "iset_djerba_licence_en_technologies_de_l_informati",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 119.46,
+          "bac_math": 94.58,
+          "bac_eco": 104.6,
+          "bac_sc": 106.49,
+          "bac_tech": 115.43
+        }
+      },
+      {
+        "id": "iset_djerba_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 84.01,
+          "bac_sc": 100.33,
+          "bac_tech": 100.77,
+          "bac_info": 128.05
+        }
+      },
+      {
+        "id": "iset_djerba_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 96.65,
+          "bac_tech": 97.22,
+          "bac_info": 123.09,
+          "bac_math": 92.94
+        }
+      },
+      {
+        "id": "iset_djerba_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_gabes",
+    "nom_court": "ISET Gabès",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Gabès",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Gabès",
+    "logo": "/logos/ISET_Gabes.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Génie des Procédés",
+      "Génie Mécanique",
+      "Informatique",
+      "Génie Électrique",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Ancré au cœur du pôle industriel et chimique du Sud tunisien, cet institut forme des techniciens spécialisés hautement demandés par les usines et grands groupes de la région.",
+    "filieres_phares": [
+      {
+        "id": "iset_gabes_licence_en_g_nie_des_proc_d_s__chimie_i",
+        "nom": "Licence en Génie des Procédés (Chimie Industrielle)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_tech": 120.4,
+          "bac_math": 112.8,
+          "bac_info": 122,
+          "bac_sc": 110.5
+        }
+      },
+      {
+        "id": "iset_gabes_licence_en_genie_civil",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 140.19,
+          "bac_sc": 115.69,
+          "bac_tech": 88.28,
+          "bac_info": 102.14
+        }
+      },
+      {
+        "id": "iset_gabes_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 83.29,
+          "bac_tech": 94.06,
+          "bac_info": 90.77
+        }
+      },
+      {
+        "id": "iset_gabes_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 109.02,
+          "bac_sc": 96.6,
+          "bac_tech": 99.74,
+          "bac_info": 102.89
+        }
+      },
+      {
+        "id": "iset_gabes_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_sfax",
+    "nom_court": "ISET Sfax",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Sfax",
+    "universite": "Direction Générale des Études Technologiques (DGET)",
+    "ville": "Sfax",
+    "logo": "/logos/ISET_Sfax.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Informatique",
+      "Génie Électrique",
+      "Génie Mécanique",
+      "Gestion",
+      "Télécommunications",
+      "Business",
+      "Ingénierie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Un pôle technologique incontournable de la capitale économique tunisienne, reconnu pour l'efficacité de ses passerelles avec le dense écosystème d'entreprises privées sfaxiennes.",
+    "filieres_phares": [
+      {
+        "id": "iset_sfax_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 116.58,
+          "bac_sc": 123.02,
+          "bac_eco": 129.37,
+          "bac_tech": 142.84,
+          "bac_info": 123.12
+        }
+      },
+      {
+        "id": "iset_sfax_licence_en_genie_civil_topographie",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 102.96,
+          "bac_sc": 122.82,
+          "bac_tech": 99.47,
+          "bac_info": 100.2
+        }
+      },
+      {
+        "id": "iset_sfax_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.8,
+          "bac_sc": 113.32,
+          "bac_tech": 116.67,
+          "bac_info": 109.24
+        }
+      },
+      {
+        "id": "iset_gabes_licence_en_science_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "fsjpst_tunis",
+    "nom_court": "FSJPST Tunis",
+    "nom_complet": "Faculté des Sciences Juridiques, Politiques et Sociales de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/FSJPST.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Droit Privé",
+      "Droit Public",
+      "Sciences Politiques",
+      "Droit"
+    ],
+    "tags": [
+      "Droit & Sciences Politiques"
+    ],
+    "description_breve": "Doyenne des facultés de droit en Tunisie, reconnue pour sa rigueur et sa forte contribution historique à la formation des élites juridiques et politiques du pays.",
+    "filieres_phares": [
+      {
+        "id": "fsjpst_tunis_licence_en_droit",
+        "nom": "Licence en Droit",
+        "duree": "3 ans",
+        "scores": {
+          "bac_let": 138.5,
+          "bac_eco": 142,
+          "bac_math": 128.5,
+          "bac_sc": 132
+        }
+      }
+    ]
+  },
+  {
+    "id": "fdspt_tunis",
+    "nom_court": "FDSPT Tunis",
+    "nom_complet": "Faculté de Droit et des Sciences Politiques de Tunis",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/FDSPT.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Sciences Juridiques",
+      "Sciences Politiques",
+      "Droit International",
+      "Droit Public",
+      "Droit"
+    ],
+    "tags": [
+      "Droit & Sciences Politiques"
+    ],
+    "description_breve": "Une institution de premier plan basée au Centre Urbain Nord, réputée pour ses programmes innovants, son ouverture internationale et ses spécialisations pointues en droit des affaires et common law.",
+    "filieres_phares": [
+      {
+        "id": "fdspt_tunis_licence_en_droit",
+        "nom": "Licence en Droit",
+        "duree": "3 ans",
+        "scores": {
+          "bac_let": 122.55,
+          "bac_eco": 106.46,
+          "bac_math": 105.47,
+          "bac_sc": 126.58,
+          "bac_tech": 97.7,
+          "bac_info": 148.51,
+          "bac_sport": 175.19
+        }
+      }
+    ]
+  },
+  {
+    "id": "fds_sfax",
+    "nom_court": "FDS Sfax",
+    "nom_complet": "Faculté de Droit de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/FDS.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Droit Privé",
+      "Droit Public",
+      "Droit de l'Entreprise",
+      "Droit"
+    ],
+    "tags": [
+      "Droit & Sciences Politiques"
+    ],
+    "description_breve": "Le pôle juridique de référence du centre et du sud tunisien, axé sur l'employabilité immédiate et fortement connecté au tissu économique et aux PME de la région de Sfax.",
+    "filieres_phares": [
+      {
+        "id": "fds_sfax_licence_en_droit",
+        "nom": "Licence en Droit",
+        "duree": "3 ans",
+        "scores": {
+          "bac_let": 106.43,
+          "bac_eco": 87.57,
+          "bac_math": 102.86,
+          "bac_sc": 121.01,
+          "bac_tech": 108.9,
+          "bac_info": 117.8,
+          "bac_sport": 176.14
+        }
+      }
+    ]
+  },
+  {
+    "id": "fdsps_sousse",
+    "nom_court": "FDSPS Sousse",
+    "nom_complet": "Faculté de Droit et des Sciences Politiques de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/FDSPSO.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Droit Privé",
+      "Droit Public",
+      "Sciences Politiques",
+      "Droit"
+    ],
+    "tags": [
+      "Droit & Sciences Politiques"
+    ],
+    "description_breve": "Une institution dynamique fêtant ses 40 ans d'excellence, reconnue pour ses laboratoires de recherche et ses formations spécialisées croistant le droit et les nouvelles technologies.",
+    "filieres_phares": [
+      {
+        "id": "fdsps_sousse_licence_en_droit",
+        "nom": "Licence en Droit",
+        "duree": "3 ans",
+        "scores": {
+          "bac_let": 114.02,
+          "bac_eco": 97.53,
+          "bac_math": 101.34,
+          "bac_sc": 130.81,
+          "bac_tech": 128.56,
+          "bac_info": 119.22,
+          "bac_sport": 170.04
+        }
+      }
+    ]
+  },
+  {
+    "id": "essect_tunis",
+    "nom_court": "ESSECT",
+    "nom_complet": "École Supérieure des Sciences Économiques et Commerciales de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/ESSECT.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Économie",
+      "Commerce",
+      "Gestion"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Établissement de référence de l'Université de Tunis en sciences économiques et commerciales, situé en plein centre-ville, formant des cadres en gestion, finance et commerce international.",
+    "filieres_phares": [
+      {
+        "id": "essect_tunis_f2",
+        "nom": "Licence en Informatique de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 111.61,
+          "bac_sc": 139.27,
+          "bac_tech": 153.29,
+          "bac_info": 146.95,
+          "bac_eco": 151.83
+        }
+      },
+      {
+        "id": "essect_tunis_licence_en_sciences_economiques",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 93.51,
+          "bac_sc": 124.96,
+          "bac_eco": 120.34
+        }
+      },
+      {
+        "id": "essect_tunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 105.04,
+          "bac_info": 143.27,
+          "bac_sc": 142.68,
+          "bac_tech": 166.93,
+          "bac_eco": 148.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "esstsm_monastir",
+    "nom_court": "ESSTS Monastir",
+    "nom_complet": "École Supérieure des Sciences et Techniques de la Santé de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/ESSTS_Monastir.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Paramédical"
+    ],
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ],
+    "description_breve": "École publique sous double tutelle du Ministère de la Santé et de l'Université de Monastir, formant des techniciens supérieurs paramédicaux dans plusieurs spécialités de santé.",
+    "filieres_phares": [
+      {
+        "id": "esstsm_monastir_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 136.63,
+          "bac_math": 144.85,
+          "bac_sc": 148.44,
+          "bac_sport": 186.47
+        }
+      },
+      {
+        "id": "esstsm_monastir_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 150.25,
+          "bac_sc": 144.13
+        }
+      },
+      {
+        "id": "esstsm_monastir_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 164.93,
+          "bac_sc": 165.12
+        }
+      },
+      {
+        "id": "esstsm_monastir_imagerie",
+        "nom": "Licence en Imagerie Médicale et Radiothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 140.2,
+          "bac_sc": 150.95
+        }
+      },
+      {
+        "id": "esstsm_monastir_physiotherapie",
+        "nom": "Licence en Physiothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 147.53,
+          "bac_math": 161.45,
+          "bac_sc": 153.03,
+          "bac_sport": 195.03
+        }
+      },
+      {
+        "id": "esstsm_monastir_prothese",
+        "nom": "Licence en Prothèse Dentaire",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 137.67,
+          "bac_math": 130.35,
+          "bac_sc": 135.99,
+          "bac_sport": 173.69
+        }
+      }
+    ]
+  },
+  {
+    "id": "esstss_sfax",
+    "nom_court": "ESSTS Sfax",
+    "nom_complet": "École Supérieure des Sciences et Techniques de la Santé de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/ESSTS_Sfax.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Paramédical"
+    ],
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ],
+    "description_breve": "École publique de formation paramédicale rattachée à l'Université de Sfax et au Ministère de la Santé, spécialisée dans les techniques de santé publique.",
+    "filieres_phares": [
+      {
+        "id": "esstssfax_imagerie",
+        "nom": "Licence en Imagerie Médicale et Radiothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 131.75,
+          "bac_sc": 150.51
+        }
+      },
+      {
+        "id": "esstss_sfax_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 147.83,
+          "bac_sc": 161.97
+        }
+      },
+      {
+        "id": "esstss_sfax_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 123.17,
+          "bac_sc": 141.54
+        }
+      },
+      {
+        "id": "esstss_sfax_physiotherapie",
+        "nom": "Licence en Physiothérapie (العلاج الطبيعي)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 148.09,
+          "bac_math": 165.51,
+          "bac_sc": 155.01,
+          "bac_sport": 177.97
+        }
+      },
+      {
+        "id": "esstss_sfax_optique",
+        "nom": "Licence en Sciences de la Vision / Optique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 110.5,
+          "bac_sc": 130.54
+        }
+      },
+      {
+        "id": "esstss_sfax_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 116.94,
+          "bac_sc": 146.09
+        }
+      },
+      {
+        "id": "isbs_sfax_biomedical",
+        "nom": "Licence en Génie Biomédical",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 97.74,
+          "bac_sc": 133.69,
+          "bac_tech": 123.92,
+          "bac_info": 133.57
+        }
+      },
+      {
+        "id": "esstss_sfax_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 123.69,
+          "bac_math": 143.09,
+          "bac_sc": 150.23,
+          "bac_sport": 174.35
+        }
+      }
+    ]
+  },
+  {
+    "id": "esstss_sousse",
+    "nom_court": "ESSTS Sousse",
+    "nom_complet": "École Supérieure des Sciences et Techniques de la Santé de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ESSTS_Sousse.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Paramédical"
+    ],
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ],
+    "description_breve": "École publique de formation aux métiers paramédicaux rattachée à l'Université de Sousse, engagée dans une pédagogie axée sur la pratique clinique.",
+    "filieres_phares": [
+      {
+        "id": "esstss_sousse_podologie",
+        "nom": "Licence en Podologie et Pédicurie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 135.24,
+          "bac_sc": 130.55,
+          "bac_tech": 124.4
+        }
+      },
+      {
+        "id": "esstss_sousse_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 129.78,
+          "bac_sc": 149.22
+        }
+      },
+      {
+        "id": "esstss_sousse_pediatrie",
+        "nom": "Licence en Soins Pédiatriques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 129.42,
+          "bac_math": 143.73,
+          "bac_sc": 149.88,
+          "bac_sport": 179.13
+        }
+      },
+      {
+        "id": "esstss_sousse_urgences",
+        "nom": "Licence en Soins d'Urgence et de Réanimation",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 136.98,
+          "bac_math": 152.53,
+          "bac_sc": 152.56,
+          "bac_sport": 184.52
+        }
+      }
+    ]
+  },
+  {
+    "id": "esstst_tunis",
+    "nom_court": "ESSTS Tunis",
+    "nom_complet": "École Supérieure des Sciences et Techniques de la Santé de Tunis",
+    "universite": "Université Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/ESSTS_Tunis.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Paramédical"
+    ],
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ],
+    "description_breve": "Créée en 1989, l'ESSTST forme en trois ans des professionnels paramédicaux dans le quartier de Bab Saadoun à Tunis, en cotutelle avec le Ministère de la Santé.",
+    "filieres_phares": [
+      {
+        "id": "esstst_tunis_anesthesie",
+        "nom": "Licence en Anesthésie et Réanimation",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 109.38,
+          "bac_sc": 171.12
+        }
+      },
+      {
+        "id": "esstst_tunis_imagerie",
+        "nom": "Licence en Imagerie Médicale et Radiothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 112.77,
+          "bac_sc": 161.42
+        }
+      },
+      {
+        "id": "esstst_tunis_hygiene",
+        "nom": "Licence en Hygiène, Santé et Environnement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 121.41,
+          "bac_math": 103.73,
+          "bac_sc": 123.89,
+          "bac_sport": 170.02
+        }
+      },
+      {
+        "id": "esstst_tunis_biologie",
+        "nom": "Licence en Biologie Médicale",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 118.65,
+          "bac_sc": 151.61
+        }
+      },
+      {
+        "id": "esstst_tunis_physiotherapie",
+        "nom": "Licence en Physiothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 131.32,
+          "bac_math": 152.13,
+          "bac_sc": 152.42,
+          "bac_sport": 183.63
+        }
+      },
+      {
+        "id": "esstst_tunis_physiotherapie_malvoyants",
+        "nom": "Licence en Physiothérapie (Section Malvoyants)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 88.24
+        }
+      },
+      {
+        "id": "esstst_tunis_orthophonie",
+        "nom": "Licence en Orthophonie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 128.75,
+          "bac_math": 129.35,
+          "bac_sc": 147.23
+        }
+      },
+      {
+        "id": "esstst_tunis_appareillage",
+        "nom": "Licence en Appareillage Orthopédique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.95,
+          "bac_sc": 131.6
+        }
+      },
+      {
+        "id": "esstst_tunis_nutrition",
+        "nom": "Licence en Nutrition Humaine",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 132.39,
+          "bac_math": 143.26,
+          "bac_sc": 141.63,
+          "bac_sport": 176.97
+        }
+      },
+      {
+        "id": "esstst_tunis_ergotherapie",
+        "nom": "Licence en Ergothérapie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 134.23,
+          "bac_math": 124.05,
+          "bac_sc": 135.94,
+          "bac_sport": 171.59
+        }
+      },
+      {
+        "id": "esstst_tunis_instrumentation",
+        "nom": "Licence en Instrumentation de Bloc Opératoire",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.05,
+          "bac_sc": 150.94
+        }
+      },
+      {
+        "id": "esstst_tunis_pediatrie",
+        "nom": "Licence en Soins Pédiatriques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 139.72,
+          "bac_math": 138.96,
+          "bac_sc": 148.52,
+          "bac_sport": 176.98
+        }
+      },
+      {
+        "id": "esstst_tunis_obstetrique",
+        "nom": "Licence en Sciences de l'Obstétrique (Sage-femme/Sciences de l'accouchement)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 138.38,
+          "bac_math": 133.21,
+          "bac_sc": 154.29,
+          "bac_sport": 182.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "fseg_mahdia",
+    "nom_court": "FSEG Mahdia",
+    "nom_complet": "Faculté des Sciences Économiques et de Gestion de Mahdia",
+    "universite": "Université de Monastir",
+    "ville": "Mahdia",
+    "logo": "/logos/FSEG_Mahdia.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Économie",
+      "Gestion"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Faculté de l'Université de Monastir dispensant des formations en économie et gestion, dans un cadre universitaire au cœur de la zone touristique de Mahdia.",
+    "filieres_phares": [
+      {
+        "id": "fseg_mahdia_f1",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 96.69,
+          "bac_sc": 122.82,
+          "bac_eco": 116.89,
+          "bac_info": 111.75,
+          "bac_tech": 137.86
+        }
+      },
+      {
+        "id": "fseg_mahdia_f2",
+        "nom": "Licence en Informatique de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 102.7,
+          "bac_sc": 126.15,
+          "bac_tech": 142.39,
+          "bac_info": 125.32,
+          "bac_eco": 133.29
+        }
+      },
+      {
+        "id": "fseg_mahdia_licence_en_sciences_economiques",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 91.6,
+          "bac_sc": 120.11,
+          "bac_eco": 103.32
+        }
+      }
+    ]
+  },
+  {
+    "id": "fshst_tunis",
+    "nom_court": "FSHST",
+    "nom_complet": "Faculté des Sciences Humaines et Sociales de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/FSHST.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Sciences Humaines",
+      "Sciences Sociales"
+    ],
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ],
+    "description_breve": "Une des plus anciennes institutions universitaires de Tunisie (fondée en 1958), la FSHST forme en lettres, langues et sciences humaines (histoire, géographie, philosophie, psychologie, sociologie).",
+    "filieres_phares": [
+      {
+        "id": "fshst_tunis_f1",
+        "nom": "Licence en Psychologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 123.99,
+          "bac_math": 159.32,
+          "bac_sciences": 127.17,
+          "bac_eco": 122.28,
+          "bac_tech": 126.17,
+          "bac_info": 130.54,
+          "bac_sport": 187.58
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_arabe",
+        "nom": "Licence en Arabe",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 122.11,
+          "bac_eco": 92.35,
+          "bac_lettres": 99.87
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_anglais",
+        "nom": "Licence en Anglais",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 136.07,
+          "bac_info": 131.53,
+          "bac_sc": 124.25,
+          "bac_tech": 127.63,
+          "bac_eco": 81.2,
+          "bac_lettres": 104.79,
+          "bac_sport": 147.63
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_francais",
+        "nom": "Licence en Français",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 120.49,
+          "bac_sc": 122.05,
+          "bac_tech": 100.77,
+          "bac_eco": 82.26,
+          "bac_lettres": 68.22,
+          "bac_math": null,
+          "bac_sport": 113.65
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_sociologie",
+        "nom": "Licence en Sociologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 107.4,
+          "bac_sc": 98.92,
+          "bac_tech": 125.65,
+          "bac_eco": 86.02,
+          "bac_lettres": 109.86,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_philosophie",
+        "nom": "Licence en Philosophie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 127.57,
+          "bac_sc": 94.67,
+          "bac_tech": 88.14,
+          "bac_eco": 81.45,
+          "bac_lettres": 95.36,
+          "bac_math": null,
+          "bac_sport": 114.95
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_histoire",
+        "nom": "Licence en Histoire",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 112.49,
+          "bac_sc": 110.07,
+          "bac_tech": 105.19,
+          "bac_eco": 78.95,
+          "bac_lettres": 88.17,
+          "bac_math": null,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_geographie",
+        "nom": "Licence en Géographie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 103.77,
+          "bac_tech": 88.66,
+          "bac_eco": 79.52,
+          "bac_lettres": 91.94,
+          "bac_math": null,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "fshst_tunis_licence_en_geomatique",
+        "nom": "Licence en Géomatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 78.23,
+          "bac_sc": 89.02,
+          "bac_tech": 72.33,
+          "bac_math": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "fsm_monastir",
+    "nom_court": "FSM",
+    "nom_complet": "Faculté des Sciences de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/FSM.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Sciences Fondamentales"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie"
+    ],
+    "description_breve": "Fondée en 1977, la Faculté des Sciences de Monastir propose des formations scientifiques complètes (mathématiques, physique, chimie, informatique) et un cycle d'ingénieurs.",
+    "filieres_phares": [
+      {
+        "id": "fsm_monastir_f1",
+        "nom": "Licence  en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 122,
+          "bac_sciences": 134.83,
+          "bac_tech": 152.37,
+          "bac_info": 148.99
+        }
+      },
+      {
+        "id": "fsm_monastir_f3",
+        "nom": "Cycle d'Ingénieur en Informatique",
+        "duree": "2 ans (après cycle préparatoire)",
+        "scores": {}
+      },
+      {
+        "id": "fsm_monastir_licence_en_chimie",
+        "nom": "Licence en Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 97.23,
+          "bac_sc": 84.92,
+          "bac_tech": 103.15
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_physique_chimie",
+        "nom": "Licence en Physique-Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 107.41,
+          "bac_sc": 89.51,
+          "bac_tech": 101.74
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_physique",
+        "nom": "Licence en Physique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.13,
+          "bac_sc": 79.22,
+          "bac_tech": 102.95
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_maths_appliques",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 96.19,
+          "bac_sc": 105.79,
+          "bac_tech": 103.53,
+          "bac_info": 112.65
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_mathematiques",
+        "nom": "Licence en Mathématiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 90.89,
+          "bac_sc": 109.6,
+          "bac_tech": 137.73,
+          "bac_info": 161.64
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_electrtotech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 98.83,
+          "bac_tech": 107.79,
+          "bac_info": 120.58,
+          "bac_math": 97.77
+        }
+      },
+      {
+        "id": "fsm_monastir_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 110.4,
+          "bac_sc": 122.84,
+          "bac_info": 150.73
+        }
+      }
+    ]
+  },
+  {
+    "id": "fss_sfax",
+    "nom_court": "FSS",
+    "nom_complet": "Faculté des Sciences de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/FSS.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Sciences Fondamentales"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Cycles Préparatoires Intégrés",
+      "Classes Préparatoires Classiques",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Faculté des Sciences de Sfax, établissement public offrant des formations en sciences fondamentales et un cycle d'ingénieurs, rattachée à l'Université de Sfax.",
+    "filieres_phares": [
+      {
+        "id": "fss_sfax_licence_en_geomatique_appliquee",
+        "nom": "Licence en Géomatique Appliquée",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "fsm_monastir_licence_en_electrtotech",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 89.58,
+          "bac_tech": 101.06,
+          "bac_info": 115.66,
+          "bac_math": 106.33
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_chimie",
+        "nom": "Licence en Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.4,
+          "bac_sc": 73.11,
+          "bac_tech": 90.55
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_physique_chimie",
+        "nom": "Licence en Physique-Chimie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 76.43,
+          "bac_tech": 96.77,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_physique",
+        "nom": "Licence en Physique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 81.85,
+          "bac_tech": 89.7,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_physique_et_energie",
+        "nom": "Licence en Physique et Énergie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 96.97,
+          "bac_sc": 73.45,
+          "bac_tech": 91.4
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_maths_appliquées",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 102.38,
+          "bac_sc": 90.39,
+          "bac_tech": 91.89,
+          "bac_info": 105.1
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_mathematiques",
+        "nom": "Licence en Mathématiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 111.03,
+          "bac_sc": 95.07,
+          "bac_tech": 77.49,
+          "bac_info": 94.18
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_chimie_biologie",
+        "nom": "Licence en Chimie-Biologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_scienses_vie",
+        "nom": "Licence en Sciences de la Vie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 103.44,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_sciences_de_la_terre",
+        "nom": "Licence en Sciences de la Terre",
+        "duree": "3 ans",
+        "scores": {
+          "bac_tech": 88.39,
+          "bac_sc": 80,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_informatique",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 103.82,
+          "bac_sc": 132.36,
+          "bac_tech": 150.68,
+          "bac_info": 135.2
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_systeme_info",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 108.6,
+          "bac_sc": 122,
+          "bac_tech": 161.09,
+          "bac_info": 123.81
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_technologies_modernes_des_sciences_de_la_vie",
+        "nom": "Licence en Technologies Modernes des Sciences de la Vie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        }
+      },
+      {
+        "id": "fss_sfax_licence_en_sciences_des_technologies_de_l_information",
+        "nom": "Licence en Sciences des Technologies de l'Information",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "fss_sfax_cycle_preparatoire_integre_en_informatique",
+        "nom": "Cycle préparatoire intégré en Informatique",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 154.83,
+          "bac_info": 170.87,
+          "bac_sc": 161.23,
+          "bac_tech": 155.43
+        }
+      },
+      {
+        "id": "fss_sfax_classes_preparatoires_scientifiques",
+        "nom": "Classes préparatoires scientifiques",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 89.89,
+          "bac_sc": 104.88,
+          "bac_info": 116.78
+        }
+      },
+      {
+        "id": "fss_sfax_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 113.69,
+          "bac_sc": 96.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "isam_gabes",
+    "nom_court": "ISAM Gabès",
+    "nom_complet": "Institut Supérieur des Arts et Métiers de Gabès",
+    "universite": "Université de Gabès",
+    "ville": "Gabès",
+    "logo": "/logos/ISAM_Gabès.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Arts",
+      "Métiers"
+    ],
+    "tags": [
+      "Arts, Design & Multimédia"
+    ],
+    "description_breve": "Institut public de l'Université de Gabès formant aux métiers des arts et métiers appliqués (design, artisanat, techniques appliquées).",
+    "filieres_phares": [
+      {
+        "id": "isam_gabes_f1",
+        "nom": "Licence en Conservation et Restauration du Patrimoine Culturel ",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_lettres": 91,
+          "bac_eco": 76.16,
+          "bac_tech": 164.08,
+          "bac_info": null,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "isam_gabes_f2",
+        "nom": "Licence en Musique et Sciences Musicales ",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 103.11,
+          "bac_sc": 105.74,
+          "bac_lettres": 85.55,
+          "bac_eco": 121.91,
+          "bac_tech": null,
+          "bac_info": null,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "isam_gabes_f3",
+        "nom": "Licence en Arts Plastiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 104.37,
+          "bac_lettres": 93.34,
+          "bac_eco": 77,
+          "bac_tech": 84.47,
+          "bac_info": null,
+          "bac_sport": 107.66
+        }
+      },
+      {
+        "id": "isam_gabes_f4",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 122.58,
+          "bac_lettres": 120.35,
+          "bac_eco": 93.71,
+          "bac_tech": 86.77,
+          "bac_info": 82.83,
+          "bac_sport": 122.86
+        }
+      },
+      {
+        "id": "isam_gabes_f4",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_lettres": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "isamm_manouba",
+    "nom_court": "ISAMM",
+    "nom_complet": "Institut Supérieur des Arts Multimédia de Manouba",
+    "universite": "Université de la Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/ISAMM.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Arts",
+      "Multimédia",
+      "Design"
+    ],
+    "tags": [
+      "Arts, Design & Multimédia",
+      "Cycles Préparatoires Intégrés",
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Créé en 2000, l'ISAMM forme aux métiers du multimédia, de l'audiovisuel et de l'informatique créative, membre du Réseau international Universitaire de création Numérique (RUN).",
+    "filieres_phares": [
+      {
+        "id": "isamm_manouba_f1",
+        "nom": "Licence en Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 126.08,
+          "bac_sc": 149.18,
+          "bac_tech": 161.63,
+          "bac_info": 173.28
+        }
+      },
+      {
+        "id": "isamm_manouba_f2",
+        "nom": "Licence en Cinéma et Audiovisuel",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 113.07,
+          "bac_lettres": 104.17,
+          "bac_sc": 108.46,
+          "bac_eco": 99.53,
+          "bac_info": 97.56,
+          "bac_tech": 84.15
+        }
+      },
+      {
+        "id": "isamm_manouba_f3",
+        "nom": "Licence en Ingénieurie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "isamm_manouba_licence_en_arts_et_medias_numeriques",
+        "nom": "Licence en Arts et Médias Numériques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 119.7,
+          "bac_info": 113.9,
+          "bac_sc": 100.81,
+          "bac_eco": 101.47,
+          "bac_tech": 89.3,
+          "bac_lettres": 121.14
+        }
+      },
+      {
+        "id": "isamm_manouba_cycle_preparatoire_integre_en_mathematiques_physique_informatique_mpi",
+        "nom": "Cycle préparatoire intégré en Mathématiques, Physique, Informatique (MPI)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "isbm_monastir",
+    "nom_court": "ISBM",
+    "nom_complet": "Institut Supérieur de Biotechnologie de Monastir",
+    "universite": "Université de Monastir",
+    "ville": "Monastir",
+    "logo": "/logos/ISBM.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Biotechnologie",
+      "Sciences"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie"
+    ],
+    "description_breve": "Créé en 2001, l'ISBM est spécialisé dans les formations en biologie et biotechnologie, situé au cœur du pôle santé de l'Université de Monastir.",
+    "filieres_phares": [
+      {
+        "id": "isbm_monastir_licence_en_biotechnologie",
+        "nom": "Licence en Biotechnologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 110.14,
+          "bac_sc": 114.44
+        }
+      },
+      {
+        "id": "isbm_monastir_licence_en_vivant",
+        "nom": "Licence en Sciences de la Vie et de l'Environnement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "iseahz_zaghouan",
+    "nom_court": "ISEAHZ",
+    "nom_complet": "Institut Supérieur des Études Appliquées en Humanités de Zaghouan",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Zaghouan",
+    "logo": "/logos/ISEAHZ.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Sciences Humaines"
+    ],
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ],
+    "description_breve": "Institut public rattaché à l'Université de Tunis, dispensant des formations appliquées en humanités à Zaghouan.",
+    "filieres_phares": [
+      {
+        "id": "iseahz_zaghouan_f1",
+        "nom": "Licence en Éducation et Enseignement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 130.98,
+          "bac_lettres": 128.96,
+          "bac_sc": 151.42,
+          "bac_tech": 150.71,
+          "bac_info": 151.35,
+          "bac_eco": 156.88
+        }
+      },
+      {
+        "id": "iseahz_zaghouan_f2",
+        "nom": "Licence en Ingénieurie Pédagogique et Techniques Modernes",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_lettres": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null,
+          "bac_eco": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_bizerte",
+    "nom_court": "ISET Bizerte",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Bizerte",
+    "universite": "Réseau ISET",
+    "ville": "Bizerte",
+    "logo": "/logos/ISET_Bizerte.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Technologie",
+      "Informatique",
+      "Génie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Institut du réseau national des ISET, formant des techniciens supérieurs en technologies (génie électrique, informatique, génie mécanique) dans la région de Bizerte.",
+    "filieres_phares": [
+      {
+        "id": "iset_bizerte_f1",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "iset_bizerte_f2",
+        "nom": "Licence Appliquée en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {}
+      },
+      {
+        "id": "iset_bizerte_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 105.04,
+          "bac_sc": 123.49,
+          "bac_eco": 116.79,
+          "bac_tech": 139.52,
+          "bac_info": 141.84
+        }
+      },
+      {
+        "id": "iset_bizerte_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 142.97,
+          "bac_sc": 114.61,
+          "bac_tech": 113.98
+        }
+      },
+      {
+        "id": "iset_bizerte_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 139.1,
+          "bac_sc": 115.94,
+          "bac_tech": 112.79,
+          "bac_info": 123.46
+        }
+      }
+    ]
+  },
+  {
+    "id": "isi_medenine",
+    "nom_court": "ISI Médenine",
+    "nom_complet": "Institut Supérieur d'Informatique de Médenine",
+    "universite": "Université de Gabès",
+    "ville": "Médenine",
+    "logo": "/logos/ISI_Medenine.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique"
+    ],
+    "tags": [
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Créé en 2006, l'ISI Médenine (ISIMED) forme des étudiants en informatique industrielle et en informatique/multimédia, rattaché à l'Université de Gabès.",
+    "filieres_phares": [
+      {
+        "id": "isi_medenine_licence_en_informatique_decisionnelle",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 93.72,
+          "bac_sc": 91.75,
+          "bac_tech": 121.12,
+          "bac_info": 91.74
+        }
+      },
+      {
+        "id": "isi_medenine_licence_en_telecommunications",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 112.73,
+          "bac_sc": 77.23,
+          "bac_tech": 98.52
+        }
+      }
+    ]
+  },
+  {
+    "id": "issat_mahdia",
+    "nom_court": "ISSAT Mahdia",
+    "nom_complet": "Institut Supérieur des Sciences Appliquées et de Technologie de Mahdia",
+    "universite": "Université de Monastir",
+    "ville": "Mahdia",
+    "logo": "/logos/ISSAT_Mahdia.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Technologie",
+      "Sciences Appliquées"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Créé en 2005, l'ISSAT de Mahdia est rattaché à l'Université de Monastir et propose des formations technologiques appliquées.",
+    "filieres_phares": [
+      {
+        "id": "issat_mahdia_licence_en_technologie_info",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 135.75,
+          "bac_sc": 159.79,
+          "bac_tech": 172.46,
+          "bac_info": 120.13
+        }
+      },
+      {
+        "id": "issat_mahdia_licence_en_energie_et_environnement",
+        "nom": "Licence en Énergie et Environnement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "issat_mahdia_prepa_mathematiques_physique",
+        "nom": "Prépa Mathématiques-Physique",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 94.55,
+          "bac_sc": 117.15,
+          "bac_info": 115.83
+        }
+      },
+      {
+        "id": "issat_mahdia_licence_en_eeea",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 114.93,
+          "bac_sc": 105.11,
+          "bac_info": 116.28,
+          "bac_tech": 119.82
+        }
+      }
+    ]
+  },
+  {
+    "id": "issbat_tunis",
+    "nom_court": "ISSBAT",
+    "nom_complet": "Institut Supérieur des Sciences Biologiques Appliquées de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/ISSBAT.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Biologie",
+      "Sciences Appliquées"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Créé en 2003, l'ISSBAT est un institut public de l'Université Tunis El Manar situé au cœur du pôle hospitalier de Bab Saadoun, spécialisé en biotechnologie et protection de l'environnement.",
+    "filieres_phares": [
+      {
+        "id": "issbat_tunis_f1",
+        "nom": "Licence  en Biotechnologie",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 104.1,
+          "bac_sc": 106.81
+        }
+      }
+    ]
+  },
+  {
+    "id": "isspes_sfax",
+    "nom_court": "ISSEPS Sfax",
+    "nom_complet": "Institut Supérieur du Sport et de l'Éducation Physique de Sfax",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/ISSEPS_Sfax.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Sport",
+      "Éducation Physique"
+    ],
+    "tags": [
+      "Sport & Éducation Physique"
+    ],
+    "description_breve": "Institut public formant les professionnels du sport et de l'éducation physique (professorat de sport, entraînement, management sportif) à Sfax.",
+    "filieres_phares": [
+      {
+        "id": "isspes_sfax_f1",
+        "nom": "Licence en Éducation Physique et Sportive",
+        "duree": "3 ans",
+        "scores": {
+          "bac_lettres": 136.99,
+          "bac_math": 118.37,
+          "bac_sc": 147.62,
+          "bac_tech": 164.39,
+          "bac_sport": 74.48,
+          "bac_info": 147.68,
+          "bac_eco": 156.95
+        }
+      }
+    ]
+  },
+  {
+    "id": "isgs_sousse",
+    "nom_court": "ISGS",
+    "nom_complet": "Institut Supérieur de Gestion de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISGS.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Gestion",
+      "Commerce"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Créé en 1995, l'Institut Supérieur de Gestion de Sousse dispense des formations en finance, gestion et économie, rattaché à l'Université de Sousse.",
+    "filieres_phares": [
+      {
+        "id": "isgs_sousse_licence_en_sciences_economiques",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 95.8,
+          "bac_sc": 140.01,
+          "bac_eco": 121.22
+        }
+      },
+      {
+        "id": "isgs_sousse_licence_en_sciences_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 106.63,
+          "bac_sc": 139.07,
+          "bac_eco": 138.17,
+          "bac_info": 120.26,
+          "bac_tech": 153.46
+        }
+      },
+      {
+        "id": "isgs_sousse_licence_en_informatique_de_gestion",
+        "nom": "Licence en Informatique de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 106.74,
+          "bac_info": 128.18,
+          "bac_sc": 138.49,
+          "bac_tech": 113.43,
+          "bac_eco": 140.48
+        }
+      }
+    ]
+  },
+  {
+    "id": "issiso_sousse",
+    "nom_court": "ISSISo",
+    "nom_complet": "Institut Supérieur des Sciences Infirmières de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISSISO.webp",
+    "filtre": "🩺 Sciences de la Santé & Médecine",
+    "categories": [
+      "Santé",
+      "Sciences Infirmières"
+    ],
+    "tags": [
+      "Paramédical & Sciences Infirmières"
+    ],
+    "description_breve": "Institut public sous tutelle du Ministère de la Santé, formant des infirmiers diplômés d'État à Sousse.",
+    "filieres_phares": [
+      {
+        "id": "issiso_sousse_f1",
+        "nom": "Licence en Sciences Infirmières(Hommes)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 135.57,
+          "bac_sc": 140.64,
+          "bac_let": 139.95,
+          "bac_sport": 182.83
+        }
+      },
+      {
+        "id": "issiso_sousse_f2",
+        "nom": "Licence en Sciences Infirmières(Femmes)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 161.59,
+          "bac_sc": 163.59,
+          "bac_let": 138.77,
+          "bac_sport": 182.42
+        }
+      }
+    ]
+  },
+  {
+    "id": "isban_nabeul",
+    "nom_court": "ISBAN",
+    "nom_complet": "Institut Supérieur des Beaux-Arts de Nabeul",
+    "universite": "Université de Carthage",
+    "ville": "Nabeul",
+    "logo": "/logos/ISBAN.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Arts",
+      "Beaux-Arts"
+    ],
+    "tags": [
+      "Arts, Design & Multimédia"
+    ],
+    "description_breve": "Institut public de l'Université de Carthage formant aux métiers des beaux-arts (peinture, sculpture, arts visuels) à Nabeul.",
+    "filieres_phares": [
+      {
+        "id": "isban_nabeul_f1",
+        "nom": "Licence en Arts Plastiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 114.41,
+          "bac_let": 89.52,
+          "bac_sc": 105.79,
+          "bac_eco": 85.63,
+          "bac_tech": 87.68,
+          "bac_info": 71.98,
+          "bac_sport": 113.52
+        }
+      },
+      {
+        "id": "isban_nabeul_licence_en_design_de_l_espace",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 102.69,
+          "bac_sc": 127.64,
+          "bac_tech": 100,
+          "bac_eco": 98.02,
+          "bac_lettres": 129.68,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "isban_nabeul_licence_en_design_de_produit",
+        "nom": "Licence en Design de Produit",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 81.72,
+          "bac_sc": 113.28,
+          "bac_tech": 68.54,
+          "bac_eco": 77.5,
+          "bac_lettres": 110.79,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "isban_nabeul_licence_en_design_de_l_image",
+        "nom": "Licence en Design de l'Image",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 120.52,
+          "bac_info": 96.86,
+          "bac_sc": 112.04,
+          "bac_tech": 83.97,
+          "bac_eco": 82.75,
+          "bac_lettres": 115.45,
+          "bac_sport": 90.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_mahdia",
+    "nom_court": "ISET Mahdia",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Mahdia",
+    "universite": "Réseau ISET",
+    "ville": "Mahdia",
+    "logo": "/logos/ISET_Mahdia.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Technologie",
+      "Informatique",
+      "Génie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Créé en 2001, l'ISET de Mahdia forme des techniciens supérieurs en génie électrique et sciences économiques, membre du réseau national des ISET.",
+    "filieres_phares": [
+      {
+        "id": "iset_mahdia_f2",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      },
+      {
+        "id": "iset_mahdia_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 105.04,
+          "bac_sc": 123.49,
+          "bac_eco": 116.79,
+          "bac_tech": 139.52,
+          "bac_info": 141.84
+        }
+      },
+      {
+        "id": "iset_mahdia_licence_en_genie_mecanique",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 142.97,
+          "bac_sc": 114.61,
+          "bac_tech": 113.98,
+          "bac_info": 129.13
+        }
+      },
+      {
+        "id": "iset_mahdia_licence_en_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 139.1,
+          "bac_sc": 115.94,
+          "bac_tech": 112.79,
+          "bac_info": 123.46
+        }
+      }
+    ]
+  },
+  {
+    "id": "isimg_gabes",
+    "nom_court": "ISIMG",
+    "nom_complet": "Institut Supérieur d'Informatique et de Multimédia de Gabès",
+    "universite": "Université de Gabès",
+    "ville": "Gabès",
+    "logo": "/logos/ISIMG.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique",
+      "Multimédia"
+    ],
+    "tags": [
+      "Arts, Design & Multimédia",
+      "Informatique & Réseaux",
+      "Cycles Préparatoires Intégrés",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Créé en 2002, l'ISIMG forme aux métiers de l'informatique et du multimédia, rattaché à l'Université de Gabès.",
+    "filieres_phares": [
+      {
+        "id": "isimg_gabes_f1",
+        "nom": "Cycle préparatoire intégré en Mathématiques, Physique, Informatique (MPI)",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "scores": {
+          "bac_math": 137.4,
+          "bac_sc": 149.53,
+          "bac_tech": 140.3,
+          "bac_info": 160.43
+        }
+      },
+      {
+        "id": "isimg_gabes_licence_en_arts_et_medias_numeriques",
+        "nom": "Licence en Arts et Médias Numériques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 77.19,
+          "bac_sc": 86.56,
+          "bac_eco": 92.66,
+          "bac_tech": 80.5,
+          "bac_lettres": 117.23,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "isimg_gabes_licence_en_sciences_infos",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 86.57,
+          "bac_sc": 114.57,
+          "bac_tech": 135.25,
+          "bac_info": 120.66
+        }
+      },
+      {
+        "id": "isimg_gabes_licence_en_systemes_d_information_mobiles",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 90.32,
+          "bac_sc": 106.8,
+          "bac_tech": 108.13,
+          "bac_info": 115.76
+        }
+      },
+      {
+        "id": "isimg_gabes_licence_en_electronique_et_technologies_fines",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 108.49,
+          "bac_sc": 94.16,
+          "bac_tech": 87.43,
+          "bac_info": 97.69
+        }
+      }
+    ]
+  },
+  {
+    "id": "issh_medenine",
+    "nom_court": "ISSH Médenine",
+    "nom_complet": "Institut Supérieur des Sciences Humaines de Médenine",
+    "universite": "Université de Gabès",
+    "ville": "Médenine",
+    "logo": "/logos/ISSH_Medenine.webp",
+    "filtre": "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)",
+    "categories": [
+      "Sciences Humaines"
+    ],
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ],
+    "description_breve": "Institut public de l'Université de Gabès dispensant des formations en sciences humaines à Médenine.",
+    "filieres_phares": [
+      {
+        "id": "issh_medenine_licence_en_arabe",
+        "nom": "Licence en Arabe",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 104.7,
+          "bac_sc": 156.54,
+          "bac_eco": 83.59,
+          "bac_lettres": 95.23,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "issh_medenine_licence_en_allemand_allemand_obligatoire",
+        "nom": "Licence en Allemand (Allemand obligatoire)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": 115.65,
+          "bac_sc": 141.41,
+          "bac_tech": 88.78,
+          "bac_eco": 84.26,
+          "bac_lettres": 79.08,
+          "bac_math": null,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "issh_medenine_licence_en_traduction",
+        "nom": "Licence en Anglais",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 140.88,
+          "bac_tech": 114.78,
+          "bac_eco": 73.85,
+          "bac_info": 109.33,
+          "bac_let": 77.25,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "issh_medenine_licence_en_francais",
+        "nom": "Licence en Français",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 130.18,
+          "bac_tech": 127.16,
+          "bac_eco": 79.24,
+          "bac_info": null,
+          "bac_let": 88.11,
+          "bac_sport": null
+        }
+      },
+      {
+        "id": "issh_medenine_licence_en_education_et_enseignement",
+        "nom": "Licence en Éducation et Enseignement",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 128.58,
+          "bac_info": 146.63,
+          "bac_sc": 153.96,
+          "bac_tech": 146.06,
+          "bac_eco": 168.49,
+          "bac_lettres": 126.12
+        }
+      },
+      {
+        "id": "issh_medenine_licence_en_traduction",
+        "nom": "Licence en Traduction",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null,
+          "bac_lettres": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "istic_borjcedria",
+    "nom_court": "ISTIC",
+    "nom_complet": "Institut Supérieur des Technologies de l'Information et de la Communication",
+    "universite": "Université de Carthage",
+    "ville": "Ben Arous",
+    "logo": "/logos/ISTIC.webp",
+    "filtre": "💻 Licence d'Informatique",
+    "categories": [
+      "Informatique",
+      "Télécommunications"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Institut public de l'Université de Carthage créé en 2011, situé dans la Technopole de Borj Cédria, formant des cadres en technologies de l'information et de la communication.",
+    "filieres_phares": [
+      {
+        "id": "istic_borjcedria_f1",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 152.42,
+          "bac_sc": 152,
+          "bac_tech": 158.72,
+          "bac_info": 173.65
+        }
+      },
+      {
+        "id": "istic_borjcedria_f2",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 98.35,
+          "bac_sc": 108.35,
+          "bac_tech": 98.28,
+          "bac_info": 152.35
+        }
+      },
+      {
+        "id": "istic_borjcedria_licence_en_technologies_de_l_information",
+        "nom": "Licence en Ingénierie des Systèmes Informatiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 128.18,
+          "bac_sc": 136.51,
+          "bac_tech": 98.06,
+          "bac_info": 157.4
+        }
+      },
+      {
+        "id": "istic_borjcedria_licence_en_telecommunications",
+        "nom": "Licence en Technologies de l'Information et Télécommunications",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 107.2,
+          "bac_sc": 126.06,
+          "bac_tech": 137.76,
+          "bac_info": 143.95
+        }
+      },
+      {
+        "id": "istic_borjcedria_licence_en_electronique_et_systemes_communicants",
+        "nom": "Licence en Ingénieurie énergétique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 120.49,
+          "bac_sc": 106.45,
+          "bac_tech": 114.74
+        }
+      },
+      {
+        "id": "istic_borjcedria_licence_en_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_info": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "istls_sousse",
+    "nom_court": "ISTLS",
+    "nom_complet": "Institut Supérieur du Transport et de la Logistique de Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ISTLS.webp",
+    "filtre": "💼 Business, Commerce & Gestion",
+    "categories": [
+      "Transport",
+      "Logistique"
+    ],
+    "tags": [
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Institut public de l'Université de Sousse, spécialisé dans les formations en transport et logistique (maritime, terrestre, aérien) et l'ingénierie du transport.",
+    "filieres_phares": [
+      {
+        "id": "istls_sousse_licence_en_logistique_et_distribution",
+        "nom": "Licence en Logistique et Distribution",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 88.83,
+          "bac_sc": 100.16,
+          "bac_tech": 93.63
+        }
+      },
+      {
+        "id": "istls_sousse_licence_en_ingenierie_du_transport_et_de_la_logistique",
+        "nom": "Licence en Ingénierie du Transport et de la Logistique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.04,
+          "bac_sc": 112.78,
+          "bac_tech": 103.78
+        }
+      },
+      {
+        "id": "istls_sousse_licence_en_sciences_du_transport",
+        "nom": "Licence en Sciences du Transport",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 105.19,
+          "bac_eco": 105.37,
+          "bac_tech": 97.86,
+          "bac_info": 86.81
+        }
+      },
+      {
+        "id": "istls_sousse_licence_en_genie_logistique",
+        "nom": "Licence en Génie Logistique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 99.04,
+          "bac_sc": 112.78,
+          "bac_eco": 105.34,
+          "bac_tech": 96.21
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_charguia",
+    "nom_court": "ISET Charguia",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Charguia",
+    "universite": "Réseau ISET",
+    "ville": "Ariana",
+    "logo": "/logos/ISET_Charguia.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Technologie",
+      "Informatique",
+      "Génie"
+    ],
+    "tags": [
+      "Informatique & Réseaux",
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "Institut du réseau national des ISET situé à Charguia (Tunis Carthage), formant des techniciens supérieurs en technologies.",
+    "filieres_phares": [
+      {
+        "id": "iset_charguiatunis_licence_en_sciences_de_gestion",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_info": null,
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_tech": null,
+          "bac_eco": null
+        }
+      },
+      {
+        "id": "iset_charguia_licence_en_technologies_de_l_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 121.82,
+          "bac_sc": 134.84,
+          "bac_eco": 129.51,
+          "bac_tech": 144.84,
+          "bac_info": 156.36
+        }
+      }
+    ]
+  },
+  {
+    "id": "issat_gabes",
+    "nom_court": "ISSAT Gabès",
+    "nom_complet": "Institut Supérieur des Sciences Appliquées et de Technologie de Gabès",
+    "universite": "Université de Gabès",
+    "ville": "Gabès",
+    "logo": "/logos/ISSAT_Gabès.webp",
+    "filtre": "🛠️ Instituts Supérieurs des Études Technologiques (ISET)",
+    "categories": [
+      "Technologie",
+      "Sciences Appliquées"
+    ],
+    "tags": [
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées"
+    ],
+    "description_breve": "Institut public de l'Université de Gabès dispensant des formations technologiques appliquées en sciences et technologie.",
+    "filieres_phares": [
+      {
+        "id": "issat_gabes_f1",
+        "nom": "Licence en Génie Civil",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 140.19,
+          "bac_sc": 115.69,
+          "bac_tech": 88.28,
+          "bac_info": 102.14
+        }
+      },
+      {
+        "id": "issat_gabes_f25",
+        "nom": "Licence en Génie des Procédés (Chimie Industrielle)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 75.58,
+          "bac_tech": 92.75
+        }
+      },
+      {
+        "id": "issat_gabes_f2",
+        "nom": "Licence en Génie Mécanique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 75.22,
+          "bac_tech": 91.2,
+          "bac_info": 93.04
+        }
+      },
+      {
+        "id": "issat_gabes_licence_en_transition_energetique",
+        "nom": "Licence en Génie Énergétique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 91.94,
+          "bac_tech": 103.38,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "issat_gabes_licence_en_electronique_et_reseaux",
+        "nom": "Licence en Électronique, Électrotechnique et Automatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_math": 117.52,
+          "bac_sc": 75.21,
+          "bac_tech": 104.48,
+          "bac_info": 138.77
+        }
+      }
+    ]
+  }
+]
