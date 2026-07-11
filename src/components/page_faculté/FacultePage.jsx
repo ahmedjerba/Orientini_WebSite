@@ -65,7 +65,7 @@ export default function FacultePage({ faculte, onBack }) {
 
       {/* Footer Orient'ini */}
       <footer className="py-10 text-center">
-        <p className="text-[10px] font-black text-gray-300 uppercase tracking-[0.2em]">
+        <p className="text-xs font-black text-gray-300 uppercase tracking-[0.2em]">
           Orient'ini — 8ème édition — By Jeunes Ingénieurs de Djerba
         </p>
       </footer>

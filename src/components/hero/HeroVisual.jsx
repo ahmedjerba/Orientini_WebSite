@@ -55,7 +55,7 @@ export default function HeroVisual() {
       </motion.div>
 
       {/* ─── SIGNATURE ─── */}
-      <div className="absolute bottom-1 text-[9px] sm:text-[10px] text-gray-500 font-bold uppercase tracking-widest z-20 backdrop-blur-md px-3.5 py-1.5 rounded-full bg-white/80 border border-slate-200/50 shadow-sm">
+      <div className="absolute bottom-1 text-xs text-gray-500 font-bold uppercase tracking-widest z-20 backdrop-blur-md px-3.5 py-1.5 rounded-full bg-white/80 border border-slate-200/50 shadow-sm">
         By Jeunes Ingénieurs de Djerba
       </div>
 

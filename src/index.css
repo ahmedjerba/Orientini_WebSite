@@ -9,6 +9,16 @@
   --color-blanc: #FFFFFF;
 }
 
+/*
+ * ─── CONVENTION TYPOGRAPHIQUE ────────────────────────────────────────────────
+ * Taille minimale pour tout texte informatif (a11y WCAG) :
+ *   • text-xs  (12px) → badges, tags, labels courts, villes, overlines
+ *   • text-sm  (14px) → texte lisible, descriptions, labels de champ
+ * Ne jamais utiliser text-[9px], text-[10px] ou text-[11px] dans les composants.
+ * Seul IntroLoader (écran de chargement purement décoratif) est exempté.
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
 @keyframes shimmer {
   100% {
     transform: translateX(100%);

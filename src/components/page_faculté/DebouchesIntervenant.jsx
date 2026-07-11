@@ -72,7 +72,7 @@ export default function DebouchesIntervenant({ faculte }) {
               <h4 className="text-xs font-black text-[#1b1464] leading-tight">
                 {auteurTemoignage}
               </h4>
-              <p className="text-[10px] font-bold text-[#de3f6b] uppercase tracking-wider mt-0.5">
+              <p className="text-xs font-bold text-[#de3f6b] uppercase tracking-wider mt-0.5">
                 Représentant
               </p>
             </div>

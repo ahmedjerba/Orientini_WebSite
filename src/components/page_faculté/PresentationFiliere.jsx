@@ -208,11 +208,11 @@ export default function PresentationFiliere({ faculte }) {
               </div>
               <div className="space-y-0.5">
                 <div className="flex flex-wrap gap-1.5 items-center">
-                  <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  <span className="bg-[#de3f6b]/10 text-[#de3f6b] text-xs font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
                     Cursus de {activeSpecialty.duree}
                   </span>
                   {activeSpecialty.isNouvelle && (
-                    <span className="bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
+                    <span className="bg-emerald-50 border border-emerald-150 text-emerald-800 text-xs font-black px-2 py-0.5 rounded-full uppercase tracking-wider">
                       ✨ Nouvelle filière
                     </span>
                   )}
@@ -227,7 +227,7 @@ export default function PresentationFiliere({ faculte }) {
             {/* Corps détaillé */}
             <div className="space-y-4">
               <div className="space-y-1.5">
-                <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">🔬 Description du Programme</h4>
+                <h4 className="text-xs font-black text-[#1b1464] uppercase tracking-wider">🔬 Description du Programme</h4>
                 <p className="text-gray-500 text-xs md:text-sm font-medium leading-relaxed">
                   {activeSpecialty.description}
                 </p>
@@ -236,7 +236,7 @@ export default function PresentationFiliere({ faculte }) {
               {/* Admission / Scores */}
               {(activeSpecialty.isNouvelle || activeSpecialty.bac_math || activeSpecialty.bac_sc || activeSpecialty.bac_info || activeSpecialty.bac_tech || activeSpecialty.bac_eco || activeSpecialty.bac_lettres || activeSpecialty.bac_let || activeSpecialty.bac_sport) && (
                 <div className="space-y-2 bg-slate-50 p-4 rounded-2xl border border-gray-100/50">
-                  <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
+                  <h4 className="text-xs font-black text-[#1b1464] uppercase tracking-wider">📊 Admission & Sélectivité</h4>
                   <div className="flex flex-wrap gap-2 mt-1">
                     {activeSpecialty.bac_math && (
                       <span className="bg-white border border-gray-200/60 px-3 py-1.5 rounded-xl text-xs font-black text-[#1b1464] flex items-center gap-1">
@@ -279,7 +279,7 @@ export default function PresentationFiliere({ faculte }) {
 
               {/* Débouchés */}
               <div className="space-y-2">
-                <h4 className="text-[11px] font-black text-[#1b1464] uppercase tracking-wider">🚀 Débouchés Associés</h4>
+                <h4 className="text-xs font-black text-[#1b1464] uppercase tracking-wider">🚀 Débouchés Associés</h4>
                 <div className="flex flex-wrap gap-2">
                   {activeSpecialty.debouches?.map((deb, index) => (
                     <span

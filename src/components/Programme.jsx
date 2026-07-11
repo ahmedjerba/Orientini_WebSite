@@ -153,7 +153,7 @@ export default function Programme() {
                   }`}>
                     {station.heure}
                   </span>
-                  <span className={`block text-[11px] font-bold tracking-tight transition-colors leading-tight line-clamp-1 ${
+                  <span className={`block text-xs font-bold tracking-tight transition-colors leading-tight line-clamp-1 ${
                     activeStationId === station.id ? "text-[#1b1464]" : "text-gray-400"
                   }`}>
                     {station.titre}
@@ -182,7 +182,7 @@ export default function Programme() {
           >
             {/* Badge de l'étape */}
             <div>
-              <span className="inline-flex items-center gap-1.5 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-[#de3f6b]/10 text-[#de3f6b] border border-[#de3f6b]/10">
+              <span className="inline-flex items-center gap-1.5 text-xs font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider bg-[#de3f6b]/10 text-[#de3f6b] border border-[#de3f6b]/10">
                 Étape {parcoursData.indexOf(activeStation) + 1} • {activeStation.heure}
               </span>
             </div>

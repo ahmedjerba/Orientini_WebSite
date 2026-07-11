@@ -121,7 +121,7 @@ export default function CategoryRow({ title, facultes, onCardClick, color = '#de
           style={{ borderLeft: `4px solid ${color}` }}
         >
           {title} 
-          <span className="text-[10px] sm:text-[11px] font-bold text-gray-400 lowercase bg-slate-100 px-2 py-0.5 rounded-full whitespace-nowrap">
+          <span className="text-xs font-bold text-gray-400 lowercase bg-slate-100 px-2 py-0.5 rounded-full whitespace-nowrap">
             {facultes.length} {facultes.length > 1 ? 'établissements' : 'établissement'}
           </span>
         </h3>

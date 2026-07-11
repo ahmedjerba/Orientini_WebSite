@@ -29,8 +29,8 @@ export default function ContactActions({ faculte }) {
         
         <div className="relative z-10 space-y-1">
           <span className="text-xl animate-bounce inline-block">🗺️</span>
-          <h4 className="text-[11px] font-black text-[#1b1464] tracking-tight">Localiser l'Établissement</h4>
-          <p className="text-[10px] font-bold text-gray-400">Consulter l'emplacement sur Google Maps</p>
+          <h4 className="text-xs font-black text-[#1b1464] tracking-tight">Localiser l'Établissement</h4>
+          <p className="text-xs font-bold text-gray-400">Consulter l'emplacement sur Google Maps</p>
         </div>
         
         {/* Lien invisible étendu sur tout le bloc pour rediriger proprement vers Maps */}

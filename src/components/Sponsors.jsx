@@ -59,7 +59,7 @@ export default function Sponsors() {
 
         {/* En-tête au design premium */}
         <div className="text-center space-y-3">
-          <span className="inline-block px-3.5 py-1 text-[10px] font-black uppercase tracking-widest text-[#de3f6b] bg-[#de3f6b]/10 rounded-full">
+          <span className="inline-block px-3.5 py-1 text-xs font-black uppercase tracking-widest text-[#de3f6b] bg-[#de3f6b]/10 rounded-full">
             Soutiens Officiels
           </span>
           <motion.h2 

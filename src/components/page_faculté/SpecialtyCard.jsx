@@ -160,7 +160,7 @@ export default function SpecialtyCard({ spec, onClick, variants }) {
             <div className="flex justify-between items-start gap-2">
               <div className="flex flex-col gap-0.5">
                 {spec.isNouvelle && (
-                  <span className="self-start bg-emerald-50 border border-emerald-150 text-emerald-800 text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-wider mb-0.5">
+                  <span className="self-start bg-emerald-50 border border-emerald-150 text-emerald-800 text-xs font-black px-2 py-0.5 rounded-full uppercase tracking-wider mb-0.5">
                     ✨ Nouvelle filière
                   </span>
                 )}
@@ -171,14 +171,14 @@ export default function SpecialtyCard({ spec, onClick, variants }) {
                   </h4>
                 </div>
               </div>
-              <span className="shrink-0 bg-[#de3f6b]/10 text-[#de3f6b] text-[9px] md:text-[10px] font-black px-2.5 py-1 rounded-full text-center leading-normal">
+              <span className="shrink-0 bg-[#de3f6b]/10 text-[#de3f6b] text-xs font-black px-2.5 py-1 rounded-full text-center leading-normal">
                 {spec.duree}
               </span>
             </div>
 
             {/* ─── ONGLET INTERACTIFS (SEGMENTED CONTROL) ─── */}
             <div 
-              className="flex bg-slate-100/80 p-0.5 rounded-lg text-[9px] font-extrabold relative"
+              className="flex bg-slate-100/80 p-0.5 rounded-lg text-xs font-extrabold relative"
               onClick={(e) => e.stopPropagation()} // Évite de déclencher onClick global
             >
               <button
@@ -224,11 +224,43 @@ export default function SpecialtyCard({ spec, onClick, variants }) {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -4 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute inset-0 flex flex-col justify-start"
+                  className="absolute inset-0 flex flex-col gap-2 justify-start"
                 >
-                  <p className="text-gray-500 text-[11px] md:text-xs font-semibold leading-relaxed line-clamp-3">
+                  <p className="text-gray-500 text-xs font-semibold leading-relaxed line-clamp-2">
                     {spec.description}
                   </p>
+                  {/* ─── BACS ACCEPTÉS ─── */}
+                  {(() => {
+                    // Déduplique bac_lettres / bac_let : garde une seule clé canonique
+                    const seen = new Set();
+                    const accepted = Object.keys(bacConfig).filter(key => {
+                      if (spec[key] === null || spec[key] === undefined) return false;
+                      const canonical = (key === 'bac_let') ? 'bac_lettres' : key;
+                      if (seen.has(canonical)) return false;
+                      seen.add(canonical);
+                      return true;
+                    });
+                    if (accepted.length === 0) return null;
+                    return (
+                      <div className="flex flex-col gap-1">
+                        <span className="text-[8px] font-bold text-gray-400 uppercase tracking-wider">Bacs acceptés :</span>
+                        <div className="flex flex-wrap gap-1">
+                          {accepted.map(key => {
+                            const cfg = bacConfig[key];
+                            return (
+                              <span
+                                key={key}
+                                className={`border text-[8px] font-extrabold px-1.5 py-0.5 rounded-full flex items-center gap-0.5 ${cfg.color}`}
+                              >
+                                <span>{cfg.emoji}</span>
+                                <span>{cfg.label}</span>
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  })()}
                 </motion.div>
               ) : (
                 <motion.div
@@ -295,11 +327,11 @@ export default function SpecialtyCard({ spec, onClick, variants }) {
 
           {/* Pied de carte avec appel à l'action */}
           <div className="flex items-center justify-between pt-2 border-t border-slate-100">
-            <span className="text-[9px] font-bold text-[#de3f6b] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1">
+            <span className="text-xs font-bold text-[#de3f6b] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center gap-1">
               En savoir plus ➜
             </span>
             <div 
-              className="text-[9px] font-black text-white bg-[#de3f6b] group-hover:bg-[#c93259] px-3.5 py-1.5 rounded-lg uppercase tracking-wider flex items-center gap-1 shadow-sm transition-all duration-300 group-hover:scale-105 active:scale-95"
+              className="text-xs font-black text-white bg-[#de3f6b] group-hover:bg-[#c93259] px-3.5 py-1.5 rounded-lg uppercase tracking-wider flex items-center gap-1 shadow-sm transition-all duration-300 group-hover:scale-105 active:scale-95"
             >
               <span>Détails</span> 🚀
             </div>

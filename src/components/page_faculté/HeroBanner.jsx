@@ -87,7 +87,7 @@ export default function HeroBanner({ faculte, onBack }) {
             <h1 className="text-lg font-black tracking-tight leading-tight">
               {nom_complet}
             </h1>
-            <p className="text-[10px] font-bold text-white/80 uppercase tracking-widest flex items-center gap-1">
+            <p className="text-xs font-bold text-white/80 uppercase tracking-widest flex items-center gap-1">
               📍 {ville}
             </p>
           </div>
@@ -123,7 +123,7 @@ export default function HeroBanner({ faculte, onBack }) {
                 {tags.slice(0, 3).map((tag) => (
                   <span
                     key={tag}
-                    className="text-[9px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-white/20 text-white/90 backdrop-blur-sm border border-white/15"
+                    className="text-xs font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-white/20 text-white/90 backdrop-blur-sm border border-white/15"
                   >
                     {tag}
                   </span>

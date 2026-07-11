@@ -98,13 +98,13 @@ export default function Selectivite({ faculte }) {
 
       {/* En-tête du bloc */}
       <div>
-        <span className="text-[9px] font-black text-[#de3f6b] uppercase tracking-widest bg-white border border-[#de3f6b]/20 px-2.5 py-0.5 rounded-md shadow-sm">
+        <span className="text-xs font-black text-[#de3f6b] uppercase tracking-widest bg-white border border-[#de3f6b]/20 px-2.5 py-0.5 rounded-md shadow-sm">
           Sélectivité
         </span>
         <h3 className="text-sm font-black text-[#1b1464] mt-3 tracking-tight">
           Scores Minimums Requis
         </h3>
-        <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">
+        <p className="text-xs font-bold text-gray-400 uppercase tracking-wider">
           Dernière Année
         </p>
       </div>
@@ -121,7 +121,7 @@ export default function Selectivite({ faculte }) {
                 key={key}
                 className="bg-white p-3 rounded-xl flex items-center justify-between border border-gray-100 shadow-sm"
               >
-                <span className="text-[11px] font-extrabold text-gray-500 uppercase flex items-center gap-1.5">
+                <span className="text-xs font-extrabold text-gray-500 uppercase flex items-center gap-1.5">
                   <span>{config.emoji}</span> {config.label}
                 </span>
                 <AnimatedScore value={value} />
@@ -137,7 +137,7 @@ export default function Selectivite({ faculte }) {
       </div>
 
       {/* Note de bas de page explicative */}
-      <p className="text-[10px] font-bold text-[#de3f6b]/70 italic leading-tight">
+      <p className="text-xs font-bold text-[#de3f6b]/70 italic leading-tight">
         * Score calculé selon la formule d'orientation de base.
       </p>
 

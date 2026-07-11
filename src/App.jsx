@@ -47,9 +47,9 @@ function FacultePageWrapper() {
   };
 
   return (
-    <FacultyDetailPage 
-      faculte={faculte} 
-      onBack={handleBack} 
+    <FacultyDetailPage
+      faculte={faculte}
+      onBack={handleBack}
     />
   );
 }
@@ -103,7 +103,7 @@ export default function App() {
       const query = searchQuery.toLowerCase().trim();
       const matchNomComplet = fac.nom_complet?.toLowerCase().includes(query);
       const matchNomCourt = fac.nom_court?.toLowerCase().includes(query);
-      
+
       if (matchNomComplet || matchNomCourt) {
         return true;
       }
@@ -163,7 +163,7 @@ export default function App() {
           className="fixed top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#de3f6b] to-[#78bec3] z-[100]"
           style={{ scaleX, transformOrigin: "0%" }}
         />
-        
+
         {/* NAVBAR */}
         <Navbar
           onHomeClick={handleGoHome}
@@ -257,11 +257,10 @@ export default function App() {
                                 key={filter}
                                 onClick={() => setSelectedFilter(filter)}
                                 style={isActive ? { backgroundColor: catColor, color: textColor } : {}}
-                                className={`inline-block px-4 py-2 rounded-xl text-xs font-black tracking-wide transition-all ${
-                                  isActive
-                                    ? 'shadow-md shadow-slate-200/50'
-                                    : 'bg-white text-gray-500 border border-gray-200 hover:bg-gray-50'
-                                }`}
+                                className={`inline-block px-4 py-2 rounded-xl text-xs font-black tracking-wide transition-all ${isActive
+                                  ? 'shadow-md shadow-slate-200/50'
+                                  : 'bg-white text-gray-500 border border-gray-200 hover:bg-gray-50'
+                                  }`}
                               >
                                 {filter}
                               </button>
@@ -271,9 +270,9 @@ export default function App() {
 
                         {/* Navigation par carrousels */}
                         {filteredFacultes.length > 0 ? (
-                          <FaculteNavigation 
-                            data={filteredFacultes} 
-                            onCardClick={handleGoToDetail} 
+                          <FaculteNavigation
+                            data={filteredFacultes}
+                            onCardClick={handleGoToDetail}
                           />
                         ) : (
                           <div className="text-center py-12 bg-white rounded-3xl border border-gray-100 shadow-sm space-y-3">
@@ -306,8 +305,8 @@ export default function App() {
                     exit={{ opacity: 0, y: -15 }}
                     transition={{ duration: 0.25, ease: "easeInOut" }}
                   >
-                    <AdvancedSearchPage 
-                      onCardClick={handleGoToDetail} 
+                    <AdvancedSearchPage
+                      onCardClick={handleGoToDetail}
                       onBack={handleGoHome}
                       initialState={searchPageState}
                       onStateChange={handleSearchPageStateChange}

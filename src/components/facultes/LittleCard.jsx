@@ -77,7 +77,7 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
             <h4 className="font-black text-lg text-bleu tracking-tight group-hover:text-pourpre transition-colors duration-300 leading-tight">
               {fac.nom_court}
             </h4>
-            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">
+            <p className="text-xs font-bold text-gray-400 uppercase tracking-widest block">
               📍 {fac.ville}
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
             return (
               <span 
                 key={idx} 
-                className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-md border"
+                className="text-xs font-extrabold px-2.5 py-0.5 rounded-md border"
                 style={{
                   backgroundColor: `${color}12`,
                   color: color,
@@ -108,36 +108,18 @@ export default function LittleCard({ fac, onClick, color = '#9ca3af' }) {
             );
           })}
           {fac.filieres_phares.length > 2 && (
-            <span className="text-[10px] font-bold text-gray-300 px-1.5 py-0.5">
+            <span className="text-xs font-bold text-gray-300 px-1.5 py-0.5">
               +{fac.filieres_phares.length - 2}
             </span>
           )}
         </div>
       </div>
 
-      {/* PIED DE LA CARTE : SECTIONS ADMISSIBLES */}
-      <div className="flex items-center justify-between pt-4 mt-5 border-t border-gray-50">
-        <span className="text-[11px] font-bold text-gray-400">
-          Bacs acceptés
+      {/* PIED DE LA CARTE */}
+      <div className="flex items-center justify-end pt-4 mt-5 border-t border-gray-50">
+        <span className="text-xs font-black text-[#de3f6b] uppercase tracking-wider group-hover:underline">
+          Voir la fiche complète →
         </span>
-        
-        <div className="flex flex-wrap items-center gap-1">
-          {Object.keys(fac.score_derniere_annee || {})
-            .filter((cle) => fac.score_derniere_annee[cle] > 0)
-            .map((cle) => {
-              const config = bacConfig[cle] || { label: cle, emoji: "🎓" };
-
-              return (
-                <span 
-                  key={cle}
-                  className="text-[9px] font-black text-[#1b1464] bg-slate-50 border border-gray-100/70 px-1.5 py-0 rounded-md flex items-center gap-0.5 transition-all duration-300 group-hover:bg-[#1b1464]/5 group-hover:border-[#1b1464]/10"
-                >
-                  <span className="text-[10px]">{config.emoji}</span>
-                  <span>{config.label}</span>
-                </span>
-              );
-            })}
-        </div>
       </div>
 
     </motion.div>

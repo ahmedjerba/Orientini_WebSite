@@ -54,7 +54,7 @@ export default function Countdown() {
                 </motion.span>
               </AnimatePresence>
             </div>
-            <span className="text-[10px] uppercase font-bold text-gray-300 tracking-wider mt-1">
+            <span className="text-xs uppercase font-bold text-gray-300 tracking-wider mt-1">
               {item.label}
             </span>
           </div>
