@@ -20,6 +20,37 @@ import Sponsors from './components/Sponsors';
 import facultesData from './data/facultes-index.json';
 import { getCategoryColor, getContrastText } from './data/categoryColors';
 
+const facultesJsonUrl = new URL('./data/facultes.json', import.meta.url).href;
+let facultesJsonPromise = null;
+let facultesJsonCache = null;
+
+function loadFacultesJson() {
+  if (facultesJsonCache) {
+    return Promise.resolve(facultesJsonCache);
+  }
+
+  if (!facultesJsonPromise) {
+    facultesJsonPromise = fetch(facultesJsonUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Impossible de charger facultes.json (${response.status})`);
+        }
+
+        return response.json();
+      })
+      .then((json) => {
+        facultesJsonCache = Array.isArray(json) ? json : [];
+        return facultesJsonCache;
+      })
+      .catch((error) => {
+        facultesJsonPromise = null;
+        throw error;
+      });
+  }
+
+  return facultesJsonPromise;
+}
+
 const defaultSearchPageState = {
   searchQuery: '',
   selectedRegion: 'Toutes',
@@ -41,31 +72,49 @@ function FacultePageWrapper() {
   const navigate = useNavigate();
   const [faculte, setFaculte] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
-    import('./data/facultes.json')
-      .then((mod) => {
-        if (cancelled) return;
-        const full = mod.default ?? mod;
-        const found = full.find((fac) => fac.id === id) || null;
-        setFaculte(found);
-        setLoading(false);
-      })
-      .catch(() => {
-        if (!cancelled) setLoading(false);
-      });
-    return () => { cancelled = true; };
+
+    Promise.resolve().then(() => {
+      if (cancelled) return;
+
+      setLoading(true);
+      setError(null);
+      setFaculte(null);
+
+      return loadFacultesJson()
+        .then((mod) => {
+          if (cancelled) return;
+          const found = mod.find((fac) => String(fac.id) === String(id)) || null;
+          setFaculte(found);
+          if (!found) {
+            setError(new Error(`Aucune fiche trouvée pour l'identifiant ${id}.`));
+          }
+        })
+        .catch((fetchError) => {
+          if (!cancelled) {
+            setError(fetchError instanceof Error ? fetchError : new Error('Erreur de chargement des données.'));
+          }
+        })
+        .finally(() => {
+          if (!cancelled) setLoading(false);
+        });
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, [id]);
 
   const handleBack = useCallback(() => navigate('/'), [navigate]);
 
-  if (loading) return <RouteLoader />;
-
   return (
     <FacultyDetailPage
       faculte={faculte}
+      loading={loading}
+      error={error}
       onBack={handleBack}
     />
   );
@@ -154,6 +203,38 @@ export default function App() {
       window.scrollTo({ top: 0, behavior: 'auto' });
     }
   }, [location.pathname, location.hash]);
+
+  // Précharge facultes.json quand l'accueil devient idle pour que la première fiche s'ouvre sans attente réseau.
+  useEffect(() => {
+    if (location.pathname !== '/') {
+      return undefined;
+    }
+
+    let cancelled = false;
+    const prefetchFacultes = () => {
+      if (!cancelled) {
+        void loadFacultesJson();
+      }
+    };
+
+    if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+      const idleId = window.requestIdleCallback(prefetchFacultes, { timeout: 2000 });
+
+      return () => {
+        cancelled = true;
+        if ('cancelIdleCallback' in window) {
+          window.cancelIdleCallback(idleId);
+        }
+      };
+    }
+
+    const timeoutId = window.setTimeout(prefetchFacultes, 500);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timeoutId);
+    };
+  }, [location.pathname]);
 
   // Handlers de navigation pour Navbar
   const handleGoHome = () => {

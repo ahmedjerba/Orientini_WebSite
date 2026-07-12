@@ -5,16 +5,81 @@ import PresentationFiliere from './PresentationFiliere';
 import DebouchesIntervenant from './DebouchesIntervenant';
 import ContactActions from './ContactActions';
 
-export default function FacultePage({ faculte, onBack }) {
-  const shouldReduceMotion = useReducedMotion();
+function DetailLoadingState({ onBack, shouldReduceMotion }) {
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <div className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-6 px-6 py-16 text-center">
+        <motion.div
+          animate={shouldReduceMotion ? {} : { opacity: [0.45, 1, 0.45], scale: [0.98, 1.03, 0.98] }}
+          transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut' }}
+          className="h-16 w-16 rounded-3xl bg-linear-to-br from-pourpre to-cyan shadow-lg shadow-pourpre/20"
+        />
 
-  // Sécurité : si aucune faculté n'est sélectionnée ou trouvée dans le JSON
+        <div className="w-full max-w-xl space-y-3 rounded-3xl border border-white bg-white/80 p-6 shadow-sm backdrop-blur-sm">
+          <div className="h-4 w-2/3 rounded-full bg-slate-100" />
+          <div className="h-3 w-full rounded-full bg-slate-100" />
+          <div className="h-3 w-5/6 rounded-full bg-slate-100" />
+          <div className="mt-5 grid grid-cols-2 gap-3">
+            <div className="h-24 rounded-2xl bg-slate-100" />
+            <div className="h-24 rounded-2xl bg-slate-100" />
+          </div>
+        </div>
+
+        <p className="text-sm font-black tracking-wide text-bleu">Chargement de la fiche complète...</p>
+        {onBack && (
+          <button onClick={onBack} className="text-xs font-bold underline text-gray-500">
+            Retourner à l'accueil
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function DetailMessageState({ title, message, onBack }) {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-slate-50 p-8">
+      <div className="max-w-lg rounded-3xl border border-gray-100 bg-white p-8 text-center shadow-sm">
+        <p className="text-lg font-black text-bleu">{title}</p>
+        <p className="mt-2 text-sm font-medium text-gray-500">{message}</p>
+        {onBack && (
+          <button
+            onClick={onBack}
+            className="mt-6 rounded-2xl bg-pourpre px-4 py-2 text-xs font-black text-white shadow-sm"
+          >
+            Retour à l'accueil
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function FacultePage({ faculte, loading = true, error, onBack }) {
+  const shouldReduceMotion = useReducedMotion();
+  const title = faculte?.nom_complet ?? faculte?.nom_court ?? 'Fiche établissement';
+
+  if (loading) {
+    return <DetailLoadingState onBack={onBack} shouldReduceMotion={shouldReduceMotion} />;
+  }
+
+  if (error) {
+    return (
+      <DetailMessageState
+        title="Impossible de charger la fiche"
+        message={error.message || 'Une erreur est survenue pendant le chargement du JSON.'}
+        onBack={onBack}
+      />
+    );
+  }
+
   if (!faculte) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 p-8">
-        <p className="text-[#1b1464] font-black">Chargement des données...</p>
-        <button onClick={onBack} className="mt-4 text-xs font-bold underline">Retourner à l'accueil</button>
-      </div>
+      <DetailMessageState
+        title="Fiche introuvable"
+        message="Aucun établissement ne correspond à cet identifiant."
+        onBack={onBack}
+      />
     );
   }
 
@@ -28,7 +93,7 @@ export default function FacultePage({ faculte, onBack }) {
 
       {/* 1. ZONE HAUTE : HeroBanner avec gradient catégorie intégré */}
       <div className="p-4 md:p-8">
-        <HeroBanner faculte={faculte} onBack={onBack} />
+        <HeroBanner faculte={faculte} onBack={onBack} title={title} />
       </div>
 
       {/* 2. ZONE DE CONTENU : Grille structurée */}
@@ -66,7 +131,7 @@ export default function FacultePage({ faculte, onBack }) {
       {/* Footer Orient'ini */}
       <footer className="py-10 text-center">
         <p className="text-xs font-black text-gray-300 uppercase tracking-[0.2em]">
-          Orient'ini — 8ème édition — By Jeunes Ingénieurs de Djerba
+          {title} — Orient'ini — 8ème édition — By Jeunes Ingénieurs de Djerba
         </p>
       </footer>
     </motion.div>
