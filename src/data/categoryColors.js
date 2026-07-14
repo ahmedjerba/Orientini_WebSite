@@ -3,19 +3,20 @@
 // Pour les établissements multi-tags → dégradé automatique.
 
 export const tagColors = {
-  "Droit & Sciences Politiques":               "#dc2626", // Rouge (réservé)
-  "Médecine, Pharmacie & Médecine Dentaire":   "#3b9edd", // Bleu médical clair
-  "Paramédical & Sciences Infirmières":        "#06b6d4", // Cyan médical
-  "Génie & Technologies Appliquées":           "#f0930d", // Orange technique
-  "Informatique & Réseaux":                    "#6366f1", // Indigo tech
-  "Business, Commerce, Finance & Gestion":     "#2e9e6b", // Vert commerce
-  "Cycles Préparatoires Intégrés":             "#1d4ed8", // Bleu royal tech (électrique, ingénierie)
-  "Classes Préparatoires Classiques":          "#7c3aed", // Violet
-  "Sciences Fondamentales & Biotechnologie":   "#0369a1", // Bleu scientifique
-  "Architecture":                              "#b45309", // Brun doré
-  "Arts, Design & Multimédia":                "#db2777", // Rose créatif
-  "Lettres, Langues & Sciences Humaines":      "#7e22ce", // Violet sombre
-  "Sport & Éducation Physique":               "#16a34a", // Vert vif
+  "Droit & Sciences Politiques": "#dc2626", // Rouge (réservé)
+  "Médecine, Pharmacie & Médecine Dentaire": "#3b9edd", // Bleu médical clair
+  "Paramédical & Sciences Infirmières": "#06b6d4", // Cyan médical
+  "Génie & Technologies Appliquées": "#f0930d", // Orange technique
+  "Informatique & Réseaux": "#6366f1", // Indigo tech
+  "Business, Commerce, Finance & Gestion": "#2e9e6b", // Vert commerce
+  "Cycles Préparatoires Intégrés": "#1d4ed8", // Bleu royal tech (électrique, ingénierie)
+  "Classes Préparatoires Classiques": "#7c3aed", // Violet
+  "Sciences Fondamentales & Biotechnologie": "#0369a1", // Bleu scientifique
+  "Architecture": "#b45309", // Brun doré
+  "Arts, Design & Multimédia": "#db2777", // Rose créatif
+  "Lettres, Langues & Sciences Humaines": "#7e22ce", // Violet sombre
+  "Sport & Éducation Physique": "#16a34a", // Vert vif
+  "Tourisme & Hôtellerie": "#f0ff05", // Jaune Vif
 };
 
 const DEFAULT_COLOR = "#9ca3af";
@@ -69,11 +70,12 @@ export const getContrastText = (bgColor) => {
 
 // ─── Rétro-compat : ancienne map `filtre` → conservée pour LittleCard/App ─────
 export const categoryColors = {
-  "🩺 Sciences de la Santé & Médecine":                          "#3b9edd",
-  "💻 Licence d'Informatique":                                    "#6366f1",
-  "🛠️ Instituts Supérieurs des Études Technologiques (ISET)":    "#f0930d",
-  "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)":   "#dc2626",
-  "💼 Business, Commerce & Gestion":                             "#2e9e6b",
-  "🚀 Cycles Préparatoires Intégrés & Architecture":             "#1d4ed8",
-  "📚 Instituts Préparatoires Classiques (IPEI)":                "#7c3aed",
+  "🩺 Sciences de la Santé & Médecine": "#3b9edd",
+  "💻 Licence d'Informatique": "#6366f1",
+  "🛠️ Instituts Supérieurs des Études Technologiques (ISET)": "#f0930d",
+  "⚖️ Facultés des Sciences Juridiques et Politiques (Droit)": "#dc2626",
+  "💼 Business, Commerce & Gestion": "#2e9e6b",
+  "🚀 Cycles Préparatoires Intégrés & Architecture": "#1d4ed8",
+  "📚 Instituts Préparatoires Classiques (IPEI)": "#7c3aed",
+  "🏨 Tourisme & Hôtellerie": "#f0ff05",
 };

@@ -6,19 +6,20 @@ export default function FaculteNavigation({ data, onCardClick, forceShowAll = fa
   const [showAll, setShowAll] = useState(false);
 
   const categoriesList = [
-    { key: "medecine",      label: "Médecine, Pharmacie & Médecine Dentaire",    displayLabel: "🩺 Médecine, Pharmacie & Médecine Dentaire" },
-    { key: "prepaIntegrees",label: "Cycles Préparatoires Intégrés",              displayLabel: "🚀 Cycles Préparatoires Intégrés" },
-    { key: "informatique",  label: "Informatique & Réseaux",                     displayLabel: "💻 Informatique & Réseaux" },
-    { key: "commerce",      label: "Business, Commerce, Finance & Gestion",      displayLabel: "💼 Business, Commerce, Finance & Gestion" },
-    { key: "paramedical",   label: "Paramédical & Sciences Infirmières",         displayLabel: "🏥 Paramédical & Sciences Infirmières" },
-    { key: "prepaClassiques",label: "Classes Préparatoires Classiques",          displayLabel: "📚 Classes Préparatoires Classiques" },
-    { key: "architecture",  label: "Architecture",                               displayLabel: "🏛️ Architecture" },
-    { key: "sciences",      label: "Sciences Fondamentales & Biotechnologie",    displayLabel: "🔬 Sciences Fondamentales & Biotechnologie" },
-    { key: "genie",         label: "Génie & Technologies Appliquées",            displayLabel: "🛠️ Génie & Technologies Appliquées" },
-    { key: "droit",         label: "Droit & Sciences Politiques",                displayLabel: "⚖️ Droit & Sciences Politiques" },
-    { key: "lettres",       label: "Lettres, Langues & Sciences Humaines",       displayLabel: "✍️ Lettres, Langues & Sciences Humaines" },
-    { key: "arts",          label: "Arts, Design & Multimédia",                  displayLabel: "🎨 Arts, Design & Multimédia" },
-    { key: "sport",         label: "Sport & Éducation Physique",                 displayLabel: "🏃 Sport & Éducation Physique" }
+    { key: "medecine", label: "Médecine, Pharmacie & Médecine Dentaire", displayLabel: "🩺 Médecine, Pharmacie & Médecine Dentaire" },
+    { key: "prepaIntegrees", label: "Cycles Préparatoires Intégrés", displayLabel: "🚀 Cycles Préparatoires Intégrés" },
+    { key: "informatique", label: "Informatique & Réseaux", displayLabel: "💻 Informatique & Réseaux" },
+    { key: "commerce", label: "Business, Commerce, Finance & Gestion", displayLabel: "💼 Business, Commerce, Finance & Gestion" },
+    { key: "paramedical", label: "Paramédical & Sciences Infirmières", displayLabel: "🏥 Paramédical & Sciences Infirmières" },
+    { key: "prepaClassiques", label: "Classes Préparatoires Classiques", displayLabel: "📚 Classes Préparatoires Classiques" },
+    { key: "architecture", label: "Architecture", displayLabel: "🏛️ Architecture" },
+    { key: "sciences", label: "Sciences Fondamentales & Biotechnologie", displayLabel: "🔬 Sciences Fondamentales & Biotechnologie" },
+    { key: "genie", label: "Génie & Technologies Appliquées", displayLabel: "🛠️ Génie & Technologies Appliquées" },
+    { key: "droit", label: "Droit & Sciences Politiques", displayLabel: "⚖️ Droit & Sciences Politiques" },
+    { key: "lettres", label: "Lettres, Langues & Sciences Humaines", displayLabel: "✍️ Lettres, Langues & Sciences Humaines" },
+    { key: "arts", label: "Arts, Design & Multimédia", displayLabel: "🎨 Arts, Design & Multimédia" },
+    { key: "sport", label: "Sport & Éducation Physique", displayLabel: "🏃 Sport & Éducation Physique" },
+    { key: "tourisme", label: "Tourisme & Hôtellerie", displayLabel: "🏨 Tourisme & Hôtellerie" }
   ];
 
   const displayAll = showAll || forceShowAll;

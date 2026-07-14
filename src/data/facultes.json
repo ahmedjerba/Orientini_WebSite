@@ -6495,5 +6495,935 @@
       "Sciences Fondamentales & Biotechnologie",
       "Génie & Technologies Appliquées"
     ]
+  },
+  {
+    "id": "isams_sfax",
+    "nom_court": "ISAM Sfax",
+    "nom_complet": "Institut Supérieur des Arts et Métiers de Sfax (ISAMS)",
+    "universite": "Université de Sfax",
+    "ville": "Sfax",
+    "logo": "/logos/ISAMS.webp",
+    "fac_hero_banner": "/banners/ISAMS_hero.webp",
+    "description_breve": "Créé en 1995, l'ISAMS est un institut public de l'Université de Sfax spécialisé dans les arts appliqués, les arts plastiques et le design, formant des créateurs et designers pour le marché de l'emploi.",
+    "adresse": "34, Avenue du 5 Août, 3002 Sfax",
+    "lien_google_maps": "https://maps.google.com/?q=ISAMS+34+Avenue+5+Aout+Sfax",
+    "categories": [
+      "Arts",
+      "Design",
+      "Arts appliqués"
+    ],
+    "filtre": "🎨 Arts & Design",
+    "regimes_etudes": "3 ans pour la Licence Appliquée en Arts Appliqués",
+    "filieres_phares": [
+      {
+        "id": "isams_sfax_licence_patrimoine",
+        "nom": "Licence en Conservation et Restauration du Patrimoine Culturel ",
+        "duree": "3 ans",
+        "description": "Licence en Conservation et Restauration du Patrimoine Culturel dispensée par ISAM Sfax.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": null,
+          "bac_lettres": null,
+          "bac_eco": null,
+          "bac_tech": null,
+          "bac_info": null,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Conservation du patrimoine architectural",
+          "Restauration d'œuvres d'art",
+          "Restaurateur de biens culturels",
+          "Documentaliste ou archiviste spécialisé"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_en_cinema_et_audiovisuel",
+        "nom": "Licence en Cinéma et Audiovisuel",
+        "duree": "3 ans",
+        "description": "Licence en Cinéma et Audiovisuel dispensée par ISAM Sfax. Formation en réalisation et production audiovisuelle.Nécessite un examen",
+        "scores": {
+          "bac_math": null,
+          "bac_lettres": 111.27,
+          "bac_sc": 97.87,
+          "bac_eco": 83.9,
+          "bac_info": 76.27,
+          "bac_tech": 79.29
+        },
+        "debouches": [
+          "Réalisateur / Monteur",
+          "Producteur audiovisuel"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_en_design_de_l_image",
+        "nom": "Licence en Design de l'Image",
+        "duree": "3 ans",
+        "description": "Licence en Design de l'Image dispensée par ISAM Sfax. Elle forme des designers visuels pour la publicité et les médias.",
+        "scores": {
+          "bac_math": 108.78,
+          "bac_info": 87.39,
+          "bac_sc": 115.51,
+          "bac_tech": 79.51,
+          "bac_eco": 79.78,
+          "bac_lettres": 106.24,
+          "bac_sport": 152.06
+        },
+        "debouches": [
+          "Graphiste",
+          "Directeur artistique",
+          "Concepteur publicitaire",
+          "Motion designer"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_en_design_de_produit",
+        "nom": "Licence en Design de Produit",
+        "duree": "3 ans",
+        "description": "Licence en Design de Produit dispensée par ISAM Sfax. Cette formation prépare à la conception d'objets et de produits industriels innovants.",
+        "scores": {
+          "bac_info": 84.22,
+          "bac_sc": 107.79,
+          "bac_tech": 71.83,
+          "bac_eco": 74.39,
+          "bac_lettres": 112.63,
+          "bac_math": 95.42,
+          "bac_sport": 92.83
+        },
+        "debouches": [
+          "Designer produit",
+          "Designer de mobilier",
+          "Bureau d'études industriel",
+          "Entrepreneuriat créatif"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_arts_appliques",
+        "nom": "Licence en Arts Plastiques",
+        "duree": "3 ans",
+        "description": "Formation proposée en sept spécialités, orientée vers la pratique professionnelle des arts appliqués.",
+        "scores": {
+          "bac_math": 113.36,
+          "bac_sc": 106.59,
+          "bac_lettres": 86.96,
+          "bac_eco": 77.21,
+          "bac_tech": 72,
+          "bac_info": 78.01,
+          "bac_sport": 89.69
+        },
+        "debouches": [
+          "Graphiste / Illustrateur",
+          "Designer junior",
+          "Métiers de la création visuelle"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_design_espace",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "description": "Licence en Design de L'Espace dispensée par ISAM Sfax.",
+        "scores": {
+          "bac_math": 145.24,
+          "bac_sc": 125.26,
+          "bac_lettres": 119.93,
+          "bac_eco": 105.5,
+          "bac_tech": 100.8,
+          "bac_info": 96.36,
+          "bac_sport": 165.2
+        },
+        "debouches": [
+          "Artiste plasticien / Designer",
+          "Designer / Artisan d'art"
+        ]
+      },
+      {
+        "id": "isams_sfax_licence_en_arts_et_medias_numeriques",
+        "nom": "Licence en Arts et Médias Numériques",
+        "duree": "3 ans",
+        "description": "Licence en Arts et Médias Numériques dispensée par ISAM Sfax. Formation pluridisciplinaire aux arts multimédias et à la communication numérique. Développe des compétences en création visuelle et technologies interactives.",
+        "scores": {
+          "bac_math": null,
+          "bac_info": 93.14,
+          "bac_sc": 109.94,
+          "bac_eco": 96.5,
+          "bac_tech": 94.59,
+          "bac_lettres": 125.76
+        },
+        "debouches": [
+          "Designer multimédia",
+          "Chef de projet digital",
+          "Infographiste",
+          "Community manager"
+        ]
+      }
+    ],
+    "debouches": [
+      "Designer, graphiste, artiste plasticien indépendant ou salarié",
+      "Enseignement artistique",
+      "Poursuite en mastère de recherche (Arts Plastiques, Design) ou en doctorat en Arts et Médiation"
+    ],
+    "site_web": "https://isams.rnu.tn",
+    "tags": [
+      "Arts & Design"
+    ]
+  },
+  {
+    "id": "iseth_sidi_dhrif",
+    "nom_court": "ISETH",
+    "nom_complet": "Institut Supérieur des Études Touristiques et Hôtelières de Sidi Dhrif ",
+    "universite": "Université de Carthage",
+    "ville": "Tunis",
+    "logo": "/logos/IHET.webp",
+    "fac_hero_banner": "/banners/IHET_hero.webp",
+    "description_breve": "Doyen des instituts tunisiens de tourisme et d'hôtellerie, ouvert en 1976 sur la colline de Sidi Dhrif. Sous double tutelle du ministère du Tourisme et du ministère de l'Enseignement Supérieur, il forme les cadres du secteur touristique et hôtelier.",
+    "adresse": "Sidi Dhrif, Avenue Sidi Bennour, 2026 Sidi Bou Saïd",
+    "lien_google_maps": "https://maps.google.com/?q=IHET+Sidi+Dhrif+Sidi+Bou+Said",
+    "categories": [
+      "Tourisme",
+      "Hôtellerie",
+      "Gestion"
+    ],
+    "filtre": "🏨 Tourisme & Hôtellerie",
+    "regimes_etudes": "3 ans pour Licence ",
+    "filieres_phares": [
+      {
+        "id": "iseth_sidi_dhrif_licence_gestion_hoteliere",
+        "nom": "Licence en Tourisme",
+        "duree": "3 ans",
+        "description": "Licence en Tourisme dispensée par ISETH Sidi Thrif. Formation de cadres pour la gestion des unités hôtelières, en partenariat avec les entreprises du secteur.",
+        "scores": {
+          "bac_eco": 96.43,
+          "bac_lettres": 111.32,
+          "bac_sc": 124.03,
+          "bac_info": 100.76,
+          "bac_tech": 109.71,
+          "bac_math": 102.72,
+          "bac_sport": 137.67
+        },
+        "debouches": [
+          "Directeur/Gestionnaire d'hôtel",
+          "Chef de réception",
+          "Responsable hébergement"
+        ]
+      }
+    ],
+    "debouches": [
+      "Cadre dans l'hôtellerie et la restauration",
+      "Cadre dans les agences de voyages",
+      "Fonction publique du secteur touristique"
+    ],
+    "site_web": "https://iseth.rnu.tn",
+    "tags": [
+      "Tourisme & Hôtellerie",
+      "Business, Commerce, Finance & Gestion"
+    ]
+  },
+  {
+    "id": "essths_hammam_sousse",
+    "nom_court": "ESSTHS",
+    "nom_complet": "École Supérieure des Sciences et de la Technologie de Hammam Sousse",
+    "universite": "Université de Sousse",
+    "ville": "Sousse",
+    "logo": "/logos/ESSTHS.webp",
+    "fac_hero_banner": "/banners/ESSTHS_hero.webp",
+    "description_breve": "École publique créée en 2006 au sein de la Technopôle de Sousse, spécialisée dans les sciences et technologies : informatique, mathématiques, physique, énergie, matériaux et électronique.",
+    "adresse": "Sahloul, 4011 Hammam Sousse",
+    "lien_google_maps": "https://maps.google.com/?q=ESSTHS+Sahloul+Hammam+Sousse",
+    "categories": [
+      "Informatique",
+      "Sciences",
+      "Technologie"
+    ],
+    "filtre": "💻 Informatique & Réseaux",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), Mastères de recherche et professionnels",
+    "filieres_phares": [
+      {
+        "id": "essths_licence_info_logicielle",
+        "nom": "Licence en Sciences de l'Informatique",
+        "duree": "3 ans",
+        "description": "Spécialité Ingénierie Logicielle et Systèmes d'Information Multimédia. Cette formation prépare des développeurs et ingénieurs capables de concevoir des logiciels et des systèmes multimédias complexes.",
+        "scores": {
+          "bac_math": 133.15,
+          "bac_info": 155.31,
+          "bac_sc": 144.09,
+          "bac_tech": 177.25
+        },
+        "debouches": [
+          "Développeur logiciel",
+          "Développeur d'applications multimédia",
+          "Chef de projet informatique",
+          "Architecte de systèmes d'information"
+        ]
+      },
+      {
+        "id": "essths_licence_math",
+        "nom": "Licence en Mathématiques",
+        "duree": "3 ans",
+        "description": "Cette formation combine les fondements théoriques des mathématiques avec les compétences pratiques en informatique.",
+        "scores": {
+          "bac_math": 87.61,
+          "bac_info": 139.53,
+          "bac_sc": 117.06,
+          "bac_tech": 117.09
+        },
+        "debouches": [
+          "Enseignant",
+          "Statisticien",
+          "Analyste de données",
+          "Chercheur en mathématiques"
+        ]
+      },
+      {
+        "id": "essths_licence_math_app",
+        "nom": "Licence en Mathématiques Appliquées",
+        "duree": "3 ans",
+        "description": "Spécialité Aide à la décision. Cette formation prépare des spécialistes capables d'analyser des données complexes pour orienter les choix stratégiques des entreprises et organisations.",
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null
+        },
+        "debouches": [
+          "Analyste décisionnel",
+          "Data analyst",
+          "Consultant en aide à la décision",
+          "Chargé d'études"
+        ]
+      },
+      {
+        "id": "essths_licence_automatique",
+        "nom": "Licence en Automatique et Informatique Industrielle",
+        "duree": "3 ans",
+        "description": "Spécialités Automatique et Informatique Industrielle / Contrôle Intégré des Systèmes Industriels. Formation axée sur l'automatisation des systèmes industriels et le contrôle intégré.",
+        "scores": {
+          "bac_math": 102.74,
+          "bac_info": 126.97,
+          "bac_sc": 106.71,
+          "bac_tech": 127.13
+        },
+        "debouches": [
+          "Technicien en automatisme industriel",
+          "Spécialiste en systèmes embarqués",
+          "Responsable maintenance industrielle",
+          "Spécialiste en  Systèmes Embarqués et IoT"
+        ]
+      },
+      {
+        "id": "essths_licence_energies",
+        "nom": "Licence en Ingénierie Énergétique",
+        "duree": "3 ans",
+        "description": "Spécialités Énergétique du Bâtiment / Énergétique des Systèmes Thermiques et des Énergies Renouvelables. Formation dédiée aux technologies des énergies propres et durables. Elle répond à la demande croissante en solutions énergétiques alternatives.",
+        "scores": {
+          "bac_math": null,
+          "bac_info": null,
+          "bac_sc": null,
+          "bac_tech": null
+        },
+        "debouches": [
+          "Spécialiste en énergies renouvelables",
+          "Technicien en efficacité énergétique",
+          "Chargé d'études énergétiques",
+          "Responsable Climatisation"
+        ]
+      },
+      {
+        "id": "essths_classes_preparatoires_scientifiques_technologie_maths_physique_physique_chimie",
+        "nom": "Classes préparatoires scientifiques – Technologie (Maths-Physique / Physique-Chimie)",
+        "duree": "2 ans de cycle préparatoire",
+        "description": "Classes préparatoires scientifiques de deux ans préparant aux concours nationaux d'entrée aux écoles d'ingénieurs. L'institut est rattaché à l'Université de Sousse.",
+        "scores": {
+          "bac_math": 90.5,
+          "bac_sc": 122.78,
+          "bac_info": 138.76
+        },
+        "debouches": [
+          "Accès sur concours aux écoles nationales d'ingénieurs ENIT,SUP'COM,ENSI,EPT...",
+          "Poursuite en master scientifique",
+          "Recherche appliquée"
+        ]
+      }
+    ],
+    "debouches": [
+      "Spécialiste en énergies renouvelables",
+      "Technicien supérieur en efficacité énergétique",
+      "Technicien supérieur en génie climatique",
+      "Technicien supérieur en maintenance industrielle",
+      "Développeur Applications Web et Mobile",
+      "Accès aux Grandes Écoles d'Ingénieurs Tunisiennes (EPT, SUP'COM, ENIT, ENSI, etc.) via concours"
+    ],
+    "site_web": "http://www.essths.rnu.tn",
+    "tags": [
+      "Informatique & Réseaux",
+      "Ingénierie & Technologie",
+      "Classes Préparatoires Classiques",
+      "Sciences Fondamentales & Biotechnologie"
+    ]
+  },
+  {
+    "id": "isbat_tunis",
+    "nom_court": "ISBAT",
+    "nom_complet": "Institut Supérieur des Beaux-Arts de Tunis",
+    "universite": "Université de Tunis",
+    "ville": "Tunis",
+    "logo": "/logos/ISBAT.webp",
+    "fac_hero_banner": "/banners/ISBAT_hero.webp",
+    "description_breve": "Doyenne des écoles d'art en Tunisie, fondée en 1923. Considérée comme « l'école-mère » de l'enseignement artistique tunisien, elle regroupe les départements Arts Plastiques et Design.",
+    "adresse": "Route de l'Armée Nationale, Bab Sidi Abdessalem, El Omrane, 1005 Tunis",
+    "lien_google_maps": "https://maps.google.com/?q=ISBAT+Route+de+l'Armee+Nationale+El+Omrane+Tunis",
+    "categories": [
+      "Arts",
+      "Design"
+    ],
+    "filtre": "🎨 Arts & Design",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD) avec cycle préparatoire, Mastère, Doctorat en arts et culture",
+    "filieres_phares": [
+      {
+        "id": "isbat_licence_arts_plastiques",
+        "nom": "Licence en Arts Plastiques",
+        "duree": "3 ans",
+        "description": "Formation en peinture, sculpture et pratiques artistiques contemporaines, avec cycle préparatoire.",
+        "scores": {
+          "bac_math": 114.41,
+          "bac_sc": 105.79,
+          "bac_tech": 87.68,
+          "bac_info": 71.98,
+          "bac_eco": 85.63,
+          "bac_let": 89.52,
+          "bac_sport": 113.52
+        },
+        "debouches": [
+          "Artiste plasticien",
+          "Enseignant en arts plastiques",
+          "Restaurateur d'œuvres d'art"
+        ]
+      },
+      {
+        "id": "isbat_licence_design",
+        "nom": "Licence en Design de l'Espace",
+        "duree": "3 ans",
+        "description": "Formation dispensée par le département Design de l'ISBAT.",
+        "scores": {
+          "bac_math": 94.66,
+          "bac_sc": 136.25,
+          "bac_tech": 104.6,
+          "bac_info": 109.02,
+          "bac_eco": 107.28,
+          "bac_let": 115.72,
+          "bac_sport": 175.19
+        },
+        "debouches": [
+          "Designer produit / graphique",
+          "Directeur artistique",
+          "Poursuite en mastère de design",
+          "Designer d'espaces commerciaux"
+        ]
+      },
+      {
+        "id": "isbat_licence_design_produit",
+        "nom": "Licence en Design du Produit",
+        "duree": "3 ans",
+        "description": "Formation dispensée par le département Design de l'ISBAT.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 116.13,
+          "bac_tech": 81.47,
+          "bac_info": 103.06,
+          "bac_eco": 92.38,
+          "bac_let": 113.93,
+          "bac_sport": 172.77
+        },
+        "debouches": [
+          "Designer produit",
+          "Poursuite en mastère de design",
+          "Industries créatives"
+        ]
+      },
+      {
+        "id": "isbat_licence_design_image",
+        "nom": "Licence en Design de l'Image",
+        "duree": "3 ans",
+        "description": "Licence en Design de l'Image dispensée par ISBAT. Elle forme des designers visuels pour la publicité et les médias.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 118.56,
+          "bac_tech": 73.2,
+          "bac_info": 88.29,
+          "bac_eco": 88.73,
+          "bac_let": 115.2,
+          "bac_sport": 142.59
+        },
+        "debouches": [
+          "Graphiste",
+          "Directeur artistique",
+          "Poursuite en mastère de design",
+          "Industries créatives"
+        ]
+      }
+    ],
+    "debouches": [
+      "Artiste, designer, illustrateur indépendant",
+      "Enseignement artistique",
+      "Poursuite en école doctorale en arts et culture (partenariats avec des universités françaises)"
+    ],
+    "site_web": "http://www.isbat.rnu.tn",
+    "tags": [
+      "Arts & Design"
+    ],
+    "_note_verification": "L'admission à l'ISBAT se fait généralement sur concours/dossier artistique et non uniquement sur score de bac classique ; à confirmer selon la filière et l'année."
+  },
+  {
+    "id": "istmt_tunis",
+    "nom_court": "ISTMT",
+    "nom_complet": "Institut Supérieur des Technologies Médicales de Tunis",
+    "universite": "Université de Tunis El Manar",
+    "ville": "Tunis",
+    "logo": "/logos/ISTMT.webp",
+    "fac_hero_banner": "/banners/ISTMT_hero.webp",
+    "description_breve": "Établissement public situé dans le pôle hospitalo-universitaire de Bab Saadoun, formant des ingénieurs, techniciens et cadres spécialisés en technologies médicales, génie biomédical et appareillage auditif.",
+    "adresse": "9, Rue Zouheir Essafi, Bab Saadoun, 1006 Tunis",
+    "lien_google_maps": "https://maps.google.com/?q=ISTMT+Rue+Zouheir+Essafi+Bab+Saadoun+Tunis",
+    "categories": [
+      "Santé",
+      "Technologies médicales",
+      "Ingénierie"
+    ],
+    "filtre": "🩺 Santé & Paramédical",
+    "regimes_etudes": "Cycle préparatoire intégré (2 ans) + Cycle Ingénieur (3 ans), Licence LMD (3 ans)",
+    "filieres_phares": [
+      {
+        "id": "istmt_prepa_genie_biomedical",
+        "nom": "Cycle préparatoire intégré en Génie Biomédical",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "description": "Cycle intégré menant au diplôme national d'ingénieur en génie biomédical, formant des ingénieurs capables de concevoir, développer et maintenir les équipements médicaux.",
+        "scores": {
+          "bac_math": 148.18,
+          "bac_sc": 140.98,
+          "bac_tech": 143.66,
+          "bac_info": 124.85
+        },
+        "debouches": [
+          "Ingénieur en génie biomédical",
+          "Concepteur d'équipements médicaux",
+          "Responsable technique en milieu hospitalier",
+          "Ingénieur R&D en dispositifs médicaux"
+        ]
+      },
+      {
+        "id": "istmt_prepa_biotechnologies_sante",
+        "nom": "Cycle préparatoire intégré en Ingénierie des Biotechnologies de la Santé",
+        "duree": "5 ans (2 ans de cycle préparatoire intégré + 3 ans de cycle d'ingénieur)",
+        "description": "Cycle intégré formant des ingénieurs spécialisés dans les biotechnologies appliquées à la santé.",
+        "scores": {
+          "bac_math": 95.07,
+          "bac_sc": 134.18
+        },
+        "debouches": [
+          "Ingénieur en biotechnologies de la santé",
+          "Cadre R&D dans l'industrie biomédicale",
+          "Chercheur en biotechnologie médicale"
+        ]
+      },
+      {
+        "id": "istmt_licence_ingenierie_biomedicale",
+        "nom": "Licence en Ingénierie Biomédicale",
+        "duree": "3 ans",
+        "description": "Licence LMD avec plusieurs parcours : informatique médicale, systèmes électroniques embarqués, technologies des équipements médicaux et technologies de l'imagerie médicale.",
+        "scores": {
+          "bac_math": 119.82,
+          "bac_sc": 129.1,
+          "bac_tech": 120.11,
+          "bac_info": 131.29
+        },
+        "debouches": [
+          "Ingénieur biomédical en milieu hospitalier",
+          "Technicien en maintenance des équipements médicaux",
+          "Développeur de dispositifs médicaux",
+          "Consultant en technologies de la santé"
+        ]
+      },
+      {
+        "id": "istmt_classes_preparatoires_biologie_geologie",
+        "nom": "Classes préparatoires Biologie-Géologie",
+        "duree": "2 ans de cycle préparatoire",
+        "description": "Classes préparatoires de la filière Biologie-Géologie, de deux ans, dispensées à l'Institut Supérieur des Technologies Médicales de Tunis, permettant l'accès sur concours à des formations d'ingénieurs ou à l'École Nationale de Médecine Vétérinaire.",
+        "scores": {
+          "bac_math": null,
+          "bac_sc": 115.68
+        },
+        "debouches": [
+          "Accès sur concours à l'École Nationale de Médecine Vétérinaire",
+          "Poursuite en licence Biologie-Géologie",
+          "Recherche en sciences de la vie et de la terre"
+        ]
+      },
+      {
+        "id": "istmt_licence_appareillage_auditif",
+        "nom": "Licence en Appareillage et Utilisation des Aides Auditives",
+        "duree": "3 ans",
+        "description": "Licence en partenariat avec l'École Supérieure des Sciences et Techniques de la Santé de Tunis, formant des professionnels de l'adaptation des aides auditives.",
+        "scores": {
+          "bac_math": 120.57,
+          "bac_sc": 127.08
+        },
+        "debouches": [
+          "Audioprothésiste",
+          "Technicien en appareillage auditif",
+          "Responsable de centre d'audioprothèse",
+          "Conseiller en solutions auditives"
+        ]
+      },
+      {
+        "id": "istmt_licence_technologies_biomedicales",
+        "nom": "Licence en Biotechnologie Médicale",
+        "duree": "3 ans",
+        "description": "Licence en Biotechnologie Médicale dispensée à l'Institut Supérieur des Technologies Médicales de Tunis",
+        "scores": {
+          "bac_math": 122.81,
+          "bac_sc": 123.94
+        },
+        "debouches": [
+          "Recherche Médicale et Biomédicale",
+          "Cadre paramédical hospitalier",
+          "Technicien de laboratoire médical",
+          "Responsable de centre d'audioprothèse"
+        ]
+      }
+    ],
+    "debouches": [
+      "Ingénieur en technologies médicales dans le secteur public ou privé",
+      "Ingénieur en génie biomédical",
+      "Cadre paramédical hospitalier",
+      "Technicien de laboratoire médical",
+      "Responsable de centre d'audioprothèse",
+      "Conseiller en solutions auditives",
+      "Poursuite en mastère de recherche en technologies médicales"
+    ],
+    "site_web": "http://www.istmt.rnu.tn",
+    "tags": [
+      "Paramédical & Sciences Infirmières",
+      "Sciences Fondamentales & Biotechnologie",
+      "Génie & Technologies Appliquées",
+      "Cycles Préparatoires Intégrés",
+      "Classes Préparatoires Classiques"
+    ]
+  },
+  {
+    "id": "flahm_manouba",
+    "nom_court": "FLAHM",
+    "nom_complet": "Faculté des Lettres, des Arts et des Humanités de la Manouba",
+    "universite": "Université de la Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/FLAHM.webp",
+    "fac_hero_banner": "/banners/FLAHM_hero.webp",
+    "description_breve": "Créée en 1986, héritière des traditions de l'ancienne faculté des Lettres du 9 Avril, la FLAHM est l'un des grands pôles tunisiens de formation en langues, littératures, histoire et sciences humaines.",
+    "adresse": "Campus Universitaire de la Manouba, 2010 Manouba",
+    "lien_google_maps": "https://maps.google.com/?q=FLAHM+Campus+Universitaire+Manouba",
+    "categories": [
+      "Lettres",
+      "Langues",
+      "Sciences humaines"
+    ],
+    "filtre": "📚 Lettres, Langues & Sciences Humaines",
+    "regimes_etudes": "3 ans pour Licence (Régime LMD), Mastère, Doctorat",
+    "filieres_phares": [
+      {
+        "id": "flahm_licence_espagnol",
+        "nom": "Licence en Espagnol",
+        "duree": "3 ans",
+        "description": "Formation en langue, littérature et civilisation espagnoles, ouvrant sur l'enseignement, la traduction et les métiers de la culture. L'épreuve d'espagnol au baccalauréat est obligatoire pour l'inscription.",
+        "scores": {
+          "bac_lettres": 85.26,
+          "bac_eco": 103.84,
+          "bac_sc": 126.8,
+          "bac_math": null,
+          "bac_technique": null,
+          "bac_info": 96.36,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Chargé de clientèle bilingue (Espagnol/Français) dans les centres de services partagés et BPO",
+          "Enseignement de l'espagnol dans les lycées privés ou centres de langues",
+          "Conseiller voyage et agent de réservation pour le marché hispanophone",
+          "Traducteur pigiste ou assistant de communication dans les ambassades et ONG"
+        ]
+      },
+      {
+        "id": "flahm_licence_italien",
+        "nom": "Licence en Italien",
+        "duree": "3 ans",
+        "description": "Cursus consacré à la langue, la littérature et la civilisation italiennes. L'épreuve d'italien au baccalauréat est obligatoire pour l'inscription.",
+        "scores": {
+          "bac_lettres": 93.73,
+          "bac_eco": 104.7,
+          "bac_sc": 121.49,
+          "bac_math": null,
+          "bac_technique": 103.23,
+          "bac_info": 123.85,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Conseiller client et support technique bilingue italien en centres de contacts",
+          "Guide touristique agréé pour les flux de visiteurs italiens en Tunisie",
+          "Assistant commercial import-export pour les entreprises partenaires tuniso-italiennes",
+          "Enseignant d'italien dans le secteur éducatif privé"
+        ]
+      },
+      {
+        "id": "flahm_licence_allemand",
+        "nom": "Licence en Allemand",
+        "duree": "3 ans",
+        "description": "Formation en langue, littérature et civilisation allemandes. L'épreuve d'allemand au baccalauréat est obligatoire pour l'inscription.",
+        "scores": {
+          "bac_lettres": 88.69,
+          "bac_eco": 85.13,
+          "bac_sc": 142.38,
+          "bac_math": 105.65,
+          "bac_technique": 103.17,
+          "bac_info": 124.08,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Téléconseiller ou modérateur de contenu germanophone (secteur très porteur en Tunisie)",
+          "Traducteur ou assistant administratif au sein des agences de coopération allemandes (GIZ, KFW, Goethe-Institut)",
+          "Chargé des opérations touristiques pour les tours-opérateurs allemands",
+          "Accompagnement de projets de mobilité professionnelle vers l'Allemagne"
+        ]
+      },
+      {
+        "id": "flahm_licence_arabe",
+        "nom": "Licence en Arabe",
+        "duree": "3 ans",
+        "description": "Étude approfondie de la langue, de la littérature et de la civilisation arabes. Formation généraliste ouvrant vers l'enseignement et les métiers de l'écrit.",
+        "scores": {
+          "bac_lettres": 97.07,
+          "bac_eco": 81.33,
+          "bac_sc": 114.71,
+          "bac_math": null,
+          "bac_info": 97.83
+        },
+        "debouches": [
+          "Correcteur et rédacteur de contenus pour les médias en ligne et agences de presse arabophones",
+          "Enseignement de la langue arabe (écoles primaires et secondaires publiques ou privées)",
+          "Concepteur-rédacteur de publicités et spécialiste en adaptation linguistique (Copywriting)",
+          "Traducteur ou relecteur dans les cabinets de traduction assermentés"
+        ]
+      },
+      {
+        "id": "flahm_licence_anglais",
+        "nom": "Licence en Anglais",
+        "duree": "3 ans",
+        "description": "Formation en langue, littérature et civilisation anglo-saxonnes, avec un accent sur la maîtrise linguistique et les compétences de communication.",
+        "scores": {
+          "bac_lettres": 99.81,
+          "bac_eco": 86.52,
+          "bac_sc": 129.12,
+          "bac_math": 125.31,
+          "bac_technique": 119.65,
+          "bac_info": 131.91,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Spécialiste de la relation client internationale et support IT bilingue (Anglais/Français)",
+          "Enseignement de l'anglais (écoles de langues privées, crèches, écoles internationales)",
+          "Rédacteur SEO de contenus web en anglais pour des agences digitales et plateformes de freelancing",
+          "Community manager ou assistant de communication pour des start-ups ou des ONG internationales"
+        ]
+      },
+      {
+        "id": "flahm_licence_francais",
+        "nom": "Licence en Français (Langue, littérature et civilisation françaises et francophones)",
+        "duree": "3 ans",
+        "description": "Étude de la langue et de la littérature françaises et francophones, incluant la médiation culturelle et les compétences rédactionnelles.",
+        "scores": {
+          "bac_lettres": 67.67,
+          "bac_eco": 80.68,
+          "bac_sc": 119.8,
+          "bac_math": null,
+          "bac_technique": 101.06,
+          "bac_info": 92.55,
+          "bac_sport": 150.39
+        },
+        "debouches": [
+          "Enseignant de français dans les écoles et collèges privés (forte demande en Tunisie)",
+          "Rédacteur de contenus web francophones et copywriter pour des agences de communication",
+          "Chargé de clientèle ou superviseur dans les centres de relation client à Tunis",
+          "Médiateur culturel ou assistant de projets au sein d'institutions francophones (Institut Français de Tunisie)"
+        ]
+      },
+      {
+        "id": "flahm_licence_histoire",
+        "nom": "Licence en Histoire (Histoire et sciences du patrimoine)",
+        "duree": "3 ans",
+        "description": "Formation en histoire générale et en sciences du patrimoine, préparant à la recherche historique et à la valorisation du patrimoine culturel.",
+        "scores": {
+          "bac_lettres": 79.22,
+          "bac_eco": 75.43,
+          "bac_sc": 110.68,
+          "bac_math": null,
+          "bac_technique": 71.83,
+          "bac_info": 88.04,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Guide touristique professionnel spécialisé dans les circuits archéologiques et historiques",
+          "Gestionnaire et animateur de projets de sauvegarde du patrimoine au sein des associations et ONG de développement local",
+          "Enseignement de l'histoire-géographie dans les collèges et lycées privés",
+          "Assistant d'archives et de documentation dans les administrations ou de grandes entreprises nationales"
+        ]
+      },
+      {
+        "id": "flahm_licence_geographie",
+        "nom": "Licence en Géographie (Aménagement, environnement et risques)",
+        "duree": "3 ans",
+        "description": "Formation en géographie appliquée à l'aménagement du territoire, à la gestion de l'environnement et à la prévention des risques naturels.",
+        "scores": {
+          "bac_lettres": 87.3,
+          "bac_eco": 85.51,
+          "bac_sc": 112.43,
+          "bac_math": null,
+          "bac_technique": 76.08,
+          "bac_info": 109.7
+        },
+        "debouches": [
+          "Technicien ou analyste SIG (Systèmes d'Information Géographique) pour des cabinets d'études urbaines",
+          "Collaborateur au sein d'agences d'urbanisme, de municipalités ou de ministères (Équipement, Environnement)",
+          "Consultant junior en évaluations d'impacts environnementaux et développement durable",
+          "Enseignement de l'histoire-géographie"
+        ]
+      },
+      {
+        "id": "flahm_prepa_litteraire_arabe",
+        "nom": "Cycle préparatoire aux études littéraires - option Arabe",
+        "duree": "2 ans",
+        "description": "Cycle préparatoire de deux ans en lettres et langues, orienté vers l'arabe, avant intégration en 2e année de licence. Réservé aux candidats de moins de 20 ans au 1er septembre.",
+        "scores": {
+          "bac_lettres": 90.21,
+          "bac_eco": 83.0,
+          "bac_sc": 104.88,
+          "bac_math": null,
+          "bac_technique": 76.69,
+          "bac_info": 101.07
+        },
+        "debouches": [
+          "Intégration d'une licence ou d'une maîtrise dans un parcours d'élite",
+          "Préparation optimale aux concours nationaux de l'enseignement (CAPES, Agrégation)",
+          "Carrières académiques, recherche littéraire et linguistique approfondie",
+          "Métiers de l'édition d'art, de la critique littéraire et des affaires culturelles publiques"
+        ]
+      },
+      {
+        "id": "flahm_prepa_litteraire_francais",
+        "nom": "Cycle préparatoire aux études littéraires - option Français",
+        "duree": "2 ans",
+        "description": "Cycle préparatoire de deux ans en lettres et langues, orienté vers le français, avant intégration en 2e année de licence. Réservé aux candidats de moins de 20 ans au 1er septembre.",
+        "scores": {
+          "bac_lettres": 76.92,
+          "bac_eco": 94.7,
+          "bac_sc": 130.93,
+          "bac_math": null,
+          "bac_technique": null,
+          "bac_info": 89.63
+        },
+        "debouches": [
+          "Intégration de filières d'excellence universitaires (Licence de recherche en français)",
+          "Préparation accélérée aux concours de l'enseignement secondaire (CAPES / Agrégation)",
+          "Carrière de recherche littéraire, de critique et d'expertise éditoriale",
+          "Rôles de conception de programmes ou de coordination pédagogique dans le privé"
+        ]
+      },
+      {
+        "id": "flahm_prepa_litteraire_anglais",
+        "nom": "Cycle préparatoire aux études littéraires - option Anglais",
+        "duree": "2 ans",
+        "description": "Cycle préparatoire de deux ans en lettres et langues, orienté vers l'anglais, avant intégration en 2e année de licence. Réservé aux candidats de moins de 20 ans au 1er septembre.",
+        "scores": {
+          "bac_lettres": 119.18,
+          "bac_eco": 97.98,
+          "bac_sc": 115.64,
+          "bac_math": 120.31,
+          "bac_technique": 78.88,
+          "bac_info": 107.72
+        },
+        "debouches": [
+          "Poursuite d'études vers des maîtrises sélectives ou des parcours d'agrégation d'anglais",
+          "Postes d'encadrement bilingue dans la communication institutionnelle ou internationale",
+          "Analyse de contenu et recherche académique en sciences des langues",
+          "Formateur d'adultes en Business English au sein de cabinets de formation privés"
+        ]
+      },
+      {
+        "id": "flahm_licence_geomatique_environnement_amenagement",
+        "nom": "Licence en Géomatique, Environnement et Aménagement",
+        "duree": "3 ans",
+        "description": "Formation combinant géographie, informatique et outils de cartographie numérique pour l'analyse spatiale, l'environnement et l'aménagement du territoire.",
+        "scores": {
+          "bac_lettres": null,
+          "bac_eco": null,
+          "bac_sc": 77.49,
+          "bac_math": null,
+          "bac_technique": 76.41,
+          "bac_info": 101.97
+        },
+        "debouches": [
+          "Spécialiste et opérateur SIG dans les bureaux d'études en génie civil, environnement et agriculture",
+          "Cartographe au sein des organismes publics de développement agricole et de gestion forestière",
+          "Technicien en télédétection et traitement de données géospatiales pour des entreprises technologiques privées",
+          "Assistant d'études d'impact environnemental et de gestion des ressources hydriques"
+        ]
+      },
+      {
+        "id": "flahm_licence_geopolitique_relations_internationales",
+        "nom": "Licence en Géopolitique et Relations Internationales",
+        "duree": "3 ans",
+        "description": "Formation pluridisciplinaire en géopolitique, relations internationales et diplomatie, proposée en partenariat avec l'École Supérieure de Commerce de la Manouba.",
+        "scores": {
+          "bac_lettres": 138.21,
+          "bac_eco": 93.16,
+          "bac_sc": 120.06,
+          "bac_math": 127.31,
+          "bac_technique": 109.33,
+          "bac_info": 126.7
+        },
+        "debouches": [
+          "Chargé de programme, assistant logistique ou coordinateur au sein d'ONG nationales ou internationales basées en Tunisie",
+          "Journaliste d'actualité internationale, rédacteur ou analyste politique dans les médias nationaux ou régionaux",
+          "Préparation aux concours de la fonction publique (Ministère des Affaires Étrangères)",
+          "Consultant junior en analyse de risque pays et intelligence économique pour les cabinets d'audit"
+        ]
+      },
+      {
+        "id": "flahm_licence_archeologie_histoire_art",
+        "nom": "Licence en Archéologie et Histoire de l'Art",
+        "duree": "3 ans",
+        "description": "Formation spécialisée dans l'étude des vestiges archéologiques et de l'histoire de l'art, orientée vers la recherche et la conservation du patrimoine.",
+        "scores": {
+          "bac_lettres": null,
+          "bac_eco": null,
+          "bac_sc": null,
+          "bac_math": null,
+          "bac_technique": null,
+          "bac_info": null,
+          "bac_sport": null
+        },
+        "debouches": [
+          "Technicien de fouille ou conservateur adjoint en collaboration avec l'Institut National du Patrimoine (INP)",
+          "Animateur et médiateur culturel dans les musées nationaux (Bardo, Carthage, El Jem)",
+          "Concepteur de projets culturels et valorisation numérique de monuments pour des start-ups de tourisme culturel",
+          "Conseiller et guide en œuvres d'art pour des galeries privées ou centres culturels"
+        ]
+      }
+    ],
+    "debouches": [
+      "Enseignement public (via les concours d'État comme le CAPES) et enseignement privé (écoles primaires, collèges, lycées)",
+      "Métiers de la relation client internationale et de l'outsourcing (support multilingue, BPO, téléconseil)",
+      "Traduction assermentée, édition de livres, correction de textes et rédaction de contenus digitaux (SEO)",
+      "Emplois dans le tourisme, l'hôtellerie de luxe, les agences de voyage et le guidage culturel",
+      "Insertion professionnelle dans l'écosystème des ONG, de l'associatif et de la coopération internationale",
+      "Accès aux mastères professionnels ou de recherche pour s'orienter vers la recherche académique ou le conseil spécialisé"
+    ],
+    "site_web": "https://flm.rnu.tn",
+    "tags": [
+      "Lettres, Langues & Sciences Humaines"
+    ]
   }
 ]
