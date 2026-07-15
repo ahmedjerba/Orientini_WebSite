@@ -4751,5 +4751,201 @@
         }
       }
     ]
+  },
+  {
+    "id": "isepbg_soukra",
+    "nom_court": "ISEPBG Soukra",
+    "nom_complet": "Institut Supérieur des Études Préparatoires en Biologie et Géologie de la Soukra",
+    "universite": "Université de Carthage",
+    "ville": "La Soukra",
+    "logo": "/logos/ISEPBG.webp",
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire",
+      "Biologie",
+      "Géologie"
+    ],
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Sciences Fondamentales & Biotechnologie"
+    ],
+    "description_breve": "Le seul institut préparatoire tunisien exclusivement dédié aux sciences biologiques et géologiques, formant les futurs ingénieurs en biotechnologie, agronomie et environnement.",
+    "filieres_phares": [
+      {
+        "id": "isepbg_soukra_biologie_geologie",
+        "nom": "Biologie - Géologie (Cycle préparatoire intégré)",
+        "duree": "2 ans de cycle préparatoire",
+        "scores": {
+          "bac_math": 126.39,
+          "bac_sc": 107.98
+        }
+      }
+    ]
+  },
+  {
+    "id": "fseg_nabeul",
+    "nom_court": "FSEG Nabeul",
+    "nom_complet": "Faculté des Sciences Économiques et de Gestion de Nabeul",
+    "universite": "Université de Carthage",
+    "ville": "Nabeul",
+    "logo": "/logos/FSEG_Nabeul.webp",
+    "filtre": "💼 Business, Commerce, Finance & Gestion",
+    "categories": [
+      "Économie",
+      "Gestion",
+      "Informatique de gestion"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Faculté rattachée à l'Université de Carthage, spécialisée dans les sciences économiques, la gestion et l'informatique de gestion. Elle forme des cadres pour les entreprises, les administrations et les institutions financières.",
+    "filieres_phares": [
+      {
+        "id": "fseg_nabeul_licence_sciences_economiques",
+        "nom": "Licence en Sciences Économiques (Économie environnementale et développement durable, Commerce et finance internationale, Monnaie-Finance-Banque-Assurance)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 104.06,
+          "bac_sc": 119.62,
+          "bac_math": 104.15
+        }
+      },
+      {
+        "id": "fseg_nabeul_licence_informatique_gestion",
+        "nom": "Licence en Informatique de Gestion (Affaires électroniques, Systèmes d'affaires, Système d'information de l'entreprise)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 123.77,
+          "bac_sc": 128.74,
+          "bac_info": 128.25,
+          "bac_tech": 151.12,
+          "bac_math": 104.63
+        }
+      },
+      {
+        "id": "fseg_nabeul_licence_sciences_gestion",
+        "nom": "Licence en Sciences de Gestion (Gestion des affaires, Marketing, Gestion des ressources humaines, Finance, Comptabilité)",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 110.2,
+          "bac_sc": 118.48,
+          "bac_info": 116.11,
+          "bac_tech": 108.31,
+          "bac_math": 99.04
+        }
+      }
+    ]
+  },
+  {
+    "id": "iset_sousse",
+    "nom_court": "ISET Sousse",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Sousse",
+    "universite": "Direction Générale des Études Technologiques",
+    "ville": "Sousse",
+    "logo": "/logos/ISET_Sousse.webp",
+    "filtre": "⚙️ Ingénierie & Technologies",
+    "categories": [
+      "Informatique",
+      "Génie Mécanique",
+      "Génie Électrique"
+    ],
+    "tags": [
+      "Génie & Technologies Appliquées",
+      "Informatique & Réseaux"
+    ],
+    "description_breve": "Institut supérieur d'études technologiques (réseau ISET) formant des cadres techniques en informatique, génie mécanique et génie électrique, avec une approche professionnalisante et des stages en entreprise.",
+    "filieres_phares": [
+      {
+        "id": "iset_sousse_licence_administration_affaires",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": null,
+          "bac_sc": null,
+          "bac_info": null,
+          "bac_tech": null,
+          "bac_math": null
+        }
+      },
+      {
+        "id": "iset_sousse_licence_technologies_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 131.34,
+          "bac_sc": 123.02,
+          "bac_info": 140.87,
+          "bac_tech": 156.11,
+          "bac_math": 115.05
+        }
+      },
+      {
+        "id": "iset_sousse_licence_genie_mecanique",
+        "nom": "Licence en Génie Mécanique ",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 114.26,
+          "bac_info": 123.02,
+          "bac_tech": 113.82,
+          "bac_math": 114.44
+        }
+      },
+      {
+        "id": "iset_sousse_licence_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "scores": {
+          "bac_sc": 117.67,
+          "bac_info": 124.15,
+          "bac_tech": 119.78,
+          "bac_math": 112.17
+        }
+      }
+    ]
+  },
+  {
+    "id": "esc_manouba",
+    "nom_court": "ESC Manouba",
+    "nom_complet": "École Supérieure de Commerce de Tunis",
+    "universite": "Université de Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/ESC_Tunis.webp",
+    "filtre": "💼 Business, Commerce, Finance & Gestion",
+    "categories": [
+      "Commerce",
+      "Gestion",
+      "Commerce international"
+    ],
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
+    ],
+    "description_breve": "École supérieure de commerce rattachée à l'Université de Manouba, formant des cadres en commerce international, administration des affaires, marketing et finance.",
+    "filieres_phares": [
+      {
+        "id": "esc_manouba_licence_commerce_international",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 116.23,
+          "bac_sc": 147.74,
+          "bac_math": 89.68
+        }
+      },
+      {
+        "id": "esc_manouba_licence_administration_affaires",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "scores": {
+          "bac_eco": 130.25,
+          "bac_sc": 132.22,
+          "bac_info": 134.11,
+          "bac_tech": 161.68,
+          "bac_math": 101.23
+        }
+      }
+    ]
   }
 ]

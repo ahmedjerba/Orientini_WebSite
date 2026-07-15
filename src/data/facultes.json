@@ -742,7 +742,8 @@
       "Cycles Préparatoires Intégrés",
       "Informatique & Réseaux",
       "Sciences Fondamentales & Biotechnologie",
-      "Génie & Technologies Appliquées"
+      "Génie & Technologies Appliquées",
+      "Classes Préparatoires Classiques"
     ]
   },
   {
@@ -7424,6 +7425,316 @@
     "site_web": "https://flm.rnu.tn",
     "tags": [
       "Lettres, Langues & Sciences Humaines"
+    ]
+  },
+  {
+    "id": "isepbg_soukra",
+    "nom_court": "ISEPBG Soukra",
+    "nom_complet": "Institut Supérieur des Études Préparatoires en Biologie et Géologie de la Soukra",
+    "universite": "Université de Carthage",
+    "ville": "La Soukra",
+    "logo": "/logos/ISEPBG.webp",
+    "fac_hero_banner": "/banners/ISEPBG_hero.webp",
+    "description_breve": "Le seul institut préparatoire tunisien exclusivement dédié aux sciences biologiques et géologiques, formant les futurs ingénieurs en biotechnologie, agronomie et environnement.",
+    "adresse": "Rue de l'Aéroport, La Soukra 2036, Ariana",
+    "lien_google_maps": "https://maps.google.com/?q=ISEPBG+Soukra",
+    "categories": [
+      "Sciences",
+      "Ingénierie",
+      "Préparatoire",
+      "Biologie",
+      "Géologie"
+    ],
+    "filtre": "📚 Instituts Préparatoires Classiques (IPEI)",
+    "regimes_etudes": "2 ans (Cycle Préparatoire aux Concours Nationaux d'Entrée aux Écoles d'Ingénieurs - Section Biologie-Géologie)",
+    "filieres_phares": [
+      {
+        "id": "isepbg_soukra_biologie_geologie",
+        "nom": "Biologie - Géologie (Cycle préparatoire intégré)",
+        "duree": "2 ans de cycle préparatoire",
+        "description": "Formation préparatoire intégrée en Biologie et Géologie, rattachée à l'Université de Carthage. Elle prépare les bacheliers scientifiques à intégrer, à l'issue du cycle préparatoire, une école d'ingénieurs dans les spécialités liées aux sciences de la vie et de la terre.",
+        "scores": {
+          "bac_math": 126.39,
+          "bac_sc": 107.98
+        },
+        "debouches": [
+          "Accès sur concours à l'École Nationale de Médecine Vétérinaire",
+          "Ingénieur en biotechnologie",
+          "Poursuite en licence Biologie-Géologie",
+          "Recherche en sciences de la vie et de la terre"
+        ]
+      }
+    ],
+    "debouches": [
+      "Accès aux Écoles d'Ingénieurs en Agronomie (INAT, ESA Mateur, ESier, etc.)",
+      "Accès aux formations d'Ingénieur en Biotechnologie et Génie Biologique",
+      "Poursuite d'études et recherche dans les domaines des sciences de la Terre et de la vie"
+    ],
+    "site_web": "http://www.isepbg.rnu.tn",
+    "tags": [
+      "Classes Préparatoires Classiques",
+      "Sciences Fondamentales & Biotechnologie"
+    ]
+  },
+  {
+    "id": "fseg_nabeul",
+    "nom_court": "FSEG Nabeul",
+    "nom_complet": "Faculté des Sciences Économiques et de Gestion de Nabeul",
+    "universite": "Université de Carthage",
+    "ville": "Nabeul",
+    "logo": "/logos/FSEG_Nabeul.webp",
+    "fac_hero_banner": "/banners/FSEG_Nabeul_hero.webp",
+    "description_breve": "Faculté rattachée à l'Université de Carthage, spécialisée dans les sciences économiques, la gestion et l'informatique de gestion. Elle forme des cadres pour les entreprises, les administrations et les institutions financières.",
+    "adresse": "Campus Universitaire, 8000 Nabeul",
+    "lien_google_maps": "https://maps.google.com/?q=FSEG+Nabeul",
+    "categories": [
+      "Économie",
+      "Gestion",
+      "Informatique de gestion"
+    ],
+    "filtre": "💼 Business, Commerce, Finance & Gestion",
+    "regimes_etudes": "3 ans pour Licence (LMD)",
+    "filieres_phares": [
+      {
+        "id": "fseg_nabeul_licence_sciences_economiques",
+        "nom": "Licence en Sciences Économiques (Économie environnementale et développement durable, Commerce et finance internationale, Monnaie-Finance-Banque-Assurance)",
+        "duree": "3 ans",
+        "description": "Formation en sciences économiques dispensée à la FSEG Nabeul. Elle couvre l'économie environnementale et le développement durable, le commerce et la finance internationale, ainsi que la monnaie, la finance, la banque et l'assurance.",
+        "scores": {
+          "bac_eco": 104.06,
+          "bac_sc": 119.62,
+          "bac_math": 104.15
+        },
+        "debouches": [
+          "Analyste économique",
+          "Chargé d'études en développement durable",
+          "Cadre en finance internationale",
+          "Métiers de la banque et de l'assurance"
+        ]
+      },
+      {
+        "id": "fseg_nabeul_licence_informatique_gestion",
+        "nom": "Licence en Informatique de Gestion (Affaires électroniques, Systèmes d'affaires, Système d'information de l'entreprise)",
+        "duree": "3 ans",
+        "description": "Formation combinant informatique et gestion à la FSEG Nabeul, orientée vers le commerce électronique, les systèmes d'affaires et les systèmes d'information d'entreprise.",
+        "scores": {
+          "bac_eco": 123.77,
+          "bac_sc": 128.74,
+          "bac_info": 128.25,
+          "bac_tech": 151.12,
+          "bac_math": 104.63
+        },
+        "debouches": [
+          "Consultant en systèmes d'information",
+          "Chef de projet e-business",
+          "Analyste fonctionnel",
+          "Responsable informatique de gestion"
+        ]
+      },
+      {
+        "id": "fseg_nabeul_licence_sciences_gestion",
+        "nom": "Licence en Sciences de Gestion (Gestion des affaires, Marketing, Gestion des ressources humaines, Finance, Comptabilité)",
+        "duree": "3 ans",
+        "description": "Formation en gestion dispensée à la FSEG Nabeul. Elle couvre la gestion des affaires, le marketing, la gestion des ressources humaines, la finance et la comptabilité.",
+        "scores": {
+          "bac_eco": 110.2,
+          "bac_sc": 118.48,
+          "bac_info": 116.11,
+          "bac_tech": 108.31,
+          "bac_math": 99.04
+        },
+        "debouches": [
+          "Gestionnaire des ressources humaines",
+          "Responsable marketing",
+          "Comptable / Contrôleur de gestion",
+          "Cadre en administration des affaires"
+        ]
+      }
+    ],
+    "debouches": [
+      "Cadre en entreprise (économie, gestion, finance)",
+      "Cadre dans les institutions bancaires et financières",
+      "Consultant en systèmes d'information de gestion",
+      "Fonction publique économique et administrative"
+    ],
+    "site_web": "https://fsegn.rnu.tn",
+    "tags": [
+      "Business, Commerce, Finance & Gestion",
+      "Informatique & Réseaux"
+    ]
+  },
+  {
+    "id": "iset_sousse",
+    "nom_court": "ISET Sousse",
+    "nom_complet": "Institut Supérieur des Études Technologiques de Sousse",
+    "universite": "Direction Générale des Études Technologiques",
+    "ville": "Sousse",
+    "logo": "/logos/ISET_Sousse.webp",
+    "fac_hero_banner": "/banners/ISET_Sousse_hero.webp",
+    "description_breve": "Institut supérieur d'études technologiques (réseau ISET) formant des cadres techniques en informatique, génie mécanique et génie électrique, avec une approche professionnalisante et des stages en entreprise.",
+    "adresse": "Cité Erriadh, 4023 Sousse",
+    "lien_google_maps": "https://maps.google.com/?q=ISET+Sousse",
+    "categories": [
+      "Informatique",
+      "Génie Mécanique",
+      "Génie Électrique"
+    ],
+    "filtre": "⚙️ Ingénierie & Technologies",
+    "regimes_etudes": "3 ans pour Licence (LMD)",
+    "filieres_phares": [
+      {
+        "id": "iset_sousse_licence_administration_affaires",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Formation en administration des affaires dispensée à l'ISET Sousse, relevant de la Direction Générale des Études Technologiques. Elle prépare les étudiants aux métiers de la gestion et de l'administration des entreprises.",
+        "scores": {
+          "bac_eco": null,
+          "bac_sc": null,
+          "bac_info": null,
+          "bac_tech": null,
+          "bac_math": null
+        },
+        "debouches": [
+          "Cadre en administration des affaires",
+          "Assistant de gestion",
+          "Chargé de projets en entreprise",
+          "Responsable administratif"
+        ]
+      },
+      {
+        "id": "iset_sousse_licence_technologies_informatique",
+        "nom": "Licence en Technologies de l'Informatique",
+        "duree": "3 ans",
+        "description": "Formation technologique en informatique à l'ISET Sousse. Elle couvre les données, les réseaux et le cloud computing, ainsi que le développement logiciel classique et pour l'internet des objets.",
+        "scores": {
+          "bac_eco": 131.34,
+          "bac_sc": 123.02,
+          "bac_info": 140.87,
+          "bac_tech": 156.11,
+          "bac_math": 115.05
+        },
+        "debouches": [
+          "Développeur logiciel",
+          "Administrateur réseaux et cloud",
+          "Data analyst",
+          "Développeur IoT"
+        ]
+      },
+      {
+        "id": "iset_sousse_licence_genie_mecanique",
+        "nom": "Licence en Génie Mécanique ",
+        "duree": "3 ans",
+        "description": "Formation technologique en génie mécanique à l'ISET Sousse, préparant à la conception, la fabrication mécanique et la maintenance industrielle, avec une spécialisation possible dans les industries plastiques.",
+        "scores": {
+          "bac_sc": 114.26,
+          "bac_info": 123.02,
+          "bac_tech": 113.82,
+          "bac_math": 114.44
+        },
+        "debouches": [
+          "Technicien supérieur d'application en mécanique",
+          "Responsable maintenance industrielle",
+          "Technicien supérieur en conception mécanique",
+          "Chargé de production en industrie plastique",
+          "Technicien Supérieur en CAO/DAO"
+        ]
+      },
+      {
+        "id": "iset_sousse_licence_genie_electrique",
+        "nom": "Licence en Génie Électrique",
+        "duree": "3 ans",
+        "description": "Formation technologique en génie électrique à l'ISET Sousse, couvrant l'automatisation, l'informatique industrielle, l'électronique, les systèmes embarqués, l'électricité et les énergies renouvelables.",
+        "scores": {
+          "bac_sc": 117.67,
+          "bac_info": 124.15,
+          "bac_tech": 119.78,
+          "bac_math": 112.17
+        },
+        "debouches": [
+          "Technicien supérieur en automatisation industrielle",
+          "Ingénieur d'application en électricité",
+          "Chargé de projets en énergies renouvelables",
+          "Technicien en systèmes embarqués"
+        ]
+      }
+    ],
+    "debouches": [
+      "Cadre technique dans l'industrie",
+      "Développeur / Administrateur informatique",
+      "Technicien supérieur en mécanique ou électricité",
+      "Chargé de maintenance et de production industrielle"
+    ],
+    "site_web": "https://www.isetso.rnu.tn",
+    "tags": [
+      "Génie & Technologies Appliquées",
+      "Informatique & Réseaux"
+    ]
+  },
+  {
+    "id": "esc_manouba",
+    "nom_court": "ESC Manouba",
+    "nom_complet": "École Supérieure de Commerce de Tunis",
+    "universite": "Université de Manouba",
+    "ville": "Manouba",
+    "logo": "/logos/ESC_Tunis.webp",
+    "fac_hero_banner": "/banners/ESC_Manouba_hero.webp",
+    "description_breve": "École supérieure de commerce rattachée à l'Université de Manouba, formant des cadres en commerce international, administration des affaires, marketing et finance.",
+    "adresse": "Campus Universitaire de la Manouba, 2010 Manouba",
+    "lien_google_maps": "https://maps.google.com/?q=ESC+Manouba",
+    "categories": [
+      "Commerce",
+      "Gestion",
+      "Commerce international"
+    ],
+    "filtre": "💼 Business, Commerce, Finance & Gestion",
+    "regimes_etudes": "3 ans pour Licence (LMD)",
+    "filieres_phares": [
+      {
+        "id": "esc_manouba_licence_commerce_international",
+        "nom": "Licence en Sciences Économiques",
+        "duree": "3 ans",
+        "description": "Formation en sciences économiques dispensée à l'ESC Manouba. Elle couvre l'économie environnementale et le développement durable, le commerce et le financement international, ainsi que la monnaie, la finance, la banque et l'assurance.",
+        "scores": {
+          "bac_eco": 116.23,
+          "bac_sc": 147.74,
+          "bac_math": 89.68
+        },
+        "debouches": [
+          "Cadre en commerce international",
+          "Spécialiste en logistique",
+          "Chargé de financement international",
+          "Métiers de la banque et de l'assurance"
+        ]
+      },
+      {
+        "id": "esc_manouba_licence_administration_affaires",
+        "nom": "Licence en Sciences de Gestion",
+        "duree": "3 ans",
+        "description": "Formation en sciences de gestion dispensée à l'ESC Manouba. Elle couvre l'administration des affaires, le marketing et la finance.",
+        "scores": {
+          "bac_eco": 130.25,
+          "bac_sc": 132.22,
+          "bac_info": 134.11,
+          "bac_tech": 161.68,
+          "bac_math": 101.23
+        },
+        "debouches": [
+          "Cadre commercial",
+          "Responsable marketing",
+          "Analyste financier",
+          "Cadre en administration des affaires"
+        ]
+      }
+    ],
+    "debouches": [
+      "Cadre commercial en entreprise",
+      "Spécialiste en commerce international et logistique",
+      "Responsable marketing et développement commercial",
+      "Analyste financier / Métiers bancaires"
+    ],
+    "site_web": "https://esc.uma.rnu.tn",
+    "tags": [
+      "Business, Commerce, Finance & Gestion"
     ]
   }
 ]
