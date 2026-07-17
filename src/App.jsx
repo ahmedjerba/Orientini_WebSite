@@ -9,7 +9,7 @@ import RouteLoader from './components/RouteLoader';
 
 // 1. Importation du système de navigation des stands
 import FaculteNavigation from './components/facultes/FaculteNavigation';
-
+import { inject } from '@vercel/analytics'
 // 2. Importation de la recherche et détails avec Lazy Loading
 const FacultyDetailPage = lazy(() => import('./components/page_faculté/FacultePage'));
 const AdvancedSearchPage = lazy(() => import('./components/AdvancedSearchPage'));
@@ -121,6 +121,9 @@ function FacultePageWrapper() {
 }
 
 export default function App() {
+  useEffect(() => {
+    inject();
+  }, []);
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
